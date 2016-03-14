@@ -90,14 +90,14 @@ public class generateItemsets1_1 {
             for (int k = 0; k < dep.length; k++) {
                 String tag = dep[k].tag();
                 if (dep[k].get(IndexAnnotation.class) == i) {
-                    if ( ((tag.equals("NN") || tag.equals("NNS")) || tag.equals("NNP") && !adjFlag) ||
+                    if ( ((tag.equals("NN") || tag.equals("NNS") || tag.equals("NNP") || tag.equals("NNPS")) && !adjFlag) ||
                             tag.equals("JJ") || tag.equals("JJR") || tag.equals("CD")) {
                         //add
                         objectWords[objectWordsCounter] = dep[k];
                         objectWordsCounter++;
 
                         //if it's an adjective, activate the adjective flag
-                        if (!(tag.equals("NN")) && !(tag.equals("NNS")) && !(tag.equals("NNP"))) {
+                        if (!(tag.equals("NN")) && !(tag.equals("NNS")) && !(tag.equals("NNP")) && !(tag.equals("NNPS"))) {
                             adjFlag = true;
                         }
 

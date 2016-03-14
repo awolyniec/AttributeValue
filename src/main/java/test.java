@@ -71,9 +71,10 @@ public class test {
                     (SemanticGraphCoreAnnotations.CollapsedCCProcessedDependenciesAnnotation.class);
             //Create arrays of each noun in the sentence and all words depending on it
             for (IndexedWord rootNoun: dependencies.vertexListSorted()) {
+                //String lemma = rootNoun.lemma();
                 String tag = rootNoun.tag();
                 //collect nouns and plural nouns
-                if (tag.equals("NN") || tag.equals("NNS") || tag.equals("NNP")) {
+                if (tag.equals("NN") || tag.equals("NNS") || tag.equals("NNP") || tag.equals("NNPS")) {
                     subArrayCounter = 1;
                     IndexedWord[] subArray = new IndexedWord[2]; //the array of the given noun's dependencies
                     subArray[0] = rootNoun;
@@ -173,7 +174,8 @@ public class test {
                         break;
                     }
                     String tag = deps[i][j].tag();
-                    if (tag.equals("NN") || tag.equals("NNS") || tag.equals("JJ") || tag.equals("JJR") || tag.equals("CD")) {
+                    if (tag.equals("NN") || tag.equals("NNS") || tag.equals("NNP") || tag.equals("NNPS") ||
+                            tag.equals("JJ") || tag.equals("JJR") || tag.equals("JJS") || tag.equals("CD")) {
                         Itemset itemset = new Itemset("("+deps[i][0]+", "+deps[i][j]+")", i);
                         itemsets[placeCounter] = itemset;
                         placeCounter++;
@@ -199,7 +201,7 @@ public class test {
         (confidence: the % of transactions containing the itemset's object that also contain its feature)
         (support: the % of transactions containing the object and the feature)
      */
-    public static Itemset[] filterByFrequency (Itemset[] itemsets, double confidence, double support) {
+    public static Itemset[] filterByFrequency (Itemset[] itemsets, double support, double confidence) {
         Itemset[] filteredItemsets = new Itemset[itemsets.length];
         int filterCounter = 0;
         for (int i = 0; i < itemsets.length; i++) {
@@ -213,13 +215,13 @@ public class test {
         return filteredItemsets;
     }
 
-    public static void main (String[] args) {
+    public static void main (String[] args) throws IOException {
         /* creates a StanfordCoreNLP object, with tokenization, sentence-splitting, POS-tagging, lemmatization,
         syntactic parsing, and dependency parsing
         */
 
         Properties props = new Properties();
-        props.setProperty("annotators", "tokenize, ssplit, pos, depparse");
+        props.setProperty("annotators", "tokenize, ssplit, pos, lemma, depparse");
         //full: tokenize, ssplit, pos, lemma, parse, depparse
         StanfordCoreNLP pipeline = new StanfordCoreNLP(props);
         // read some text in the text variable
@@ -275,21 +277,25 @@ public class test {
         long itemTime = ((System.currentTimeMillis() - itemBegin)/1000);
         System.out.println("Generated itemsets...in "+itemTime+" seconds.");
 
-        printNounDependencies(deps);
+        //printNounDependencies(deps);
 
         //generateItemsets0_1.generateItemsets(deps);
         //generateItemsets1_1.generateItemsets(deps);
-        printItemsets(itemsets);
+        //printItemsets(itemsets);
 
         //System.out.println();
-        //System.out.println("Filtered: ");
-        //printItemsets(filterByFrequency(itemsets, 0, 0));
+        System.out.println("Filtered: ");
+        itemsets = filterByFrequency(itemsets, 0, 0);
+        printItemsets(itemsets);
+        //System.out.println("Number of itemsets: "+itemsets.length);
 
         /*
         for(CoreMap sentence: sentences) {
             // traversing the words in the current sentence
             // a CoreLabel is a CoreMap with additional token-specific methods
-            for (CoreLabel token: sentence.get(TokensAnnotation.class)) {
+            List<CoreLabel> tokens = sentence.get(TokensAnnotation.class);
+            for (CoreLabel token: tokens) {
+                System.out.println();
                 // this is the text of the token
                 //String word = token.get(TextAnnotation.class);
                 // this is the POS tag of the token
@@ -303,9 +309,8 @@ public class test {
             Tree tree = sentence.get(TreeAnnotation.class);
             System.out.println(tree);
             System.out.println();
-
         }
         */
-        System.out.println("Done!");
+        generateOutput.printItemsetsObjsTransIDsToFile("src/main/ItemsetsForPosts.txt", itemsets);
     }
 }

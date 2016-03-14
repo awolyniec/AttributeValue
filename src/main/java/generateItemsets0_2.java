@@ -9,13 +9,11 @@ public class generateItemsets0_2 {
         //Count the total number of non-null dependent words, this will be the maximum size of the return array
         int depCounter = 0;
         for (int i = 0; i < deps.length; i++) {
-            if (deps[i] != null) {
-                for (int j = 1; j < deps[i].length; j++) {
-                    if (deps[i][j] == null) {
-                        break;
-                    }
-                    depCounter++;
+            for (int j = 1; j < deps[i].length; j++) {
+                if (deps[i][j] == null) {
+                    break;
                 }
+                depCounter++;
             }
         }
         //The array of itemsets to be returned
@@ -34,6 +32,13 @@ public class generateItemsets0_2 {
                 }
             }
         }
+
+        //remove null entries
+        Itemset[] newItemsets = new Itemset[itemsetCounter];
+        for (int i = 0; i < itemsetCounter; i++){
+            newItemsets[i] = itemsets[i];
+        }
+        itemsets = newItemsets;
 
         //get support and confidence for each itemset
         for (int i = 0; i < itemsets.length; i++) {
@@ -59,16 +64,16 @@ public class generateItemsets0_2 {
     }
 
     //generates strings to be the itemset value
-    //somewhat longer than necessary, perhaps
     private static String[] generate (IndexedWord[][] base) {
         IndexedWord[] full = base[0];
         String[] output = new String[base[0].length];
         int outputCounter = 0;
-        String object = full[0].toString();
+        String object = full[0].lemma()+"/"+full[0].tag();
         String piece = "("+object+", "+")";
         for (int i = 1; i < full.length; i++) {
-            piece = "("+object+", "+full[i].toString()+")";
-            if (full[i].tag().equals("NN") || full[i].tag().equals("NNS") || full[i].tag().equals("NNP")) {
+            piece = "("+object+", "+full[i].lemma()+"/"+full[i].tag()+")";
+            if (full[i].tag().equals("NN") || full[i].tag().equals("NNS") || full[i].tag().equals("NNP") ||
+                    full[i].tag().equals("NNPS")) {
                 object = piece;
                 if (i == full.length - 1) {
                     output[outputCounter] = piece;
@@ -95,6 +100,11 @@ public class generateItemsets0_2 {
 
     /*
     Calculates the support and confidence of an itemset within an array of itemsets
+
+    -Support of itemset x: The percentage of transactions with an itemset in the array that has the same object and
+    feature as x
+    -Confidence of itemset x: The percentage of transactions with an itemset in the array with the same object as x
+    that have the same feature as x
     */
     public static void setSupportAndConfidence(Itemset[] itemsets, Itemset itemset, int numTransactions) {
 
@@ -110,17 +120,15 @@ public class generateItemsets0_2 {
             and feature as "itemset"
          */
         for (int i = 0; i < itemsets.length; i++) {
-            if (itemsets[i] != itemset) {
-                if (itemsets[i].obj == itemset.obj) {
-                    int id = itemsets[i].transactionID;
-                    if (lastObjectMatch != id) {
-                        objectMatchCounter++;
-                        lastObjectMatch = id;
-                    }
-                    if (itemsets[i].feat == itemset.feat && lastFullMatch != id) {
-                        fullMatchCounter++;
-                        lastFullMatch = id;
-                    }
+            if (itemsets[i].getObj().equals(itemset.getObj())) {
+                int id = itemsets[i].getTransactionID();
+                if (lastObjectMatch != id) {
+                    objectMatchCounter++;
+                    lastObjectMatch = id;
+                }
+                if (itemsets[i].getFeat().equals(itemset.getFeat()) && lastFullMatch != id) {
+                    fullMatchCounter++;
+                    lastFullMatch = id;
                 }
             }
         }
