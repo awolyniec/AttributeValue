@@ -22,8 +22,8 @@ public class generateOutput {
         in the following format:
         "itemset1:obj1;transID1 itemset2:obj2;transID2 ........ itemsetn:objn;transIDn "
      */
-    public static void printItemsetsObjsTransIDsToFile(String path, Itemset[] itemsets) throws IOException {
-        FileWriter writah = new FileWriter(path);
+    public static void printItemsetsObjsTransIDsToFile(String path, Itemset[] itemsets, boolean append) throws IOException {
+        FileWriter writah = new FileWriter(path, append);
         for (int i = 0; i < itemsets.length; i++) {
             Itemset itemset = itemsets[i];
             writah.write(itemset.getValue()+":"+itemset.getObj()+";"+Integer.toString(itemset.getTransactionID())+"\n");

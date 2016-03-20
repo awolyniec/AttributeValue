@@ -215,6 +215,10 @@ public class test {
         return filteredItemsets;
     }
 
+    /*
+        Args:
+        -A path to a txt file; this is where the itemsets generated here will be printed
+     */
     public static void main (String[] args) throws IOException {
         /* creates a StanfordCoreNLP object, with tokenization, sentence-splitting, POS-tagging, lemmatization,
         syntactic parsing, and dependency parsing
@@ -311,6 +315,8 @@ public class test {
             System.out.println();
         }
         */
-        generateOutput.printItemsetsObjsTransIDsToFile("src/main/ItemsetsForPosts.txt", itemsets);
+
+        //prints the output to a file specified in args
+        generateOutput.printItemsetsObjsTransIDsToFile(args[0], itemsets, false);
     }
 }
