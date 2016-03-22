@@ -288,9 +288,9 @@ public class test {
         //printItemsets(itemsets);
 
         //System.out.println();
-        System.out.println("Filtered: ");
+        //System.out.println("Filtered: ");
         itemsets = filterByFrequency(itemsets, 0, 0);
-        printItemsets(itemsets);
+        //printItemsets(itemsets);
         //System.out.println("Number of itemsets: "+itemsets.length);
 
         /*

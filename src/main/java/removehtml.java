@@ -85,10 +85,10 @@ public class removehtml {
         uses jsoup to remove HTML tags and pretty much any text within <>. Also has an option to omit all text before
          and including the first non-number character in each line. Writes parsed text to an output file.
      */
-    public static void html2text(String path, boolean omitFirst) throws IOException {
-        File file = new File(path);
+    public static void html2text(String[] paths, boolean omitFirst) throws IOException {
+        File file = new File(paths[0]);
         Scanner scanner = new Scanner(file);
-        FileWriter writah = new FileWriter("src/main/postsParsedNoNums.txt");
+        FileWriter writah = new FileWriter(paths[1]);
 
         //final Document.OutputSettings outputSettings = new Document.OutputSettings().prettyPrint(false);
         while (scanner.hasNextLine()) {
@@ -99,12 +99,17 @@ public class removehtml {
             else {
                 int i;
                 String t = scanner.nextLine();
-                for (i = 0; i < t.length(); i++) {
-                    if (t.charAt(i)-'0' < 0 || t.charAt(i)-'0' > 9) {
-                        break;
+                if (t.length() > 0) {
+                    for (i = 0; i < t.length(); i++) {
+                        if (t.charAt(i) - '0' < 0 || t.charAt(i) - '0' > 9) {
+                            break;
+                        }
                     }
+                    text = t.substring(++i, t.length());
                 }
-                text = t.substring(++i, t.length());
+                else {
+                    text = "";
+                }
             }
             writah.write(Jsoup.parse(text).text() + "\n");
         }
@@ -113,6 +118,6 @@ public class removehtml {
 
     public static void main (String[] args) throws IOException {
         //smartRemove("src/main/testParseDontRemove.txt");
-        html2text("src/main/postsOriginal.txt", true);
+        html2text(args, true);
     }
 }

@@ -7,13 +7,16 @@ import edu.stanford.nlp.pipeline.StanfordCoreNLP;
 */
 import edu.stanford.nlp.util.*;
 import edu.stanford.nlp.semgraph.*;
+import java.util.Scanner;
+import java.io.IOException;
+import java.io.*;
 
 //random things and tests
 public class testGrounds {
-    public static void main (String[] args) {
-        double a = 4.000037283;
-        long aRound6 = Math.round(a * 100000);
-        double finA = ((double)aRound6)/100000;
-        //System.out.println(util.roundDoubleToXSigFigs(a, 6));
+    public static void main (String[] args) throws IOException {
+        for (int i = 1; i < 6; i++) {
+            String[] s = {"src/main/itemset_data/up"+i+".txt", "src/main/itemset_data/p"+i+".txt"};
+            removehtml.html2text(s, true);
+        }
     }
 }

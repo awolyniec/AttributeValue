@@ -73,13 +73,13 @@ public class ItemsetsToTopOutput {
         args: Input files from which itemsets will be collected
      */
     public static void main (String[] args) throws IOException {
-        FileWriter allOutput = new FileWriter("src/main/itemset_data_test/finalOutput10k.txt");
+        FileWriter allOutput = new FileWriter("src/main/finalOutput.txt");
         allOutput.write(generateOutput.fillIndent("Itemsets", 100));
         allOutput.write(generateOutput.fillIndent("", 10));
         allOutput.write(generateOutput.fillIndent("Support", 8));
         allOutput.write("\n");
 
-        FileWriter topOutput = new FileWriter("src/main/itemset_data_test/topOutput10k.txt");
+        FileWriter topOutput = new FileWriter("src/main/topOutput.txt");
         topOutput.write(generateOutput.fillIndent("Itemsets", 100));
         topOutput.write(generateOutput.fillIndent("", 10));
         topOutput.write(generateOutput.fillIndent("Support", 8));
@@ -92,6 +92,7 @@ public class ItemsetsToTopOutput {
             inputFiles[i] = new java.io.File(args[i]);
             inputScanners[i] = new Scanner(inputFiles[i]);
         }
+        //inputFiles = condenseToOneFile(args);
         String patternString = "(.*):(.*);([0-9]*)";
         pattern = Pattern.compile(patternString);
 
