@@ -10,11 +10,10 @@ import edu.stanford.nlp.semgraph.*;
 
 //random things and tests
 public class testGrounds {
-    public static void testGetPermutationsGenerateItemsets1_1 () {
-
-    }
-
     public static void main (String[] args) {
-
+        double a = 4.000037283;
+        long aRound6 = Math.round(a * 100000);
+        double finA = ((double)aRound6)/100000;
+        //System.out.println(util.roundDoubleToXSigFigs(a, 6));
     }
 }

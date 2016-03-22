@@ -229,7 +229,7 @@ public class test {
         //full: tokenize, ssplit, pos, lemma, parse, depparse
         StanfordCoreNLP pipeline = new StanfordCoreNLP(props);
         // read some text in the text variable
-        File posts = new File("src/main/100posts.txt");
+        File posts = new File(args[0]);
         String text = "";
         try {
             Scanner scanner = new Scanner(posts);
@@ -317,6 +317,6 @@ public class test {
         */
 
         //prints the output to a file specified in args
-        generateOutput.printItemsetsObjsTransIDsToFile(args[0], itemsets, false);
+        generateOutput.printItemsetsObjsTransIDsToFile(args[1], itemsets, false);
     }
 }
