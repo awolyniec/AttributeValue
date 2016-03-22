@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7915a9b5-96a9-4f79-b947-f085b9302702" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/dum.txt" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/itemset_data/up1.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/itemset_data/up2.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/itemset_data/up3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/itemset_data/up4.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/itemset_data/up5.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/generateItemsets0_2.java" afterPath="$PROJECT_DIR$/src/main/java/generateItemsets0_2.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/generateOutput.java" afterPath="$PROJECT_DIR$/src/main/java/generateOutput.java" />
     </list>
     <ignored path="AttributeValue.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,17 +29,17 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/test.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="316" column="10" selection-start-line="316" selection-start-column="10" selection-end-line="316" selection-end-column="10" />
+              <caret line="284" column="0" selection-start-line="284" selection-start-column="0" selection-end-line="284" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="generateItemsets0_2.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="generateItemsets0_2.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/generateItemsets0_2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.610687">
-              <caret line="47" column="10" selection-start-line="47" selection-start-column="10" selection-end-line="47" selection-end-column="10" />
+            <state vertical-scroll-proportion="-10.555555">
+              <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -61,6 +54,16 @@
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="generateOutput.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/generateOutput.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.43333334">
+              <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -101,7 +104,6 @@
         <option value="$PROJECT_DIR$/src/main/testParse.txt" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/generateItemsets1_1.java" />
-        <option value="$PROJECT_DIR$/src/main/java/generateOutput.java" />
         <option value="$PROJECT_DIR$/src/main/finalOutput.txt" />
         <option value="$PROJECT_DIR$/src/main/java/Itemset.java" />
         <option value="$PROJECT_DIR$/src/main/java/minSupportComparator.java" />
@@ -121,6 +123,7 @@
         <option value="$PROJECT_DIR$/src/main/java/removehtml.java" />
         <option value="$PROJECT_DIR$/src/main/itemset_data/ItemsetsForPosts.txt" />
         <option value="$PROJECT_DIR$/src/main/java/generateItemsets0_2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/generateOutput.java" />
       </list>
     </option>
   </component>
@@ -137,8 +140,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="11" />
-    <option name="y" value="46" />
+    <option name="x" value="1" />
+    <option name="y" value="72" />
     <option name="width" value="1259" />
     <option name="height" value="729" />
   </component>
@@ -674,7 +677,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="11" y="46" width="1259" height="729" extended-state="0" />
+    <frame x="1" y="72" width="1259" height="729" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -946,16 +949,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/generateOutput.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.50359714">
-          <caret line="25" column="55" selection-start-line="25" selection-start-column="55" selection-end-line="25" selection-end-column="55" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/topOutput.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.827338">
@@ -1049,18 +1042,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/test.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/generateItemsets0_2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="316" column="10" selection-start-line="316" selection-start-column="10" selection-end-line="316" selection-end-column="10" />
+        <state vertical-scroll-proportion="-10.555555">
+          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/generateItemsets0_2.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.610687">
-          <caret line="47" column="10" selection-start-line="47" selection-start-column="10" selection-end-line="47" selection-end-column="10" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="284" column="0" selection-start-line="284" selection-start-column="0" selection-end-line="284" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/generateOutput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43333334">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
           <folding />
         </state>
       </provider>

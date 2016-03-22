@@ -25,8 +25,10 @@ public class generateOutput {
     public static void printItemsetsObjsTransIDsToFile(String path, Itemset[] itemsets, boolean append) throws IOException {
         FileWriter writah = new FileWriter(path, append);
         for (int i = 0; i < itemsets.length; i++) {
-            Itemset itemset = itemsets[i];
-            writah.write(itemset.getValue()+":"+itemset.getObj()+";"+Integer.toString(itemset.getTransactionID())+"\n");
+            if (itemsets[i] != null) {
+                Itemset itemset = itemsets[i];
+                writah.write(itemset.getValue() + ":" + itemset.getObj() + ";" + Integer.toString(itemset.getTransactionID()) + "\n");
+            }
         }
         writah.close();
     }
