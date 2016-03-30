@@ -40,12 +40,6 @@ public class generateItemsets0_2 {
         }
         itemsets = newItemsets;
 
-        //get support and confidence for each itemset
-        /*
-        for (int i = 0; i < itemsets.length; i++) {
-            setSupportAndConfidence(itemsets, itemsets[i], numTransactions);
-        }
-        */
         return itemsets;
     }
 

@@ -6,8 +6,7 @@ import edu.stanford.nlp.ling.IndexedWord;
 public class Itemset {
     //need to alter data structure representation
     public Itemset (String v, int id) {
-        value = v;
-        setUpObjAndFeat();
+        setValue(v);
         transactionID = id;
         support = 0;
         confidence = 0;
@@ -24,18 +23,32 @@ public class Itemset {
     //Also resets obj and feat
     public void setValue(String v) {
         value = v;
-        setUpObjAndFeat();
+        String[] objAndFeat = ObjAndFeatFromValue(v);
+        obj = objAndFeat[0];
+        feat = objAndFeat[1];
     }
 
     public String getObj() {return obj;}
 
+    //also resets value
+    public void setObj(String o) {
+        obj = o;
+        value = valueFromObjAndFeat(o, feat);
+    }
+
     public String getFeat() {return feat;}
+
+    public void setFeat(String f) {
+        feat = f;
+        value = valueFromObjAndFeat(obj, f);
+    }
 
     public int getTransactionID() {return transactionID;}
 
     public void setTransactionID(int t) {transactionID = t;}
 
-    private void setUpObjAndFeat() {
+    public static String[] ObjAndFeatFromValue(String value) {
+        String[] output = new String[2];
         if (value.charAt(0) != '(') {
             System.err.println("Itemset is of the wrong format.");
             System.exit(1);
@@ -57,9 +70,13 @@ public class Itemset {
             if (scanObj) obj += value.charAt(i);
             else if (scanFeat) feat += value.charAt(i);
         }
+        output[0] = obj;
+        output[1] = feat;
+        return output;
+    }
 
-        this.obj = obj;
-        this.feat = feat;
+    public static String valueFromObjAndFeat(String obj, String feat) {
+        return("("+obj+", "+feat+")");
     }
 
     public void setSupport(double s) {

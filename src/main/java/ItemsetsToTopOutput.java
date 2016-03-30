@@ -1,5 +1,7 @@
 /**
  * Created by tehredwun on 3/14/16.
+ *
+ *
  */
 import java.util.Scanner;
 import java.io.*;
@@ -9,54 +11,72 @@ import java.util.PriorityQueue;
 
 public class ItemsetsToTopOutput {
 
-    private static java.io.File[] inputFiles;
-    private static Pattern pattern;
-
     /*
-        Returns the support of a given itemset in all of the data
+        Given an array objsAndFeats containing items of the following format: {String object, String feature}, and a
+        count of itemsets, return an array for which array[i] =
+        {String support for the itemset in objsAndFeats[i], String confidence for objsAndFeats[i]}
      */
-    public static double checkAgainstAllData (String currentItemset, String currentObject) throws IOException {
-        //get a copy of all scanners
-        Scanner[] inputScanners = new Scanner[inputFiles.length];
-        for (int i = 0; i < inputFiles.length; i++) {
-            inputScanners[i] = new Scanner(inputFiles[i]);
+    public static String[][] getSupportAndConfidenceStrings(Itemset[] objectGroup, int itemsetsInAllGroups) {
+        //assuming no duplicate itemsets within the same transaction
+
+        //get the number of unique transactions in the group
+        int transIDCounter = 0;
+        int lastTransID = -1;
+        for (int i = 0; i < objectGroup.length; i++) {
+            int currentTransID = objectGroup[i].getTransactionID();
+            if (currentTransID != lastTransID) {
+                transIDCounter++;
+                lastTransID = currentTransID;
+            }
         }
 
-        int lastTransID = -1;
-        int lastMatchedTransID = -1;
-        int matchCount = 0;
-        int transIDCount = 0;
-        //Check each file
-        for (int i = 0; i < inputFiles.length; i++) {
-            java.io.File inputFile = inputFiles[i];
-            Scanner inputScanner = inputScanners[i];
-            //Check each itemset in the file
-            while (inputScanner.hasNextLine()) {
-                String itemString = inputScanner.nextLine();
-                Matcher matcher = pattern.matcher(itemString);
-                String testItemset;
-                String testObject;
-                int testTransID;
-                //got the itemset
-                if (matcher.find()) {
-                    testItemset = matcher.group(1);
-                    testObject = matcher.group(2);
-                    testTransID = Integer.parseInt(matcher.group(3));
-
-                    //Check for a match
-                    if (testTransID != lastTransID) { //may break down if multiple files with 1 transaction each exist
-                        lastTransID = testTransID; //assumes each file starts at 0
-                        testTransID = ++transIDCount;
+        String[][] output = new String[objectGroup.length][2];
+        //scan through all itemsets
+        for (int i = 0; i < objectGroup.length; i++) {
+            int[] featureMatches = new int[objectGroup.length];
+            //Match all itemsets identical to this one, unless this itemset has already been matched to a previous one
+            if (output[i] == null) {
+                //get all itemsets identical to this one
+                featureMatches[0] = i;
+                String currentFeature = objectGroup[i].getFeat();
+                int fullMatchCounter = 1;
+                for (int j = i+1; j < objectGroup.length; j++) {
+                    if (objectGroup[j].getFeat().equals(currentFeature)) {
+                        featureMatches[fullMatchCounter] = j;
+                        fullMatchCounter++;
                     }
-                    //match found
-                    if (currentItemset.equals(testItemset) && testTransID != lastMatchedTransID) {
-                        matchCount++;
-                        lastMatchedTransID = testTransID;
+                }
+                //get support and confidence
+                double support = ((double)fullMatchCounter)/itemsetsInAllGroups;
+                String supportString = util.genDoubleString(support, 6);
+                double confidence = ((double)fullMatchCounter)/transIDCounter;
+                String confidenceString = util.genDoubleString(confidence, 6);
+                String[] outputSegment = {supportString, confidenceString};
+                //apply to all the feature matches
+                for (int j = 0; j < featureMatches.length; j++) {
+                    if (j == 0 || featureMatches[j] == 0) {
+                        output[j] = outputSegment;
                     }
                 }
             }
         }
-        return ((double)matchCount)/transIDCount;
+        return output;
+    }
+
+    public static int getItemsetCountFromFile(Scanner inputScanner, Pattern pattern) {
+        int itemsetCount = 0;
+        int lastTransID = -1;
+        Matcher matcher;
+        while (inputScanner.hasNextLine()) {
+            String itemString = inputScanner.nextLine();
+            matcher = pattern.matcher(itemString);
+            int currentTransID = Integer.parseInt(matcher.group(3));
+            if (currentTransID != lastTransID) {
+                itemsetCount++;
+                lastTransID = currentTransID;
+            }
+        }
+        return itemsetCount;
     }
 
     /*
@@ -70,66 +90,96 @@ public class ItemsetsToTopOutput {
         their support and confidence, and generate a file containing all itemsets. Also keep a count of the
         number of itemsets and transactions in the first file
 
-        args: Input files from which itemsets will be collected
+        args: Input file, file to output all itemsets w/support, file to output the top 20k itemsets w/support
      */
     public static void main (String[] args) throws IOException {
-        FileWriter allOutput = new FileWriter("src/main/finalOutput.txt");
-        allOutput.write(generateOutput.fillIndent("Itemsets", 100));
+        //initialize vars
+        java.io.File inputFile = new java.io.File(args[0]);
+        Scanner inputScanner = new Scanner(inputFile);
+        String patternString = "(.*):(.*);([0-9]*)";
+        Pattern pattern = Pattern.compile(patternString);
+        Matcher matcher;
+        //get itemset count
+        int itemsetCount = getItemsetCountFromFile(inputScanner, pattern);
+        inputScanner = new Scanner(inputFile);
+        FileWriter allOutput = new FileWriter(args[1]);
+        FileWriter topOutput = new FileWriter(args[2]);
+        Heap top20kItemsets = new Heap(20000);
+        Itemset[] objectGroup = new Itemset[itemsetCount/100 + 1];
+
+        //write headers
+        allOutput.write(generateOutput.fillIndent("Itemset", 100));
         allOutput.write(generateOutput.fillIndent("", 10));
         allOutput.write(generateOutput.fillIndent("Support", 8));
+        allOutput.write(generateOutput.fillIndent("", 10));
+        allOutput.write(generateOutput.fillIndent("Confidence", 8));
         allOutput.write("\n");
-
-        FileWriter topOutput = new FileWriter("src/main/topOutput.txt");
-        topOutput.write(generateOutput.fillIndent("Itemsets", 100));
+        topOutput.write(generateOutput.fillIndent("Itemset", 100));
         topOutput.write(generateOutput.fillIndent("", 10));
         topOutput.write(generateOutput.fillIndent("Support", 8));
+        topOutput.write(generateOutput.fillIndent("", 10));
+        topOutput.write(generateOutput.fillIndent("Confidence", 8));
         topOutput.write("\n");
-        Heap top20kItemsets = new Heap(20000);
 
-        inputFiles = new java.io.File[args.length];
-        Scanner[] inputScanners = new Scanner[args.length];
-        for (int i = 0; i < args.length; i++) {
-            inputFiles[i] = new java.io.File(args[i]);
-            inputScanners[i] = new Scanner(inputFiles[i]);
-        }
-        //inputFiles = condenseToOneFile(args);
-        String patternString = "(.*):(.*);([0-9]*)";
-        pattern = Pattern.compile(patternString);
+        int objectGroupCounter = 0;
+        //Get the support and confidence of each itemset in the file
+        while (inputScanner.hasNextLine()) {
+            String itemString = inputScanner.nextLine();
+            matcher = pattern.matcher(itemString);
+            String currentObject;
+            String currentFeature;
+            int currentTransID;
+            //got the itemset
+            if (matcher.find()) {
+                currentObject = matcher.group(1);
+                currentFeature = matcher.group(2);
+                currentTransID = Integer.parseInt(matcher.group(3));
 
-        //Check each input file
-        for (int i = 0; i < inputScanners.length; i++) {
-            Scanner inputScanner = inputScanners[i];
+                //If the current itemset is not part of the current group (see Line 118), process the support/confidence
+                //of each item in the group, send them to output processing, and start a new group
+                if (objectGroup[0] != null && !currentObject.equals(objectGroup[0].getObj())) {
+                    //get support and confidence strings
+                    String[][] supsAndConfs = getSupportAndConfidenceStrings(objectGroup, itemsetCount);
 
-            Matcher matcher;
-            //Check each itemset in the file
-            while (inputScanner.hasNextLine()) {
-                String itemString = inputScanner.nextLine();
-                matcher = pattern.matcher(itemString);
-                String currentItemset;
-                String currentObject;
-                //got the itemset
-                if (matcher.find()) {
-                    currentItemset = matcher.group(1);
-                    currentObject = matcher.group(2);
+                    //output to allOutput
 
-                    //check all other itemsets in the data
-                    double support = checkAgainstAllData(currentItemset, currentObject);
+                    //add to topOutput heap
 
-                    //print each piece of output
-                    allOutput.write(generateOutput.fillIndent(currentItemset, 100));
-                    allOutput.write(generateOutput.fillIndent("", 10));
-                    //get support to 6 significant digits
-                    String doubleString = util.genDoubleString(support, 6);
-                    allOutput.write(generateOutput.fillIndent(doubleString, 10));
-                    allOutput.write("\n");
-
-                    //get output for the file of the top 20,000 itemsets
-                    Itemset newIt = new Itemset(currentItemset, -1);
-                    newIt.setSupport(support);
-                    //inserts into the self-balancing heap
-                    top20kItemsets.insertSet(newIt);
+                    //re-initialize
+                    objectGroup = new Itemset[itemsetCount/100 + 1];
+                    objectGroupCounter = 0;
+                }
+                //Collect all itemsets with the same object into a group
+                Itemset newIt = new Itemset(Itemset.valueFromObjAndFeat(currentObject, currentFeature), currentTransID);
+                objectGroup[objectGroupCounter] = newIt;
+                objectGroupCounter++;
+                //double if necessary
+                if (objectGroupCounter == objectGroup.length) {
+                    Itemset[] newObjectGroup = new Itemset[objectGroupCounter*2];
+                    for (int i = 0; i < objectGroupCounter; i++) {
+                        newObjectGroup[i] = objectGroup[i];
+                    }
+                    objectGroup = newObjectGroup;
                 }
 
+                //check all other itemsets in the data
+                //double support = checkAgainstAllData(currentObject, currentFeature);
+
+                /*
+                //print each piece of output
+                allOutput.write(generateOutput.fillIndent(Itemset.valueFromObjAndFeat(currentObject, currentFeature), 100));
+                allOutput.write(generateOutput.fillIndent("", 10));
+                //get support to 6 significant digits
+                String doubleString = util.genDoubleString(support, 6);
+                allOutput.write(generateOutput.fillIndent(doubleString, 10));
+                allOutput.write("\n");
+
+                //get output for the file of the top 20,000 itemsets
+                Itemset newIt = new Itemset(Itemset.valueFromObjAndFeat(currentObject, currentFeature), -1);
+                newIt.setSupport(support);
+                //inserts into the self-balancing heap
+                top20kItemsets.insertSet(newIt);
+                */
             }
         }
         //fill topOutput
@@ -139,7 +189,7 @@ public class ItemsetsToTopOutput {
         }
         for (int i = 0; i < top20k.length; i++) {
             Itemset currentItemset = top20k[i];
-            topOutput.write(generateOutput.fillIndent(currentItemset.getValue(), 150));
+            topOutput.write(generateOutput.fillIndent(currentItemset.getValue(), 100));
             topOutput.write(generateOutput.fillIndent("", 10));
             String doubleString = util.genDoubleString(currentItemset.getSupport(), 6);
             topOutput.write(generateOutput.fillIndent(doubleString, 10));

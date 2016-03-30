@@ -3,6 +3,9 @@
  */
 public class util {
     static double roundDoubleToXSigFigs(double input, int x) {
+        if (x > Double.toString(input).length() - 2) {
+            x = Double.toString(input).length() - 2;
+        }
         input = Double.parseDouble(Double.toString(input).substring(0, x+1));
 
         int mul = 1;

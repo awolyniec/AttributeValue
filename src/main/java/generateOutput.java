@@ -27,7 +27,7 @@ public class generateOutput {
         for (int i = 0; i < itemsets.length; i++) {
             if (itemsets[i] != null) {
                 Itemset itemset = itemsets[i];
-                writah.write(itemset.getValue() + ":" + itemset.getObj() + ";" + Integer.toString(itemset.getTransactionID()) + "\n");
+                writah.write(itemset.getObj() + ":" + itemset.getFeat() + ";" + Integer.toString(itemset.getTransactionID()) + "\n");
             }
         }
         writah.close();
