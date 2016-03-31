@@ -216,7 +216,6 @@ public class ItemsetsToTopOutput {
             top20k[i] = top20kItemsets.delMin();
         }
         for (int i = 0; i < top20k.length; i++) {
-	    System.out.println(i);
             Itemset currItemset = top20k[i];
             String supportStr = util.genDoubleString(currItemset.getSupport(), 6);
             String confStr = util.genDoubleString(currItemset.getConfidence(), 6);
