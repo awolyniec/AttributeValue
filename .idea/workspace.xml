@@ -2,44 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7915a9b5-96a9-4f79-b947-f085b9302702" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/InputToParsedTxts.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/splitInputs.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/itemset_data/p1.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/itemset_data/p2.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/itemset_data/p3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/itemset_data/p4.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/itemset_data/p5.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/itemset_data_test/data1.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/itemset_data_test/data2.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/itemset_data_test/data3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/itemset_data_test/data4.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/itemset_data_test/data5.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/itemset_data_test/finalOutput10k.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/itemset_data_test/fulldata.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/itemset_data_test/itemsets1.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/itemset_data_test/itemsets2.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/test.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/Comments.xml" afterPath="$PROJECT_DIR$/src/main/I-O_data/StackExchange_DIY/a-input/Comments.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/data.xml" afterPath="$PROJECT_DIR$/src/main/I-O_data/StackExchange_DIY/a-input/data.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/itemset_data/ItemsetsForPosts.txt" afterPath="$PROJECT_DIR$/src/main/ItemsetsForPosts.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/itemset_data_test/itemsets3.txt" afterPath="$PROJECT_DIR$/src/main/I-O_data/StackExchange_DIY/e-output/topOutput.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/itemset_data_test/itemsets4.txt" afterPath="$PROJECT_DIR$/src/main/I-O_data/StackExchange_DIY/e-output/finalOutput.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/itemset_data_test/itemsets5.txt" afterPath="$PROJECT_DIR$/src/main/I-O_data/StackExchange_DIY/d-itemsets/itemsetsForPostsSorted.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/itemset_data_test/topOutput10k.txt" afterPath="$PROJECT_DIR$/src/main/I-O_data/StackExchange_DIY/d-itemsets/itemsetsForPosts.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/test.java" afterPath="$PROJECT_DIR$/src/main/java/SplitParsedTxtsToItemsets.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/postsParsedNoNums.txt" afterPath="$PROJECT_DIR$/src/main/I-O_data/StackExchange_DIY/b-parsed/postsParsedNoNums.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Itemset.class" afterPath="$PROJECT_DIR$/target/classes/Itemset.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Heap.class" afterPath="$PROJECT_DIR$/target/classes/Heap.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ItemsetsToTopOutput.class" afterPath="$PROJECT_DIR$/target/classes/ItemsetsToTopOutput.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/generateItemsets0_2.class" afterPath="$PROJECT_DIR$/target/classes/generateItemsets0_2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/generateOutput.class" afterPath="$PROJECT_DIR$/target/classes/generateOutput.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/testGrounds.class" afterPath="$PROJECT_DIR$/target/classes/testGrounds.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/util.class" afterPath="$PROJECT_DIR$/target/classes/util.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/development_txts/1000posts.txt" afterPath="$PROJECT_DIR$/src/main/development_txts/1000posts.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/ItemsetsForPosts.txt" afterPath="$PROJECT_DIR$/src/main/ItemsetsForPosts.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/ItemsetsForPostsSorted.txt" afterPath="$PROJECT_DIR$/src/main/ItemsetsForPostsSorted.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/dum.txt" afterPath="$PROJECT_DIR$/src/main/dum.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/finalOutput.txt" afterPath="$PROJECT_DIR$/src/main/finalOutput.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Itemset.java" afterPath="$PROJECT_DIR$/src/main/java/Itemset.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Heap.java" afterPath="$PROJECT_DIR$/src/main/java/Heap.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ItemsetsToTopOutput.java" afterPath="$PROJECT_DIR$/src/main/java/ItemsetsToTopOutput.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/generateItemsets0_2.java" afterPath="$PROJECT_DIR$/src/main/java/generateItemsets0_2.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/generateOutput.java" afterPath="$PROJECT_DIR$/src/main/java/generateOutput.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/testGrounds.java" afterPath="$PROJECT_DIR$/src/main/java/testGrounds.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/util.java" afterPath="$PROJECT_DIR$/src/main/java/util.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/topOutput.txt" afterPath="$PROJECT_DIR$/src/main/topOutput.txt" />
     </list>
@@ -64,21 +39,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SplitParsedTxtsToItemsets.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/SplitParsedTxtsToItemsets.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="311" column="16" selection-start-line="311" selection-start-column="16" selection-end-line="311" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ItemsetsToTopOutput.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ItemsetsToTopOutput.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.16481775">
-              <caret line="49" column="79" selection-start-line="49" selection-start-column="79" selection-end-line="49" selection-end-column="79" />
+            <state vertical-scroll-proportion="6.464286">
+              <caret line="211" column="0" selection-start-line="211" selection-start-column="0" selection-end-line="211" selection-end-column="0" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="imports" expanded="true" />
@@ -125,7 +90,6 @@
         <option value="$PROJECT_DIR$/src/main/java/generateItemsets1_1.java" />
         <option value="$PROJECT_DIR$/src/main/java/minSupportComparator.java" />
         <option value="$PROJECT_DIR$/src/main/java/Set.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Heap.java" />
         <option value="$PROJECT_DIR$/src/main/development_txts/dummy.txt" />
         <option value="$PROJECT_DIR$/src/main/itemset_data_test/fulldata.txt" />
         <option value="$PROJECT_DIR$/src/main/itemset_data_test/data1.txt" />
@@ -133,22 +97,24 @@
         <option value="$PROJECT_DIR$/src/main/itemset_data_test/data3.txt" />
         <option value="$PROJECT_DIR$/src/main/itemset_data_test/data4.txt" />
         <option value="$PROJECT_DIR$/src/main/itemset_data_test/data5.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/testGrounds.java" />
         <option value="$PROJECT_DIR$/src/main/java/removehtml.java" />
         <option value="$PROJECT_DIR$/src/main/itemset_data/ItemsetsForPosts.txt" />
         <option value="$PROJECT_DIR$/src/main/java/test.java" />
         <option value="$PROJECT_DIR$/src/main/java/splitInputs.java" />
-        <option value="$PROJECT_DIR$/src/main/dum.txt" />
         <option value="$PROJECT_DIR$/src/main/java/generateOutput.java" />
         <option value="$PROJECT_DIR$/src/main/java/Itemset.java" />
         <option value="$PROJECT_DIR$/src/main/development_txts/1000posts.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/generateItemsets0_2.java" />
         <option value="$PROJECT_DIR$/src/main/java/SplitParsedTxtsToItemsets.java" />
         <option value="$PROJECT_DIR$/src/main/ItemsetsForPosts.txt" />
         <option value="$PROJECT_DIR$/src/main/ItemsetsForPostsSorted.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/Heap.java" />
         <option value="$PROJECT_DIR$/src/main/java/util.java" />
+        <option value="$PROJECT_DIR$/src/main/dum.txt" />
+        <option value="$PROJECT_DIR$/src/main/topOutput.txt" />
         <option value="$PROJECT_DIR$/src/main/finalOutput.txt" />
         <option value="$PROJECT_DIR$/src/main/java/ItemsetsToTopOutput.java" />
+        <option value="$PROJECT_DIR$/src/main/java/testGrounds.java" />
+        <option value="$PROJECT_DIR$/src/main/java/generateItemsets0_2.java" />
       </list>
     </option>
   </component>
@@ -165,8 +131,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="8" />
-    <option name="y" value="45" />
+    <option name="x" value="15" />
+    <option name="y" value="36" />
     <option name="width" value="1259" />
     <option name="height" value="728" />
   </component>
@@ -195,7 +161,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -320,6 +285,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -649,7 +615,7 @@
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="ItemsetsToTopOutput" />
       <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="src/main/ItemsetsForPostsSorted.txt" />
+      <option name="PROGRAM_PARAMETERS" value="src/main/ItemsetsForPostsSorted.txt src/main/finalOutput.txt src/main/topOutput.txt" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -660,12 +626,28 @@
       <envs />
       <method />
     </configuration>
-    <list size="5">
+    <configuration default="false" name="test" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="testGrounds" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="AttributeValue" />
+      <envs />
+      <method />
+    </configuration>
+    <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Application.getItemsets_1000Test" />
       <item index="1" class="java.lang.String" itemvalue="Application.ItemsetsTTO_1000Test" />
-      <item index="2" class="java.lang.String" itemvalue="Application.removehtml" />
-      <item index="3" class="java.lang.String" itemvalue="Application.ItemsetsToTopOutput" />
-      <item index="4" class="java.lang.String" itemvalue="Application.testGrounds" />
+      <item index="2" class="java.lang.String" itemvalue="Application.test" />
+      <item index="3" class="java.lang.String" itemvalue="Application.removehtml" />
+      <item index="4" class="java.lang.String" itemvalue="Application.ItemsetsToTopOutput" />
+      <item index="5" class="java.lang.String" itemvalue="Application.testGrounds" />
     </list>
     <recent_temporary>
       <list size="3">
@@ -689,15 +671,17 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="8" y="45" width="1259" height="728" extended-state="0" />
+    <frame x="15" y="36" width="1259" height="728" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39757207" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32018209" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24861" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -705,15 +689,13 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39908952" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39878234" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3212121" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39908952" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -753,7 +735,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="30" />
+      <option name="time" value="34" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -762,6 +744,33 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ItemsetsToTopOutput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="165" column="132" selection-start-line="165" selection-start-column="132" selection-end-line="165" selection-end-column="132" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/testGrounds.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="63" selection-start-line="18" selection-start-column="63" selection-end-line="18" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SplitParsedTxtsToItemsets.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -794,8 +803,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="imports" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -816,19 +825,6 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Heap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="58" column="48" selection-start-line="58" selection-start-column="48" selection-end-line="58" selection-end-column="48" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#1769#1770#0" expanded="false" />
-            <element signature="e#1793#1794#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -871,14 +867,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.676259">
           <caret line="110" column="30" selection-start-line="110" selection-start-column="30" selection-end-line="110" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/testGrounds.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16613925">
-          <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
           <folding />
         </state>
       </provider>
@@ -937,25 +925,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/generateItemsets1_1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/development_txts/dummy.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.023734177">
           <caret line="1" column="126" selection-start-line="1" selection-start-column="126" selection-end-line="1" selection-end-column="126" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/dum.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-183.32278">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -975,17 +948,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/generateItemsets0_2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/I-O_data/StackExchange_DIY/d-itemsets/itemsetsForPostsSorted.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1000,52 +962,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/ItemsetsForPosts.txt">
+    <entry file="file://$PROJECT_DIR$/src/main/java/SplitParsedTxtsToItemsets.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2857143">
-          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+        <state vertical-scroll-proportion="0.5">
+          <caret line="258" column="0" selection-start-line="258" selection-start-column="0" selection-end-line="258" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SplitParsedTxtsToItemsets.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Heap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="311" column="16" selection-start-line="311" selection-start-column="16" selection-end-line="311" selection-end-column="16" />
+          <caret line="48" column="32" selection-start-line="48" selection-start-column="32" selection-end-line="48" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Itemset.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="42" column="44" selection-start-line="42" selection-start-column="44" selection-end-line="42" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/util.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.17857143">
+          <caret line="5" column="84" selection-start-line="5" selection-start-column="84" selection-end-line="5" selection-end-column="84" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/finalOutput.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="523.0916">
-          <caret line="13946" column="0" selection-start-line="13946" selection-start-column="0" selection-end-line="13946" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/topOutput.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="9" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Itemset.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9540412">
-          <caret line="42" column="44" selection-start-line="42" selection-start-column="44" selection-end-line="42" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/ItemsetsForPostsSorted.txt">
+    <entry file="file://$PROJECT_DIR$/src/main/dum.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1053,10 +1002,66 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/testGrounds.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25">
+          <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/generateItemsets1_1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/generateItemsets0_2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="53" column="37" selection-start-line="53" selection-start-column="37" selection-end-line="53" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/ItemsetsForPostsSorted.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-273.5">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/topOutput.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="199.17857">
+          <caret line="5577" column="0" selection-start-line="5577" selection-start-column="0" selection-end-line="5577" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/finalOutput.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="14.178572">
+          <caret line="7681" column="0" selection-start-line="7681" selection-start-column="0" selection-end-line="7681" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/ItemsetsForPosts.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.10714286">
+          <caret line="7661" column="20" selection-start-line="7661" selection-start-column="20" selection-end-line="7661" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ItemsetsToTopOutput.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.16481775">
-          <caret line="49" column="79" selection-start-line="49" selection-start-column="79" selection-end-line="49" selection-end-column="79" />
+        <state vertical-scroll-proportion="6.464286">
+          <caret line="211" column="0" selection-start-line="211" selection-start-column="0" selection-end-line="211" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />

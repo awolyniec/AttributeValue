@@ -14,9 +14,9 @@ import java.io.*;
 //random things and tests
 public class testGrounds {
     public static void main (String[] args) throws IOException {
-        for (int i = 1; i < 6; i++) {
-            String[] s = {"src/main/itemset_data/up"+i+".txt", "src/main/itemset_data/p"+i+".txt"};
-            removehtml.html2text(s, true);
+        int[] HowToBasic = new int[0];
+        for (int i = 0; i < HowToBasic.length; i++) {
+            System.out.println("sjeis");
         }
     }
 }

@@ -48,10 +48,14 @@ public class generateItemsets0_2 {
             generate the chain of all eligible nouns, adjectives, and quantifiers that may form an itemset with
             dep's root noun
          */
+        Itemset[] output = new Itemset[0];
         IndexedWord[][] fullObject = generateItemsets1_1.defineEnvelope(dep);
-
+        //if fullObject is empty
+        if (fullObject[0].length == 1) {
+            return output;
+        }
         String[] generatedSets = generate(fullObject);
-        Itemset[] output = new Itemset[generatedSets.length];
+        output = new Itemset[generatedSets.length];
         //translate generated sets into itemset format
         for (int i = 0; i < generatedSets.length; i++) {
             output[i] = new Itemset(generatedSets[i], transId); //need to get transaction id

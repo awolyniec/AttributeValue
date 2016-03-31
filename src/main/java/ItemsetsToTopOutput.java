@@ -12,17 +12,18 @@ import java.util.PriorityQueue;
 public class ItemsetsToTopOutput {
 
     /*
-        Given an array objsAndFeats containing items of the following format: {String object, String feature}, and a
-        count of itemsets, return an array for which array[i] =
-        {String support for the itemset in objsAndFeats[i], String confidence for objsAndFeats[i]}
+        Given an array of itemsets, all with support of 0 and the same object, a count of transactions across
+        the wider dataset, and the highest index of a non-null entry in the object group array,
+        find the support and confidence for each, and set these fields for each itemset
      */
-    public static String[][] getSupportAndConfidenceStrings(Itemset[] objectGroup, int itemsetsInAllGroups) {
+    public static void setSupportAndConfidenceForObjectGroup(Itemset[] objectGroup, int transactionsInAllGroups, int highestNonNull) {
         //assuming no duplicate itemsets within the same transaction
 
         //get the number of unique transactions in the group
         int transIDCounter = 0;
         int lastTransID = -1;
         for (int i = 0; i < objectGroup.length; i++) {
+            if (objectGroup[i] == null) { break; }
             int currentTransID = objectGroup[i].getTransactionID();
             if (currentTransID != lastTransID) {
                 transIDCounter++;
@@ -32,51 +33,61 @@ public class ItemsetsToTopOutput {
 
         String[][] output = new String[objectGroup.length][2];
         //scan through all itemsets
-        for (int i = 0; i < objectGroup.length; i++) {
+        for (int i = 0; i < highestNonNull; i++) {
             int[] featureMatches = new int[objectGroup.length];
             //Match all itemsets identical to this one, unless this itemset has already been matched to a previous one
-            if (output[i] == null) {
+            if (objectGroup[i].getSupport() == 0) {
                 //get all itemsets identical to this one
                 featureMatches[0] = i;
                 String currentFeature = objectGroup[i].getFeat();
                 int fullMatchCounter = 1;
-                for (int j = i+1; j < objectGroup.length; j++) {
+                for (int j = i+1; j < highestNonNull; j++) {
                     if (objectGroup[j].getFeat().equals(currentFeature)) {
                         featureMatches[fullMatchCounter] = j;
                         fullMatchCounter++;
                     }
                 }
                 //get support and confidence
-                double support = ((double)fullMatchCounter)/itemsetsInAllGroups;
-                String supportString = util.genDoubleString(support, 6);
+                double support = ((double)fullMatchCounter)/transactionsInAllGroups;
                 double confidence = ((double)fullMatchCounter)/transIDCounter;
-                String confidenceString = util.genDoubleString(confidence, 6);
-                String[] outputSegment = {supportString, confidenceString};
                 //apply to all the feature matches
-                for (int j = 0; j < featureMatches.length; j++) {
-                    if (j == 0 || featureMatches[j] == 0) {
-                        output[j] = outputSegment;
-                    }
+                for (int j = 0; j < fullMatchCounter; j++) {
+                    objectGroup[featureMatches[j]].setSupport(support);
+                    objectGroup[featureMatches[j]].setConfidence(confidence);
                 }
             }
         }
-        return output;
     }
 
-    public static int getItemsetCountFromFile(Scanner inputScanner, Pattern pattern) {
-        int itemsetCount = 0;
+    //since everything is alphabetically ordered, we need to keep a running count of all transIDs or admit some inaccuracy
+    //If there are two itemsets in one transaction, and one of them is identical to an itemset in another transaction,
+    //alphabetical ordering may cause them to become separated
+    //---->>>>>>It counts nearly 200 transactions too many
+    public static int getTransactionCountFromFile(Scanner inputScanner, Pattern pattern) {
+        int transactionCount = 0;
         int lastTransID = -1;
         Matcher matcher;
+        //test
+        //int highestTransID = 0;
         while (inputScanner.hasNextLine()) {
             String itemString = inputScanner.nextLine();
             matcher = pattern.matcher(itemString);
-            int currentTransID = Integer.parseInt(matcher.group(3));
-            if (currentTransID != lastTransID) {
-                itemsetCount++;
-                lastTransID = currentTransID;
+            if (matcher.find()) {
+                int currentTransID = Integer.parseInt(matcher.group(3));
+                //test
+                //if (currentTransID > highestTransID) highestTransID = currentTransID;
+                if (currentTransID != lastTransID) {
+                    transactionCount++;
+                    lastTransID = currentTransID;
+                }
             }
         }
-        return itemsetCount;
+        //test
+        /*
+        System.out.println("TRANSACTION COUNT: "+transactionCount);
+        System.out.println("HIGHEST TRANSID: "+highestTransID);
+        */
+        return transactionCount;
     }
 
     /*
@@ -99,56 +110,87 @@ public class ItemsetsToTopOutput {
         String patternString = "(.*):(.*);([0-9]*)";
         Pattern pattern = Pattern.compile(patternString);
         Matcher matcher;
-        //get itemset count
-        int itemsetCount = getItemsetCountFromFile(inputScanner, pattern);
+
+        //get transaction count
+        int transactionCount = getTransactionCountFromFile(inputScanner, pattern);
         inputScanner = new Scanner(inputFile);
         FileWriter allOutput = new FileWriter(args[1]);
         FileWriter topOutput = new FileWriter(args[2]);
         Heap top20kItemsets = new Heap(20000);
-        Itemset[] objectGroup = new Itemset[itemsetCount/100 + 1];
+        Itemset[] objectGroup = new Itemset[transactionCount/100 + 1];
 
         //write headers
         allOutput.write(generateOutput.fillIndent("Itemset", 100));
         allOutput.write(generateOutput.fillIndent("", 10));
         allOutput.write(generateOutput.fillIndent("Support", 8));
         allOutput.write(generateOutput.fillIndent("", 10));
-        allOutput.write(generateOutput.fillIndent("Confidence", 8));
+        allOutput.write(generateOutput.fillIndent("Confidence", 10));
         allOutput.write("\n");
         topOutput.write(generateOutput.fillIndent("Itemset", 100));
         topOutput.write(generateOutput.fillIndent("", 10));
         topOutput.write(generateOutput.fillIndent("Support", 8));
         topOutput.write(generateOutput.fillIndent("", 10));
-        topOutput.write(generateOutput.fillIndent("Confidence", 8));
+        topOutput.write(generateOutput.fillIndent("Confidence", 10));
         topOutput.write("\n");
 
         int objectGroupCounter = 0;
         //Get the support and confidence of each itemset in the file
-        while (inputScanner.hasNextLine()) {
-            String itemString = inputScanner.nextLine();
+        boolean lastTrigger = false;
+        while (inputScanner.hasNextLine() || lastTrigger) {
+            String itemString;
+            //get the next line unless this is the last thing to be scanned
+            if (lastTrigger) { itemString = ""; }
+            else { itemString = inputScanner.nextLine(); }
             matcher = pattern.matcher(itemString);
             String currentObject;
             String currentFeature;
             int currentTransID;
             //got the itemset
-            if (matcher.find()) {
-                currentObject = matcher.group(1);
-                currentFeature = matcher.group(2);
-                currentTransID = Integer.parseInt(matcher.group(3));
-
+            if (matcher.find() || lastTrigger) {
+                if (!lastTrigger) {
+                    currentObject = matcher.group(1);
+                    currentFeature = matcher.group(2);
+                    currentTransID = Integer.parseInt(matcher.group(3));
+                }
+                else {
+                    currentObject = "";
+                    currentFeature = "";
+                    currentTransID = -1;
+                }
                 //If the current itemset is not part of the current group (see Line 118), process the support/confidence
                 //of each item in the group, send them to output processing, and start a new group
-                if (objectGroup[0] != null && !currentObject.equals(objectGroup[0].getObj())) {
-                    //get support and confidence strings
-                    String[][] supsAndConfs = getSupportAndConfidenceStrings(objectGroup, itemsetCount);
-
-                    //output to allOutput
-
-                    //add to topOutput heap
-
+                if ((objectGroup[0] != null && !currentObject.equals(objectGroup[0].getObj())) || lastTrigger) {
+                    //set support and confidence strings
+                    setSupportAndConfidenceForObjectGroup(objectGroup, transactionCount, objectGroupCounter);
+                    //test
+                    /*
+                    for (int i = 0; i < objectGroupCounter; i++) {
+                        System.out.println(objectGroup[i].getValue()+" "+objectGroup[i].getSupport()+" "+objectGroup[i].getConfidence());
+                    }
+                    */
+                    //prepare the group for outputting
+                    for (int i = 0; i < objectGroupCounter; i++) {
+                        //directly print to allOutput
+                        Itemset currItemset = objectGroup[i];
+                        String supportStr = util.genDoubleString(currItemset.getSupport(), 6);
+                        String confStr = util.genDoubleString(currItemset.getConfidence(), 6); //the problem lies in genDoubleString
+                        allOutput.write(generateOutput.fillIndent(currItemset.getValue(), 100));
+                        allOutput.write(generateOutput.fillIndent("", 10));
+                        allOutput.write(generateOutput.fillIndent(supportStr, 10));
+                        allOutput.write(generateOutput.fillIndent("", 10));
+                        allOutput.write(generateOutput.fillIndent(confStr, 8));
+                        allOutput.write("\n");
+                        //add to topOutput heap for later outputting
+                        top20kItemsets.insertSet(currItemset);
+                    }
                     //re-initialize
-                    objectGroup = new Itemset[itemsetCount/100 + 1];
+                    objectGroup = new Itemset[transactionCount/100 + 1];
                     objectGroupCounter = 0;
+                    if (lastTrigger) {
+                        break;
+                    }
                 }
+
                 //Collect all itemsets with the same object into a group
                 Itemset newIt = new Itemset(Itemset.valueFromObjAndFeat(currentObject, currentFeature), currentTransID);
                 objectGroup[objectGroupCounter] = newIt;
@@ -161,41 +203,30 @@ public class ItemsetsToTopOutput {
                     }
                     objectGroup = newObjectGroup;
                 }
-
-                //check all other itemsets in the data
-                //double support = checkAgainstAllData(currentObject, currentFeature);
-
-                /*
-                //print each piece of output
-                allOutput.write(generateOutput.fillIndent(Itemset.valueFromObjAndFeat(currentObject, currentFeature), 100));
-                allOutput.write(generateOutput.fillIndent("", 10));
-                //get support to 6 significant digits
-                String doubleString = util.genDoubleString(support, 6);
-                allOutput.write(generateOutput.fillIndent(doubleString, 10));
-                allOutput.write("\n");
-
-                //get output for the file of the top 20,000 itemsets
-                Itemset newIt = new Itemset(Itemset.valueFromObjAndFeat(currentObject, currentFeature), -1);
-                newIt.setSupport(support);
-                //inserts into the self-balancing heap
-                top20kItemsets.insertSet(newIt);
-                */
+                //if this is the last itemset, ensure one more loop iteration to print the group
+                if (!inputScanner.hasNextLine()) {
+                    lastTrigger = true;
+                }
             }
         }
+
         //fill topOutput
         Itemset[] top20k = new Itemset[top20kItemsets.getSize()];
         for (int i = top20k.length - 1; i > -1; i--) {
             top20k[i] = top20kItemsets.delMin();
         }
         for (int i = 0; i < top20k.length; i++) {
-            Itemset currentItemset = top20k[i];
-            topOutput.write(generateOutput.fillIndent(currentItemset.getValue(), 100));
+            Itemset currItemset = top20k[i];
+            String supportStr = util.genDoubleString(currItemset.getSupport(), 6);
+            String confStr = util.genDoubleString(currItemset.getConfidence(), 6);
+            topOutput.write(generateOutput.fillIndent(currItemset.getValue(), 100));
             topOutput.write(generateOutput.fillIndent("", 10));
-            String doubleString = util.genDoubleString(currentItemset.getSupport(), 6);
-            topOutput.write(generateOutput.fillIndent(doubleString, 10));
+            topOutput.write(generateOutput.fillIndent(supportStr, 10));
+            topOutput.write(generateOutput.fillIndent("", 10));
+            topOutput.write(generateOutput.fillIndent(confStr, 8));
             if (i < top20k.length) { topOutput.write("\n"); }
         }
-
+        //terminate
         allOutput.close();
         topOutput.close();
     }

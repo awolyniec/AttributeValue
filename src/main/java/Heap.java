@@ -52,11 +52,13 @@ public class Heap {
         }
     }
 
-    public void insertSet(Itemset x) {
+    public void insertSet(Itemset x) throws java.io.IOException {
         String val = x.getValue();
         for (int i = 0; i < pq.length; i++) {
             if (pq[i] != null) {
-                if (pq[i].getValue().equals(val)) return;
+                if (pq[i].getValue().equals(val)) {
+                    return;
+                }
             }
         }
         insert(x);
