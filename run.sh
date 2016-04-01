@@ -1,3 +1,8 @@
+# Taking in 3 arguments of the following form:
+# -An XML input file
+# -A .txt output file for all itemsets
+# -A .txt output file for the most frequent itemsets, up to 20,000 of them
+# Returns the attribute-value pairs specified in this project's framework
 echo ''
 if [[ ! $3 ]] ; then
    echo '#############################################'
