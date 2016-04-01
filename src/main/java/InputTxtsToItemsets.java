@@ -193,7 +193,7 @@ public class InputTxtsToItemsets {
             System.out.println();
         }
         */
-
+        //
         //prints the output to a file specified in args
         generateOutput.printItemsetsObjsTransIDsToFile(args[1], itemsets, false);
     }
