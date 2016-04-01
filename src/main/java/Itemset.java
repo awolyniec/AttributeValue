@@ -98,9 +98,4 @@ public class Itemset {
         //return value;
         return rep;
     }
-
-    public String printFullTerm() {
-        return null;
-    }
-
 }

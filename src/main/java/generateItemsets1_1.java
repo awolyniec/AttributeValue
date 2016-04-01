@@ -13,11 +13,11 @@ import edu.stanford.nlp.semgraph.*;
 //null ones.
 public class generateItemsets1_1 {
     /*
-        generate all itemsets for a given set of dependencies. Deps is an array of arrays; each array inside of it
-        consists of a word followed by all words that depend on it
+    generate all itemsets for a given set of dependencies. Deps is an array of arrays; each array inside of it
+    consists of a word followed by all words that depend on it
 
-        If there is a root word without eligible dependencies for itemsets, return a null entry for it
-     */
+    If there is a root word without eligible dependencies for itemsets, return a null entry for it
+ */
     public static Itemset[] generateItemsets (IndexedWord[][] deps) {
         //Count the total number of non-null dependent words, this will be the maximum size of the return array
         int depCounter = 0;
@@ -56,7 +56,7 @@ public class generateItemsets1_1 {
      */
     // NN/NNS/JJ/JJR/CD??
     private static Itemset[] generateItemsetsOneDependencyList(IndexedWord[] dep, int transId) {
-        IndexedWord[][] fullObject = defineEnvelope(dep);
+        IndexedWord[][] fullObject = generateItemsets0_2.defineEnvelope(dep);
         IndexedWord[][] generatedSets = generate(fullObject);
         Itemset[] output = new Itemset[generatedSets.length];
         //translate generated sets into itemset format
@@ -64,70 +64,6 @@ public class generateItemsets1_1 {
             //output[i] = new Itemset(generatedSets[i], null, null, transId); //need to get transaction id
         }
         return output;
-    }
-
-    /*
-        Return an array of the maximal object and the maximal feature for a given
-        root word
-     */
-    static IndexedWord[][] defineEnvelope(IndexedWord[] dep) {
-         /*
-            Define envelope of possible itemset elements for the root word
-         */
-        IndexedWord[] objectWords = new IndexedWord[1];
-        //objectWords[0] = dep[0];
-        int objectWordsCounter = 0;
-        int rootIndex = dep[0].get(IndexAnnotation.class);
-        /*
-            For each position in the sentence that is left of the root's, starting at the root and moving leftward,
-            collect every noun and adjective, stopping if a given position is occupied by a word not dependent on the
-            root, a non-noun or non-adjective, or a noun that precedes an adjective between it and the root.
-         */
-        boolean adjFlag = false; //marks whether or not an adjective has been scanned already
-        for (int i = rootIndex; i > -1; i--) {
-            boolean found = false;
-            //checks if there is a dependent that matches the criteria
-            for (int k = 0; k < dep.length; k++) {
-                String tag = dep[k].tag();
-                if (dep[k].get(IndexAnnotation.class) == i) {
-                    if ( ((tag.equals("NN") || tag.equals("NNS") || tag.equals("NNP") || tag.equals("NNPS")) && !adjFlag) ||
-                            tag.equals("JJ") || tag.equals("JJR") || tag.equals("CD")) {
-                        //add
-                        objectWords[objectWordsCounter] = dep[k];
-                        objectWordsCounter++;
-
-                        //if it's an adjective, activate the adjective flag
-                        if (!(tag.equals("NN")) && !(tag.equals("NNS")) && !(tag.equals("NNP")) && !(tag.equals("NNPS"))) {
-                            adjFlag = true;
-                        }
-
-                        //doubles the array if necessary
-                        if (objectWordsCounter == objectWords.length) {
-                            IndexedWord[] newThing = new IndexedWord[objectWords.length * 2];
-                            for (int j = 0; j < objectWords.length; j++) {
-                                newThing[j] = objectWords[j];
-                            }
-                            objectWords = newThing;
-                        }
-
-                        found = true;
-                        break;
-                    }
-                }
-            }
-            if (!found) {
-                break;
-            }
-        }
-        //eliminates null entries from objectWords
-        IndexedWord[] newObjectWords = new IndexedWord[objectWordsCounter];
-        for (int i = 0; i < objectWordsCounter; i++) {
-            newObjectWords[i] = objectWords[i];
-        }
-
-        //create the 2D array to start scanning
-        IndexedWord[][] fullObject = {newObjectWords, {}};
-        return fullObject;
     }
 
     /*
