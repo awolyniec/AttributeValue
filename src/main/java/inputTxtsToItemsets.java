@@ -17,7 +17,7 @@ import java.util.Properties;
 /**
  * Created by Alec Wolyniec on 1/14/16.
  */
-public class inputTxtsToItemsets {
+public class InputTxtsToItemsets {
     /*
     Taking in a list of all the sentences in an Annotation, generates an array of all possible arrays containing an ID,
     a unique noun from the Annotation, and all of the words that depend on said noun (order doesn't matter)

@@ -2,32 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7915a9b5-96a9-4f79-b947-f085b9302702" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/development_txts/10000postsParsed.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/combineItemsets.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/defunctCode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/python/post_reading_4.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/InputToParsedTxts.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/InputToParsedTxts.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/SplitParsedTxtsToItemsets.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/removehtml.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/testGrounds.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/I-O_data/StackExchange_DIY/d-itemsets/itemsetsForPosts.txt" afterPath="$PROJECT_DIR$/src/main/I-O_data/StackExchange_DIY/e-itemsets/itemsetsForPosts.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/I-O_data/StackExchange_DIY/d-itemsets/itemsetsForPostsSorted.txt" afterPath="$PROJECT_DIR$/src/main/I-O_data/StackExchange_DIY/e-itemsets/itemsetsForPostsSorted.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/I-O_data/StackExchange_DIY/e-output/finalOutput.txt" afterPath="$PROJECT_DIR$/src/main/I-O_data/StackExchange_DIY/f-output/finalOutput.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/I-O_data/StackExchange_DIY/e-output/topOutput.txt" afterPath="$PROJECT_DIR$/src/main/I-O_data/StackExchange_DIY/f-output/topOutput.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/SplitParsedTxtsToItemsets.java" afterPath="$PROJECT_DIR$/src/main/java/inputTxtsToItemsets.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/removehtml.java" afterPath="$PROJECT_DIR$/src/main/java/RemoveHTMLTagsFromTXTs.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/testGrounds.java" afterPath="$PROJECT_DIR$/src/main/java/test.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Itemset.class" afterPath="$PROJECT_DIR$/target/classes/Itemset.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ItemsetsToTopOutput.class" afterPath="$PROJECT_DIR$/target/classes/ItemsetsToTopOutput.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/generateItemsets0_2.class" afterPath="$PROJECT_DIR$/target/classes/generateItemsets0_2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/generateItemsets1_1.class" afterPath="$PROJECT_DIR$/target/classes/generateItemsets1_1.class" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/I-O_data/StackExchange_DIY/a-input/Comments.xml" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/I-O_data/StackExchange_DIY/a-input/data.xml" afterPath="$PROJECT_DIR$/src/main/development_txts/StackExchange_DIY/data.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/I-O_data/StackExchange_DIY/b-parsed/postsParsedNoNums.txt" afterPath="$PROJECT_DIR$/src/main/development_txts/StackExchange_DIY/postsParsedNoNums.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/I-O_data/StackExchange_DIY/e-itemsets/itemsetsForPosts.txt" afterPath="$PROJECT_DIR$/src/main/development_txts/StackExchange_DIY/itemsetsForPosts.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/I-O_data/StackExchange_DIY/e-itemsets/itemsetsForPostsSorted.txt" afterPath="$PROJECT_DIR$/src/main/development_txts/StackExchange_DIY/itemsetsForPostsSorted.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/I-O_data/StackExchange_DIY/f-output/finalOutput.txt" afterPath="$PROJECT_DIR$/src/main/development_txts/StackExchange_DIY/finalOutput.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/I-O_data/StackExchange_DIY/f-output/topOutput.txt" afterPath="$PROJECT_DIR$/src/main/development_txts/StackExchange_DIY/topOutput.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/python/post_reading_4.py" afterPath="$PROJECT_DIR$/src/main/python/InputToInputTxts.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/test.class" afterPath="$PROJECT_DIR$/target/classes/test.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/development_txts/1000posts.txt" afterPath="$PROJECT_DIR$/src/main/development_txts/1000posts.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/GenerateOutput.java" afterPath="$PROJECT_DIR$/src/main/java/GenerateOutput.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Itemset.java" afterPath="$PROJECT_DIR$/src/main/java/Itemset.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/generateItemsets0_2.java" afterPath="$PROJECT_DIR$/src/main/java/generateItemsets0_2.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/generateItemsets1_1.java" afterPath="$PROJECT_DIR$/src/main/java/generateItemsets1_1.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/inputTxtsToItemsets.java" afterPath="$PROJECT_DIR$/src/main/java/inputTxtsToItemsets.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/test.java" afterPath="$PROJECT_DIR$/src/main/java/test.java" />
     </list>
     <ignored path="AttributeValue.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -53,8 +40,8 @@
       <file leaf-file-name="RemoveHTMLTagsFromTXTs.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/RemoveHTMLTagsFromTXTs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.5667506">
-              <caret line="93" column="22" selection-start-line="93" selection-start-column="22" selection-end-line="93" selection-end-column="22" />
+            <state vertical-scroll-proportion="0.6599496">
+              <caret line="69" column="44" selection-start-line="69" selection-start-column="44" selection-end-line="69" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -107,7 +94,6 @@
         <option value="$PROJECT_DIR$/src/main/itemset_data_test/data4.txt" />
         <option value="$PROJECT_DIR$/src/main/itemset_data_test/data5.txt" />
         <option value="$PROJECT_DIR$/src/main/itemset_data/ItemsetsForPosts.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/test.java" />
         <option value="$PROJECT_DIR$/src/main/java/generateOutput.java" />
         <option value="$PROJECT_DIR$/src/main/ItemsetsForPosts.txt" />
         <option value="$PROJECT_DIR$/src/main/ItemsetsForPostsSorted.txt" />
@@ -132,6 +118,8 @@
         <option value="$PROJECT_DIR$/src/main/java/inputTxtsToItemsets.java" />
         <option value="$PROJECT_DIR$/src/main/development_txts/1000posts.txt" />
         <option value="$PROJECT_DIR$/src/main/development_txts/ItemsetsForPosts.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/test.java" />
+        <option value="$PROJECT_DIR$/src/main/development_txts/StackExchange_DIY/topOutput.txt" />
       </list>
     </option>
   </component>
@@ -148,7 +136,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="46" />
+    <option name="x" value="7" />
+    <option name="y" value="50" />
     <option name="width" value="1259" />
     <option name="height" value="691" />
   </component>
@@ -260,50 +249,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AttributeValue" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AttributeValue" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="I-O_data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AttributeValue" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AttributeValue" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="development_txts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -319,14 +264,14 @@
       <recent name="$PROJECT_DIR$/src/main" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/development_txts/StackExchange_DIY" />
+      <recent name="$PROJECT_DIR$/src/main/development_txts" />
       <recent name="$PROJECT_DIR$/src/main/I-O_data/StackExchange_DIY" />
       <recent name="$PROJECT_DIR$/src/main/I-O_data/StackExchange_DIY/a-input" />
-      <recent name="$PROJECT_DIR$/src/main/development_txts" />
       <recent name="$PROJECT_DIR$/src/main" />
-      <recent name="$PROJECT_DIR$/src/main/I-O_data/StackExchange_DIY/d-output_data" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.getItemsets_1000Test">
+  <component name="RunManager" selected="Application.fullProgramTest2">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -695,7 +640,7 @@
     </configuration>
     <configuration default="false" name="getItemsets_1000Test" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="inputTxtsToItemsets" />
+      <option name="MAIN_CLASS_NAME" value="InputTxtsToItemsets" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="src/main/development_txts/1000posts.txt src/main/development_txts/ItemsetsForPosts.txt" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -738,10 +683,42 @@
       <envs />
       <method />
     </configuration>
-    <list size="3">
+    <configuration default="false" name="fullProgramTest1" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="InputTxtsToItemsets" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="src/main/development_txts/1000posts.txt src/main/I-O_data/itemsets.txt" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="AttributeValue" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="fullProgramTest2" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="ItemsetsToTopOutput" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="src/main/I-O_data/itemsetsSorted.txt src/main/I-O_data/finalOutput.txt src/main/I-O_data/topOutput.txt" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="AttributeValue" />
+      <envs />
+      <method />
+    </configuration>
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.getItemsets_1000Test" />
       <item index="1" class="java.lang.String" itemvalue="Application.ItemsetsTTO_1000Test" />
       <item index="2" class="java.lang.String" itemvalue="Application.test" />
+      <item index="3" class="java.lang.String" itemvalue="Application.fullProgramTest1" />
+      <item index="4" class="java.lang.String" itemvalue="Application.fullProgramTest2" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -758,8 +735,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="46" width="1259" height="691" extended-state="0" />
-    <editor active="true" />
+    <frame x="7" y="50" width="1259" height="691" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -771,7 +748,8 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31672025" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24861" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24861" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3279743" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -782,7 +760,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -812,8 +789,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="217" column="49" selection-start-line="217" selection-start-column="49" selection-end-line="217" selection-end-column="49" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="imports" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -823,8 +800,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="imports" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -834,8 +811,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="165" column="132" selection-start-line="165" selection-start-column="132" selection-end-line="165" selection-end-column="132" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="imports" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -856,7 +833,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/inputTxtsToItemsets.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/InputTxtsToItemsets.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="311" column="16" selection-start-line="311" selection-start-column="16" selection-end-line="311" selection-end-column="16" />
@@ -869,13 +846,13 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="imports" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/inputTxtsToItemsets.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/InputTxtsToItemsets.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -896,8 +873,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="64" column="3" selection-start-line="64" selection-start-column="3" selection-end-line="64" selection-end-column="3" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="imports" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -938,36 +915,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/I-O_data/StackExchange_DIY/f-output/finalOutput.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/I-O_data/StackExchange_DIY/e-itemsets/itemsetsForPosts.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/I-O_data/StackExchange_DIY/a-input/Comments.xml">
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/development_txts/dummy.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.023734177">
           <caret line="1" column="126" selection-start-line="1" selection-start-column="126" selection-end-line="1" selection-end-column="126" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/I-O_data/StackExchange_DIY/e-itemsets/itemsetsForPostsSorted.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -976,13 +927,6 @@
         <state vertical-scroll-proportion="0.50319487">
           <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/I-O_data/StackExchange_DIY/f-output/topOutput.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.915601">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1032,6 +976,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.71291864">
           <caret line="111" column="5" selection-start-line="111" selection-start-column="5" selection-end-line="111" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1047,30 +994,15 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/I-O_data/StackExchange_DIY/b-parsed/postsParsedNoNums.txt">
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ItemsetsToTopOutput.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="217" column="49" selection-start-line="217" selection-start-column="49" selection-end-line="217" selection-end-column="49" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="imports" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/I-O_data/StackExchange_DIY/a-input/data.xml">
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/development_txts/10000postsParsed.txt">
@@ -1081,12 +1013,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/python/post_reading_4.py">
+    <entry file="file://$PROJECT_DIR$/src/main/python/InputToInputTxts.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
           <folding>
-            <element signature="e#29#63#0" expanded="true" />
+            <element signature="e#29#63#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1139,7 +1071,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/inputTxtsToItemsets.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/InputTxtsToItemsets.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="179" column="37" selection-start-line="179" selection-start-column="37" selection-end-line="179" selection-end-column="37" />
@@ -1155,14 +1087,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26448363">
-          <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/util.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.18891688">
@@ -1171,10 +1095,67 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/development_txts/StackExchange_DIY/itemsetsForPostsSorted.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/development_txts/StackExchange_DIY/finalOutput.txt">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.49118388">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/development_txts/StackExchange_DIY/topOutput.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6891892">
+          <caret line="27" column="40" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/development_txts/StackExchange_DIY/itemsetsForPosts.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/development_txts/StackExchange_DIY/postsParsedNoNums.txt">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/development_txts/StackExchange_DIY/data.xml">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/RemoveHTMLTagsFromTXTs.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.5667506">
-          <caret line="93" column="22" selection-start-line="93" selection-start-column="22" selection-end-line="93" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.6599496">
+          <caret line="69" column="44" selection-start-line="69" selection-start-column="44" selection-end-line="69" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

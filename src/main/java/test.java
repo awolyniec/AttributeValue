@@ -14,9 +14,11 @@ import java.io.*;
 //random things and tests
 public class test {
     public static void main (String[] args) throws IOException {
-        int[] HowToBasic = new int[0];
+        int[] HowToBasic = new int[4];
+        FileWriter file = new FileWriter("src/main/development_txts/johncena.txt");
         for (int i = 0; i < HowToBasic.length; i++) {
-            System.out.println("sjeis");
+            file.write("doo");
         }
+        file.close();
     }
 }
