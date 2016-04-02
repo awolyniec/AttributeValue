@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7915a9b5-96a9-4f79-b947-f085b9302702" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/generateOutput.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/python/InputToInputTxts.py" afterPath="$PROJECT_DIR$/src/main/python/InputToInputTxts.py" />
     </list>
     <ignored path="AttributeValue.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,13 +26,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="RemoveHTMLTagsFromTXTs.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RemoveHTMLTagsFromTXTs.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/RemoveHTMLTagsFromTXTs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.24242425">
-              <caret line="72" column="48" selection-start-line="72" selection-start-column="48" selection-end-line="72" selection-end-column="48" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="80" column="37" selection-start-line="80" selection-start-column="37" selection-end-line="80" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InputToInputTxts.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/python/InputToInputTxts.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.17676768">
+              <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+              <folding>
+                <element signature="e#29#63#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -57,7 +70,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/trueTest.java" />
         <option value="$PROJECT_DIR$/src/main/100posts.txt" />
         <option value="$PROJECT_DIR$/src/main/100postscopy.txt" />
         <option value="$PROJECT_DIR$/src/main/10f.txt" />
@@ -108,6 +120,7 @@
         <option value="$PROJECT_DIR$/src/main/java/InputTxtsToItemsets.java" />
         <option value="$PROJECT_DIR$/src/main/java/GenerateOutput.java" />
         <option value="$PROJECT_DIR$/src/main/java/generateOutput.java" />
+        <option value="$PROJECT_DIR$/src/main/python/InputToInputTxts.py" />
       </list>
     </option>
   </component>
@@ -1051,13 +1064,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/python/InputToInputTxts.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/generateItemsets1_1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.94949496">
@@ -1215,10 +1221,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/RemoveHTMLTagsFromTXTs.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24242425">
-          <caret line="72" column="48" selection-start-line="72" selection-start-column="48" selection-end-line="72" selection-end-column="48" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="80" column="37" selection-start-line="80" selection-start-column="37" selection-end-line="80" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/python/InputToInputTxts.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17676768">
+          <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+          <folding>
+            <element signature="e#29#63#0" expanded="true" />
           </folding>
         </state>
       </provider>

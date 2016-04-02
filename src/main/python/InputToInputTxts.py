@@ -5,7 +5,7 @@ import sys
 import io
 
 fout = io.open(sys.argv[2], 'w', encoding="utf8")
-fin = open(sys.argv[1])
+fin = open(sys.argv[1], encoding="utf8")
 
 tree = ET.parse(fin)
 root = tree.getroot()
