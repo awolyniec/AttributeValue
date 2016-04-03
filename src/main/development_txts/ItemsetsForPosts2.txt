@@ -1,0 +1,6976 @@
+((wall/NN, bearing/NN), load/NN):non/JJ;2
+(room/NN, family/NN):usable/JJ;9
+beam/NNS:wooden/JJ;11
+floor/NN:concrete/JJ;13
+wall/NN:ceramic-tile/JJ;18
+kind/NNS:many/JJ;19
+choice/NN:good/JJ;25
+fiberglass/NNS:adhesive/JJ;29
+choice/NN:good/JJ;31
+bearing/NN:load/NN;35
+print/NNS:blue/JJ;36
+homeowner/NNS:many/JJ;37
+bearing/NN:load/NN;41
+truss/NNS:ceiling/NN;45
+wall/NN:exterior/NN;49
+outlet/NN:electrical/JJ;51
+crack/NNS:hairline/NN;59
+wall/NNS:exterior/NN;62
+crack/NNS:hairline/NN;66
+solution/NN:cheap/JJ;68
+house/NN:whole/JJ;69
+(exterior/NN, house/NN):whole/JJ;70
+fan/NN:bathroom/NN;72
+space/NN:cylindrical/JJ;73
+fan/NN:old/JJ;77
+housing/NN:cylindrical/JJ;78
+work/NN:major/JJ;81
+(store/NNS, hardware/NN):local/JJ;84
+fan/NNS:bathroom/vent/JJ;85
+housing/NNS:square/JJ;86
+(fan/NN, size/NN):smaller/JJR;90
+suggestion/NNS:other/JJ;91
+(ceiling/NN, bathroom/NN):whole/JJ;93
+smooth/NN:surface/NN;95
+tape/NN:paper/NN;97
+texturing/NN:heavy/JJ;101
+leak/NN:small/JJ;102
+radiator/NN:steam/NN;104
+problem/NN:big/JJ;105
+radiator/NNS:steam/NN;107
+leak/NN:small/JJ;108
+drop/NNS:few/JJ;113
+website/NNS:various/JJ;115
+mm/NN:1/CD;116
+layer/NN:thick/JJ;117
+leak/NNS:radiator/NN;122
+leak/NN:slow/JJ;125
+place/NN:one/CD;128
+way/NNS:different/JJ;139
+grease/NN:elbow/NN;142
+machine/NNS:steam/NN;145
+(installation/NN, drywall/NN):entire/JJ;152
+space/NN:tight/JJ;154
+coat/NNS:several/JJ;155
+night/NN:last/JJ;159
+((caulk/NN, II/NNP), Silicone/NNP):GE/NNP;163
+Depot/NNP:Home/NNP;165
+caulk/NN:silicone/NN;168
+factor/NN:important/JJ;173
+proof/NN:waterproof/mold/JJ;175
+wall/NN:ornamental/JJ;176
+frame/NN:minimal/JJ;180
+beam/NNS:ceiling/NN;184
+insulation/NN:fiberglass/NNS;186
+(product/NN, silicone/NN):permanent/JJ;191
+hour/NN:1/CD;193
+oz/NN:9.8/CD;196
+((((Caulk/NNP, II/NNP), Silicone/NNP), Supreme/NNP), kb/NN):White/NNP;202
+window/NNS:vinyl/NN;205
+cutter/NN:cookie/NN;207
+(kind/NN, vinyl/NN):thin/JJ;211
+stool/NN:window/NN;214
+practice/NN:standard/JJ;215
+wall/NN:exterior/NN;227
+siding/NN:vinyl/NN;229
+siding/NN:vinyl/NN;232
+wall/NN:exterior/NN;235
+seawall/NN:concrete/JJ;242
+seawall/NN:concrete/JJ;243
+lake/NN:freshwater/NN;245
+corner/NN:bottom/JJ;247
+(freezing/NN, water/NN):trapped/JJ;251
+erosion/NN:possible/JJ;254
+erosion/NN:future/JJ;254
+question/NNS:multiple/JJ;255
+(system/NN, radiator/NN):baseboard/NN;259
+zone/NN:second/JJ;263
+(system/NN, radiator/NN):baseboard/NN;266
+owner/NNS:previous/JJ;269
+pipe/NN:copper/NN;271
+screw/NN:drywall/NN;273
+piece/NN:new/JJ;277
+knob/NN:old/JJ;284
+wiring/NN:tube/NN;286
+work/NN:electrical/JJ;287
+knob/NN:old/JJ;289
+wiring/NN:tube/NN;291
+place/NN:new/JJ;295
+wall/NN:interior/JJ;296
+room/NN:living/NN;298
+finder/NN:stud/NN;301
+wall/NNS:other/JJ;302
+reading/NNS:strange/JJ;305
+foot/NNS:5/CD;307
+foot/NNS:4/CD;308
+warning/NN:ac/NN;310
+spacing/NNS:irregular/JJ;313
+hole/NNS:exploratory/JJ;315
+cable/NNS:power/NN;320
+space/NN:air/NN;325
+body/NN:radiator/NN;338
+distance/NN:good/JJ;340
+towel/NN:paper/NN;345
+deposit/NNS:mineral/NN;349
+water/NN:hot/JJ;350
+hole/NNS:small/JJ;354
+floor/NN:garage/NN;356
+floor/NN:garage/NN;359
+paint/NN:textured/JJ;360
+floor/NN:garage/NN;363
+paint/NN:textured/JJ;365
+seep/NNS:water/NN;370
+damage/NN:other/JJ;373
+(caulk/NN, silicone/NN):clear/JJ;379
+hammer/NN:claw/NN;384
+hammer/NN:claw/NN;388
+tile/NNS:ceramic/JJ;390
+owner/NN:previous/JJ;392
+(stain/NNS, paint/NN):small/JJ;396
+tile/NN:ceramic/JJ;397
+thing/NN:only/JJ;400
+blade/NN:razor/NN;402
+stain/NNS:paint/NN;405
+year/NNS:several/JJ;408
+((magnet/NNS, neodynium/NN), earth/NN):rare/JJ;412
+drywall/NN:empty/JJ;418
+residue/NN:white/JJ;420
+(grout/NN, tile/NN):fresh/JJ;422
+residue/NN:white/JJ;425
+water/NN:much/JJ;431
+mixture/NN:grout/NN;433
+work/NN:electrical/JJ;436
+work/NN:much/JJ;436
+box/NN:little/JJ;438
+probe/NNS:red/JJ;439
+proof/NN:idiot/JJ;444
+wire/NNS:old/JJ;447
+outlet/NN:new/JJ;448
+outlet/NN:old/JJ;449
+wire/NN:ground/NN;451
+side/NN:hot/JJ;458
+side/NN:neutral/JJ;459
+prob/NN:one/CD;463
+side/NN:hot/JJ;464
+volt/NNS:2-3/CD;467
+bathroom/NN:only/JJ;471
+seal/NN:drain/NN;473
+line/NN:drain/NN;477
+place/NNS:several/JJ;478
+(seal/NNS, wax/NN):regular/JJ;481
+tips/tricks/NNS:good/JJ;483
+year/NNS:10/CD;485
+(repair/NN, driveway/NN):asphalt/NN;490
+England/NNP:New/NNP;492
+driveway/NN:asphalt/NN;494
+divot/NN:little/JJ;497
+spot/NN:flat/JJ;498
+spot/NN:one/CD;498
+damage/NN:further/JJ;502
+way/NN:one/CD;503
+((method/NN, hole/NN), exploratory/NN):guess/NN;507
+finder/NN:stud/NN;510
+wall/NN:same/JJ;511
+area/NN:problem/NN;513
+bit/NN:little/JJ;514
+spacing/NN:stud/NN;518
+spirit/NNS:mineral/JJ;522
+tar/NN:roofing/NN;526
+area/NN:inconspicuous/JJ;528
+spirit/NNS:mineral/NN;531
+stuff/NN:powerful/JJ;532
+wallpaper/NNS:multiple/JJ;534
+glue/NN:much/JJ;535
+way/NN:proper/JJ;537
+gun/NN:caulking/NN;554
+mess/NN:total/JJ;556
+problem/NNS:main/JJ;557
+(show/NN, improvement/NN):home/NN;565
+line/NN:caulk/NN;568
+mess/NN:big/JJ;572
+(line/NN, caulk/NN):clean/JJ;575
+(line/NN, caulk/NN):good/JJ;575
+bathroom/NN:upstairs/NN;580
+week/NNS:2/CD;581
+ceiling/NN:new/JJ;582
+leak/NN:major/JJ;584
+line/NN:wide/JJ;585
+time/NNS:3/CD;588
+mark/NN:water/NN;591
+piece/NN:trim/JJ;601
+tip/NNS:few/JJ;607
+board/NN:treated/JJ;609
+wall/NN:whole/JJ;616
+(screw/NNS, nails/ramset/tapcon/NN):cement/NN;623
+floor/NN:cement/NN;625
+flatwise/NN:2x4/NN;643
+wall/NN:cement/NN;647
+stud/NN:other/JJ;652
+option/NNS:lighting/NN;654
+garage/NN:pole-barn/JJ;655
+garage/NN:pole-barn/JJ;656
+foot/NNS:square/JJ;657
+foot/NNS:1500/CD;657
+flourecent/NN:single/JJ;658
+opener/NN:door/NN;660
+lighting/NN:serious/JJ;662
+owner/NN:previous/JJ;664
+height/NN:ceiling/NN;666
+(lighting/NN, bay/NN):high/JJ;668
+seal/NNS:wax/NN;672
+time/NNS:two/CD;679
+((kit/NN, epoxy/NN), floor/NN):garage/NN;683
+instruction/NNS:detailed/JJ;684
+acid/NN:muriatic/JJ;686
+tip/NN:one/CD;690
+help/NN:someone/NN;692
+time/NN:limited/JJ;693
+part/NNS:two/CD;695
+person/NN:one/CD;696
+part/NN:main/JJ;698
+time/NN:setup/NN;700
+method/NN:good/JJ;702
+(barrier/NN, insulation/damp/NN):faulty/JJ;706
+draft/NN:cold/JJ;707
+baseboard/NN:upstairs/NN;709
+method/NN:good/JJ;710
+plug/NNS:current/JJ;715
+ground/NN:good/JJ;717
+Unscrew/NNP:breaker/NN;721
+re-strip/NN:socket/NN;723
+socket/NN:new/JJ;726
+wire/NNS:three/CD;727
+wire/NNS:same/JJ;727
+socket/NN:new/JJ;728
+tester/NN:fancy/JJ;732
+ground/NN:good/JJ;733
+wire/NN:ground/NN;735
+electrician/NN:real/JJ;738
+(wall/NN, bearing/NN):load/NN;744
+plate/NN:top/JJ;745
+plate/NN:double/JJ;745
+(wall/NN, bearing/NN):non-load/JJ;747
+((method/NN, hole/NN), exploratory/NN):guess/NN;752
+(nail/NN, finish/NN):small/JJ;754
+thinkness/NN:drywall/NN;756
+boad/NNS:floor/NN;758
+bob/NN:plumb/JJ;765
+(magnet/NN, finding/NN):stud/NN;781
+(blade/NN, razor/NN):straight/JJ;790
+tile/NN:ceramic/JJ;792
+finish/NN:smooth/JJ;793
+tub/NN:enameled/JJ;794
+water/NN:hot/JJ;801
+knife/NN:putty/NN;805
+(gun/NN, caulking/NN):free/JJ;811
+line/NN:straight/JJ;815
+tape/NN:painter/NNS;818
+squeegie/NN:little/JJ;824
+store/NNS:hardware/NN;827
+((sample/NNS, card/NN), credit/NN):plastic/JJ;831
+(card/NN, credit/NN):new/JJ;834
+roof/NN:Palruf/NNP;836
+((sheet/NNS, PVC/NNP), Palruf/NNP):transparent/JJ;840
+roof/NN:treehouse/NN;842
+inch/NN:several/JJ;843
+piece/NNS:small/JJ;846
+(website/NNS, DIY/NNP):several/JJ;857
+painter/NN:blue/JJ;858
+night/NN:last/JJ;862
+area/NN:dry/JJ;864
+tape/NN:put/JJ;865
+caulk/NN:joint/JJ;867
+pass/NN:initial/JJ;868
+(tool/NN, smoothing/NN):caulk/NN;872
+(angle/NN, degree/NN):45/CD;877
+ridge/NN:slight/JJ;879
+gun/NN:caulk/NN;885
+(Stains/NNP, Depot/NNP):Home/NNP;888
+coat/NN:new/JJ;889
+oil/NN:good/JJ;892
+week/NNS:several/JJ;897
+primer/NN:exterior-grade/JJ;898
+coat/NNS:more/JJR;899
+coat/NNS:three/CD;899
+house/NNS:many/JJ;901
+ridgeline/NN:roof/NN;907
+access/NN:easier/JJR;910
+direction/NN:joist/NN;913
+wiki/NN:community/NN;919
+(answer/NN, right/NN):one/NN;922
+item/NN:one/CD;924
+item/NNS:multiple/JJ;927
+formatting/NN:clear/JJ;928
+name/NN:ITEM/NNP;930
+info/NN:other/JJ;935
+drill/NN:cordless/JJ;936
+V/NNP:14.4/CD;939
+year/NNS:three/CD;940
+(Manipulator/NNP, Digital/NNP):one/CD;943
+scraper/NN:hard/JJ;946
+blade/NN:razor/NN;949
+tile/NN:ceramic/JJ;950
+tile/NN:gloss-finish/JJ;950
+tile/NN:good-quality/JJ;950
+(knife/NN, plastic/NN):hard/JJ;952
+tub/NN:plastic/JJ;954
+(work/NN, aerification/NN):liquid/JJ;956
+soil/NN:terrible/JJ;957
+nutrient/NNS:more/JJR;962
+(product/NNS, aerification/NN):liquid/JJ;965
+Plus/NNP:Aerify/NNP;967
+breaker/NN:deal/NN;972
+sale/NN:house/NN;974
+light/NN:natural/JJ;978
+light/NNS:point/NN;980
+light/NN:natural/JJ;981
+lighting/NN:fluorescent/JJ;983
+condition/NNS:working/JJ;984
+light/NNS:point/NN;986
+work/NN:detail/NN;988
+light/NNS:point/NN;992
+company/NN:insurance/NN;1000
+(company/NNS, insurance/NN):two/CD;1003
+wiring/NN:knob-and-tube/JJ;1004
+Mutual/NNP:Liberty/NNP;1006
+wiring/NN:knob-and-tube/JJ;1008
+day/NNS:30/CD;1009
+Life/NNP:Met/NNP;1012
+wiring/NN:knob-and-tube/JJ;1014
+(service/NN, amperage/NN):low/JJ;1020
+touch/NN:never/NN;1022
+service/NN:electrical/JJ;1023
+service/NN:regular/JJ;1023
+theory/NN:basic/JJ;1026
+year/NNS:15/CD;1031
+year/NNS:10/CD;1040
+circuit/NNS:old/JJ;1041
+house/NN:entire/JJ;1042
+(type/NNS, heater/NN):water/NN;1046
+(heater/NN, water/NN):current/JJ;1048
+water/NN:heated/JJ;1049
+water/NN:more/JJR;1049
+Inexpensive/NNP:efficient/JJ;1051
+kind/NN:different/JJ;1053
+saw/NN:circular/JJ;1054
+idea/NN:good/JJ;1058
+thing/NN:one/CD;1059
+guy/NN:next/JJ;1062
+romex/NN:new/JJ;1063
+time/NN:other/JJ;1067
+cellulose/NN:blown-in/JJ;1069
+(hazard/NN, fire/NN):serious/JJ;1071
+space/NN:open/JJ;1074
+foam/NN:spray/NN;1077
+store/NNS:local/JJ;1078
+Stuff/NNP:Great/NNP;1080
+pad/NN:concrete/JJ;1084
+hole/NN:circular/JJ;1085
+pad/NN:concrete/JJ;1086
+area/NNS:circular/JJ;1089
+lumber/NN:dimensional/JJ;1093
+pad/NNS:concrete/JJ;1094
+pad/NNS:angular/JJ;1094
+one/NNS:curved/JJ;1096
+trick/NN:clever/JJ;1097
+area/NN:unpaved/JJ;1100
+pad/NN:concrete/JJ;1101
+plank/NNS:plywood/NN;1103
+proofing/NN:sound/JJ;1107
+idea/NN:swell/NN;1110
+room/NNS:special/JJ;1112
+humidity/NN:high/JJ;1113
+problem/NNS:water/mold/JJ;1117
+change/NNS:structural/JJ;1124
+change/NNS:significant/JJ;1124
+(side/NN, room/NN):rec/NN;1135
+issue/NNS:moisture/NN;1140
+pad/NN:thinker/NN;1144
+barrier/NN:vapor/NN;1148
+level/NN:comfort/NN;1150
+(guy/NNS, carpet/NN):one/CD;1153
+pad/NNS:special/JJ;1154
+proof/NN:moisture/NN;1157
+issue/NNS:mold/NN;1159
+floor/NNS:concrete/JJ;1160
+people/NNS:other/JJ;1161
+board/NN:foam/NN;1163
+floor/NN:normal/JJ;1166
+(barrier/NN, moisture/NN):good/JJ;1168
+issue/NNS:water/NN;1174
+forbid/NN:heaven/NN;1176
+pain/NN:major/JJ;1177
+stain/NNS:rust/NN;1181
+sink/NN:enamel/NN;1183
+way/NN:sure-fire/JJ;1184
+stain/NNS:rust/NN;1186
+sink/NN:enamel/NN;1188
+level/NNS:good/JJ;1189
+size/NNS:different/JJ;1190
+(saw/NN, miter/NN):power/NN;1193
+saw/NN:circular/JJ;1196
+sheet/NNS:large/JJ;1197
+piece/NNS:trim/JJ;1198
+thing/NN:easy/JJ;1199
+thing/NNS:few/JJ;1203
+arena/NN:bang-for-the-buck/JJ;1204
+success/NN:great/JJ;1207
+layer/NNS:multiple/JJ;1208
+mess/NN:real/JJ;1213
+plasterer/NN:good/JJ;1217
+(finder/NN, stud/NN):good-quality/JJ;1219
+finder/NN:stud/NN;1221
+jigsaw/NN:good/JJ;1224
+task/NNS:many/JJ;1225
+head/NN:gator-grip/JJ;1227
+name/NN:generic/JJ;1238
+heater/NN:tankless/JJ;1241
+water/NN:hot/JJ;1246
+water/NN:endless/JJ;1246
+(rate/NN, flow/NN):minimum/NN;1250
+rate/NN:flow/NN;1252
+water/NN:hot/JJ;1253
+blast/NN:full/JJ;1256
+water/NN:hot/warm/JJ;1257
+model/NNS:newer/JJR;1261
+(rate/NN, flow/NN):limited/JJ;1264
+shower/NN:hot/JJ;1265
+shower/NN:nice/JJ;1265
+water/NN:cold/JJ;1268
+drop/NN:sudden/JJ;1269
+pressure/NN:water/NN;1271
+scum/NN:soap/NN;1284
+kind/NN:correct/JJ;1286
+level/NN:laser/NN;1290
+size/NN:correct/JJ;1293
+sheeting/NN:plastic/NN;1295
+:--rrb-/NN:breakable/JJ;1298
+(wrench/NN, socket/NN):complete/JJ;1300
+wrench/NNS:end/NN;1303
+socket/NNS:deep/JJ;1304
+toolbox/NN:fitted/JJ;1307
+toolbox/NN:portable/JJ;1307
+toolbox/NN:affordable/JJ;1307
+door/NNS:pocket/NN;1312
+carpet/NN:new/JJ;1314
+pad/NN:thicker/JJR;1315
+door/NNS:pocket/NN;1317
+foot/NNS:couple/JJ;1326
+caulk/NN:excess/JJ;1330
+moist/NN:finger/NN;1332
+layer/NNS:5/CD;1335
+room/NN:living/NN;1338
+steamer/NNS:two/CD;1341
+(steamer/NN, plastic/NN):inexpensive/JJ;1346
+business/NN:painting/NN;1351
+key/NNS:allen/JJ;1353
+key/NNS:metric/JJ;1353
+square/NN:speed/NN;1355
+section/NN:removable/JJ;1362
+bathtub/NN:free-standing/JJ;1363
+tub/NN:claw-foot/JJ;1364
+tub/NN:free-standing/JJ;1364
+tub/NN:nice/JJ;1364
+homeowner/NN:previous/JJ;1365
+flake/NNS:white/JJ;1366
+spot/NNS:rust/NN;1369
+technique/NNS:several/JJ;1372
+bit/NNS:various/JJ;1378
+wheel/NN:cut-off/JJ;1379
+pliers/NNS:needle-nose/JJ;1383
+(heater/NNS, water/NN):tankless/JJ;1388
+England/NNP:New/NNP;1392
+(temperature/NN, water/NN):cold/JJ;1394
+model/NN:electric/JJ;1396
+heater/NNS:tankless/JJ;1400
+year/NNS:5/CD;1401
+tank/NN:old/JJ;1402
+month/NNS:6/CD;1403
+rafter/NNS:attic/NN;1406
+rafter/NNS:attic/NN;1411
+bill/NN:heating/NN;1417
+luck/NN:good/JJ;1428
+brand/NN:Kilz/NNP;1430
+((Interrupter/NNP, Circuit/NNP), Fault/NNP):Arc/NNP;1437
+((Interrupter/NNP, Circuit/NNP), Fault/NNP):Arc/NNP;1441
+caulk/NN:regular/JJ;1444
+color/NN:same/JJ;1449
+accuracy/NN:less/JJR;1455
+force/NN:more/JJR;1456
+board/NNS:prying/JJ;1457
+hammer/NN:one/CD;1458
+addition/NN:nice/JJ;1463
+thing/NN:important/JJ;1464
+home/NN:older/JJR;1468
+circuit/NNS:separate/JJ;1469
+plug/NN:bottom/JJ;1470
+outlet/NN:new/JJ;1473
+tab/NN:little/JJ;1474
+(connector/NNS, wire/NN):bottom/JJ;1476
+circuit/NNS:two/CD;1480
+(floor/NN, oak/NN):solid/JJ;1484
+(floor/NN, oak/NN):new/JJ;1484
+floor/NN:new/JJ;1487
+room/NN:dining/NN;1489
+oak/NN:solid/JJ;1490
+friend/NNS:few/JJ;1492
+(builder/NN, contractor/NN):one/CD;1494
+diy'er/NNS:amateur/JJ;1496
+clip/NN:one/CD;1501
+foot/NN:3/CD;1502
+head/NNS:heavier/JJR;1511
+air/NN:hot/JJ;1517
+way/NN:optimum/JJ;1529
+gun/NN:caulk/NN;1538
+bead/NN:neat/JJ;1540
+chemical/NNS:special/JJ;1544
+hole/NNS:small/JJ;1551
+water/NN:hot/JJ;1553
+bottle/NN:spray/NN;1555
+minute/NNS:30/CD;1557
+wall/NNS:plaster/NN;1569
+(stick/NN, cord/NN):lamp/NN;1572
+wire/NN:electrical/JJ;1575
+house/NN:old/JJ;1578
+cord/NN:lamp/NN;1580
+light/NN:ceiling-mounted/JJ;1582
+stick/NN:cord/NN;1586
+glue/NN:hot/JJ;1588
+clip/NNS:cable/NN;1590
+(loop/NNS, plastic/NN):white/JJ;1592
+dam/NNS:ice/NN;1602
+cost/NNS:ac/NN;1607
+vent/NNS:ridge/NN;1619
+conduit/NN:special/JJ;1621
+Depot/Lowes/etc/NNP:Home/NNP;1623
+duct/NNS:air/NN;1625
+vent/NNS:eave/NN;1630
+gap/NN:air/NN;1634
+inch/NN:1/CD;1635
+(store/NN, improvement/NN):home/NN;1645
+(element/NN, heating/NN):dishwasher/NN;1652
+plug/NN:wax/NN;1656
+wall/NN:bathroom/NN;1661
+layout/NN:complex/JJ;1664
+picture/NN:verbal/JJ;1667
+side/NN:short/JJ;1669
+side/NN:long/JJ;1670
+side/NN:short/JJ;1671
+end/NN:one/CD;1673
+end/NN:far/JJ;1676
+(window/NN, household/NN):typical/JJ;1680
+side/NN:one/CD;1682
+side/NN:long/JJ;1686
+wall/NN:back/JJ;1693
+corner/NN:single/JJ;1706
+business/NN:nasty/JJ;1715
+way/NN:wrong/JJ;1716
+upward/NNS:tub/NN;1722
+option/NN:third/JJ;1723
+((interrupter/NN, circuit/NN), fault/NN):arc/NN;1727
+burst/NNS:sudden/JJ;1730
+breaker/NN:circuit/NN;1732
+((interrupter/NN, circuit/NN), fault/NN):arc/NN;1739
+(((interrupter/NN, circuit/NN), fault/NN), ground/NN):common/JJ;1744
+landscape/NN:metal/NN;1747
+set/NNS:concrete/JJ;1751
+place/NN:only/JJ;1753
+corner/NN:clean/JJ;1755
+corner/NN:nice/JJ;1755
+tape/NN:paper/NN;1757
+seam/NN:convenient/JJ;1758
+type/NNS:exact/JJ;1761
+size/NNS:3/CD;1764
+size/NN:atleast/JJ;1766
+size/NNS:many/JJ;1773
+clip/NNS:cable/NN;1779
+cord/NN:lamp/NN;1785
+route/NN:direct/JJ;1786
+house/NNS:old/JJ;1787
+direction/NNS:strange/JJ;1789
+floor/NNS:two/CD;1792
+bead/NNS:corner/NN;1797
+corner/NNS:inside/JJ;1801
+Depot/NNP:Home/NNP;1803
+(piece/NNS, bead/NN):corner/NN;1807
+(bead/NN, corner/NN):outside/JJ;1809
+tape/NN:paper/NN;1811
+door/NNS:pocket/NN;1818
+screw/NN:adjustment/NN;1820
+way/NN:good/JJ;1827
+bolt/NNS:central/JJ;1828
+gate/NNS:wrought-iron/JJ;1832
+gate/NNS:handsome/JJ;1832
+gate/NNS:new/JJ;1832
+feeling/NN:initial/JJ;1840
+length/NNS:short/JJ;1842
+tube/NN:metal/NN;1844
+headache/NN:maintenance/NN;1849
+hole/NN:deep/JJ;1853
+(tube/NN, copper/NN):old/JJ;1856
+mallet/NN:Rubber/NNP;1860
+(CA/NNP, Carlos/NNP):San/NNP;1870
+%/NN:50/CD;1871
+(knob-and-tube/NN, %/NN):50/CD;1872
+%/NN:50/CD;1873
+romex/NN:1980/CD;1874
+story/NNS:insurance/NN;1881
+breaker/NNS:circuit/NN;1885
+one/NNS:modern/JJ;1886
+(one/NNS, wire/NN):old/JJ;1889
+plug/NNS:old/JJ;1891
+disadvantage/NNS:2/CD;1893
+(hazard/NN, fire/NN):theoretical/JJ;1895
+risk/NN:higher/JJR;1904
+shock/NN:electric/JJ;1905
+electrician/NNS:many/JJ;1910
+(employee/NNS, permit/NN):3/CD;1912
+k&t/NN:old/JJ;1914
+house/NNS:old/JJ;1919
+(system/NN, k&t/NN):old/JJ;1925
+comclusion/NN:personal/JJ;1928
+thing/NN:other/JJ;1929
+%/NN:50/CD;1933
+work/NN:electric/JJ;1939
+work/NN:cleanup/NN;1941
+(insulation/NN, proofing/NN):sound/JJ;1946
+drywall/NN:normal/JJ;1948
+type/NN:resistant/JJ;1951
+drywall/NN:thicker/JJR;1952
+resort/NN:last/JJ;1953
+(fan/NN, ceiling/NN):loud/JJ;1955
+(fan/NN, ceiling/NN):super/JJ;1955
+crack/NNS:hairline/NN;1963
+year/NNS:several/JJ;1975
+time/NNS:few/JJ;1976
+art/NN:black/JJ;1978
+work/NN:prep/JJ;1979
+finish/NN:new/JJ;1980
+cleaner/NNS:abrasive/JJ;1981
+hole/NN:large/JJ;1985
+inch/NNS:2-3/CD;1986
+hole/NN:large/JJ;1988
+wall/NN:tv/NN;1990
+patch/NNS:dry-wall/JJ;1999
+wiki/NN:community/NN;2004
+house/NN:parent/NNS;2006
+year/NNS:100/CD;2009
+one/NNS:new/JJ;2012
+way/NN:correct/JJ;2013
+screw/NNS:drywall/NN;2027
+size/NN:same/JJ;2031
+(mud/NN, screw/NN):drywall/NN;2036
+process/NN:same/JJ;2039
+hole/NNS:larger/JJR;2040
+(patch/NN, repair/NN):drywall/NN;2044
+(store/NNS, box/NN):big/JJ;2046
+piece/NNS:two/CD;2050
+house/NN:new/JJ;2054
+fillet/NNS:fine/JJ;2055
+fillet/NNS:small/JJ;2055
+relief/NN:temporary/JJ;2058
+thing/NN:destructive/JJ;2062
+woodwork/NN:old/JJ;2063
+board/NN:stair/NN;2066
+fan/NN:exhaust/NN;2077
+attic/NN:old/JJ;2078
+deal/NN:great/JJ;2081
+layer/NN:good/JJ;2084
+fan/NN:exhaust/NN;2091
+state/NN:mid-atlantic/JJ;2092
+(summer/NN, f/NN):°/CD;2094
+(summer/NN, f/NN):100/CD;2094
+((night/NNS, winter/NN), f/NN):°/CD;2098
+((night/NNS, winter/NN), f/NN):0/CD;2098
+(roof/NN, slate/NN):original/JJ;2101
+system/NN:roof-based/JJ;2102
+system/NN:typical/JJ;2102
+window/NNS:circular/JJ;2104
+window/NNS:small/JJ;2104
+window/NNS:three/CD;2104
+flow/NN:air/NN;2106
+breeze/NN:cross/NN;2111
+day/NNS:warm/JJ;2112
+((fan/NNS, exhaust/NN), window/NN):small/JJ;2119
+((fan/NNS, exhaust/NN), window/NN):solar-powered/JJ;2119
+floor/NNS:bamboo/NN;2122
+floor/NNS:bamboo/NN;2124
+shape/NN:good/JJ;2126
+floor/NNS:prefinished/JJ;2129
+panel/NN:solar/JJ;2135
+panel/NN:solar/JJ;2140
+cost/NNS:energy/NN;2143
+cedar/NN:white/JJ;2146
+oil/NN:cedar/NN;2154
+week/NNS:few/JJ;2159
+coat/NN:first/JJ;2162
+siding/NN:vinyl/NN;2168
+siding/NN:vinyl/NN;2170
+home/NN:new/JJ;2171
+segment/NN:one/CD;2173
+end/NN:one/CD;2175
+side/NN:other/JJ;2176
+hour/NNS:few/JJ;2179
+(detach/NNS, end/NN):same/JJ;2182
+nail/NN:galvanized/JJ;2185
+force/NN:brute/JJ;2188
+summer/NN:next/JJ;2191
+wood/NN:treated/JJ;2192
+wood/NN:treated/JJ;2194
+((store/NN, specialty/NN), paint/NN):local/JJ;2198
+locality/NN:specific/JJ;2202
+winter/NNS:cold/JJ;2203
+summer/NNS:hot/JJ;2204
+water/NN:salt/NN;2206
+floor/NN:hardwood/NN;2208
+edge/NN:top/JJ;2214
+idea/NN:good/JJ;2216
+temperature/NN:outside/JJ;2219
+year/NNS:100/CD;2221
+groove/NN:tapered/JJ;2223
+system/NN:wedge/NN;2225
+tread/NNS:stair/NN;2229
+dado/NNS:tapered/JJ;2239
+wedge/NN:new/JJ;2257
+layer/NNS:thin/JJ;2262
+board/NN:particle/NN;2264
+layer/NN:top/JJ;2265
+flooring/NN:other/JJ;2266
+option/NN:great/JJ;2274
+option/NN:one/CD;2274
+problem/NN:electrical/JJ;2283
+usage/NN:electrical/JJ;2287
+fire/NN:electrical/JJ;2291
+circuit/NNS:bedroom/NN;2293
+drawback/NN:major/JJ;2294
+drawback/NN:one/CD;2294
+trick/NNS:stuff/NN;2296
+machine/NNS:larger/JJR;2298
+cleaner/NN:vacuum/NN;2301
+tool/NN:power/NN;2303
+thing/NN:good/JJ;2305
+(air/NN, attic/NN):hot/JJ;2318
+time/NN:Winter/NNP;2322
+day/NN:sunny/JJ;2324
+sun/NN:direct/JJ;2326
+sun/NN:little/JJ;2326
+air/NN:hot/JJ;2332
+temp/NN:attic/NN;2339
+(temp/NN, house/NN):>/JJR;2341
+(paint/NN, voc/NN):low/JJ;2343
+(paint/NN, voc/NN):low/JJ;2345
+day/NN:sunny/JJ;2355
+problem/NN:ventilation/NN;2361
+set/NN:good/JJ;2362
+(pliers/NNS, lock/NN):channel/NN;2365
+size/NNS:multiple/JJ;2366
+inch/NNS:three/CD;2374
+area/NN:damaged/JJ;2375
+inch/NN:one/CD;2380
+line/NN:score/NN;2384
+portion/NN:drywall/NN;2389
+area/NN:damaged/JJ;2392
+plug/NN:test/NN;2398
+mud/NN:drywall/NN;2402
+mud/NN:hole/NN;2408
+hole/NNS:larger/JJR;2414
+incident/NNS:few/JJ;2417
+reinforcement/NN:new/JJ;2421
+person/NN:one/CD;2425
+work/NN:short/JJ;2428
+job/NN:tearout/NN;2430
+saw/NNS:other/JJ;2432
+stand-in/NN:great/JJ;2433
+stuff/NN:small/JJ;2436
+(equipment/NN, heating/NN):gas/NN;2442
+heat/NN:central/JJ;2444
+heater/NN:water/NN;2446
+(supply/NN, air/NN):main/JJ;2451
+(monoxide/NN, carbon/NN):major/JJ;2453
+ventilation/NN:improper/JJ;2456
+equipment/NN:gas-burning/JJ;2457
+(company/NNS, control/NN):pest/NN;2460
+space/NNS:attic/NN;2463
+house/NN:older/JJR;2467
+house/NN:much/JJ;2467
+insulation/NN:asbestos/NN;2469
+problem/NNS:other/JJ;2470
+temperature/NNS:low/JJ;2477
+temperature/NNS:new/JJ;2477
+pipe/NNS:freezing/JJ;2478
+damage/NN:other/JJ;2479
+wall/NNS:single-brick/JJ;2482
+wall/NNS:exterior/NN;2486
+wall/NN:internal/JJ;2488
+item/NNS:electrical/JJ;2491
+item/NNS:new/JJ;2491
+wall/NNS:single-brick/JJ;2492
+(rail/NN, towel/NN):heated/JJ;2494
+switch/NN:light/JJ;2495
+switch/NN:new/JJ;2495
+chunk/NN:huge/JJ;2498
+operation/NN:major/JJ;2502
+way/NN:other/JJ;2503
+item/NNS:electrical/JJ;2504
+(wall/NN, brick/NN):single/JJ;2506
+wall/NNS:external/JJ;2508
+((Chemicals/NNPS, Organic/NNP), Volatile/NNP):=/JJ;2513
+paint/NN:fresh/JJ;2515
+voc/NN:low/JJ;2524
+aspect/NNS:other/JJ;2526
+factor/NN:significant/JJ;2528
+(installation/NN, conditioner/NN):air/NN;2531
+project/NN:diy/NN;2533
+(((((Conditioner/NNP, Air/NNP), Inverter/NNP), System/NNP), Split/NNP), kw/NN):6.2/CD;2541
+(((((Conditioner/NNP, Air/NNP), Inverter/NNP), System/NNP), Split/NNP), kw/NN):new/JJ;2541
+cost/NN:unit/NN;2545
+installation/NN:back-to-back/JJ;2547
+line/NNS:phone/NN;2549
+(jack/NN, phone/NN):non-working/JJ;2551
+wiring/NN:strange/JJ;2554
+line/NNS:phone/NN;2556
+(box/NN, junction/NN):messy/JJ;2558
+(coding/NN, color/NN):random/JJ;2560
+(GET-4220T/NNP, Tracker/NNP):LAN/NNP;2566
+tone/NN:dial/NN;2575
+process/NN:good/JJ;2579
+line/NNS:phone/NN;2581
+tool/NN:better/JJR;2582
+Tracker/NNP:LAN/NNP;2584
+hazard/NN:fire/NN;2587
+fan/NN:exhaust/NN;2589
+bulb/NNS:heating/NN;2591
+fan/NN:exhaust/NN;2596
+((bulb/NNS, heating/NN), 250w/NN):4x/NN;2600
+floor/NN:top/JJ;2602
+cavity/NN:roof/NN;2604
+electrician/NN:licensed/JJ;2610
+(hazard/NN, fire/NN):big/JJ;2613
+cavity/NN:roof/NN;2620
+generator/NNS:tone/NN;2625
+tool/NNS:fantastic/JJ;2626
+cabling/NN:datum/NNS;2628
+cabling/NN:phone/NN;2630
+mode/NNS:several/JJ;2631
+vicinity/NN:general/JJ;2637
+mode/NN:2nd/JJ;2642
+contact/NN:direct/JJ;2644
+point/NN:first/JJ;2646
+mode/NN:correct/JJ;2649
+contact/NN:direct/JJ;2651
+(Speeds/NNP, Sync/NNP):adsl/NN;2658
+layer/NN:second/JJ;2659
+isolation/NN:sound/JJ;2662
+thing/NNS:good/JJ;2664
+expectancy/NN:life/NN;2669
+(unit/NN, conditioning/NN):air/NN;2672
+conditioning/NN:air/NN;2677
+motor/NN:fan/NN;2681
+unit/NN:new/JJ;2687
+type/NN:specific/JJ;2689
+hammer/NN:claw/NN;2691
+head/NN:textured/JJ;2692
+bit/NN:little/JJ;2697
+work/NN:finish/NN;2700
+work/NN:delicate/JJ;2704
+claw/NN:straigher/NN;2706
+timber/NNS:laminated/JJ;2707
+timber/NNS:two/CD;2707
+(hammer/NN, claw/NN):general/JJ;2709
+smooth/NN:polished/JJ;2712
+house/NN:old/JJ;2716
+tape/NN:asbestos/NN;2718
+vent/NNS:heating/NN;2720
+(tile/NNS, floor/NN):old/JJ;2722
+suspect/NNS:asbestos/NN;2724
+(firm/NNS, cleaning/NN):duct/NN;2727
+(guy/NNS, suit/NN):space/NN;2732
+(tape/NN, foil/NN):new/JJ;2734
+Commons/NNPS:Creative/NNP;2738
+dust/NN:asbestos/NN;2740
+killer/NN:real/JJ;2741
+dust/NN:residual/JJ;2743
+childeren/NNS:young/JJ;2744
+government/NN:Queensland/NNP;2747
+(handeling/NN, asbestos/NN):DIY/NNP;2754
+fire/NN:sure/JJ;2755
+remover/NN:Rust/NNP;2761
+start/NN:good/JJ;2762
+basement/NN:furnished/JJ;2763
+(pad/NN, carpet/NN):foam/NN;2766
+(wall/NNS, block/NN):cinder/JJ;2769
+drylok/NN:ugl/NN;2771
+lighting/NN:flourescent/JJ;2772
+spot/NNS:wet/JJ;2775
+(climate/NN, winter/NN):harsh/JJ;2778
+form/NN:concrete/JJ;2782
+wall/NNS:exterior/NN;2786
+form/NN:concrete/JJ;2788
+molding/NN:picture/NN;2795
+item/NNS:weighty/JJ;2796
+(finder/NN, stud/NN):new/JJ;2798
+day/NN:other/JJ;2800
+direction/NN:horizontal/JJ;2806
+strip/NN:embedded/JJ;2807
+%/NN:1/CD;2817
+(asbestos/NN, %/NN):1/CD;2818
+insulation/NN:Pipe/NNP;2820
+amount/NN:small/JJ;2822
+(bag/NN, plastic/NN):heavy/JJ;2826
+(hygienist/NN, abatement/NN):asbestos/NN;2837
+summer/NNS:3/CD;2838
+(reading/NNS, fiber/NN):airborne/JJ;2840
+((system/NNS, containment/NN), air/NN):negative/JJ;2846
+cigarette/NNS:smoking/NN;2853
+day/NN:one/CD;2855
+year/NNS:5/CD;2857
+concrete/NN:autoclaved/JJ;2858
+concrete/NN:aerated/JJ;2858
+problem/NN:everlasting/JJ;2859
+concrete/NN:autoclaved/JJ;2860
+concrete/NN:aerated/JJ;2860
+half/NN:upper/JJ;2864
+half/NN:bottom/JJ;2865
+time/NN:several/JJ;2867
+putty/NN:concrete/JJ;2868
+putty/NN:autoclaved/JJ;2868
+putty/NN:aerated/JJ;2868
+putty/NN:proper/JJ;2868
+block/NNS:aac/NN;2876
+wall/NN:interior/JJ;2880
+room/NN:big/JJ;2881
+room/NN:former/JJ;2881
+room/NN:one/CD;2881
+room/NNS:smaller/JJR;2882
+room/NNS:two/CD;2882
+(hammer/NN, claw/NN):specialty/NN;2889
+oz/NN:20-32/CD;2892
+oz/NN:10-16/CD;2893
+(hammer/NN, claw/NN):household/NN;2896
+nail/NNS:large/JJ;2898
+blow/NNS:few/JJ;2899
+head/NN:nail/NN;2905
+nail/NNS:bent/JJ;2906
+(hammer/NN, claw/NN):regular/JJ;2908
+face/NN:textured/JJ;2909
+(hammer/NN, claw/NN):regular/JJ;2912
+face/NN:domed/JJ;2913
+hand/NN:skilled/JJ;2914
+(damage/NN, surface/NN):minimal/JJ;2918
+board/NNS:prying/JJ;2923
+(hammer/NN, claw/NN):regular/JJ;2925
+hammer/NN:regular/JJ;2928
+gun/NN:nail/NN;2931
+carpenter/NNS:inexperienced/JJ;2932
+hour/NNS:couple/NN;2936
+(hammer/NN, claw/NN):regular/JJ;2938
+power/NN:much/JJ;2940
+hammer/NN:heavier/JJR;2941
+day/NN:second/JJ;2942
+hammer/NN:32oz/JJ;2943
+hammer/NN:24oz/JJ;2945
+gun/NN:nail/NN;2947
+(frame/NN, window/NN):square/NN;2950
+opening/NN:off-square/JJ;2951
+window/NNS:original/JJ;2952
+house/NN:old/JJ;2954
+owner/NN:previous/JJ;2958
+window/NNS:smaller/JJR;2959
+opening/NN:original/JJ;2961
+frame/NN:new/JJ;2964
+framing/NN:original/JJ;2966
+(frame/NN, house/NN):original/JJ;2971
+frame/NN:new/JJ;2978
+frame/NN:new/JJ;2980
+installation/NN:window/NN;2983
+stone/NN:pumice/NN;2987
+(stain/NNS, water/NN):hard/JJ;2992
+toilet/NN:old/JJ;2994
+(gun/NN, caulk/NN):good/JJ;2999
+depot/NN:home/NN;3002
+porch/NN:open/JJ;3004
+porch/NN:wide/JJ;3006
+(batting/NN, fiberglass/NNS):r-38/NN;3015
+temperature/NN:outside/JJ;3025
+problem/NNS:ice/NN;3027
+inch/NN:half/NN;3034
+(wall/NN, brick/NN):indoor/JJ;3038
+(wall/NN, brick/NN):red/JJ;3040
+method/NN:easy/JJ;3041
+method/NNS:true/JJ;3044
+thing/NN:one/CD;3045
+amount/NNS:huge/JJ;3050
+ice/NN:dry/JJ;3053
+ice/NN:dry/JJ;3055
+(tool/NNS, hand/NN):various/JJ;3062
+(system/NN, heating/NN):water/NN;3067
+gal/NN:40-75/CD;3069
+source/NN:heating/NN;3072
+((system/NN, heating/NN), water/NN):robust/JJ;3075
+situation/NN:exact/JJ;3077
+tank/NN:2/CD;3080
+capacity/NN:storage/NN;3084
+80gal/NN:=/JJ;3086
+80gal/NN:40gal/JJ;3086
+idea/NN:next/JJ;3087
+tank/NN:2/CD;3090
+availability/NN:water/NN;3095
+(situation/NNS, demand/NN):low/JJ;3098
+tank/NN:first/JJ;3099
+temperature/NN:room/NN;3102
+requirement/NNS:heating/NN;3104
+tank/NN:second/JJ;3105
+increase/NNS:demand/NN;3109
+visit/NN:relative/NNS;3111
+tank/NN:first/JJ;3113
+temperature/NN:inflow/NN;3115
+temperature/NN:output/NN;3118
+water/NN:hot/JJ;3119
+flow/NNS:water/NN;3124
+heater/NN:tankless/JJ;3126
+heater/NN:simple/JJ;3126
+activation/NN:demand-based/JJ;3128
+restriction/NNS:flow/NN;3130
+(cost/NN, energy/NN):standby/JJ;3133
+ventilation/NN:costly/JJ;3136
+system/NNS:exhaust/NN;3138
+water/NN:instant-hot/JJ;3142
+thing/NNS:different/JJ;3150
+tank/NN:pre-warm/JJ;3151
+rate/NN:flow/NN;3153
+heater/NN:tankless/JJ;3154
+rise/NN:temperature/NN;3156
+tank/NN:post-heat/JJ;3157
+problem/NNS:demand-based/JJ;3158
+heating/NN:continual/JJ;3160
+(water/NN, cooling/NN):cycling/NN;3164
+way/NNS:potential/JJ;3167
+cost/NNS:standby/JJ;3170
+(flow/NN, water/NN):warm/JJ;3173
+brand/NN:eternal/JJ;3184
+(heater/NNS, water/NN):tankless/JJ;3186
+gallon/NN:2/CD;3187
+tank/NN:internal/JJ;3188
+activation/NN:demand-based/JJ;3191
+heat/NN:standby/JJ;3192
+system/NNS:recirculation/NN;3194
+setup/NNS:multi-unit/JJ;3195
+unit/NN:one/CD;3197
+(requirement/NNS, exhaust/NN):expensive/JJ;3201
+closet/NN:wiring/NN;3203
+(closet/NN, wiring/NN):central/JJ;3207
+pipe/NN:single/JJ;3212
+line/NNS:service/NN;3216
+technology/NNS:future/JJ;3218
+access/NN:easy/JJ;3219
+closet/NN:central/JJ;3220
+((wall/NN, basement/NN), wall/NN):exterior/NN;3227
+(siding/NN, floor/NN):main/JJ;3229
+winter/NN:past/JJ;3235
+(fall/NN, snow/NN):heavy/JJ;3237
+set/NNS:two/CD;3238
+door/NN:back/JJ;3242
+door/NN:back/JJ;3243
+set/NN:other/JJ;3244
+bed/NN:flower/NN;3247
+corner/NN:inset/JJ;3248
+stream/NN:steady/JJ;3249
+rain/NN:heavy/JJ;3251
+section/NNS:two/CD;3252
+place/NN:only/JJ;3254
+issue/NN:bigger/JJR;3260
+set/NN:second/JJ;3262
+damage/NN:long-term/JJ;3263
+issue/NN:other/JJ;3265
+(store/NN, hardware/NN):local/JJ;3267
+cable/NNS:datum/NNS;3273
+(connector/NN, fiber/NN):sc/NN;3276
+conduit/NN:15mm/JJ;3277
+conduit/NN:larger/JJR;3278
+conduit/NN:larger/JJR;3280
+wall/NN:exterior/NN;3282
+exterior/NN:double-brick/JJ;3287
+(drillbit/NN, masonry/NN):15mm/JJ;3289
+hammer-drill/NN:large/JJ;3290
+drill/NN:hammer/NN;3293
+seconds/NNS:few/JJ;3294
+cm/NN:few/JJ;3296
+bit/NN:drill/NN;3300
+conduit/NN:exterior/NN;3303
+connector/NNS:outdoor/JJ;3306
+device/NNS:67-rated/JJ;3309
+way/NN:part/NN;3315
+article/NN:okay/JJ;3317
+(paint/NN, wall/NN):regard/NN;3321
+paint/NN:spray/NN;3323
+blasting/NN:sand/NN;3326
+air/NN:fresh/JJ;3332
+rainfall/NNS:heavy/JJ;3342
+option/NNS:3/CD;3352
+Multimaster/NNP:Fein/NNP;3362
+(version/NN, Freight/NNP):Harbor/NNP;3365
+rock/NN:large/JJ;3371
+((version/NN, freight/NN), harbor/NN):cheapo/JJ;3378
+screen/NNS:pet-resistant/JJ;3381
+screen/NNS:wire/NN;3383
+dog/NNS:two/CD;3385
+screen/NNS:pet-resistant/JJ;3386
+mesh/NN:nylon/NN;3388
+bit/NN:little/JJ;3392
+screen/NNS:porch/NN;3398
+sunlight/NN:direct/JJ;3399
+screen/NNS:pet-resistant/JJ;3403
+screen/NNS:durable/JJ;3403
+standpoint/NN:environmental/JJ;3404
+sort/NN:hard/JJ;3409
+wallpaper/NN:textured/JJ;3410
+deal/NN:big/JJ;3426
+(roller/NN, paint/NN):textured/JJ;3429
+result/NNS:decent/JJ;3440
+mud/NN:drywall/NN;3450
+air/NN:cold/JJ;3455
+humidity/NN:high/JJ;3458
+minute/NNS:few/JJ;3462
+eye/NN:untrained/JJ;3463
+thing/NNS:two/CD;3466
+noise/NN:hissing/JJ;3467
+line/NNS:refrigerant/NN;3470
+air/NN:Cold/NNP;3477
+(line/NN, return/NN):refrigerant/NN;3481
+(company/NN, a/c/NN):local/JJ;3487
+(company/NN, a/c/NN):popular/JJ;3487
+pound/NNS:two/CD;3491
+issue/NNS:thing/NNS;3495
+table/NN:decent/JJ;3496
+drill/NN:cordless/JJ;3497
+miter/NN:power/NN;3499
+problem/NNS:other/JJ;3509
+room/NN:enough/JJ;3517
+void/NNS:floor/NN;3520
+distance/NN:short/JJ;3522
+networking/NN:computer/NN;3526
+(hub/NN, n/NN):802.11/CD;3528
+(hub/NN, n/NN):new/JJ;3528
+(client/NNS, g/NN):802.11/CD;3531
+(client/NNS, g/NN):regular/JJ;3531
+thing/NNS:two/CD;3532
+frame/NNS:window/NN;3535
+tile/NNS:odd-cut/JJ;3537
+edge/NN:un-cut/JJ;3540
+frame/NN:window/NN;3545
+(line/NN, grout/NN):straight/JJ;3547
+line/NN:not-square/JJ;3549
+sliver/NN:tiny/JJ;3555
+gap/NN:large/JJ;3557
+gap/NN:annoying/JJ;3557
+situation/NN:ideal/JJ;3558
+multiple/NN:exact/JJ;3561
+line/NN:grout/NN;3565
+width/NN:half-a-tile/JJ;3567
+line/NN:vertical/JJ;3572
+multiple/NN:exact/JJ;3578
+line/NN:grout/NN;3582
+picture/NN:good/JJ;3593
+((cutter/NN, tile/NN), diamond/NN):good/JJ;3598
+task/NNS:few/JJ;3605
+(board/NNS, floor/NN):whole/JJ;3609
+saw/NN:circular/JJ;3615
+tool/NN:dremel/NN;3617
+angle/NN:wrong/JJ;3619
+wall/NNS:plywood/NN;3624
+job/NN:great/JJ;3625
+cut/NNS:long/JJ;3626
+(crowbar/NN, weight/NN):good/JJ;3632
+(kit/NN, aid/NN):first/JJ;3637
+pipe/NNS:gas/NN;3642
+make/NNS:many/JJ;3643
+(fitting/NNS, pipe/NN):pushfit/NN;3646
+pipe/NNS:copper/NN;3651
+((Cuprofit/NNP, Speedfit/NNP), Guest/NNP):John/NNP;3656
+((hepworth-hep20/NN, fit/NN), push/NN):copper/NN;3660
+fitting/NNS:pipe/NN;3666
+make/NNS:many/JJ;3667
+(fitting/NNS, pipe/NN):pushfit/NN;3670
+pipe/NNS:copper/NN;3675
+((Cuprofit/NNP, Speedfit/NNP), Guest/NNP):John/NNP;3680
+((hepworth-hep20/NN, fit/NN), push/NN):copper/NN;3684
+(fitting/NNS, copper/NN):soldered/JJ;3688
+system/NN:pushfit/NN;3690
+(equipment/NN, safety/NN):basic/JJ;3692
+kit/NN:safety/NN;3696
+standard/NNS:wiring/NN;3701
+question/NNS:electrical/JJ;3705
+(kit/NN, aid/NN):first/JJ;3711
+(kit/NN, aid/NN):basic/JJ;3711
+item/NNS:typical/JJ;3713
+ointment/NN:antiseptic/JJ;3716
+(room/NNS, emergency/NN):local/JJ;3718
+wiring/NN:tube/NN;3723
+(system/NN, wiring/NN):USA/NNP;3726
+(door/NN, access/NN):level/NN;3733
+door/NN:outside/JJ;3734
+access/NN:level/NN;3736
+door/NN:pocket/NN;3741
+door/NN:pocket/NN;3746
+door/NN:pocket/NN;3748
+option/NNS:fitting/JJ;3749
+kit/NN:preformed/JJ;3750
+door/NN:pocket/NN;3754
+door/NNS:pocket/NN;3757
+regulation/NNS:building/NN;3762
+(inspection/NN, regulation/NN):building/NN;3770
+permission/NN:Planning/NNP;3773
+Regulation/NNP:Building/NNP;3775
+Regulation/NNP:Building/NNP;3779
+answer/NN:short/JJ;3780
+room/NN:wet/JJ;3782
+user/NN:wheelchair/NN;3784
+room/NN:wet/JJ;3785
+slope/NN:low/JJ;3789
+case/NNS:many/JJ;3793
+case/NNS:two/CD;3793
+(sheet/NN, cement/NN):asbestos/NN;3801
+(sheet/NN, cement/NN):asbestos/NN;3804
+(sheet/NN, cement/NN):asbestos/NN;3807
+wiring/NN:tube/NN;3810
+(conductor/NNS, copper/NN):separate/JJ;3812
+(conductor/NNS, copper/NN):two/CD;3812
+cloth/NN:cotton/NN;3814
+rubber/NN:soft/JJ;3815
+tube/NNS:porcelain/NN;3826
+cavity/NNS:floor/NN;3829
+knob/NNS:porcelain/NN;3831
+wiring/NN:tube/NN;3834
+America/NNP:North/NNP;3836
+pipe/NN:new/JJ;3839
+fitting/NNS:compression/NN;3842
+leak/NNS:fix/NN;3844
+mold/NN:old/JJ;3856
+paint/NN:new/JJ;3857
+(level/NN, water/NN):high/JJ;3861
+(level/NN, water/NN):high/JJ;3866
+weight/NN:much/JJ;3867
+support/NN:area/NN;3870
+weight/NN:much/JJ;3871
+support/NN:area/NN;3874
+code/NN:building/NN;3879
+load/NN:live/JJ;3883
+area/NNS:various/JJ;3886
+capacity/NN:load/NN;3888
+reference/NNS:answer/NN;3893
+(basement/NNS, block/NN):cinder/JJ;3898
+Drylok/NNP:UGL/NNP;3901
+wall/NNS:cinderblock/JJ;3903
+finish/NN:white/JJ;3904
+finish/NN:nice/JJ;3904
+year/NNS:20/CD;3910
+drylok/NN:ugl/NN;3912
+odor/NN:strong/JJ;3915
+way/NN:2/CD;3917
+(work/NN, switch/NN):light/JJ;3919
+way/NN:two/CD;3920
+switch/NN:light/JJ;3921
+location/NNS:two/CD;3923
+(paint/NN, mold/NN):anti/JJ;3928
+mixture/NN:bleach/water/NN;3932
+(bleach/NN, part/NN):1/CD;3935
+(water/NN, part/NNS):10/CD;3937
+day/NNS:few/JJ;3940
+way/NN:3/CD;3941
+switch/NN:light/JJ;3942
+way/NN:two/CD;3943
+switching/NN:light/JJ;3944
+(system/NN, way/NN):3/CD;3947
+place/NNS:3/CD;3949
+(company/NNS, insurance/NN):many/JJ;3953
+price/NN:house/NN;3958
+amount/NN:significant/JJ;3959
+way/NN:easy/JJ;3965
+work/NN:foundation/NN;3970
+door/NN:pocket/NN;3973
+door/NN:regular/JJ;3976
+comparison/NN:good/JJ;3977
+store/NNS:large/JJ;3980
+Trek/NNP:Star/NNP;3983
+(Generation/NNP, Next/NNP):The/NNP;3986
+door/NNS:pocket/NN;3990
+door/NNS:pocket/NN;3992
+sound/NN:hissing/JJ;3993
+sound/NN:neat/JJ;3993
+switch/NN:three-way/JJ;3997
+switch/NN:two-way/JJ;3999
+switch/NNS:two/CD;4001
+light/NNS:same/JJ;4002
+switch/NNS:spdt/JJ;4003
+switch/NNS:two/CD;4003
+switch/NN:four-way/JJ;4010
+switch/NN:intermediate/JJ;4012
+switch/NNS:more/JJR;4014
+light/NNS:same/JJ;4015
+switch/NNS:spdt/JJ;4016
+switch/NNS:two/CD;4016
+switch/NNS:intermediate/JJ;4018
+bleach/NN:Use/NNP;4026
+area/NN:entire/JJ;4027
+(paint/NN, mold/NN):anti/JJ;4029
+(paint/NN, mold/NN):special/JJ;4029
+line/NN:water/NN;4031
+refrigerator/NN:new/JJ;4033
+maker/NN:ice/NN;4035
+line/NN:water/NN;4037
+(line/NN, water/NN):cold/JJ;4040
+way/NN:simple/JJ;4046
+(line/NN, water/NN):cold/JJ;4048
+siding/NN:wood/NN;4052
+(siding/NN, wood/NN):inexpensive/JJ;4056
+Depot/NNP:Home/NNP;4061
+type/NN:single/JJ;4062
+shiplap/NN:barn-style/JJ;4063
+tile/NNS:wall/NN;4067
+tile/NNS:wall/NN;4070
+sand/NN:various/JJ;4073
+product/NNS:rock/NN;4076
+gravel/NN:various/JJ;4077
+product/NNS:rock/NN;4079
+ton/NNS:three/CD;4084
+(rock/NNS, mm/NN):15/CD;4087
+rock/NN:angular/JJ;4092
+product/NNS:rock/NN;4098
+((variety/NN, Freight/NNP), Harbor/NNP):cheap/JJ;4103
+job/NN:great/JJ;4105
+cut/NNS:small/JJ;4106
+frame/NN:door/NN;4112
+example/NN:perfect/JJ;4114
+thing/NN:one/CD;4115
+thing/NN:one/CD;4116
+blade/NN:regular/JJ;4121
+project/NNS:several/JJ;4123
+job/NN:fair/JJ;4124
+sander/NN:triangular/JJ;4132
+piece/NN:carbide/NN;4134
+cement/NN:tile/NN;4136
+thing/NN:one/CD;4139
+tool/NN:normal/JJ;4141
+time/NN:only/JJ;4151
+blade/NNS:moon/rounded/JJ;4152
+((version/NN, Freight/NNP), Harbor/NNP):34/CD;4155
+variety/NNS:expensive/JJ;4158
+post/NNS:fence/NN;4161
+rock/NN:crushed/JJ;4164
+(post/NNS, fence/NN):wooden/JJ;4168
+(site/NNS, web/NN):many/JJ;4170
+cylinder/NN:concrete/JJ;4171
+(store/NN, hardware/NN):local/JJ;4174
+rot/NN:concrete/JJ;4176
+seep/NNS:water/NN;4179
+rock/NN:crushed/JJ;4183
+sand/NN:various/JJ;4186
+product/NNS:rock/NN;4189
+(company/NN, fence/NN):local/JJ;4191
+dirt/NN:compacted/JJ;4193
+post/NNS:5x5-inch/JJ;4194
+post/NNS:fence/NN;4197
+climate/NNS:different/JJ;4198
+force/NN:wind/NN;4200
+(fence/NN, privacy/NN):6-foot-tall/JJ;4202
+height/NN:standard/JJ;4203
+range/NN:standard/JJ;4207
+code/NN:building/NN;4215
+rule/NN:general/JJ;4216
+inch/NN:7/CD;4218
+(rise/NN, inch/NN):7/CD;4219
+inch/NN:11/CD;4220
+(run/NN, inch/NN):11/CD;4221
+rise/NN:7 3/4/CD;4222
+inch/NN:11 1/2/CD;4223
+(run/NN, inch/NN):11 1/2/CD;4224
+inch/NNS:9/CD;4227
+information/NN:more/JJR;4228
+dimension/NNS:stair-related/JJ;4229
+dimension/NNS:other/JJ;4229
+inch/NNS:couple/NN;4231
+post/NN:place/NN;4234
+step/NN:important/JJ;4241
+move/NNS:water/NN;4246
+system/NN:septic/JJ;4253
+England/NNP:New/NNP;4256
+town/NNS:many/JJ;4257
+(system/NNS, sewer/NN):public/JJ;4259
+system/NN:septic/JJ;4261
+tile/NN:floor/NN;4265
+(tile/NN, floor/NN):damaged/JJ;4267
+(tile/NN, floor/NN):single/JJ;4267
+tile/NN:replacement/NN;4271
+way/NN:same/JJ;4272
+ring/NN:wiring/NN;4276
+breaker/NN:circuit/NN;4278
+unit/NN:consumer/NN;4280
+wire/NN:one/CD;4282
+unit/NN:consumer/NN;4284
+socket/NN:first/JJ;4285
+cable/NN:second/JJ;4286
+socket/NN:last/JJ;4288
+connection/NN:last/JJ;4290
+unit/NN:consumer/NN;4292
+load/NN:power/NN;4295
+(cable/NN, diameter/NN):smaller/JJR;4300
+(system/NN, wiring/NN):radial/JJ;4302
+diameter/NN:smaller/JJR;4303
+reason/NNS:principle/NN;4305
+supply/NN:short/JJ;4311
+(system/NNS, wiring/NN):older/JJR;4313
+house/NN:grandparent/NNS;4316
+scheme/NN:wiring/NN;4318
+(symptom/NNS, fault/NN):apparent/JJ;4321
+(symptom/NNS, fault/NN):less/JJR;4321
+(requirement/NNS, testing/NN):lengthy/JJ;4323
+(requirement/NNS, testing/NN):more/JJR;4323
+standard/NN:new/JJ;4325
+use/NN:limited/JJ;4326
+article/NN:Wikipedia/NNP;4329
+detail/NNS:more/JJR;4330
+training/NN:adequate/JJ;4334
+p/NN:Part/NNP;4340
+Regulations/NNPS:building/NN;4342
+faq/NN:good/JJ;4344
+reading/NN:worth/JJ;4346
+t-111/NN:http://www.theiet.org/publishing/wiring-regulations/part-p//JJ;4347
+thinset/NN:old/JJ;4366
+thinset/NN:new/JJ;4367
+depot/lowes/NNS:home/NN;4373
+store/NN:plumbing/NN;4375
+(line/NN, water/NN):existing/JJ;4377
+pin/NN:sharp/JJ;4378
+(line/NN, copper/NN):flexible/JJ;4381
+(line/NN, water/NN):copper/NN;4388
+stud/NNS:metal/NN;4398
+wall/NN:interior/JJ;4401
+(framing/NN, wood/NN):traditional/JJ;4404
+(screwdriver/NN, flathead/NN):beefy/JJ;4411
+(screwdriver/NN, head/NN):flat/JJ;4413
+one/NNS:other/JJ;4414
+construction/NN:commercial/JJ;4422
+(material/NNS, building/NN):flamable/JJ;4425
+nail/NN:toe/NN;4439
+stud/NNS:metal/NN;4442
+accessory/NNS:extra/JJ;4448
+box/NNS:special/JJ;4449
+(shop/NNS, home/NN):big/JJ;4454
+stud/NNS:steel/NN;4456
+system/NNS:septic/JJ;4457
+field/NN:leach/NN;4460
+(shed/NNS, water/NN):local/JJ;4469
+tank/NN:sealed/JJ;4472
+system/NN:septic/JJ;4475
+(service/NNS, sewer/NN):city/NN;4480
+tank/NN:septic/JJ;4481
+cesspool/NNS:many/JJ;4482
+way/NNS:different/JJ;4483
+way/NNS:few/JJ;4483
+system/NN:drainage/NN;4492
+pit/NN:sump/NN;4498
+thing/NN:same/JJ;4500
+floor/NN:concrete/JJ;4504
+pipe/NN:pvc/NN;4509
+pit/NN:sump/NN;4513
+people/NNS:many/JJ;4516
+(problem/NNS, moisture/NN):minor/JJ;4523
+fall/NN:free/JJ;4529
+issue/NNS:cosmetic/JJ;4531
+splatter/NN:dirt/NN;4533
+tubing/NN:Pex/NNP;4545
+tubing/NN:Pex/NNP;4550
+(forum/NN, Journal/NNP):Garage/NNP;4555
+(product/NNS, flooring/NN):garage/NN;4558
+post/NNS:more/JJR;4561
+(heater/NNS, water/NN):tankless/JJ;4567
+climate/NNS:cold/JJ;4568
+(heater/NN, water/NN):tankless/JJ;4571
+climate/NNS:colder/JJR;4574
+concern/NN:valid/JJ;4577
+(heater/NN, water/NN):tankless/JJ;4583
+pros/cons/NNS:other/JJ;4587
+fear/NN:only/JJ;4595
+(effect/NNS, term/NN):long/JJ;4597
+type/NN:water/NN;4599
+water/NN:hard/JJ;4601
+(content/NN, calcium/NN):high/JJ;4603
+year/NNS:20/CD;4605
+pipe/NN:PEX/NNP;4608
+((effect/NNS, health/NN), term/NN):long/JJ;4613
+run/NN:water/NN;4615
+%/NN:99.99/CD;4621
+paint/NNS:older/JJR;4623
+paint/NNS:voc-free/JJ;4624
+time/NN:last/JJ;4625
+increase/NNS:demand/NN;4627
+renovation/NN:leed-platinum/NN;4631
+paint/NNS:low-voc/JJ;4632
+(paint/NNS, purpose/NN):special/JJ;4634
+paint/NNS:low-voc/JJ;4635
+roof/NN:metal/NN;4638
+tray/NN:open/JJ;4640
+minute/NNS:several/JJ;4642
+painting/NN:touch-up/JJ;4646
+year/NN:first/JJ;4648
+(compressor/NN, pancake/NN):small/JJ;4652
+job/NNS:many/JJ;4655
+tire/NNS:fill/NN;4659
+product/NN:damp-seal/JJ;4665
+seal/NN:damp/JJ;4666
+luck/NN:good/JJ;4667
+tool/NN:dremel/NN;4669
+attachment/NN:diamond/NN;4671
+water/NN:hard/JJ;4683
+whole/NN:small/JJ;4684
+fireplace/NN:gas/NN;4687
+fireplace/NN:gas/NN;4690
+air/NN:cold/JJ;4694
+method/NN:good/JJ;4699
+hazard/NN:fire/NN;4704
+shutter/NNS:vinyl/NN;4706
+color/NN:original/JJ;4709
+shutter/NNS:vinyl/NN;4711
+(association/NN, owner/NNS):home/NN;4716
+idea/NN:good/JJ;4717
+home/NN:new/JJ;4720
+conservation/NN:energy/NN;4725
+provider/NN:energy/NN;4728
+audit/NN:energy/NN;4731
+audit/NN:energy/NN;4736
+year/NNS:5/CD;4742
+Williams/NNP:Sherwin/NNP;4746
+match/NN:exact/JJ;4749
+color/NN:shutter/NN;4751
+camera/NN:infra-red/JJ;4754
+dollar/NNS:hundred/CD;4759
+dollar/NNS:few/JJ;4759
+leak/NNS:major/JJ;4760
+spot/NNS:spongy/soft/JJ;4761
+floor/NN:hardwood/NN;4763
+floor/NNS:hardwood/NN;4766
+flex/NN:downward/JJ;4768
+flex/NN:visible/JJ;4768
+spot/NNS:certain/JJ;4769
+spot/NNS:spongy/JJ;4775
+sound/NN:hollow/JJ;4776
+floor/NN:whole/JJ;4779
+bowl/NN:toilet/NN;4781
+floor/NN:tile/NN;4783
+weight/NN:sheer/JJ;4790
+tile/NN:ceramic/JJ;4794
+issue/NNS:plumbing/NN;4799
+water/NN:hot/JJ;4807
+spot/NNS:soft/JJ;4821
+angle/NN:small/JJ;4837
+nail/NNS:short/JJ;4839
+biscuit/NN:concrete/JJ;4855
+biscuit/NN:pre-cast/JJ;4855
+inch/NNS:couple/NN;4858
+one/NNS:round/JJ;4860
+provider/NNS:utility/NN;4868
+((audit/NN, energy/NN), home/NN):basic/JJ;4871
+audit/NN:actual/JJ;4874
+home/NN:average/JJ;4876
+audit/NN:basic/JJ;4881
+view/NN:long/JJ;4887
+(option/NNS, audit/NN):free/JJ;4889
+run/NN:long/JJ;4891
+(heater/NN, water/NN):hot/JJ;4893
+issue/NN:same/JJ;4894
+water/NN:cold/JJ;4896
+water/NN:semi-hot/JJ;4897
+(heater/NN, water/NN):hot/JJ;4899
+(heater/NN, water/NN):hot/JJ;4909
+capability/NN:heating/NN;4911
+heater/NN:water/NN;4913
+year/NNS:12/CD;4914
+(heater/NN, water/NN):new/JJ;4917
+water/NN:hot/JJ;4918
+breaker/NNS:circuit/NN;4920
+box/NN:breaker/NN;4922
+owner/NN:previous/JJ;4924
+knob-and-tube/NN:old/JJ;4925
+wiring/NN:modern/JJ;4926
+space/NN:extra/JJ;4927
+(box/NN, breaker/NN):new/JJ;4929
+slot/NN:single/JJ;4930
+breaker/NN:circuit/NN;4932
+(box/NN, breaker/NN):small/JJ;4935
+expansion/NN:future/JJ;4939
+breaker/NNS:more/JJR;4941
+(box/NN, breaker/NN):sub/NN;4944
+thing/NN:whole/JJ;4945
+crack/NN:wedge/corner/NN;4948
+crack/NN:wedge/corner/NN;4951
+corner/NN:one/CD;4952
+image/NN:sample/NN;4956
+piece/NNS:two/CD;4958
+piece/NN:upper/JJ;4959
+piece/NN:lower/JJR;4961
+image/NN:mirror/NN;4963
+piece/NNS:broken/JJ;4964
+piece/NNS:two/CD;4964
+piece/NNS:two/CD;4968
+compound/NN:repair/NN;4971
+side/NN:back/JJ;4972
+option/NNS:general/JJ;4977
+option/NNS:two/CD;4977
+compound/NN:repair/NN;4979
+compound/NN:repair/NN;4986
+surface/NN:back/JJ;4987
+Information/NNP:Pex/NNP;4991
+(tube/NN, PEX/NNP):flexible/JJ;4993
+plastic/NN:rigid/JJ;4996
+piping/NN:metal/NN;4998
+length/NN:practical/JJ;4999
+advantage/NNS:several/JJ;5002
+shipping/NN:lower/JJR;5003
+option/NNS:storage/NN;5007
+(installation/NNS, plumbing/NN):PEX/NNP;5010
+fitting/NNS:fewer/JJR;5011
+piping/NN:rigid/JJ;5012
+tubing/NN:flexible/JJ;5013
+(corner/NNS, degree/NN):90/CD;5015
+fitting/NNS:elbow/NN;5018
+run/NNS:long/JJ;5022
+fitting/NNS:coupling/NN;5025
+tube/NN:PEX/NNP;5027
+hazard/NNS:health/NN;5030
+solder/NN:lead-based/JJ;5031
+flux/NNS:acid/NN;5033
+build-up/NN:scale/NN;5039
+pipe/NN:copper/NN;5041
+water/NN:acidic/JJ;5043
+(pipe/NN, plastic/NN):rigid/JJ;5048
+tubing/NN:PEX/NNP;5050
+tube/NN:PEX/NNP;5056
+(system/NNS, pipe/NN):copper/NN;5061
+(installation/NNS, plumbing/NN):PEX/NNP;5064
+pipe/NN:copper/NN;5067
+(system/NNS, pipe/NN):rigid/JJ;5072
+fitting/NNS:fewer/JJR;5073
+callback/NNS:expensive/JJ;5075
+bit/NN:little/JJ;5076
+store/NNS:rental/JJ;5079
+store/NNS:local/JJ;5079
+price/NN:decent/JJ;5081
+(paint/NN, spray/NN):aluminum/NN;5085
+(stain/NNS, water/NN):old/JJ;5087
+wiring/NN:aluminum/NN;5094
+wiring/NN:aluminum/NN;5097
+unit/NN:new/JJ;5100
+wiring/NN:copper/NN;5102
+research/NN:internet/NN;5105
+superintendent/NN:construction/NN;5108
+nut/NNS:wire/NN;5110
+type/NNS:multiple/JJ;5111
+compound/NN:anti-corrosion/JJ;5113
+area/NN:same/JJ;5114
+store/NN:hardware/NN;5116
+wire/NN:copper/NN;5118
+wire/NN:aluminum/NN;5121
+nut/NN:wire/NN;5125
+twist/NN:wire/NN;5130
+(end/NN, copper/NN):new/JJ;5132
+plug/switch/NN:new/JJ;5133
+breaker/NNS:many/JJ;5134
+box/NN:breaker/NN;5141
+power/NN:adequate/JJ;5146
+circuit/NNS:two/CD;5147
+breaker/NN:one/CD;5151
+wiring/NN:aluminum/NN;5157
+switch/NNS:co-alr/NN;5159
+wire/NNS:aluminum/NN;5162
+mojo/NN:bad/JJ;5164
+weather/NN:bad/JJ;5170
+advice/NN:other/JJ;5171
+quality/NN:overall/JJ;5172
+floor/NN:non-floating/JJ;5174
+base/NN:toilet/NN;5186
+cover/NN:rounded/JJ;5187
+plate/NN:base/NN;5191
+benefit/NNS:structural/JJ;5199
+tape/NN:paper/NN;5203
+article/NN:good/JJ;5207
+Faucet/NNP:Shower/NNP;5209
+(faucet/NN, shower/NN):cartridge-type/JJ;5212
+use/NN:home/NN;5218
+light/NNS:LED/NNP;5220
+solution/NN:own/JJ;5225
+1w/NN:single/JJ;5228
+loss/NNS:rectifier/NN;5230
+led/NNS:3/CD;5233
+transformer/NN:12v/NN;5235
+light-bulb/NNS:fluorescent/JJ;5238
+led/NNS:yellow/JJ;5239
+led/NNS:few/JJ;5239
+color/NN:nicer/JJR;5240
+thing/NNS:other/JJ;5241
+hole/NN:sewer/NN;5249
+everything/NN:sure/JJ;5251
+seal/NN:wax/NN;5254
+(seal/NN, wax/NN):leaky/JJ;5257
+shim/NN:plastic/NN;5268
+paint/NN:old/JJ;5277
+primer/NN:good/JJ;5280
+reason/NN:only/JJ;5286
+box/NN:entire/JJ;5287
+room/NN:enough/JJ;5289
+box/NNS:two/CD;5292
+space/NN:physical/JJ;5296
+(box/NN, breaker/NN):new/JJ;5298
+box/NN:entire/JJ;5299
+box/NN:entire/JJ;5300
+box/NN:original/JJ;5302
+electrician/NN:good/JJ;5308
+box/NN:small/JJ;5312
+wire/NN:enough/JJ;5313
+box/NN:new/JJ;5316
+hand/NN:other/JJ;5317
+220v/NN:one/CD;5318
+(breaker/NNS, 110v/NN):adjacent/JJ;5320
+(breaker/NNS, 110v/NN):two/CD;5320
+wire/NNS:old/JJ;5321
+box/NN:junction/NN;5323
+length/NN:much/JJ;5324
+box/NN:new/JJ;5326
+Sherov/NNP:Mike/NNP;5328
+(issue/NN, code/NN):specific/JJ;5335
+wiring/NN:knob-and-tube/JJ;5336
+service/NN:old/JJ;5337
+amp/NNS:200/CD;5341
+circuit/NNS:new/JJ;5342
+regulation/NNS:local/JJ;5345
+question/NNS:such/JJ;5356
+book/NN:code/NN;5359
+faucet/NNS:many/JJ;5360
+range/NN:adjustable/JJ;5361
+ring/NN:plastic/NN;5363
+stop/NNS:two/CD;5367
+installation/NN:from-scratch/JJ;5375
+source/NN:water/NN;5378
+loss/NN:pressure/NN;5383
+faucet/NN:one/CD;5384
+branch/NN:same/JJ;5386
+plumbing/NN:copper/NN;5388
+thing/NN:same/JJ;5389
+(barrier/NN, Vapor/NNP):additional/JJ;5395
+wall/NNS:exterior/NN;5399
+(barrier/NN, vapor/NN):additional/JJ;5403
+side/NN:non-faced/JJ;5404
+(stud/NNS, metal/NN):area/NN;5408
+stud/NNS:wood/NN;5410
+(savings/NNS, time/NN):big/JJ;5413
+installation/NN:large/JJ;5415
+work/NN:follow-on/JJ;5418
+guy/NN:DIY/NNP;5423
+issue/NN:drywall/NN;5426
+job/NNS:small/JJ;5427
+(metal/NN, house/NN):entire/JJ;5433
+summer/NN:last/JJ;5437
+Bible/NNP:fence/NN;5441
+(footer/NNS, dirt/rock/NN):compact/JJ;5446
+fence/NNS:wooden/JJ;5447
+building/NN:anyone/NN;5449
+time/NN:first/JJ;5451
+drainage/NN:proper/JJ;5454
+footer/NNS:dirt/NN;5456
+dirt/NN:loose/JJ;5457
+choice/NN:right/JJ;5465
+month/NNS:4/CD;5468
+post/NNS:4x4/CD;5470
+post/NNS:two/CD;5470
+rail/NNS:several/JJ;5472
+post/NNS:3rd/JJ;5473
+post/NN:other/JJ;5475
+degree/NNS:5/CD;5477
+(post/NN, corner/NN):6x6/JJ;5479
+post/NNS:10/CD;5480
+footer/NNS:concrete/JJ;5483
+inch/NNS:several/JJ;5485
+post/NNS:new/JJ;5488
+part/NNS:damaged/JJ;5489
+post/NNS:2/CD;5490
+rail/NNS:several/JJ;5492
+post/NNS:broken/JJ;5496
+post/NNS:more/JJR;5496
+color/NNS:other/JJ;5498
+color/NNS:few/JJ;5498
+color/NN:suitable/JJ;5500
+house/NN:new/JJ;5505
+bathroom/NNS:kid/NNS;5508
+temperature/NN:maximum/NN;5520
+system/NN:tile/NN;5523
+(level/NN, water/NN):high/JJ;5535
+pressure/NN:hydro/NN;5539
+table/NN:water/NN;5541
+product/NNS:several/JJ;5545
+concrete/NN:exterior/NN;5547
+sealant/NNS:spray-on/JJ;5548
+job/NN:first-class/JJ;5549
+time/NNS:three/CD;5551
+sealant/NN:exterior/NN;5555
+range/NN:50k/JJ;5562
+house/NNS:rental/JJ;5564
+genx-er/NN:lazy/JJ;5566
+problem/NNS:moisture/NN;5568
+job/NN:expensive/JJ;5569
+pump/NN:sump/NN;5571
+((hole/NN, square/NN), ft/NN):1/CD;5574
+floor/NN:basement/NN;5576
+foot/NNS:four/CD;5577
+approach/NN:DryLok/NNP;5583
+issue/NNS:many/JJ;5585
+detail/NN:much/JJ;5586
+efficiency/NN:energy/NN;5589
+CFL/NNP:v/NNS;5592
+light/NNS:incandescent/JJ;5593
+24/NNP:Title/NNP;5599
+type/NNS:connector/NN;5602
+connector/NNS:several/JJ;5603
+one/NNS:main/JJ;5606
+type/NN:screw/NN;5609
+pin/NNS:bulb/NNS;5613
+purpose/NNS:permit/NNS;5615
+light/NN:efficient/JJ;5616
+bulb/NN:CFL/NNP;5618
+((((bi/NN, .3/NN), gu5/NN), halogen/NN), voltage/NN):high/JJ;5625
+(rule/NNS, level/NN):high/JJ;5630
+(CFL/NNP, Vs/NNP):incandescent/JJ;5633
+system/NN:screw/NN;5636
+output/NN:light/JJ;5639
+florescent/NN:pin/NN;5641
+thing/NN:only/JJ;5643
+voltage/NN:line/NN;5648
+(35w/NN, v/NNS):4w/NN;5653
+output/NN:light/JJ;5654
+head/NNS:more/JJR;5656
+halogen/NN:3/CD;5657
+led/NNS:5/CD;5658
+savings/NNS:energy/NN;5662
+voltage/NN:low/JJ;5664
+bi-pin/NN:3-5w/JJ;5667
+(converter/NN, voltage/NN):low/JJ;5670
+load/NN:minimal/JJ;5672
+halogen/NN:35-50w/NN;5674
+load/NN:minimal/JJ;5675
+transformer/NN:remote/JJ;5677
+load/NN:minimal/JJ;5680
+tip/NN:general/JJ;5687
+choice/NNS:personal/JJ;5690
+light/NN:recessed/JJ;5692
+way/NN:florescent/JJ;5695
+bulb/NN:23w/NN;5697
+%/NN:50/CD;5698
+output/NN:light/JJ;5700
+output/NN:same/JJ;5700
+energy/NN:less/JJR;5708
+cost/NN:upfront/JJ;5709
+florescent/NN:cheaper/JJR;5712
+type/NN:Edison/NNP;5715
+light/NNS:bat/NN;5717
+(point/NNS, mono/NN):3/CD;5719
+premium/NN:huge/JJ;5722
+load/NN:minimal/JJ;5725
+(bi/NN, .3/NN):gu5/NN;5729
+halogen/NN:pin/NN;5731
+price/NN:good/JJ;5734
+GE/NNP:30/CD;5738
+light/NN:ambient/JJ;5741
+light/NN:other/JJ;5744
+power/NN:more/JJR;5746
+bulb/NNS:5w/NN;5748
+site/NN:maxxima/NN;5750
+light/NNS:spotlight/NN;5752
+(room/NN, size/NN):medium/NN;5756
+halogen/NN:gu10/NN;5763
+bulb/NNS:gu10/NN;5767
+depot/NN:home/NN;5770
+((room/NN, dining/NN), size/NN):medium/NN;5775
+thing/NN:important/JJ;5778
+imo/NN:important/JJ;5779
+rise/NN:right/JJ;5780
+inch/NN:1/4/CD;5783
+fall/NN:ballerina/NN;5786
+((tubing/NN, PEX/NNP), water/NN):hot/JJ;5791
+(wrap/NN, pipe/NN):foam/NN;5796
+(pipe/NNS, water/NN):hot/JJ;5799
+statement/NNS:mixed/JJ;5800
+basement/NN:unfinished/JJ;5802
+wall/NNS:cinderblock/NN;5805
+floor/NN:concrete/JJ;5806
+inch/NNS:6/CD;5807
+inch/NNS:top/JJ;5807
+cm/NN:15/CD;5808
+winter/NNS:cold/JJ;5810
+((day/NNS, f/NN), degree/NN):90/CD;5814
+((day/NNS, f/NN), degree/NN):few/JJ;5814
+wall/NN:false/JJ;5815
+batt/NN:fiberglass/NNS;5818
+barrier/NN:vapor/NN;5821
+wall/NN:false/JJ;5823
+climate/NN:same/JJ;5831
+drylok/NN:ugl/NN;5836
+floor/NN:concrete/JJ;5837
+day/NNS:winter/NN;5843
+((board/NN, foam/NN), polystyrene/NN):use/NN;5850
+run/NN:quick/JJ;5851
+idea/NN:good/JJ;5852
+temperature/NN:outside/JJ;5854
+bill/NNS:heating/cooling/NN;5857
+shingle/NNS:asphalt/NN;5862
+shingle/NNS:asphalt/NN;5865
+siding/NN:vinyl/NN;5870
+siding/NN:vinyl/NN;5873
+siding/NN:vinyl/NN;5875
+owner/NN:previous/JJ;5880
+Lowe/NNP:local/JJ;5881
+Depot/NNP:Home/NNP;5883
+brand/NNS:many/JJ;5884
+siding/NN:vinyl/NN;5886
+retailer/NNS:specialty/NN;5888
+piece/NNS:different/JJ;5892
+board/NNS:bottom/NN;5894
+piece/NNS:corner/NN;5896
+piece/NNS:special/JJ;5897
+outlet/NNS:electrical/JJ;5901
+temp/NN:ground/NN;5910
+temp/NN:air/NN;5912
+vent/NNS:heat/NN;5916
+house/NNS:many/JJ;5918
+window/NNS:basement/NN;5920
+block/NN:glass/NN;5922
+form/NN:liquid/JJ;5928
+((store/NN, hardware/NN), big-box/NN):local/JJ;5931
+product/NN:similar/JJ;5932
+mix/NN:mortar/JJ;5933
+mix/NN:dry/JJ;5933
+year/NNS:few/JJ;5937
+(sheeting/NN, plastic/NN):enough/JJ;5939
+(sheeting/NN, plastic/NN):thick/JJ;5939
+(growth/NN, weed/NN):much/JJ;5942
+weed/NNS:major/JJ;5944
+wash/NN:power/NN;5949
+mortar/NN:dry/JJ;5953
+mortar/NN:dry/JJ;5961
+area/NN:small/JJ;5962
+pitfall/NNS:major/JJ;5964
+%/NN:30-35/CD;5972
+(ration/NN, %/NN):30-35/CD;5973
+ratio/NN:correct/JJ;5975
+%/NN:30-35/CD;5978
+(ratio/NN, %/NN):30-35/CD;5979
+(sticking/NN, lip/NN):slight/JJ;5985
+way/NN:one/CD;5993
+((hammer/NN, drilling/NN), pound/NN):3-4/CD;5997
+((hammer/NN, drilling/NN), pound/NN):solid/JJ;5997
+((hammer/NN, drilling/NN), pound/NN):good/JJ;5997
+hammer/NNS:regular/JJ;5998
+drill/NNS:star/NN;6003
+nail/NNS:hardened/JJ;6004
+(colorant/NN, concrete/NN):powder/NN;6007
+(show/NNS, improvement/NN):home/NN;6010
+result/NNS:great/JJ;6012
+concrete/NN:wet/JJ;6013
+material/NN:additional/JJ;6015
+guard/NN:ice/NN;6018
+shingle/NNS:roofing/NN;6027
+(nail/NNS, roofing/NN):galvanized/JJ;6029
+(work/NN, roofing/NN):little/JJ;6031
+tar/NN:old/JJ;6038
+tar/NN:plain/JJ;6038
+shingle/NNS:adhesive/JJ;6042
+clamp/NNS:good-quality/JJ;6046
+size/NNS:different/JJ;6047
+hand/NN:one/CD;6048
+drill/NN:hammer/NN;6050
+drill/NN:regular/JJ;6057
+tool/NN:2-in-1/JJ;6059
+action/NN:drilling/NN;6061
+jackhammer/NN:small/JJ;6062
+knife/NN:good/JJ;6063
+store/NNS:hardware/NN;6068
+(system/NNS, bus/NN):communication/NN;6072
+automation/NN:home/NN;6074
+(system/NNS, communication/NN):many/JJ;6076
+automation/NN:home/NN;6078
+control/NN:hvac/NN;6080
+control/NN:access/NN;6083
+control/NN:light/JJ;6084
+(diyer/NN, automation/NN):home/NN;6090
+device/NNS:low-cost/JJ;6093
+(vent/NNS, hvac/NN):auto-adjust/JJ;6095
+(system/NNS, hvac/NN):forced-air/JJ;6097
+(system/NNS, hvac/NN):residential/JJ;6097
+thermostat/NN:single/JJ;6098
+room/NN:one/CD;6099
+room/NNS:other/JJ;6103
+vent/NNS:automatically-adjustable/JJ;6105
+(zone/NNS, heating/cooling/NN):multiple/JJ;6107
+furnace/NNS:multiple/JJ;6108
+shock/NN:electric/JJ;6113
+(resistor/NN, power/NN):appropriate/JJ;6117
+heating/NN:multi-zone/JJ;6121
+pipe/NNS:steam/NN;6125
+(system/NN, heating/NN):steam-radiator/JJ;6128
+(pipe/NNS, steel/NN):steam-carrying/JJ;6132
+ceiling/NN:basement/NN;6134
+state/NN:home/NN;6147
+(zone/NNS, Comfort/NNP):Home/NNP;6150
+(resistor/NN, watt/NN):2/CD;6153
+(store/NNS, home/NN):big/JJ;6155
+(shop/NN, repair/NN):appliance/NN;6159
+papers/NNS:wall/NN;6161
+paper/NN:wall/NN;6164
+(wall/NNS, plaster/NN):old/JJ;6166
+piece/NNS:loose/JJ;6167
+spot/NNS:uneven/JJ;6170
+mark/NNS:other/JJ;6173
+(oil/NN, quality/NN):good/JJ;6177
+wall/NN:whole/JJ;6179
+color/NN:different/JJ;6181
+paint/NN:final/JJ;6185
+primer/NN:latex/JJ;6186
+time/NN:second/JJ;6187
+color/NN:final/JJ;6188
+set/NN:descent/NN;6191
+primer/NNS:oil-based/JJ;6194
+insulator/NN:poor/JJ;6196
+block/NNS:concrete/NN;6198
+line/NN:frost/NN;6204
+((footprint/NN, square/NN), foot/NN):40x40/NN;6209
+foot/NNS:lineal/JJ;6211
+foot/NNS:160/CD;6211
+foot/NNS:square/JJ;6212
+foot/NNS:80/CD;6212
+foot/NNS:=/JJ;6212
+foot/NNS:lineal/JJ;6214
+foot/NNS:160/CD;6214
+foot/NNS:square/JJ;6215
+foot/NNS:480/CD;6215
+foot/NNS:=/JJ;6215
+foot/NNS:deep/JJ;6215
+line/NN:frost/NN;6218
+foot/NNS:lineal/JJ;6219
+foot/NNS:160/CD;6219
+foot/NNS:square/JJ;6220
+foot/NNS:720/CD;6220
+foot/NNS:=/JJ;6220
+foot/NNS:deep/JJ;6220
+line/NN:frost/NN;6223
+loss/NN:heat/NN;6225
+*/NN:area/NN;6228
+explanation/NN:complete/JJ;6232
+line/NN:frost/NN;6236
+.1/NN:70/1/CD;6240
+((line/NN, Frost/NNP), BTU/hr/NNP):5091/CD;6243
+((line/NN, Frost/NNP), BTU/hr/NNP):=/JJ;6243
+.1/NN:50/1/CD;6244
+(((line/NN, Frost/NNP), Below/NNP), BTU/hr/NNP):21818/CD;6248
+(((line/NN, Frost/NNP), Below/NNP), BTU/hr/NNP):=/JJ;6248
+.1/NN:30/1/CD;6249
+(Total/NNP, BTU/hr/NNP):19636/CD;6251
+btu/hr/NN:46545/CD;6252
+insulation/NN:r20/NN;6255
+r15/NN:effective/JJ;6256
+BTU/hr/NNP:3414/CD;6261
+btus/hr/NN:1600/CD;6262
+BTUs/day/NNP:40000/CD;6263
+month/NN:6/CD;6264
+btus/NNS:million/CD;6266
+btus/NNS:72/CD;6266
+project/NN:diy/NN;6278
+cost/NN:installation/NN;6281
+heat/NN:much/JJ;6288
+part/NN:main/JJ;6290
+equipment/NN:similar/JJ;6293
+equipment/NN:other/JJ;6293
+(heater/NN, water/NN):hot/JJ;6295
+concern/NN:safety/NN;6302
+((Tracer/NNP, Finder/NNP), Breaker/NNP):Circuit/NNP;6308
+tester/NN:Receptacle/NNP;6310
+shingle/NNS:asphalt/NN;6312
+step/NNS:extra/JJ;6314
+preparation/NN:careful/JJ;6320
+time/NN:installation/NN;6322
+%/NN:25/CD;6324
+preparation/NN:minimal/JJ;6328
+space/NN:finished/JJ;6331
+studio/NN:nice/JJ;6332
+attention/NN:more/JJR;6335
+work/NN:minimal/JJ;6337
+job/NN:nice/JJ;6338
+course/NN:double/JJ;6340
+course/NN:bottom/JJ;6344
+climate/NN:cold/JJ;6356
+dam/NN:ice/NN;6361
+(membrane/NN, rubber/NN):self-adhesive/JJ;6363
+dam/NNS:ice/NN;6367
+space/NN:finished/JJ;6370
+thing/NN:one/CD;6380
+base/NN:very/JJ;6389
+tab/NNS:first/JJ;6393
+people/NNS:many/JJ;6397
+course/NN:upside-down/JJ;6400
+answer/NN:other/JJ;6408
+project/NN:good/JJ;6414
+roof/NN:gable/JJ;6420
+roof/NN:straight/JJ;6420
+Roofing/NNP:a./NN;6422
+Depot/NNP:Home/NNP;6426
+gun/NN:staple/NN;6433
+foot/NNS:2/CD;6434
+layer/NN:first/JJ;6435
+layer/NN:second/JJ;6436
+layer/NN:first/JJ;6437
+inch/NNS:6/CD;6438
+Shingles/NNP:B./NNP;6440
+(Start/NNP, Shingles/NNP):B./NNP;6441
+Depot/NNP:Home/NNP;6447
+shingle/NNS:1/2/CD;6457
+nail/NNS:eight/CD;6464
+shingle/NN:uncut/JJ;6468
+row/NN:1/2/CD;6472
+nail/NNS:4/CD;6482
+nail/NN:one/CD;6486
+course/NN:second/JJ;6491
+tab/NN:1/2/CD;6493
+width/NN:shingle/NN;6496
+cut/NNS:little/JJ;6499
+part/NN:top/JJ;6500
+shingle/NN:lower/JJR;6502
+level/NN:shingle/NNS;6504
+row/NN:first/JJ;6511
+(side-to-side/NN, shingle/NN):new/JJ;6516
+shingle/NN:new/JJ;6517
+shingle/NN:new/JJ;6520
+shingle/NN:full/JJ;6529
+shingle/NN:last/JJ;6534
+side/NN:other/JJ;6535
+side/NN:other/JJ;6536
+side/NNS:two/CD;6539
+tab/NNS:three/CD;6544
+slot/NN:tab/NN;6546
+edge/NN:one/CD;6549
+distance/NN:same/JJ;6558
+side/NN:other/JJ;6560
+line/NN:chalk/NN;6562
+shingle/NNS:1/3/CD;6564
+nail/NNS:two/CD;6566
+tab/NN:1/2/CD;6571
+sense/NN:more/JJR;6575
+door/NN:screen/NN;6579
+door/NN:screen/NN;6581
+(door/NN, screen/NN):entire/JJ;6588
+painting/NN:interior/JJ;6592
+brush/NN:cut/NN;6600
+store/NNS:home/NN;6603
+method/NN:other/JJ;6604
+(Edger/NNP, Paint/NNP):Shur-Line/NNP;6607
+ton/NNS:load/NN;6612
+wheel/NNS:spacer/NN;6616
+effect/NN:side/JJ;6620
+paint/NN:much/JJ;6621
+ridge/NN:uniform/JJ;6626
+edger/NN:corner/NN;6630
+edger/NN:corner/NN;6635
+frame/NNS:window/NN;6642
+painter/NN:blue/JJ;6644
+painter/NN:blue/JJ;6649
+finish/NN:semi-gloss/JJ;6652
+Edger/NNP:Shur-Line/NNP;6658
+brush/NN:angled/JJ;6659
+door/NN:whole/JJ;6666
+sealant/NN:asphalt/NN;6670
+patch/NN:asphalt/NN;6675
+((store/NN, improvement/NN), home/NN):local/JJ;6678
+sealant/NN:asphalt/NN;6680
+patch/NN:asphalt/NN;6682
+sealant/NN:asphalt/NN;6684
+driveway/NN:asphalt/NN;6691
+pothole/NN:large/JJ;6692
+driveway/NN:asphalt/NN;6694
+(blacktop/NN, patch/NN):cold/JJ;6697
+form/NN:2x4/JJ;6699
+product/NN:different/JJ;6700
+piece/NN:thinner/JJR;6711
+line/NNS:electrical/JJ;6715
+bus/NN:CAN/NNP;6720
+option/NN:good/JJ;6721
+distance/NNS:large/JJ;6722
+distance/NNS:shorter/JJR;6729
+meter/NNS:few/JJ;6730
+(communication/NN, controller/NN):micro/JJ;6733
+type/NN:same/JJ;6738
+%/NN:10-20/CD;6741
+((range/NN, moisture/NN), %/NN):10-20/CD;6743
+tip/NNS:specific/JJ;6744
+(system/NNS, automation/NN):x10-based/JJ;6749
+(system/NN, powerline/rf/NN):combo/NN;6757
+system/NNS:z-wave/NN;6762
+rf/NN:Vezia/NNP;6765
+thing/NNS:great/JJ;6767
+product/NNS:upb/NN;6769
+component/NN:rf/NN;6774
+idea/NN:good/JJ;6775
+box/NN:electrical/JJ;6778
+box/NN:separate/JJ;6778
+thing/NN:good/JJ;6787
+complaint/NN:one/CD;6788
+automation/NN:home/NN;6794
+solution/NNS:excellent/JJ;6795
+amount/NN:large/JJ;6796
+money/NN:reasonable/JJ;6801
+answer/NN:great/JJ;6803
+money/NN:much/JJ;6806
+solution/NN:single/JJ;6807
+trunking/NN:built-in/JJ;6811
+meter/NNS:moisture/NN;6816
+search/NN:google/NN;6818
+(meter/NN, moisture/NN):Wood/NNP;6821
+content/NN:moisture/NN;6823
+Edger/NNP:paint/NN;6826
+tab/NNS:little/JJ;6827
+hand/NN:steady/JJ;6833
+(brush/NN, paint/NN):quality/NN;6837
+((brush/NN, paint/NN), quality/NN):good/JJ;6840
+care/NN:good/JJ;6841
+time/NN:less/JJR;6843
+brush/NN:good/JJ;6844
+line/NN:good/JJ;6845
+water/NN:warm/JJ;6847
+softener/NN:fabric/NN;6850
+smell/NN:vinegar/NN;6852
+amount/NN:liberal/JJ;6853
+bottle/NN:spray/NN;6855
+brick/NN:exterior/NN;6860
+brick/NNS:few/JJ;6861
+level/NN:ground/NN;6864
+mortar/NN:vertical/JJ;6865
+spot/NNS:few/JJ;6867
+summer/NNS:previous/JJ;6879
+(design/NN, duct/NN):poor/JJ;6882
+efficiency/NN:lower/JJR;6896
+guy/NN:HVAC/NNP;6900
+(check/NN, leak/NN):quick/JJ;6902
+bubble/NNS:soap/NN;6904
+work/NN:system/NN;6908
+weeks/months/NNS:few/JJ;6910
+unit/NN:outdoor/JJ;6913
+news/NN:good/JJ;6916
+warranty/NN:part/NNS;6919
+year/NNS:5/CD;6920
+unit/NN:cheap/JJ;6921
+year/NNS:10/CD;6922
+one/NN:good/JJ;6923
+time/NN:last/JJ;6926
+filter/NN:air/NN;6928
+filter/NN:air/NN;6930
+contract/NN:service/NN;6933
+meter/NN:moisture/NN;6937
+link/NN:Amazon/NNP;6939
+meter/NN:one/CD;6940
+meter/NNS:Moisture/NNP;6942
+range/NNS:various/JJ;6943
+%/NN:6-14/CD;6944
+(range/NN, %/NN):6-14/CD;6945
+%/NN:14/CD;6947
+variety/NNS:two/CD;6949
+electrode/NNS:two/CD;6951
+resistance/NN:electrical/JJ;6953
+table/NN:internal/JJ;6956
+content/NN:moisture/NN;6958
+variety/NN:pinless/JJ;6959
+dust/NN:fairy/NN;6965
+level/NN:moisture/NN;6968
+content/NN:moisture/NN;6972
+way/NNS:diy/NN;6975
+equipment/NN:expensive/JJ;6980
+question/NN:wrong/JJ;6989
+problem/NN:one/CD;6991
+control/NN:lighting/power/NN;6999
+system/NN:security/NN;7001
+technology/NN:same/JJ;7002
+system/NNS:security/NN;7004
+(system/NN, security/NN):actual/JJ;7007
+thing/NN:nice/JJ;7008
+controller/NNS:hardware/NN;7011
+thing/NNS:various/JJ;7013
+(sensor/NNS, security/NN):actual/JJ;7015
+protocol/NN:wireless/JJ;7016
+protocol/NN:proprietary/JJ;7016
+condition/NNS:alarm/NN;7018
+(control/NN, status/arm/dearm/NN):full/JJ;7020
+network/NN:lighting/NN;7022
+product/NNS:addd-on/JJ;7023
+lifespan/NN:total/JJ;7028
+year/NNS:15/CD;7029
+repair/NNS:major/JJ;7031
+system/NNS:newer/JJR;7032
+rating/NNS:eer/NN;7035
+credit/NNS:tax/NN;7037
+way/NNS:two/CD;7038
+(switches/receptacles/NNS, CO/ALR/NNP):Use/NNP;7041
+wire/NN:aluminum/NN;7043
+store/NNS:box/NN;7048
+connection/NN:pigtail/NN;7050
+switch/NNS:co/alr/NN;7052
+wire/NN:copper/NN;7056
+wire/NN:63/CD;7058
+wire/NN:copper/NN;7061
+picture/NN:fuzzy/JJ;7068
+thing/NN:same/JJ;7069
+switch/NNS:dimmer/JJR;7072
+fixture/NNS:other/JJ;7073
+(Authority/NNP, Safety/NNP):electrical/JJ;7077
+wiring/NN:Aluminum/NNP;7080
+installation/NNS:residential/JJ;7081
+end/NNS:bare/JJ;7083
+(conductor/NNS, aluminum/NN):solid/JJ;7085
+compound/NN:joint/JJ;7086
+(Code/NNP, Safety/NNP):electrical/JJ;7089
+wiring/NN:aluminum/NN;7092
+precaution/NNS:adequate/JJ;7093
+conductor/NNS:aluminum/NN;7097
+wiring/NN:Aluminum/NNP;7099
+connection/NNS:proper/JJ;7100
+wire/NN:aluminum/NN;7106
+wiring/NN:Aluminum/NNP;7108
+feeder/NNS:industrial/JJ;7110
+(company/NNS, distribution/NN):electrical/JJ;7112
+system/NNS:distribution/NN;7114
+(cable/NN, service/NN):supply/NN;7117
+(system/NNS, wiring/NN):interior/JJ;7122
+home/NNS:residential/JJ;7123
+structure/NNS:other/JJ;7124
+wiring/NN:Aluminum/NNP;7126
+connection/NNS:proper/JJ;7127
+material/NNS:approved/JJ;7130
+(Code/NNP, Safety/NNP):electrical/JJ;7134
+(installation/NN, wiring/NN):aluminum/NN;7140
+wire/NN:63/CD;7142
+(connector/NNS, wire/NN):63/CD;7143
+connection/NNS:other/JJ;7145
+brush/NN:wire/NN;7150
+switch/NNS:smart/JJ;7154
+switch/NNS:upb/NN;7157
+product/NNS:x10-based/JJ;7159
+product/NNS:older/JJR;7159
+switch/NNS:other/JJ;7162
+line/NNS:power/NN;7165
+wiring/NN:new/JJ;7168
+controller/NNS:keypad/NN;7170
+keypad/NN:single/JJ;7172
+light/NNS:multiple/JJ;7173
+level/NNS:different/JJ;7174
+rate/NNS:ramp/NN;7177
+bag/NN:pastry/NN;7186
+(bag/NN, Zip-Lock/NNP):large/JJ;7190
+corner/NN:nipped/JJ;7191
+mortar/NN:excess/JJ;7195
+panel/NN:one/CD;7200
+stamp/NN:manufacturer/NN;7202
+bit/NN:little/JJ;7205
+sample/NN:small/JJ;7206
+Depot/NNP:Home/NNP;7214
+siding/NN:vynil/NN;7216
+selection/NN:huge/JJ;7217
+owner/NN:previous/JJ;7218
+siding/NN:similar/JJ;7219
+Knife/NNP:utility/NN;7223
+((blade/NNS, knife/NN), utility/NN):100/CD;7227
+tool/NN:favourite/JJ;7234
+tool/NN:personal/JJ;7234
+thing/NN:one/CD;7238
+((brand/NN, tool/NN), quality/NN):other/JJ;7245
+variety/NN:10/CD;7246
+month/NNS:few/JJ;7247
+:d/NN:one/CD;7249
+:d/NN:new/JJ;7249
+line/NNS:high-voltage/JJ;7252
+switch/NNS:light/JJ;7254
+(detector/NN, smoke/NN):hard-wired/JJ;7258
+work/NN:sleuth/NN;7263
+detector/NNS:voltage/NN;7272
+line/NNS:low-voltage/JJ;7276
+line/NNS:high-voltage/JJ;7283
+line/NN:high-voltage/JJ;7287
+water/NN:hot/cold/JJ;7289
+line/NNS:waste/NN;7291
+plumbing/NN:Waste/NNP;7294
+(line/NNS, waste/NN):main/JJ;7299
+plumbing/NN:Supply/NNP;7303
+work/NN:sleuth/NN;7307
+duct/NNS:air/NN;7309
+work/NN:duct/NN;7312
+duct/NNS:vertical/JJ;7315
+run/NNS:horizontal/JJ;7318
+floor/NNS:two/CD;7319
+(run/NN, duct/NN):main/JJ;7321
+vent/NNS:re-running/JJ;7323
+quality/NN:air/NN;7329
+(pipe/NNS, vac/NN):Central/NNP;7333
+turn/NNS:many/JJ;7335
+idea/NN:same/JJ;7337
+line/NNS:waste/NN;7339
+port/NNS:wall/NN;7342
+path/NN:direct/JJ;7344
+pebble/NN:small/JJ;7349
+line/NNS:gas/NN;7353
+route/NN:direct/JJ;7360
+source/NN:gas/NN;7362
+heater/NNS:water/NN;7365
+structure/NN:commercial/JJ;7369
+wall/NN:fire/NN;7372
+(department/NN, fire/NN):local/JJ;7380
+inspector/NN:building/NN;7382
+side/NN:one/CD;7391
+check/NN:total/JJ;7393
+heater/NNS:tankless/JJ;7395
+(rate/NN, flow/NN):specific/JJ;7400
+f/NN:°/CD;7407
+f/NN:50/CD;7407
+((rate/NN, flow/NN), f/NN):°/CD;7411
+((rate/NN, flow/NN), f/NN):100/CD;7411
+gpm/NN:3.8/CD;7412
+gpm/NN:2.4/CD;7413
+gpm/NN:1.9/CD;7414
+(temperature/NN, water/NN):incoming/JJ;7416
+consumer/NNS:simultaneous/JJ;7420
+water/NN:hot/JJ;7421
+shower/NNS:two/CD;7422
+size/NN:larger/JJR;7423
+sink/NN:kitchen/NN;7425
+site/NN:manufacturer/NN;7427
+temperature/NNS:incoming/JJ;7428
+America/NNP:North/NNP;7430
+construction/NN:new/JJ;7434
+(year/NNS, couple/NN):past/JJ;7437
+heater/NNS:tankless/JJ;7440
+type/NNS:different/JJ;7445
+switch/NNS:smart/JJ;7446
+market/NN:US/NNP;7448
+switch/NN:new/JJ;7449
+switch/NN:smart/JJ;7451
+cable/NNS:main/NNS;7453
+switch/NN:smart/JJ;7455
+type/NNS:different/JJ;7458
+switch/NNS:smart/JJ;7459
+market/NN:UK/NNP;7461
+type/NNS:different/JJ;7464
+switch/NNS:smart/JJ;7465
+market/NN:UK/NNP;7467
+switch/NN:new/JJ;7468
+switch/NN:smart/JJ;7470
+cable/NNS:main/NNS;7472
+switch/NN:smart/JJ;7474
+type/NNS:different/JJ;7477
+switch/NNS:smart/JJ;7478
+market/NN:USA/NNP;7480
+brush/NN:3-inch/JJ;7481
+bead/line/NN:small/JJ;7483
+side/NN:one/CD;7485
+side/NN:other/JJ;7487
+tray/NN:paint/NN;7489
+thing/NN:one/CD;7492
+glass/NNS:Safety/NNP;7502
+plug/NNS:ear/NN;7504
+pair/NN:good/JJ;7506
+glass/NNS:safety/NN;7508
+care/NN:good/JJ;7509
+glass/NNS:regular/JJ;7510
+glass/NNS:safety/NN;7512
+one/NNS:sunglass/JJ;7516
+sunglass/NNS:regular/JJ;7517
+ear/NN:foam/NN;7521
+item/NN:other/JJ;7523
+job/NN:do-it-yourself/JJ;7525
+job/NN:loud/JJ;7525
+difference/NN:big/JJ;7526
+noise/NN:pitched/JJ;7533
+noise/NN:high/JJ;7533
+noise/NN:constant/JJ;7533
+(equipment/NN, safety/NN):basic/JJ;7539
+(equipment/NN, safety/NN):other/JJ;7539
+glove/NNS:work/NN;7541
+extinguisher/NN:fire/NN;7544
+(risk/NNS, fire/NN):potential/JJ;7547
+home/NN:new/JJ;7554
+option/NNS:wiring/NN;7556
+home/NN:current/JJ;7558
+socket/NNS:few/JJ;7559
+connection/NNS:cable/NN;7561
+port/NNS:lan/NN;7563
+cable/NN:tv/NN;7575
+bundle/NN:multicable/JJ;7577
+recommendation/NNS:good/JJ;7580
+plate/NNS:wall/NN;7584
+year/NNS:few/JJ;7585
+(rg6/NN, shield/NN):quad/NN;7589
+5e/NN:cat/NN;7591
+wire/NN:speaker/NN;7594
+cost/NN:more/JJR;7605
+floor/NN:2nd/JJ;7610
+load/NN:awful/JJ;7614
+location/NN:specific/JJ;7615
+process/NN:complicated/JJ;7619
+House/NNP:Old/NNP;7622
+tutorial/NN:wonderful/JJ;7623
+way/NN:hassle-free/JJ;7629
+job/NN:huge/JJ;7630
+house/NN:old/JJ;7639
+chunk/NN:large/JJ;7640
+nail/NNS:few/JJ;7642
+project/NNS:DIY/NNP;7649
+blade/NN:mower/NN;7651
+table/NN:kitchen/NN;7653
+bracket/NN:metal/NN;7655
+Depot/NNP:Home/NNP;7661
+(surface/NN, work/NN):steel/NN;7664
+weekend/NN:last/JJ;7670
+project/NN:weekend/NN;7675
+lighting/NN:poor/JJ;7682
+(light/NN, workshop/NN):good/JJ;7684
+project/NN:new/JJ;7689
+patio/NN:10/CD;7690
+area/NN:10/CD;7693
+corner/NN:left/JJ;7695
+corner/NN:front/JJ;7695
+inch/NNS:10/CD;7696
+half/NN:back/JJ;7697
+inch/NNS:10/CD;7701
+Tool/NNP:5-in-1/NN;7707
+knife/NN:putty/NN;7711
+people/NNS:other/JJ;7712
+thing/NN:one/CD;7713
+idea/NN:good/JJ;7715
+receptacle/NNS:GFCI/NNP;7717
+outlet/NNS:outdoor/JJ;7723
+line/NN:water/NN;7726
+pex/NN:cold-water/NN;7731
+tank/NN:pressure/NN;7733
+copper/NN:hot/JJ;7734
+transfer/NN:heat/NN;7736
+tubing/NN:copper/NN;7738
+wiring/NN:own/JJ;7742
+electrician/NN:licensed/JJ;7743
+brick/NN:exterior/NN;7747
+wall/NNS:exterior/NN;7751
+problem/NN:same/JJ;7752
+mortar/NN:vertical/JJ;7753
+brick/NNS:several/JJ;7754
+level/NN:ground/NN;7756
+weather/NN:severe/JJ;7760
+weather/NN:much/JJ;7760
+humidity/NN:ridiculous/JJ;7761
+joint/NNS:few/JJ;7765
+feature/NN:structural/JJ;7767
+inspector/NN:home/NN;7769
+pressure/NN:water/NN;7775
+home/NN:first/JJ;7777
+bathroom/NNS:two/CD;7778
+pressure/NN:water/NN;7780
+trick/NN:effective/JJ;7784
+contractor/NN:plumbing/NN;7786
+((store/NN, improvement/NN), home/NN):local/JJ;7789
+(head/NN, shower/NN):cheap/JJ;7791
+flow/NN:water/NN;7796
+pressure/NN:water/NN;7801
+route/NN:expensive/JJ;7802
+pressure/NN:water/NN;7809
+bathroom/NN:whole/JJ;7810
+apartment/NN:last/JJ;7813
+faucet/NN:bathtub/NN;7817
+head/NN:shower/NN;7819
+pressure/NN:water/NN;7823
+(head/NN, shower/NN):cheapo/JJ;7826
+bulb/NN:light/JJ;7830
+(socket/NN, light/NN):spare/JJ;7837
+wire/NNS:two/CD;7838
+tape/NN:electrical/JJ;7842
+pro/NNS:x10/NN;7845
+manufacturer/NNS:many/JJ;7846
+variety/NN:wide/JJ;7847
+protocol/NN:Old/NNP;7852
+line/NNS:power/NN;7856
+command/NNS:3/CD;7863
+seconds/NNS:couple/NN;7865
+address/NNS:256/CD;7866
+number/NN:total/JJ;7868
+dimmer/NNS:discrete/JJ;7869
+hardware/NN:special/JJ;7876
+(Smarthome/NNP, Products/NNPS):program/NN;7879
+(switch/NNS, quality/NN):decent/JJ;7881
+device/NNS:multiple/JJ;7883
+address/NN:single/JJ;7884
+pro/NNS:Insteon/NNP;7886
+cost/NN:low/JJ;7887
+product/NNS:other/JJ;7888
+quality/NN:decent/JJ;7890
+programming/NN:scene/NN;7892
+programming/NN:pc-based/JJ;7894
+control/NN:advanced/JJ;7895
+control/NN:more/JJR;7895
+address/NN:unique/JJ;7897
+powerline/wireless/NN:hybrid/NN;7899
+device/NNS:many/JJ;7900
+(signal/NNS, repeat/NN):device/NNS;7903
+strength/NN:coverage/signal/JJ;7904
+product/NNS:other/JJ;7907
+size/NN:market/NN;7909
+(app/NNS, iOS/NNP):several/JJ;7911
+bridge/NN:ethernet/NN;7914
+(controller/NNS, automation/NN):home/NN;7917
+device/NNS:other/JJ;7921
+limitation/NNS:strange/JJ;7923
+programming/NN:scene/NN;7925
+Smarthome/NNP:Products/NNPS;7930
+variety/NN:wide/JJ;7931
+(pro/NNS, UPB/NNP):Insteon/NNP;7936
+protocol/NN:reliable/JJ;7937
+protocol/NN:more/JJR;7937
+Simply-Automated/NNP:x10/NN;7939
+behaviour/NN:press-and-hold/JJ;7941
+(switch/NNS, 8-button/NN):button/NN;7944
+faceplate/NNS:interchangable/JJ;7945
+dimmer/NNS:4/CD;7947
+keypad/NN:8-button/JJ;7948
+carrier/NN:power-line/JJ;7951
+(Products/NNPS, software/NN):pc/NN;7958
+module/NNS:plug-in/JJ;7961
+module/NNS:in-line/JJ;7962
+connector/NNS:i/o/NN;7964
+((pro/NNS, Z-Wave/NNP), interface/NNS):computer/NN;7968
+unit/NN:z-wave/NN;7971
+device/NNS:more/JJR;7973
+coverage/NN:better/JJR;7975
+switch/NNS:light/JJ;7985
+controller/NNS:other/NNS;7992
+vendor/NNS:many/JJ;7993
+device/NNS:separate/JJ;7996
+row/NN:bottom/JJ;7999
+hole/NNS:weep/NN;8004
+pressure/NN:low/JJ;8007
+pipe/NN:galvanized/JJ;8008
+pipe/NN:old/JJ;8008
+pressure/NN:low/JJ;8012
+(size/NN, pipe/NN):incorrect/JJ;8014
+line/NN:trunk/NN;8016
+line/NN:supply/NN;8023
+pressure/NN:water/NN;8025
+nut/NN:lock/NN;8031
+turn/NN:next/JJ;8032
+screw/NN:adjustment/NN;8034
+anticlockwise/NN:screw/NN;8038
+pressure/NN:proper/JJ;8040
+nut/NN:lock/NN;8042
+house/NN:whole/JJ;8045
+answer/NNS:other/JJ;8047
+block/NNS:wall/NN;8051
+thing/NN:important/JJ;8053
+foundation/NN:good/JJ;8054
+row/NN:bottom/JJ;8055
+drainage/NN:good/JJ;8064
+heave/NN:frost/NN;8066
+row/NN:first/JJ;8069
+(hp/psi/NN, compressor/NN):recommended/JJ;8073
+(hp/psi/NN, compressor/NN):minimum/JJ;8073
+paint/NN:spray/NN;8075
+compressor/NN:little/JJ;8076
+(nailer/NN, brad/NN):small/JJ;8078
+PSI/NNP:minimum/JJ;8080
+paint/NN:spray/NN;8084
+%/NN:100/CD;8085
+(barrier/NN, vapor/NN):double/JJ;8087
+side/NN:non-faced/JJ;8090
+gun/NN:spray/NN;8095
+(rating/NN, PSI/NNP):min/max/NN;8098
+compressor/NN:small/JJ;8101
+gun/NN:paint/NN;8105
+pressure/NN:enough/JJ;8107
+head/NNS:shower/NN;8110
+regulation/NN:government/NN;8112
+flow/NN:water/NN;8114
+gallon/NNS:2.5/CD;8119
+(head/NNS, shower/NN):many/JJ;8123
+flow/NN:ideal/JJ;8124
+(pressure/NN, water/NN):less-than-stellar/JJ;8128
+showerhead/NNS:many/JJ;8129
+regulator/NN:flow/NN;8133
+(search/NN, Google/NNP):quick/JJ;8136
+regulator/NN:flow/NN;8138
+head/NN:shower/NN;8140
+(requirement/NN, PSI/NNP):low/JJ;8143
+foot/NNS:cubic/JJ;8145
+bedroom/NNS:three/CD;8153
+removal/NN:wallpaper/NN;8156
+Wallpaper/NNP:Easy/NNP;8158
+sheet/NNS:nice/JJ;8159
+room/NN:dining/NN;8161
+minute/NNS:15/CD;8162
+work/NN:more/JJR;8168
+option/NN:only/JJ;8169
+paper/NN:wall/NN;8171
+(tool/NN, perforation/NN):wallpaper/NN;8174
+(Extreme/NNP, knife/NN):putty/NN;8180
+bedroom/NN:last/JJ;8181
+measure/NN:extreme/JJ;8183
+measure/NN:other/JJ;8183
+night/NNS:6/CD;8186
+layer/NN:glue/NN;8192
+perforation/NN:liberal/JJ;8194
+layer/NN:top/JJ;8200
+backing/NN:wallpaper/NN;8203
+technique/NN:normal/JJ;8204
+removal/NN:wallpaper/NN;8206
+step/NNS:exact/JJ;8209
+paper/NN:wall/NN;8211
+(tool/NN, perforation/NN):wallpaper/NN;8214
+scraper/NN:sharp/JJ;8215
+layer/NN:top/JJ;8216
+scraper/NN:paper/NN;8222
+speaker/NNS:rear/JJ;8224
+(system/NN, theater/NN):home/NN;8227
+speaker/NNS:rear/JJ;8228
+speaker/NNS:two/CD;8228
+way/NN:good/JJ;8229
+floor/NN:hardwood/NN;8231
+(source/NN, udio/NN):tv+a/NN;8236
+maintenance/NN:regular/JJ;8240
+((unit/NN, conditioning/NN), air/NN):central/JJ;8243
+((system/NN, conditioning/NN), air/NN):central/JJ;8247
+year/NNS:five/CD;8249
+i/NN:maintenance/NN;8254
+(Tester/NNP, Voltage/NNP):Non-Contact/NNP;8257
+(breaker/NN, circuit/NN):correct/JJ;8259
+work/NN:electrical/JJ;8260
+wiring/NN:funky/JJ;8261
+box/NN:single/JJ;8264
+circuit/NN:same/JJ;8265
+company/NN:professional/JJ;8267
+level/NNS:coolant/NN;8269
+defect/NNS:mechanical/JJ;8270
+branch/NNS:several/JJ;8279
+speaker/NNS:in-ceiling/JJ;8283
+way/NN:right/JJ;8287
+((company/NNS, service/NN), hvac/NN):local/JJ;8292
+(plan/NN, service/NN):annual/JJ;8294
+pump/NN:heat/NN;8298
+filter/NNS:air/NN;8304
+component/NNS:electrical/JJ;8307
+component/NNS:various/JJ;8307
+contract/NN:service/NN;8314
+unit/NN:outdoor/JJ;8317
+contract/NN:service/NN;8320
+pump/NN:heat/NN;8322
+visit/NNS:2/CD;8323
+range/NN:100/CD;8327
+unit/NN:a/c/NN;8329
+system/NN:hvac/NN;8334
+pad/NN:moisture/NN;8336
+pad/NN:moisture/NN;8338
+contract/NN:service/NN;8341
+filter/NN:air/NN;8343
+company/NNS:hvac/NN;8345
+discount/NN:small/JJ;8346
+tank/NN:holding/NN;8354
+molding/NN:crown/NN;8362
+channel/NN:small/JJ;8363
+cable/NNS:speaker/NN;8365
+molding/NN:crown/NN;8374
+route/NN:low/JJ;8376
+messier/NN:little/JJ;8379
+home/NNS:older/JJR;8382
+degree/NNS:various/JJ;8387
+system/NN:hvac/NN;8389
+system/NN:zoned/JJ;8390
+system/NN:simple/JJ;8390
+damper/NNS:motorized/JJ;8391
+room/NN:one/CD;8394
+one/NNS:other/JJ;8395
+room/NNS:other/JJ;8398
+room/NN:one/CD;8401
+house/NN:larger/JJR;8403
+(unit/NNS, heating/cooling/NN):multiple/JJ;8405
+system/NNS:control/NN;8417
+damper/NNS:motorized/JJ;8419
+line/NNS:control/NN;8421
+room/NNS:various/JJ;8424
+contractor/NNS:hvac/NNS;8431
+system/NN:zoned/JJ;8432
+(handler/NN, air/NN):big/JJ;8434
+CFM/NNP:enough/JJ;8435
+house/NN:whole/JJ;8436
+damper/NNS:manual/JJ;8437
+damper/NNS:few/JJ;8437
+one/NNS:motorized/JJ;8440
+system/NN:multi-split/JJ;8443
+((unit/NN, handler/NN), air/NN):central/JJ;8447
+((unit/NN, handler/NN), air/NN):one/CD;8447
+unit/NN:indoor/JJ;8449
+unit/NN:own/JJ;8449
+fan/NN:own/JJ;8450
+unit/NNS:indoor/JJ;8452
+line/NNS:refrigerant/NN;8454
+(unit/NN, condenser/NN):outdoor/JJ;8456
+heating/NN:simultaneous/JJ;8459
+room/NNS:server/NN;8462
+building/NN:office/NN;8464
+fit/NN:good/JJ;8465
+thing/NN:important/JJ;8474
+compressor/NNS:small/JJ;8475
+CFM/NNP:1/CD;8476
+psi/NN:45/CD;8477
+airbrushing/NN:light/JJ;8480
+kind/NN:artistic/JJ;8481
+output/NN:greater/JJR;8483
+CFM/NNP:1/CD;8487
+PSI/NNP:45/CD;8488
+CFM/NNP:2/CD;8489
+PSI/NNP:90/CD;8490
+volume/NN:high/JJ;8494
+pressure/NN:low/JJ;8495
+compressor/NN:smaller/JJR;8501
+gallon/NNS:15/CD;8502
+motor/NN:enough/JJ;8503
+motor/NN:large/JJ;8503
+gun/NN:paint/NN;8505
+finish/NN:better/JJR;8520
+thing/NNS:many/JJ;8521
+reason/NNS:historical/JJ;8523
+installation/NN:domestic/JJ;8524
+voltage/NN:standard/JJ;8526
+voltage/NN:european/JJ;8526
+voltage/NN:same/JJ;8526
+size/NN:same/JJ;8531
+(current/NN, maximum/NN):same/JJ;8534
+(supply/NN, 415v/NN):three-phase/JJ;8537
+level/NN:whole/JJ;8539
+voltage/NN:higher/JJR;8541
+keener/NN:much/JJ;8542
+(socket/NNS, power/NN):domestic/JJ;8547
+socket/NNS:different/JJ;8550
+kind/NNS:different/JJ;8551
+main/NN:ring/NN;8561
+kw/NN:7.3/CD;8564
+bang/NN:nice/JJ;8565
+company/NN:supply/NN;8569
+unit/NN:consumer/NN;8572
+breaker/NNS:circuit/NN;8576
+main/NNS:ring/NN;8579
+equipment/NN:heavy/JJ;8582
+company/NN:power/NN;8586
+supply/NN:single-phase/JJ;8587
+spike/NN:ground/NN;8593
+earth/NN:separate/JJ;8598
+fixture/NNS:metal/NN;8601
+(main/NNS, ring/NN):two/CD;8606
+cooker/NNS:Electric/NNP;8614
+heater/NNS:water/NN;8616
+heater/NNS:immersion/NN;8618
+main/NNS:ring/NN;8621
+size/NNS:different/JJ;8623
+main/NN:ring/NN;8629
+fuse/NN:own/JJ;8634
+voltage/NN:higher/JJR;8636
+reason/NN:one/CD;8637
+plug/NNS:big/JJ;8639
+plug/NNS:such/JJ;8639
+holder/NN:own/JJ;8641
+size/NNS:13a/NN;8645
+area/NNS:wet/JJ;8647
+area/NNS:other/JJ;8647
+restriction/NNS:special/JJ;8648
+restriction/NNS:own/JJ;8648
+socket/NNS:many/JJ;8651
+year/NN:two/CD;8656
+start/NN:good/JJ;8658
+digestion/NN:careful/JJ;8659
+Regulations/NNPS:Wiring/NNP;8661
+regulation/NNS:building/NNS;8664
+person/NN:competent/JJ;8665
+work/NN:electical/JJ;8666
+p/NN:Part/NNP;8669
+regulation/NNS:building/NN;8671
+work/NN:major/JJ;8673
+point/NNS:same/JJ;8679
+point/NNS:exact/JJ;8679
+order/NN:same/JJ;8682
+outlet/NNS:power/NN;8686
+installer/NN:cable/NN;8696
+cable/NN:combined/JJ;8699
+standpoint/NN:organizational/JJ;8700
+foot/NNS:20/CD;8701
+house/NN:entire/JJ;8703
+hand/NN:other/JJ;8704
+(line/NNS, phone/NN):2/CD;8712
+compatibility/NN:rj11/NN;8716
+wire/NN:single/JJ;8717
+voltage/NN:ring/NN;8721
+house/NN:entire/JJ;8723
+plug/NNS:rj45/NN;8726
+line/NN:phone/NN;8729
+multi-cable/NNS:few/JJ;8732
+Video/NNP:Component/NNP;8736
+channel/NNS:few/JJ;8738
+room/NN:theater/NN;8743
+run/NNS:short/JJ;8744
+trunk/NN:single/JJ;8745
+a/NN:point/NN;8747
+time/NN:hard/JJ;8749
+solution/NN:usual/JJ;8750
+knife/NN:drywall/NN;8753
+ceiling/NN:whole/JJ;8756
+month/NN:last/JJ;8758
+construction/NN:newer/JJR;8763
+bottle/NN:spray/NN;8774
+sprayer/NN:garden/NN;8776
+smooth/NN:super/JJ;8797
+parallel/NN:light/JJ;8800
+area/NNS:raised/gouged/JJ;8802
+dust/NN:sanding/NN;8805
+paint/NN:Prime/NNP;8807
+coat/NNS:2/CD;8808
+paint/NN:ceiling/NN;8810
+(lie/NN, cloth/NNS):drop/NN;8813
+ceiling/NNS:smooth/JJ;8815
+ceiling/NNS:new/JJ;8815
+bit/NN:one/CD;8817
+process/NN:whole/JJ;8823
+filter/NN:air/NN;8827
+tale/NNS:cautionary/JJ;8828
+tale/NNS:do-it-yourself/JJ;8828
+tale/NNS:cautionary/JJ;8830
+wire/NNS:live/JJ;8834
+wire/NNS:two/CD;8838
+110v/NN:live/JJ;8841
+circuit/NN:220/CD;8842
+experience/NNS:shocking/JJ;8843
+wall/NNS:several/JJ;8847
+strip/NNS:furring/JJ;8848
+insulation/NN:foam/NN;8850
+(nail/NNS, inch/NN):1 1/2/CD;8855
+strip/NNS:1x3/NN;8860
+door/NN:next/JJ;8865
+(drier/NN, gas/NN):own/JJ;8869
+day/NN:one/CD;8871
+place/NN:whole/JJ;8873
+line/NN:supply/NN;8877
+neighborhood/NN:whole/JJ;8881
+(duct/NNS, air/NN):return/NN;8888
+benefit/NNS:efficiency/NN;8892
+dust/NN:less/JJR;8894
+health/NN:better/JJR;8897
+run/NN:long/JJ;8898
+(filter/NN, air/NN):bad/JJ;8904
+join/turn/NN:duct/NNS;8910
+drywall/NN:new/JJ;8911
+gun/NN:loaded/JJ;8917
+rpm/NN:2400/CD;8924
+RPM/NNP:800/CD;8930
+direction/NN:feed/NN;8932
+checking/NN:double/JJ;8933
+noise/NN:funny/JJ;8938
+bit/NN:loose/JJ;8941
+speed/NNS:terrifying/JJ;8943
+owner/NNS:animal/NN;8947
+duct/NNS:air/NN;8952
+world/NN:metric/JJ;8958
+inch/NN:2/CD;8961
+inch/NN:4/CD;8962
+x6/NN:/CD;8964
+foot/NNS:4x8/CD;8967
+(variety/NNS, foot/NN):4/CD;8970
+(variety/NNS, foot/NN):various/JJ;8970
+foot/NN:5/CD;8971
+inch/NNS:16/CD;8974
+inch/NNS:24/CD;8978
+foot/NNS:8/CD;8981
+foot/NNS:10/CD;8982
+construction/NN:newer/JJR;8984
+world/NN:metric/JJ;8986
+(cable/NNS, power/NN):240v/NN;8990
+part/NN:one/CD;8995
+chance/NN:pure/JJ;9005
+store/NN:hardware/NN;9012
+dimension/NNS:odd/JJ;9017
+country/NNS:english-speaking/JJ;9024
+system/NN:imperial/JJ;9025
+world/NN:other/JJ;9033
+lumber/NN:dimensional/JJ;9035
+block/NNS:cement/NN;9038
+panel/NNS:cement/NN;9040
+system/NN:metric/JJ;9045
+work/NN:construction/NN;9048
+dimension/NNS:same/JJ;9050
+ceiling/NNS:standard/JJ;9055
+tradespeople/NN:younger/JJR;9061
+system/NN:metric/JJ;9063
+class/NN:math/NN;9068
+(plywood/NN, m/NN):2.44/CD;9073
+m/NN:2.5/CD;9075
+m/NN:0.406/CD;9076
+distance/NN:right/JJ;9078
+(sheet/NNS, m/NN):1.25/CD;9081
+m/NN:0.416/CD;9084
+measure/NN:tape/NN;9086
+thing/NN:one/CD;9090
+size/NN:handy/JJ;9092
+m/NN:0.1/CD;9094
+ft/NN:3.28/CD;9099
+floor/NNS:bouncy/NN;9101
+room/NNS:big/JJ;9103
+joist/NNS:long/JJ;9104
+cause/NN:main/JJ;9105
+joist/NNS:2x8/JJ;9106
+hardwood/NN:replace/install/NN;9108
+area/NNS:several/JJ;9109
+bouncy/NN:less/JJR;9113
+spot/NNS:hollow/JJ;9118
+load/NN:wrong/JJ;9119
+load/NN:4/CD;9121
+screw/NNS:concrete/JJ;9124
+hole/NNS:pre-drill/JJ;9125
+hole/NNS:clean/JJ;9128
+screw/NNS:concrete/JJ;9131
+bar/NN:sound/JJ;9134
+item/NN:one/CD;9137
+speaker/NNS:4/CD;9138
+player/NN:dvd/NN;9140
+box/NN:av/NN;9142
+(door/NN, garage/NN):dead/dying/JJ;9144
+(opener/NN, door/NN):garage/NN;9147
+leg/NNS:last/JJ;9148
+motor/NNS:electric/JJ;9163
+pain/NN:huge/JJ;9167
+(opener/NN, door/NN):garage/NN;9174
+attic/NN:unfinished/JJ;9177
+period/NN:extended/JJ;9184
+adhesive/NN:construction/NN;9187
+(screw/NNS, masonry/NN):fewer/JJR;9190
+cable/NN:fish/NN;9193
+wire/NN:speaker/NN;9197
+part/NN:lower/JJR;9200
+(wall/NN, exterior/NN):adjacent/JJ;9202
+joist/NNS:ceiling/NN;9205
+hole/NNS:several/JJ;9211
+foot/NNS:10/CD;9215
+(ceiling/NN, The/NNP):EDIT/NNP;9218
+(ceiling/NN, drywall/NN):smooth/JJ;9220
+google/NN:quick/JJ;9223
+(Extension/NNP, bit/NN):Drill/NNP;9226
+power/NN:enough/JJ;9233
+molding/NN:crown/NN;9243
+speaker/NNS:rear/JJ;9246
+inch/NN:3/4/CD;9251
+(plywood/NN, inch/NN):3/4/CD;9252
+solution/NN:ideal/JJ;9257
+(home/NN, US/NNP):typical/JJ;9259
+volt/NN:220/CD;9260
+(service/NN, amp/NN):200/CD;9262
+home/NN:typical/JJ;9263
+connection/NNS:separate/JJ;9264
+connection/NNS:4/CD;9264
+power/NN:electric/JJ;9267
+power/NN:split-phase/JJ;9267
+transformer/NN:distribution/NN;9269
+input/NN:single-phase/JJ;9270
+tap/NN:center/NN;9273
+wire/NNS:two/CD;9274
+wire/NNS:other/JJ;9274
+volt/NNS:220/CD;9277
+(system/NN, volt/NN):110/CD;9282
+company/NN:electric/JJ;9286
+wire/NN:neutral/ground/JJ;9287
+Ground/NNP:Earth/NNP;9289
+(box/NN, breaker/NN):main/JJ;9291
+Ground/NNP:Earth/NNP;9294
+stake/NN:metal/NN;9296
+line/NN:water/NN;9300
+(panel/NN, breaker/NN):main/JJ;9303
+bus/NNS:neutral/JJ;9305
+wire/NNS:ground/NN;9308
+panel/NN:main/JJ;9309
+voltage/NN:significant/JJ;9310
+exception/NN:possible/JJ;9315
+wire/NNS:ground/NN;9317
+outlet/NNS:electrical/JJ;9319
+wire/NN:ground/NN;9324
+wire/NN:neutral/JJ;9326
+wire/NN:white/JJ;9326
+bus/NN:neutral/JJ;9327
+(wire/NN, ground/NN):green/JJ;9329
+bus/NN:ground/NN;9331
+wire/NN:hot/JJ;9332
+wire/NN:white/JJ;9334
+wire/NN:hot/JJ;9335
+tape/NN:electrical/JJ;9336
+example/NNS:common/JJ;9338
+wire/NNS:white/JJ;9339
+wire/NN:hot/JJ;9340
+switch/NNS:light/JJ;9341
+switch/NNS:end-of-line/JJ;9341
+volt/NNS:220/CD;9343
+wire/NN:neutral/JJ;9344
+wire/NN:hot/JJ;9347
+wire/NNS:neutral/JJ;9348
+gauge/NN:same/JJ;9349
+wire/NN:ground/NN;9351
+wire/NNS:neutral/JJ;9352
+cable/NN:romex/NN;9354
+cable/NN:Armored/NNP;9356
+conduit/NN:metal/NN;9359
+(wire/NN, ground/NN):separate/JJ;9361
+connection/NN:ground/NN;9365
+volt/NNS:220/CD;9367
+breaker/NNS:two/CD;9368
+breaker/NNS:newer/JJR;9371
+breaker/NN:double-wide/JJ;9372
+breaker/NN:single/JJ;9372
+way/NN:same/JJ;9373
+panel/NNS:breaker/NN;9376
+(side/NN, breaker/NNS):two/CD;9378
+phase/NNS:separate/JJ;9380
+plug/NNS:different/JJ;9381
+load/NNS:current/JJ;9383
+exception/NN:major/JJ;9384
+volt/NNS:110/CD;9385
+(receptacle/NNS, amp/NN):20/CD;9388
+slot/NN:extra/JJ;9389
+connection/NN:hot/JJ;9390
+(receptacle/NNS, amp/NN):15/CD;9392
+(plug/NN, amp/NN):15/CD;9394
+(receptacle/NN, amp/NN):20/CD;9396
+(receptacle/NN, amp/NN):regular/JJ;9396
+(plug/NN, amp/NN):20/CD;9399
+amp/NN:15/CD;9400
+(service/NN, amp/NN):20/CD;9402
+project/NN:last/JJ;9419
+time/NN:first/JJ;9422
+time/NN:right/JJ;9422
+tubing/NN:PEX/NNP;9424
+partition/NN:stud/NN;9428
+idea/NN:good/JJ;9432
+year/NNS:few/JJ;9436
+type/NN:other/JJ;9438
+ac/NN:110/CD;9440
+bundle/NN:same/JJ;9441
+box/NNS:electrical/JJ;9442
+box/NNS:same/JJ;9442
+(stuff/NN, data/telecom/av/NN):low-voltage/JJ;9444
+system/NN:electrical/JJ;9447
+run/NN:home/NN;9449
+panel/NN:electrical/JJ;9451
+outlet/NNS:few/JJ;9453
+(run/NN, wire/NN):same/JJ;9456
+breaker/NN:circuit/NN;9458
+run/NN:home/NN;9464
+voltage/NN:low/JJ;9471
+bundle/NN:same/JJ;9472
+right/NN:110/CD;9477
+(wiring/NN, voltage/NN):low/JJ;9479
+equipment/NN:nice/JJ;9481
+voltage/NN:low/JJ;9482
+circuit/NNS:electrical/JJ;9487
+wiring/NN:network/speaker/NN;9490
+cutters/etc/NN:knives/diagonal/JJ;9491
+bundle/NN:cable/NN;9493
+construction/NN:new/JJ;9494
+(run/NNS, home/NN):several/JJ;9496
+tube/NN:smurf/NN;9498
+(conduit/NN, voltage/NN):low/JJ;9500
+preference/NN:personal/JJ;9502
+(watcher/NN, catv/satellite/NN):big/JJ;9509
+thing/NN:important/JJ;9512
+cabling/NN:new/JJ;9517
+explanation/NN:good/JJ;9521
+project/NN:diy/NN;9524
+building/NN:commercial/JJ;9525
+day/NN:one/CD;9530
+bulb/NN:light/JJ;9531
+switch/NN:light/JJ;9533
+while/NN:little/JJ;9537
+building/NNS:old/JJ;9547
+level/NN:floor/NN;9560
+board/NNS:additional/JJ;9563
+size/NN:appropriate/JJ;9564
+wood/NN:additional/JJ;9568
+project/NN:diy/NN;9574
+work/NN:structural/JJ;9575
+deal/NN:big/JJ;9576
+permit/NNS:proper/JJ;9578
+foot/NNS:more/JJR;9588
+foot/NNS:20/CD;9588
+door/NN:garage/NN;9596
+amount/NN:deadly/JJ;9601
+repair/NNS:electric/JJ;9603
+(opener/NNS, door/NN):garage/NN;9606
+(opener/NNS, door/NN):garage/NN;9610
+setting/NNS:adjustable/JJ;9611
+track/NN:misaligned/JJ;9616
+work/NN:unnecessary/JJ;9617
+time/NN:long/JJ;9620
+faucet/NN:tub/NN;9623
+sentence/NN:one/CD;9626
+word/NN:right/JJ;9632
+faucet/NN:tub/NN;9634
+head/NN:shower/NN;9637
+faucet/NN:tub/NN;9639
+week/NNS:few/JJ;9640
+week/NNS:first/JJ;9640
+faucet/NN:tub/NN;9647
+seconds/NNS:15/CD;9648
+deal/NN:huge/JJ;9650
+faucet/NN:tub/NN;9655
+idea/NN:good/JJ;9659
+course/NN:second/JJ;9660
+roof/NN:shingled/JJ;9662
+technique/NN:common/JJ;9671
+idea/NN:good/JJ;9674
+layer/NNS:three/CD;9676
+shingle/NNS:new/JJ;9681
+run/NN:long/JJ;9683
+shingle/NNS:old/JJ;9684
+one/NNS:new/JJ;9685
+layer/NN:second/JJ;9687
+code/NNS:local/JJ;9689
+layer/NNS:more/JJR;9694
+weight/NN:more/JJR;9695
+show/NN:heavy/JJ;9698
+weight/NN:fall/NN;9700
+set-screw/NN:hex-head/JJ;9714
+wall/NNS:concrete/JJ;9718
+concrete/NN:interior/JJ;9720
+way/NN:good/JJ;9725
+wood/NN:wet/JJ;9726
+floor/NN:basement/NN;9730
+insulation/NN:foam/NN;9735
+space/NN:interior/JJ;9737
+(floor/NN, tile/NN):cork/NN;9740
+(floor/NN, tile/NN):cork/NN;9743
+(brand/NN, Floors/NNPS):US/NNP;9746
+bet/NN:safe/JJ;9750
+bath/NN:full/JJ;9752
+idea/NN:good/JJ;9755
+examination/NN:close/JJ;9762
+crack/NN:thin/JJ;9765
+variety/NN:plastic-feeling/JJ;9768
+variety/NN:common/JJ;9768
+surface/NN:glossy/JJ;9773
+paint/NN:lead/JJ;9774
+paint/NN:current/JJ;9780
+(store/NN, paint/NN):local/JJ;9782
+risk/NN:lead/NN;9784
+coat/NN:first/JJ;9787
+paint/NN:new/JJ;9788
+couple/NN:last/JJ;9789
+store/NN:paint/NN;9792
+paint/NN:new/JJ;9795
+bathroom/NN:master/NN;9800
+year/NNS:few/JJ;9801
+foot/NNS:bare/JJ;9804
+year/NNS:three/CD;9810
+finish/NN:film/NN;9817
+expansion/NN:subtle/JJ;9819
+finish/NN:film/NN;9825
+order/NN:short/JJ;9826
+thing/NN:one/CD;9828
+wax/NN:clear/JJ;9829
+bit/NN:tiny/JJ;9832
+tile/NNS:cork/NN;9838
+plywood/chipboard/NN:more/JJR;9852
+subfloor/NN:original/JJ;9857
+(screwgun/NN, fed/NN):belt/NN;9862
+subfloor/NN:new/JJ;9864
+unit/NN:single/JJ;9865
+joist/NNS:multiple/JJ;9868
+option/NN:other/JJ;9869
+saw/NN:circular/JJ;9877
+w/NN:wire/NN;9881
+end/NN:bent/JJ;9882
+thing/NN:lamination/NN;9886
+floor/NN:hardwood/NN;9889
+floor/NN:new/JJ;9894
+coat/NN:bad/JJ;9898
+York/NNP:New/NNP;9905
+paint/NN:lead/NN;9908
+thing/NN:important/JJ;9909
+paint/NN:chemical/NN;9914
+paint/NN:lead/NN;9917
+contractor/NNS:licensed/JJ;9921
+waste/NN:hazardous/JJ;9922
+(guideline/NNS, York/NNP):New/NNP;9925
+sand/NN:wet/JJ;9927
+kit/NNS:test/NN;9931
+paint/NN:lead/NN;9934
+coat/NN:top/JJ;9936
+coat/NN:older/JJR;9937
+(Flooring/NNP, Veneer/NNP):timber/NN;9940
+(floor/NNS, timber/NN):polished/JJ;9942
+part/NNS:different/JJ;9943
+kind/NNS:different/JJ;9945
+gap/NNS:few/JJ;9947
+veneer/NN:timber/NN;9951
+idea/NN:good/JJ;9953
+plastic/NN:acrylic/JJ;9959
+repair/NN:short-term/JJ;9965
+epoxy/NN:two-part/JJ;9966
+epoxy/NN:thin/JJ;9967
+ratio/NN:2:1/CD;9968
+center/NN:home/NN;9971
+knife/NN:putty/NN;9973
+hour/NNS:24/CD;9975
+(solution/NN, term/NN):short/JJ;9977
+(repair/NN, epoxy/NN):brittle/JJ;9981
+scratch/NN:surface/NN;9984
+kit/NN:repair/NN;9986
+matching/NN:color/NN;9990
+match/NN:good/JJ;9994
+sandpaper/NN:fine/JJ;9996
+sandpaper/NN:wet-and-dry/JJ;9997
+sandpaper/NN:fine/JJ;9997
+part/NNS:auto/NN;9999
+grit/NN:2000/CD;10001
+grease/NN:elbow/NN;10003
+direction/NN:one/CD;10006
+finish/NN:glossy/JJ;10010
+swing/NN:porch/NN;10013
+swing/NN:porch/NN;10015
+direction/NN:wrong/JJ;10017
+hook/NNS:support/NN;10019
+direction/NN:correct/JJ;10022
+lb/NNS:500/CD;10023
+style/NN:different/JJ;10029
+hook/NN:support/NN;10031
+spot/NN:single/JJ;10034
+(repair/NN, grout/NN):minor/JJ;10036
+tile/NNS:floor/NN;10039
+chip/NNS:small/JJ;10040
+shape/NN:great/JJ;10044
+area/NN:high-traffic/JJ;10046
+floor/NN:entire/JJ;10049
+issue/NN:underlying/JJ;10050
+way/NN:proper/JJ;10054
+(bond/NNS, grout/NN):new/JJ;10057
+guide/NN:good/JJ;10063
+rcd/NN:30ma/NN;10075
+area/NNS:other/JJ;10077
+fitting/NNS:splash-resistant/JJ;10083
+p/NN:Part/NNP;10089
+regulation/NNS:building/NNS;10091
+council/NN:local/JJ;10093
+flooring/NN:laminate/NN;10096
+flooring/NN:laminate/JJ;10098
+Zealand/NNP:New/NNP;10102
+owner/NN:previous/JJ;10106
+option/NN:one/CD;10113
+fix/NN:long-term/JJ;10116
+flush/NN:toilet/NN;10118
+splash/NNS:water/NN;10121
+excavator/NN:small/JJ;10128
+(clay/NN, Gloucestershire/NNP):sticky/JJ;10132
+builder/NN:previous/JJ;10133
+lump/NNS:larger/JJR;10135
+lawn/NN:beautiful/JJ;10141
+excavator/NN:smallish/JJ;10143
+bit/NN:particular/JJ;10144
+tree/NNS:few/JJ;10147
+slope/NN:slight/JJ;10148
+(technique/NNS, share/NN):anyone/NN;10151
+job/NN:DIY/NNP;10155
+job/NN:lighter/JJR;10158
+country/NN:metric/JJ;10161
+number/NNS:round/JJ;10168
+grout/NN:old/JJ;10171
+prodding/NN:slight/JJ;10172
+batch/NN:small/JJ;10176
+(store/NN, hardware/NN):local/JJ;10179
+tub/NN:small/JJ;10180
+grout/NN:premixed/JJ;10181
+tub/NN:larger/JJR;10183
+grout/NN:normal/JJ;10184
+(job/NN, tile/NN):original/JJ;10190
+patio/NN:concrete/JJ;10192
+patio/NN:concrete/JJ;10193
+condition/NN:good/JJ;10195
+idea/NN:good/JJ;10202
+patio/NN:concrete/JJ;10204
+issue/NNS:several/JJ;10210
+answer/NN:short/JJ;10225
+provenance/NN:unknown/JJ;10227
+adult/NNS:2/CD;10229
+run/NN:short/JJ;10237
+way/NN:stronger/JJR;10243
+depth/NN:same/JJ;10258
+pressure/NN:initial/JJ;10261
+(pressure/NN, line/NN):full/JJ;10272
+pressure/NN:line/NN;10287
+toilet/NNS:commercial/JJ;10288
+toilet/NNS:tankless/JJ;10290
+mechanism/NN:flush/JJ;10292
+level/NN:water/NN;10298
+tank/NN:fill/NN;10300
+water/NN:less/JJR;10309
+water/NN:less/JJR;10313
+(mechanism/NNS, fill/NN):two/CD;10316
+(style/NN, arm/NN):float/NN;10319
+screw/NN:adjustment/NN;10321
+float/NN:newer/JJR;10323
+style/NN:pipe/NN;10325
+amount/NN:lower/JJR;10332
+way/NN:real/JJ;10335
+way/NN:only/JJ;10335
+size/NNS:vario/NNS;10340
+patch/NN:small/JJ;10343
+drain/NN:french/JJ;10345
+tray/NN:bread/NN;10347
+(mesh/NN, hardware/NN):1cm/JJ;10350
+bit/NN:fair/JJ;10353
+amount/NN:large/JJ;10355
+problem/NNS:other/JJ;10364
+analysis/NN:soil/NN;10371
+mess/NN:real/JJ;10372
+screen/NNS:two/CD;10375
+cm/NN:7.5/CD;10376
+item/NNS:large/JJ;10377
+clay/NN:sticky/JJ;10383
+work/NN:fast/JJ;10384
+process/NN:learning/NN;10398
+layer/NN:one/CD;10401
+(layer/NN, topsoil/NN):obvious/JJ;10403
+layer/NN:clay/NN;10405
+clay/NN:much/JJ;10406
+hour/NNS:few/JJ;10411
+hour/NNS:first/JJ;10411
+person/NN:experienced/JJ;10416
+harm/NN:less/JJR;10417
+tool/NNS:hand/NN;10423
+thing/NN:one/CD;10424
+filter/NN:inline/NN;10427
+(screen/NN, mesh/NN):small/JJ;10431
+faucet/NN:kitchen/NN;10439
+joist/NN:2x8/JJ;10454
+spacing/NN:center-to-center/JJ;10456
+third/NN:center/NN;10460
+span/NNS:longer/JJR;10461
+joist/NNS:extra/JJ;10463
+brush/NN:angled/JJ;10467
+side/NN:one/CD;10473
+pressure/NN:enough/JJ;10484
+casing/NN:window/NN;10489
+(paint/NN, wall/NN):little/JJ;10492
+color/NN:trim/JJ;10493
+cent/NNS:two/CD;10498
+tractor/NN:compact/JJ;10503
+attachment/NN:rake/NN;10505
+stuff/NN:bigger/JJR;10508
+pattern/NN:spiral/NN;10515
+bucket/NN:loader/NN;10521
+location/NN:way/NN;10524
+span/NN:20-foot/JJ;10528
+lumber/NN:full-sized/JJ;10530
+foot/NN:15/CD;10531
+engineer/NN:structural/JJ;10534
+span/NN:entire/JJ;10539
+flooring/NN:Modern/NNP;10543
+(floor/NNS, hardwood/NN):old/JJ;10545
+spacing/NN:large/JJ;10546
+layer/NNS:two/CD;10551
+subfloor/NN:new/JJ;10552
+home/NN:older/JJR;10556
+source/NN:one/CD;10559
+(complexity/NN, automation/NN):home/NN;10563
+automation/NN:home/NN;10567
+control/NN:lighting/NN;10569
+member/NNS:family/NN;10573
+case/NNS:many/JJ;10574
+automation/NN:home/NN;10578
+setting/NNS:individual/JJ;10580
+button/NNS:many/JJ;10582
+button/NN:single/JJ;10583
+option/NNS:many/JJ;10584
+turn/NN:light/JJ;10587
+toy/NNS:new/JJ;10589
+thing/NN:same/JJ;10592
+(setup/NNS, theater/NN):home/NN;10595
+remote/NNS:three/CD;10596
+screen/NN:tv/NN;10599
+box/NN:set-top/JJ;10600
+installation/NN:audio/JJ;10601
+tv/NN:simple/JJ;10602
+Norman/NNP:Don/NNP;10606
+world/NN:complex/JJ;10607
+(interface/NN, user/NN):complicated/JJ;10609
+house/NN:world/our/NN;10611
+Overflow/NNP:Stack/NNP;10617
+husband/NNS:enthusiastic/JJ;10618
+point/NNS:bonus/NN;10621
+bit/NN:last/JJ;10627
+minute/NNS:two/CD;10632
+minute/NNS:five/CD;10633
+time/NN:one/CD;10635
+post/NN:one/CD;10642
+automation/NN:home/NN;10647
+((sensor/NNS, temperature/NN), wire/NN):2/CD;10650
+motor/NNS:servo/NN;10653
+box/NN:linux/NN;10655
+seal/NN:proper/JJ;10659
+valve/NN:float/NN;10662
+tank/NN:toilet/NN;10671
+day/NNS:windy/JJ;10675
+blow/NNS:wind/NN;10677
+dimension/NNS:same/JJ;10689
+dimension/NNS:actual/JJ;10693
+(size/NNS, millimeter/NN):actual/JJ;10697
+list/NNS:price/NN;10699
+term/NNS:colloquial/JJ;10701
+four-by-four/NN:milled/JJ;10705
+inch/NNS:3.5/CD;10706
+mm/NN:89/CD;10707
+mm/NN:98/CD;10709
+dimension/NNS:common/JJ;10711
+(dimension/NNS, lumber/NN):structural/JJ;10713
+(dimension/NNS, lumber/NN):milled/JJ;10713
+size/NN:actual/JJ;10714
+size/NN:Actual/NNP;10717
+size/NN:nominal/JJ;10719
+mm/NN:30/CD;10721
+mm/NN:36/CD;10722
+mm/NN:48/CD;10723
+mm/NN:38/CD;10724
+mm/NN:61/CD;10725
+mm/NN:73/CD;10726
+mm/NN:64/CD;10727
+mm/NN:98/CD;10728
+mm/NN:89/CD;10729
+mm/NN:123/CD;10730
+mm/NN:114/CD;10731
+mm/NN:148/CD;10732
+mm/NN:140/CD;10733
+mm/NN:173/CD;10734
+mm/NN:159/CD;10735
+mm/NN:198/CD;10736
+mm/NN:184/CD;10737
+mm/NN:223/CD;10738
+lumber/NN:Unmilled/NNP;10740
+dimension/NNS:larger/JJR;10741
+mm/NN:100/CD;10742
+mm/NN:125/CD;10743
+mm/NN:150/CD;10744
+cm/NN:60/CD;10748
+sheet/NNS:other/JJ;10752
+cm/NN:60/CD;10754
+cm/NN:300/CD;10757
+guideline/NNS:EPA/NNP;10759
+cleaning/NN:duct/NN;10761
+duct/NNS:airflow/NN;10765
+filter/NN:air/NN;10769
+return/NN:air/NN;10772
+duct/NNS:supply/NN;10775
+duct/NNS:supply/NN;10779
+air/NN:unfiltered/JJ;10780
+way/NN:other/JJ;10784
+duct/NNS:supply/NN;10787
+cleaner/NN:vacuum/NN;10794
+duct/NNS:return/NN;10801
+dander/NN:animal/NN;10803
+filter/NN:air/NN;10806
+(quality/NN, air/NN):overall/JJ;10808
+filter/NN:air/NN;10814
+spore/NNS:mold/NN;10817
+thing/NNS:smelly/JJ;10818
+bottom/NN:sandbox/NN;10820
+water/NN:enough/JJ;10830
+fabric/NN:Landscape/NNP;10834
+plywood/NN:regular/JJ;10836
+plywood/NN:Redwood/NNP;10840
+Depot/NNP:Home/NNP;10843
+fabric/NN:landscape/NN;10850
+size/NN:similar/JJ;10852
+problem/NN:same/JJ;10853
+block/NNS:concrete/NN;10856
+experience/NN:previous/JJ;10858
+Dingo/NNP:Toro/NNP;10860
+attachment/NNS:different/JJ;10861
+attachment/NNS:few/JJ;10861
+cultivator/NN:soil/NN;10864
+grass/NN:old/JJ;10865
+sod/NN:new/JJ;10867
+effect/NN:side/JJ;10874
+bucket/NN:Standard/NNP;10879
+hole/NN:large/JJ;10880
+block/NNS:concrete/NN;10883
+(block/NNS, concrete/NN):large/JJ;10885
+amount/NNS:larger/JJR;10888
+hour/NNS:eight/CD;10890
+size/NN:same/JJ;10892
+yard/NNS:cubic/JJ;10893
+yard/NNS:20/CD;10893
+loam/NN:new/JJ;10894
+charge/NN:rental/JJ;10896
+ground/NN:level/NN;10902
+(zone/NNS, heating/NN):multiple/JJ;10907
+boiler/NN:combination/NN;10909
+house/NN:first/JJ;10910
+thing/NN:one/CD;10912
+usage/NN:gas/NN;10915
+bedroom/NN:three/CD;10917
+room/NN:box/NN;10919
+(house/NN, UK/NNP):semi-detached/JJ;10921
+owner/NN:previous/JJ;10923
+((((boiler/NN, combination/NN), he24/NN), Icos/NNP), Ideal/NNP):new/JJ;10928
+thermostat/NN:standard/JJ;10929
+thermostat/NNS:programmable/JJ;10933
+thermostat/NNS:two/CD;10933
+flow/NN:heating/NN;10938
+zone/NNS:two/CD;10939
+boiler/NN:standalone/JJ;10942
+pump/NNS:separate/JJ;10943
+boiler/NNS:combination/NN;10947
+pump/NN:internal/JJ;10950
+valve/NN:one/CD;10952
+flow/NN:upstairs/NN;10954
+flow/NN:downstairs/NNS;10956
+valve/NNS:return/NN;10958
+system/NNS:heating/NN;10960
+thought/NNS:people/NNS;10964
+water/NN:enough/JJ;10966
+pond/NN:small/JJ;10969
+(idea/NN, fabric/NN):landscape/NN;10973
+pressure/NN:CCA/NNP;10985
+year/NN:three/CD;10988
+pound/NNS:100-130/CD;10991
+foot/NN:cubic/JJ;10992
+(sandbox/NN, plastic/NN):small/JJ;10994
+boy/NNS:three/CD;10998
+(:d/NN, boy/NNS):three/CD;10999
+grid/NN:metal/NN;11012
+grid/NN:galvanized/JJ;11015
+fabric/NN:landscape/NN;11019
+grid/NN:metal/NN;11021
+(grid/NN, metal/NN):straight/JJ;11024
+grid/NN:metal/NN;11031
+drainage/NN:good/JJ;11033
+(plywood/NN, redwood/NN):resistant/JJ;11037
+plywood/NN:cypress/NN;11040
+smell/NN:basement/NN;11042
+boiler/NN:oil/NN;11044
+basement/NN:130-year-old/JJ;11045
+(smell/NN, basement/NN):distinct/JJ;11047
+heat/NN:steam/NN;11051
+water/NN:hot/JJ;11054
+boiler/NNS:oil/NN;11057
+year/NNS:seven/CD;11059
+company/NN:oil/NN;11061
+bill/NN:clean/JJ;11062
+month/NNS:few/JJ;11064
+type/NNS:different/JJ;11066
+anchor/NNS:drywall/NN;11068
+shelving/NN:wire/NN;11071
+anchor/NN:drywall/NN;11075
+type/NNS:several/JJ;11076
+page/NN:reference/NN;11078
+anchor/NNS:drywall/NN;11080
+difference/NN:practical/JJ;11084
+board/NN:cement/NN;11086
+greenboard/NN:resistant/JJ;11093
+application/NNS:home/NN;11095
+center/NN:home/NN;11097
+damage/NN:shower/NN;11103
+(board/NN, cement/NN):Use/NNP;11110
+area/NN:tub/NN;11112
+drywall/NN:resistant/JJ;11117
+Gypsum/NNP:U.S./NNP;11119
+(((®/NN, Humitek/NNP), Brand/NNP), ®/NNP):Sheetrock/NNP;11124
+Gypsum/NNP:National/NNP;11126
+((xp/NN, Brand/NNP), Bond/NNP):Gold/NNP;11130
+ts/NN:™/CD;11133
+Pacific/NNP:Georgia/NNP;11135
+Gypsum/NNP:U.S./NNP;11138
+AquaTough/NNP:®/CD;11140
+(search/NN, Google/NNP):quick/JJ;11142
+source/NN:one/CD;11146
+Schluter/NNP:product/NN;11150
+(((anchor/NNS, type/NN), solver/NN), stud/NN):self-drilling/JJ;11160
+anchor/NNS:other/JJ;11162
+type/NN:toggle-bolt/JJ;11163
+moisture/NN:likely/JJ;11166
+(circulation/NN, air/NN):poor/JJ;11168
+thing/NN:first/JJ;11169
+idea/NNS:different/JJ;11173
+idea/NNS:few/JJ;11173
+vinegar/NN:Run/NNP;11176
+detergent/NN:different/JJ;11178
+(softener/NN, filter/water/NN):special/JJ;11181
+furnace/NN:oil/NN;11184
+furnace/NN:oil/NN;11187
+furnace/NN:oil/NN;11191
+tank/NN:fuel/NN;11194
+spill/NN:other/JJ;11195
+fuel/NN:diesel/NN;11197
+smoke/NN:greasy/JJ;11201
+(vehicle/NN, diesel/NN):maintained/JJ;11204
+shooting/NN:flame/NN;11209
+port/NN:inspection/NN;11211
+radiator/NNS:water/NN;11215
+pump/NN:circulation/NN;11217
+(smell/NN, burning/NN):oil/NN;11222
+company/NN:oil/NN;11227
+thing/NN:soot/NN;11233
+gap/NN:requisite/JJ;11240
+proof/NN:water/NN;11246
+board/NN:cement/NN;11248
+wall/NN:whole/JJ;11250
+improvement/NN:home/NN;11255
+membrane/NN:waterproof/JJ;11257
+layer/NN:extra/JJ;11259
+protection/NN:water/NN;11261
+government/NN:local/JJ;11266
+area/NNS:shower/tub/NN;11269
+condensate/NN:two/CD;11270
+(system/NN, ac/NN):new/JJ;11272
+house/NN:florida/NN;11274
+handler/NN:air/NN;11278
+(line/NNS, condensate/NN):2/CD;11283
+unit/NN:new/JJ;11287
+drain/NN:outside/JJ;11288
+unit/NN:new/JJ;11289
+(line/NNS, drain/NN):2/CD;11291
+line/NNS:two/CD;11293
+line/NN:backup/NN;11298
+(line/NN, drain/NN):one/CD;11303
+floor/NN:garage/NN;11310
+line/NN:backup/NN;11313
+anyway/NNS:floor/NN;11315
+summer/NN:one/CD;11316
+summer/NN:concrete/JJ;11316
+school/NN:high/JJ;11317
+time/NN:long/JJ;11319
+chip/NNS:two/CD;11322
+corner/NN:new/JJ;11323
+hole/NNS:two/CD;11324
+inch/NNS:few/JJ;11328
+crack/NNS:similar/JJ;11335
+crack/NN:foundation/NN;11340
+foundation/NNS:concrete/JJ;11343
+crack/NNS:angular/JJ;11344
+inch/NNS:16/CD;11345
+corner/NN:outer/JJ;11349
+problem/NNS:structural/JJ;11352
+problem/NNS:major/JJ;11352
+time/NN:next/JJ;11353
+material/NN:repair/NN;11356
+finder/NN:Stud/NNP;11358
+(system/NNS, automation/NN):Home/NNP;11370
+expectation/NNS:different/JJ;11379
+thing/NN:one/CD;11380
+share/NN:market/NN;11388
+cat/NN:copy/NN;11391
+structure/NN:common/JJ;11392
+interface/NN:familiar/JJ;11402
+person/NN:average/JJ;11403
+time/NNS:9/10/CD;11407
+need/NNS:specific/JJ;11409
+interest/NN:higher/JJR;11410
+switch/NN:light/JJ;11412
+variation/NNS:few/JJ;11413
+device/NN:simple/JJ;11414
+example/NN:good/JJ;11417
+interface/NNS:disparate/JJ;11418
+phone/NNS:cell/NN;11420
+guy/NN:tech/NN;11422
+people/NNS:other/JJ;11424
+phone/NN:new/JJ;11425
+phone/NN:old/JJ;11427
+ringtone/NNS:change/NN;11430
+Mobile/NNP:Windows/NNP;11437
+(experience/NNS, user/NN):different/JJ;11440
+interface/NN:new/JJ;11451
+phone/NN:company/NNS;11453
+word/NNS:different/JJ;11455
+reception/NN:poor/JJ;11458
+(life/NN, battery/NN):short/JJ;11460
+phone/NN:new/JJ;11461
+anchor/NNS:plastic/JJ;11462
+hold/NN:stronger/JJR;11466
+(hole/NN, size/NN):perfect/JJ;11473
+system/NN:heating/NN;11479
+pump/NNS:separate/JJ;11480
+pump/NNS:three/CD;11480
+zone/NNS:three/CD;11481
+pump/NN:single/JJ;11482
+zone/NNS:multiple/JJ;11484
+pump/NN:single/JJ;11485
+storage/NN:easy/JJ;11490
+clothes/NNS:old/JJ;11494
+(etc/NN, furtniture/NN):unused/JJ;11497
+(etc/NN, furtniture/NN):small/JJ;11497
+year/NNS:10/CD;11506
+summary/NN:beautiful/JJ;11508
+type/NNS:different/JJ;11509
+type/NNS:different/JJ;11513
+(corner/NN, Eastern/NNP):North/NNP;11517
+year/NN:50/CD;11520
+window/NNS:wooden/JJ;11521
+window/NNS:single-pane/JJ;11521
+window/NNS:old/JJ;11521
+(efficiency/NN, energy/NN):decent/JJ;11524
+seal/NNS:broken/JJ;11529
+free-ness/NN:maintenance/NN;11531
+world/NN:IT/NNP;11533
+thing/NNS:shiny/JJ;11536
+thing/NNS:new/JJ;11536
+stuff/NN:various/JJ;11537
+approach/NN:right/JJ;11546
+manufacturer/NN:great/JJ;11548
+(window/NN, vinyl/NN):great/JJ;11551
+fiberglass/NNS:average/JJ;11552
+question/NNS:actual/JJ;11553
+technology/NN:window/NN;11555
+(manufacturer/NNS, window/NN):good/JJ;11557
+window/NNS:right/JJ;11558
+attic/NN:storage/NN;11561
+sheet/NNS:plywood/NN;11563
+joist/NNS:ceiling/NN;11566
+space/NN:living/NN;11570
+week/NNS:few/JJ;11581
+sale/NN:garage/NN;11583
+board/NNS:deck/NN;11587
+width/NN:uneven/JJ;11588
+board/NN:deck/NN;11590
+Depot/NNP:Home/NNP;11592
+night/NN:last/JJ;11599
+time/NN:next/JJ;11601
+Depot/NNP:Home/NNP;11607
+shopping/NN:buy/NN;11610
+(plywood/NN, inch/NN):1/2/CD;11614
+stuff/NN:chipboard/NN;11618
+thing/NN:one/CD;11620
+climate/NN:cold/JJ;11621
+inch/NNS:several/JJ;11624
+joist/NNS:floor/NN;11627
+((pipe/NNS, gas/NN), copper/NN):reason/NN;11636
+solder/NN:silver/NN;11638
+temperature/NN:melting/NN;11640
+solder/NN:normal/JJ;11644
+(source/NNS, Depot/NNP):Home/NNP;11648
+mill/NNS:different/JJ;11650
+thing/NN:one/CD;11655
+(board/NNS, deck/NN):5/4/CD;11658
+Depot/NNP:Home/NNP;11660
+one/NNS:Lowes/NNP;11664
+one/NNS:depot/NN;11667
+place/NN:one/CD;11669
+dimension/NNS:same/JJ;11670
+stamp/NNS:sand/NN;11672
+ft/NN:2/CD;11677
+care/NN:special/JJ;11683
+(Kid/NNP, Karate/NNP):next/JJ;11695
+sander/NN:belt/NN;11699
+sander/NN:random-orbit/JJ;11700
+project/NNS:indoor/JJ;11703
+project/NNS:future/JJ;11703
+strength/NN:arm/NN;11708
+sander/NN:orbital/JJ;11710
+sander/NN:small/JJ;11710
+(paper/NN, grit/NN):fine/JJ;11713
+sander/NNS:Orbital/NNP;11715
+trouble/NN:much/JJ;11717
+(chipboard/NN, storage/NN):occassional/JJ;11722
+minimum/NN:5/8/CD;11724
+material/NNS:waste/NN;11731
+plywood/NN:case/NNS;11736
+cost/NN:2x/NN;11738
+impact/NN:environmental/JJ;11739
+impact/NN:extra/JJ;11739
+axis/NN:strength/NN;11742
+side/NN:short/JJ;11745
+joist/NNS:5/CD;11746
+sheet/NN:4x8/CD;11747
+side/NN:long/JJ;11752
+side/NNS:short/JJ;11753
+side/NNS:long/JJ;11755
+joist/NNS:floor/NN;11760
+deal/NN:big/JJ;11761
+loft/NN:storage/NN;11763
+buck/NNS:more/JJR;11764
+buck/NNS:few/JJ;11764
+floor/NN:proper/JJ;11766
+dance/NN:neighborhood/NN;11768
+orientation/NN:board/NN;11770
+side/NN:bark/NN;11773
+crown/NN:board/NNS;11775
+way/NN:other/JJ;11779
+way/NN:one/CD;11780
+tile/NNS:several/JJ;11783
+tile/NNS:several/JJ;11784
+room/NN:dining/NN;11786
+crack/NN:diagonal/JJ;11787
+line/NN:straight/JJ;11788
+tile/NNS:several/JJ;11789
+issue/NN:foundation/NN;11791
+problem/NN:1/CD;11803
+time/NN:long/JJ;11809
+frustration/NN:real/JJ;11812
+automation/NN:home/NN;11814
+delay/NN:strange/JJ;11816
+line/NN:data/NN;11822
+problem/NNS:range/NN;11827
+cable/NNS:power/NN;11829
+pair/NN:twisted/JJ;11830
+difference/NN:huge/JJ;11832
+device/NNS:x10/NN;11836
+amount/NNS:small/JJ;11837
+bulb/NNS:cf/NN;11841
+amount/NNS:small/JJ;11842
+power/NN:choppy/JJ;11843
+circuit/NNS:x10/NN;11846
+way/NN:good/JJ;11850
+pair/NNS:twisted/JJ;11851
+style/NN:new/JJ;11855
+(box/NN, gang/NN):electrical/JJ;11857
+member/NNS:non-technical/JJ;11858
+automation/NN:home/NN;11861
+switch/NNS:light/JJ;11862
+switch/NNS:light/JJ;11864
+switch/NNS:wireless/JJ;11864
+light/NNS:downstairs/NNS;11867
+button/NN:single/JJ;11868
+year/NNS:5-10/CD;11877
+tile/NNS:new/JJ;11879
+way/NNS:different/JJ;11882
+way/NNS:four/CD;11882
+ink/NN:stamp/NN;11884
+(ink/NN, pad/NN):stamp/NN;11889
+side/NN:crown/NN;11892
+side/NN:cup/NN;11897
+shape/NN:horrible/JJ;11898
+climate/NN:wet/snowy/JJ;11902
+water/NN:pooled/JJ;11903
+try/NN:first/JJ;11907
+time/NNS:many/JJ;11910
+pressure/NN:water/NN;11913
+cause/NNS:other/JJ;11914
+cause/NNS:many/JJ;11914
+drainage/NN:proper/JJ;11919
+buildup/NN:water/NN;11922
+time/NN:final/JJ;11923
+time/NN:one/CD;11923
+((Options/NNPS, Patio/NNP), Concrete/NNP):New/NNP;11929
+patio/NN:concrete/JJ;11930
+patio/NN:new/JJ;11930
+patio/NN:concrete/JJ;11931
+patio/NN:stamped/JJ;11931
+appeal/NN:visual/JJ;11933
+option/NNS:other/JJ;11934
+option/NNS:different/JJ;11937
+(build-up/NN, mold/NN):location/NN;11943
+reason/NN:big/JJ;11947
+humidity/NN:high/JJ;11950
+(collection/NNS, mold/NN):impressive/JJ;11952
+(system/NN, heating/NN):central/JJ;11956
+(system/NNS, heating/NN):radiator/NN;11961
+house/NN:fixer-upper/NN;11963
+market/NN:north-american/JJ;11965
+colony/NNS:original/JJ;11966
+climate/NNS:colder/JJR;11967
+work/NN:restoration/NN;11969
+home/NNS:older/JJR;11970
+seaboard/NN:eastern/JJ;11971
+radiator/NNS:american/JJ;11974
+steel/NN:heavy/JJ;11975
+fed/NN:gravity/NN;11978
+pipe/NNS:larger/JJR;11979
+construction/NN:1940s/CD;11985
+(place/NN, salvage/NN):architectural/JJ;11988
+((store/NN, supply/NN), plumbing/NN):local/JJ;11996
+heating/NN:baseboard/NN;12003
+pipe/NN:copper/NN;12005
+wall/NN:whole/JJ;12007
+quality/NNS:non-drying/JJ;12009
+heat/NN:radiator/NN;12011
+model/NNS:fan-assisted/JJ;12015
+((heat/NN, radiator/NN), style/NN):early/JJ;12020
+((heat/NN, radiator/NN), style/NN):typical/JJ;12020
+style/NN:european/JJ;12022
+style/NN:modern/JJ;12022
+heat/NN:steam/NN;12027
+heat/NN:water/NN;12029
+gas/NN:natural/JJ;12032
+pump/NN:circulation/NN;12038
+fed/NN:gravity/NN;12040
+((pipe/NNS, iron/NN), cast/NN):large/JJ;12044
+((system/NN, feed/NN), pump/NN):circulation/NN;12049
+pipe/NNS:smaller/JJR;12050
+system/NN:fed/NN;12054
+(episode/NN, House/NNP):Old/NNP;12058
+style/NN:european/JJ;12060
+water/NN:standard/JJ;12062
+tub/NN:bath/NN;12066
+home/NN:30-year-old/JJ;12067
+(tub/NN, cast-iron/NN):yellow/JJ;12069
+(tub/NN, cast-iron/NN):30-year-old/JJ;12069
+plastic/NN:modern/JJ;12071
+site/NNS:two/CD;12074
+side/NN:long/JJ;12077
+side/NN:3rd/JJ;12079
+shelf/NN:small/JJ;12081
+bath/NNS:new/JJ;12082
+length/NN:same/JJ;12083
+length/NN:exact/JJ;12083
+pain/NN:giant/JJ;12086
+blanket/NN:thick/JJ;12088
+iron/NN:cast/NN;12095
+tub/NN:new/JJ;12100
+(door/NNS, bathroom/NN):many/JJ;12103
+house/NNS:older/JJR;12104
+((system/NN, shower/tub/NN), piece/NN):one/CD;12109
+side/NN:one/CD;12113
+unit/NN:new/JJ;12117
+tub/NN:new/JJ;12119
+(look/NN, tub/NN):old/JJ;12122
+(look/NN, tub/NN):crappy/JJ;12122
+mirror/NN:frameless/JJ;12124
+((Adhesive/NNP, Mirror/NNP), Nails/NNPS):liquid/NN;12136
+support/NN:mechanical/JJ;12137
+angle/NN:shelf/NN;12139
+((adhesive/NN, construction/NN), duty/NN):heavy/JJ;12145
+house/NN:new/JJ;12147
+((adhesive/NN, construction/NN), duty/NN):heavy/JJ;12154
+product/NNS:other/JJ;12155
+product/NNS:two/CD;12155
+Adhesive/NNP:Mirror/NNP;12157
+Adhesive/NNP:Mirror/NNP;12160
+room/NN:dining/NN;12166
+lb/NNS:30/CD;12167
+frame/NN:wooden/JJ;12168
+(clip/NNS, metal/NN):small/JJ;12171
+frame/NN:wooden/JJ;12175
+thing/NN:whole/JJ;12177
+mirror/NN:frameless/JJ;12179
+thing/NNS:important/JJ;12183
+thing/NNS:two/CD;12183
+room/NN:living/NN;12197
+room/NN:living/NN;12201
+type/NNS:button/NN;12204
+Napier/NNP:@Rob/NNP;12209
+factor/NN:huge/JJ;12212
+type/NNS:different/JJ;12218
+type/NNS:two/CD;12218
+switch/NNS:toggle/NN;12222
+dimmer/NNS:rocker/NN;12224
+keypad/NNS:8-button/JJ;12225
+thing/NN:obvious/JJ;12228
+thing/NN:other/JJ;12228
+light/NN:certain/JJ;12232
+level/NN:certain/JJ;12233
+way/NN:proper/JJ;12235
+baseboard/NN:install/paint/JJ;12236
+baseboard/NNS:new/JJ;12237
+method/NN:right/NN;12239
+wall/NNS:paint/NN;12242
+((Cut/NNP, wall/NNS), paint/NN):baseboard/NN;12243
+nailer/NN:brad/NN;12246
+nail/NNS:liquid/JJ;12247
+hole/NNS:nail/NN;12251
+corner/NNS:seal/NN;12254
+(putty/NN, sand/NN):caulk/NN;12257
+grit/NN:high/JJ;12258
+paint/NN:touch-up/NN;12260
+gap/NN:noticeable/JJ;12265
+construction/NN:new/JJ;12273
+edge/NN:top/JJ;12280
+inch/NNS:30/CD;12284
+vanity/NNS:bathroom/NN;12287
+(top/NNS, counter/NN):kitchen/NN;12290
+downside/NN:practical/JJ;12295
+vanity/NN:higher/JJR;12296
+Depot/NNP:Home/NNP;12299
+(((Clips/NNP, Mounting/NNP), Mirror/NNP), Loaded/NNP):Spring/NNP;12305
+channel/NN:j/NN;12308
+spring/NN:small/JJ;12309
+door/NN:closet/NN;12325
+gap/NN:slight/JJ;12326
+thanks/NNS:top/JJ;12327
+(putty/NN, wood/NN):white/JJ;12330
+paint/NN:little/JJ;12338
+defect/NN:slight/JJ;12341
+thing/NNS:little/JJ;12346
+builder/NN:original/JJ;12349
+edge/NN:top/JJ;12354
+(stool/NNS, step/NN):taller/JJR;12364
+gap/NNS:slight/JJ;12372
+angle/NN:slight/JJ;12377
+touch/NNS:top/JJ;12379
+amount/NN:small/JJ;12383
+angle/NN:slight/JJ;12387
+place/NN:only/JJ;12389
+sink/NN:double/JJ;12396
+portion/NN:one/CD;12398
+counter/NN:vanity/NN;12400
+height/NN:normal/JJ;12402
+people/NNS:normal/JJ;12404
+height/NN:stool/NN;12419
+knife/NN:utility/NN;12426
+sheetrock/NN:old/JJ;12430
+stool/NN:new/JJ;12431
+stock/NN:thick/JJ;12432
+piece/NN:one/CD;12434
+stool/NN:entire/JJ;12437
+piece/NN:thick/JJ;12439
+smell/NN:ground/soil/NN;12441
+floor/NN:first/JJ;12442
+space/NN:crawl/NN;12447
+smell/NN:ground/soil/NN;12450
+room/NN:living/NN;12452
+room/NN:one/CD;12456
+difference/NN:only/JJ;12457
+wall/NN:one/CD;12460
+bed/NN:flower/NN;12462
+shopping/NN:house/NN;12468
+house/NNS:several/JJ;12471
+vanity/NNS:hers/NNS;12473
+inch/NNS:several/JJ;12476
+range/NNS:vanity/NN;12481
+(cabinet/NNS, kitchen/NN):standard/JJ;12489
+(vanity/NN, bath/NN):master/NN;12492
+child/NNS:small/JJ;12496
+bath/NN:master/NN;12498
+vanity/NN:double/JJ;12500
+house/NN:old/JJ;12501
+plane/NN:Block/NNP;12503
+trip/NNS:million/CD;12508
+trip/NNS:eight/CD;12508
+rounding/NN:simple/JJ;12511
+house/NN:entire/JJ;12514
+(caulk/NN, silicone/NN):paintable/JJ;12518
+Dynaflex/NNP:DAP/NNP;12520
+brush/NN:detail/NN;12522
+hour/NNS:extra/JJ;12526
+hour/NNS:few/JJ;12526
+room/NNS:couple/NN;12530
+section/NNS:long/JJ;12534
+strip/NN:entire/JJ;12540
+dock/NN:wood/NN;12546
+seal/NN:clear/JJ;12552
+spill/NN:bp/NN;12557
+form/NNS:life/NN;12559
+water/NN:hot/JJ;12560
+water/NN:slow/JJ;12560
+heater/NN:water/NN;12562
+foot/NNS:30/CD;12565
+reason/NN:main/JJ;12567
+water/NN:hot/JJ;12569
+water/NN:hot/JJ;12572
+(pipe/NNS, water/NN):hot/JJ;12574
+(heater/NN, water/NN):hot/JJ;12576
+space/NN:crawl/NN;12580
+(heater/NN, water/NN):small/JJ;12582
+((heater/NNS, water/NN), litre/NN):8/CD;12586
+((heater/NNS, water/NN), litre/NN):small/JJ;12586
+toilet/NNS:guest/NN;12589
+(heater/NN, water/NN):main/JJ;12591
+option/NN:one/CD;12592
+(pump/NN, water/NN):recirculating/JJ;12594
+water/NN:hot/JJ;12595
+trigger/NNS:various/JJ;12597
+temp/NN:water/NN;12601
+house/NN:previous/JJ;12603
+info/NN:more/JJR;12604
+water/NN:hot/JJ;12606
+pump/NNS:older/JJR;12608
+loop/NN:return/NN;12611
+design/NNS:newer/JJR;12613
+water/NN:hot/JJ;12621
+switching/NN:manual/JJ;12626
+switching/NN:remote/JJ;12626
+use/NN:marine/JJ;12628
+sheet/NN:msds/NN;12630
+manufacturer/NN:same/JJ;12632
+stain/NNS:friendly/JJ;12633
+water/NN:hot/JJ;12636
+heater/NN:booster/NN;12640
+(heater/NN, water/NN):hot/JJ;12644
+gallon/NN:4/CD;12645
+gallon/NN:~/CD;12645
+(heater/NN, water/NN):hot/JJ;12647
+water/NN:hot/JJ;12650
+(line/NN, water/NN):hot/JJ;12652
+heater/NN:use/NN;12656
+gallon/NNS:4/CD;12658
+use/NN:immediate/JJ;12659
+water/NN:hot/JJ;12660
+(heater/NN, water/NN):hot/JJ;12662
+(heater/NN, water/NN):main/JJ;12662
+gallon/NNS:4/CD;12663
+water/NN:hot/JJ;12664
+water/NN:cold/JJ;12666
+(heater/NN, water/NN):use/NN;12672
+solution/NN:perfect/JJ;12675
+water/NN:slow-flowing/JJ;12676
+heater/NN:water/NN;12679
+solution/NN:one/CD;12682
+recirculation/NN:water/NN;12684
+scenario/NNS:usage/NN;12686
+recirculation/NN:water/NN;12688
+circuit/NN:water/NN;12697
+line/NN:return/NN;12699
+water/NN:hot/JJ;12701
+water/NN:hot/JJ;12704
+(heater/NN, water/NN):instant/JJ;12709
+(heater/NNS, water/NN):on-demand/JJ;12713
+burst/NN:short/JJ;12714
+water/NN:hot/JJ;12717
+water/NN:enough/JJ;12717
+house/NN:whole/JJ;12719
+valve/NNS:thermostatic/JJ;12722
+boiler/NN:combination/NN;12725
+valve/NNS:return/NN;12727
+radiator/NN:one/CD;12728
+boiler/NN:combination/NN;12735
+herring/NN:red/JJ;12736
+(heater/NN, water/NN):hot/JJ;12740
+(aspect/NN, heating/NN):central/JJ;12742
+pump/NN:integral/JJ;12744
+(valve/NNS, radiator/NN):thermostatic/JJ;12750
+Home/NNP:Greener/NNP;12752
+level/NNS:humidity/NN;12755
+(level/NN, humidity/NN):safe/JJ;12757
+wax/NN:car/NN;12760
+(unit/NN, conditioning/NN):air/NN;12764
+conversation/NNS:different/JJ;12765
+member/NNS:family/NN;12767
+wax/NN:car/NN;12771
+((frame/NN, unit/NN), conditioning/NN):air/NN;12776
+seal/NN:protective/JJ;12777
+((unit/NN, xr15/NN), Trane/NNP):new/JJ;12782
+shape/NN:tip-top/JJ;12784
+((wall/NNS, brick/concrete/NN), quality/NN):poor/JJ;12788
+plug/NNS:wall/NN;12797
+pipe/NNS:new/JJ;12808
+fitting/NNS:different/JJ;12812
+fixing/NNS:frame/NN;12814
+(frame/NN, door/NN):exterior/NN;12819
+rawlplug/NNS:long/JJ;12825
+screw/NNS:fat/JJ;12826
+rawlplug/NNS:two/CD;12827
+screw/NN:whole/JJ;12829
+(wood/NN, study/NN):nice/JJ;12833
+issue/NN:drainage/NN;12836
+condition/NNS:freezing/JJ;12837
+coating/NN:small/JJ;12838
+water/NN:pent-up/JJ;12840
+thing/NNS:different/JJ;12858
+anchor/NNS:concrete/JJ;12859
+coating/NN:generous/JJ;12860
+Metal/NNP:Loctite/NNP;12862
+Epoxy/NNP:Concrete/NNP;12864
+option/NN:other/JJ;12867
+strip/NNS:furring/JJ;12868
+(screw/NNS, anchor/NN):concrete/JJ;12873
+(screw/NNS, anchor/NN):blue/JJ;12873
+inch/NNS:1/2/CD;12874
+thread/NN:good/JJ;12875
+structure/NN:support/NN;12878
+inch/NNS:2-4/CD;12881
+percent/NN:40/CD;12883
+climate/NNS:cold/JJ;12884
+(level/NNS, humidity/NN):indoor/JJ;12887
+percent/NN:65/CD;12888
+growth/NN:mold/NN;12891
+percent/NN:50/CD;12892
+mite/NNS:dust/NN;12894
+information/NN:great/JJ;12896
+information/NN:more/JJR;12896
+level/NNS:humidity/NN;12898
+area/NN:larger/JJR;12908
+batten/NNS:vertical/JJ;12913
+yard/NN:back/JJ;12924
+spot/NNS:wet/JJ;12925
+line/NNS:property/NN;12929
+well/NNS:window/NN;12932
+drainage/NN:surface/NN;12935
+(box/NN, drain/NN):plastic/JJ;12938
+pipe/NN:perforated/JJ;12939
+(system/NN, sewer/NN):storm/NN;12942
+drain/NN:french/JJ;12944
+sewer/NN:storm/NN;12946
+rock/NN:small/JJ;12949
+pipe/NN:perforated/JJ;12950
+(stuff/NN, end/NN):lower/JJR;12954
+line/NN:product/NN;12965
+RadioRA/NNP:Lutron/NNP;12968
+system/NN:industry-standard/JJ;12970
+solution/NN:whole-house/JJ;12972
+package/NNS:smaller-scene/NN;12975
+solution/NN:mother-load/JJ;12976
+site/NN:pro/JJ;12986
+(permission/NN, Planning/NNP):http://www.cepro.com/article/hardwired_vs_wireless_lighting_control//NN;12990
+site/NN:DirectGov/NNP;12993
+plan/NNS:architect/NNS;12998
+Regulations/NNPS:Building/NNP;13004
+etc./NN:insulation/NN;13007
+site/NN:Communities/NNPS;13011
+interval/NNS:regular/JJ;13014
+stage/NN:next/JJ;13019
+idea/NN:bad/JJ;13031
+regulation/NNS:local/JJ;13032
+one/NNS:national/JJ;13033
+area/NNS:Conservation/NNP;13035
+(programmer/NN, heating/NN):central/JJ;13038
+(programmer/NN, heating/NN):software-controlled/JJ;13038
+(programmer/NN, heating/NN):central/JJ;13041
+(tank/NN, water/NN):hot/JJ;13044
+schedule/NNS:separate/JJ;13046
+override/NN:manual/JJ;13049
+door/NN:front/JJ;13052
+system/NN:bare-bones/JJ;13054
+system/NN:basic/JJ;13054
+pc/NN:Windows/NNP;13057
+developer/NN:software/NN;13059
+project/NN:hobby/NN;13061
+solution/NN:complete/JJ;13062
+vendor/NN:single/JJ;13063
+pcb/NN:tcp/ip-enabled/JJ;13066
+Fireplace/NNP:Electric/NNP;13070
+heater/NN:Electric/NNP;13073
+room/NN:living/NN;13075
+fireplace/NN:gas/NN;13077
+that/NNS:craigslist/NN;13083
+(w/NN, home/NN):new/JJ;13085
+question/NN:similar/JJ;13089
+option/NNS:automation/NN;13091
+(((system/NN, automation/NN), home/NN), party/NN):third/JJ;13099
+condition/NN:freezing/JJ;13100
+problem/NN:other/JJ;13101
+problem/NN:only/JJ;13101
+pad/NN:concrete/JJ;13104
+issue/NN:drainage/NN;13108
+siding/NN:vinyl/NN;13120
+seepage/NN:water/NN;13132
+amount/NN:surprising/JJ;13139
+(tester/NN, humidity/NN):cheap/JJ;13147
+%/NN:65/CD;13149
+answer/NN:screwdriver-set/JJ;13153
+rep./NN:sufficient/JJ;13154
+tool/NN:one/CD;13156
+(screwdriver/NN, combination/NN):picquic/JJ;13158
+(screwdriver/NN, combination/NN):standard/JJ;13158
+tire/NN:canadian/JJ;13159
+one/NN:only/JJ;13163
+drill/NN:cordless/JJ;13171
+equivalent/NNS:good/JJ;13172
+country/NNS:other/JJ;13173
+aerification/NN:liquid/NN;13175
+idea/NN:good/JJ;13176
+compost/NN:spread/NN;13181
+fertilizer/NN:good/JJ;13182
+spot/NNS:black/JJ;13197
+ceiling/NN:bathroom/NN;13199
+spot/NNS:black/JJ;13203
+guide/NN:maintenance/NN;13207
+(thing/NN, drain/NN):french/JJ;13210
+sewer/NN:storm/NN;13213
+government/NN:local/JJ;13214
+company/NN:water/NN;13216
+utility/NNS:underground/JJ;13218
+area/NN:dc/NN;13220
+Utility/NNP:Miss/NNP;13222
+idea/NN:good/JJ;13226
+tree/NNS:large/JJ;13228
+branch/NNS:large/JJ;13232
+thing/NN:good/JJ;13235
+area/NN:much/JJ;13240
+(route/NN, drain/NN):french/JJ;13243
+line/NN:property/NN;13249
+time/NNS:multiple/JJ;13257
+damage/NN:water/NN;13261
+(pipe/NN, water/NN):broken/JJ;13263
+rain/NN:significant/JJ;13266
+value/NN:resale/NN;13270
+return/NN:great/JJ;13272
+fireplace/NN:electric/JJ;13274
+room/NN:living/NN;13276
+return/NN:same/JJ;13277
+buyer/NNS:future/JJ;13278
+design/look/NN:interior/JJ;13284
+design/look/NN:overall/JJ;13284
+benefit/NNS:non-monetary/JJ;13292
+solution/NN:50/50/CD;13295
+day/NNS:few/JJ;13299
+fan/NN:bathroom/NN;13302
+air/NN:hot/JJ;13303
+paint/NN:mold-inhibiting/JJ;13308
+drywall/NN:mold-inhibiting/JJ;13309
+(option/NN, term/NN):long/JJ;13313
+mixture/NN:bleach/water/NN;13315
+step/NN:first/JJ;13316
+water/NN:warm/JJ;13319
+level/NNS:humidity/NN;13323
+increase/NN:bathroom/NN;13325
+renovation/NNS:home/NN;13327
+return/NN:full/JJ;13328
+breakdown/NN:good/JJ;13335
+reno/NNS:common/JJ;13336
+(effect/NN, side/NN):pleasant/JJ;13343
+thing/NNS:two/CD;13348
+solution/NN:disinfectant/bleach/JJ;13349
+bit/NN:important/JJ;13351
+step/NN:first/JJ;13352
+cause/NN:usual/JJ;13353
+ventilation/NN:insufficient/JJ;13356
+cure/NN:ultimate/JJ;13357
+fan/NN:extractor/NN;13359
+circuit/NN:light/JJ;13363
+ventilation/NN:additional/JJ;13365
+solution/NN:weak/JJ;13369
+way/NN:good/JJ;13376
+(depot/NN, home/NN):sure/JJ;13378
+time/NNS:several/JJ;13380
+cause/NN:concrete/JJ;13382
+cause/NN:new/JJ;13382
+house/NN:new/JJ;13383
+humidity/NN:high/JJ;13384
+concrete/NN:new/JJ;13387
+day/NNS:few/JJ;13390
+unit/NN:ac/NN;13396
+appeal/NN:cosmetic/JJ;13397
+table/NN:pool/NN;13402
+layout/NNS:different/JJ;13405
+table/NN:pool/NN;13407
+(point/NNS, selling/NN):big/JJ;13410
+need/NN:room/NN;13414
+(table/NN, pool/NN):full-size/JJ;13416
+one/NNS:modern/JJ;13420
+fire/NN:real/JJ;13422
+space-heater/NN:fancy/JJ;13423
+value/NNS:property/NN;13425
+way/NN:one/CD;13426
+installation/NN:permanent/JJ;13428
+roi/NN:positive/JJ;13435
+age/NN:stone/NN;13446
+(heater/NN, water/NN):gas/NN;13449
+(heater/NN, water/NN):existing/JJ;13452
+room/NN:guest/NN;13456
+(heater/NN, water/NN):gas/NN;13462
+((heater/NN, water/NN), gas/NN):modern/JJ;13466
+strength/NN:full/JJ;13471
+day/NNS:30/CD;13472
+room/NN:enough/JJ;13474
+room/NN:elbow/NN;13477
+table/NN:pool/NN;13481
+foot/NNS:5/CD;13486
+room/NN:enough/JJ;13489
+(stick/NN, size/NN):full/JJ;13491
+stick/NNS:short/JJ;13493
+area/NNS:tight/JJ;13494
+source/NN:good/JJ;13496
+table/NNS:pool/NN;13499
+rule/NN:good/JJ;13502
+stick/NNS:cue/NN;13505
+(((size/NN, Room/NNP), Minimum/NNP), size/NN):Table/NNP;13510
+flaw/NNS:critical/JJ;13513
+(system/NNS, automation/NN):home/NN;13516
+interface/NN:user/NN;13518
+interface/NN:user/NN;13527
+ui/NN:common/JJ;13530
+door/NNS:multiple/JJ;13536
+control/NN:electronic/JJ;13541
+switch/NN:wall/NN;13544
+control/NNS:automation/NN;13549
+socket/NN:wall/NN;13553
+switch/NN:natural/JJ;13559
+light/NNS:Christmas/NNP;13561
+theater/NN:home/NN;13565
+luck/NN:good/JJ;13566
+remote/NNS:universal/JJ;13567
+(remote/NNS, Harmony/NNP):Logitech/NNP;13572
+job/NN:good/JJ;13573
+line/NN:bottom/JJ;13574
+interface/NN:user/NN;13576
+feature/NN:key/JJ;13578
+DIY/NNP:anything/NN;13580
+automation/NN:home/NN;13582
+(time/NN, spending/NN):worth/JJ;13587
+code/NNS:sure/JJ;13590
+appliance/NN:gas/NN;13592
+air/NN:combustion/NN;13595
+(flow/NN, air/NN):natural/JJ;13602
+model/NN:direct-vent/JJ;13606
+air/NN:combustion/NN;13608
+(heater/NN, water/NN):hot/JJ;13611
+valve/NNS:thermostatic/JJ;13614
+solution/NN:standard/JJ;13616
+time/NN:different/JJ;13620
+thermostat/NN:own/JJ;13621
+boiler/NN:combination/NN;13624
+boiler/NN:system/NN;13626
+rating/NN:same/JJ;13627
+pump/NN:2nd/JJ;13628
+winter/NN:last/JJ;13630
+standard/NNS:UK/NNP;13632
+indication/NN:good/JJ;13633
+(usage/NN, gas/NN):ongoing/JJ;13635
+way/NN:cheap/JJ;13636
+spore/NNS:mold/NN;13638
+mold/NN:toxic/JJ;13639
+symptom/NNS:same/JJ;13643
+equipment/NN:proper/JJ;13646
+test/NN:non-scientific/JJ;13649
+(system/NNS, board/NN):Duct/NNP;13652
+junk/NN:more/JJR;13653
+(system/NN, duct/NN):metal/NN;13657
+filter/NN:good/JJ;13658
+time/NN:less/JJR;13661
+technique/NN:same/JJ;13662
+basement/NN:wet/JJ;13663
+(test/NNS, mold/NN):home/NN;13670
+filter/NN:air/NN;13673
+filter/NN:air/NN;13678
+system/NN:a/c/NN;13683
+rule/NN:good/JJ;13684
+coat/NN:thick/JJ;13692
+unit/NN:outside/JJ;13694
+clipping/NNS:grass/NN;13698
+coil/NN:outside/JJ;13700
+air/NN:hot/JJ;13713
+work/NN:unit/NN;13716
+unit/NN:outside/JJ;13720
+dirt/NN:loose/JJ;13721
+season/NN:cooling/NN;13739
+(heater/NN, water/NN):hot/JJ;13743
+heater/NN:gas/NN;13746
+issue/NN:safety/NN;13752
+issue/NN:safety/NN;13756
+monoxide/NN:carbon/NN;13758
+(heater/NN, water/NN):hot/JJ;13761
+((heater/NN, water/NN), gas/NN):new/JJ;13765
+appliance/NNS:gas/NN;13770
+(heater/NN, water/NN):hot/JJ;13773
+(heater/NN, water/NN):electric/JJ;13775
+sense/NN:financial/JJ;13776
+cost/NNS:installation/NN;13778
+detector/NN:CO/NNP;13781
+(store/NN, hardware/NN):local/JJ;13784
+Depot/NNP:Home/NNP;13790
+(quality/NNS, filter/NN):different/JJ;13793
+filter/NNS:expensive/JJ;13802
+month/NNS:6/CD;13803
+month/NNS:3/CD;13805
+filter/NNS:dirty/JJ;13806
+equipment/NN:hvac/NN;13808
+(flow/NN, air/NN):low/JJ;13810
+furnace/NN:dirty/JJ;13812
+blade/NNS:fan/NN;13817
+type/NNS:main/JJ;13818
+type/NNS:two/CD;13818
+filter/NNS:air/NN;13820
+one/NNS:thick/JJ;13821
+filter/NNS:thick/JJ;13822
+one/NNS:thick/JJ;13825
+month/NNS:6/CD;13826
+(store/NN, hardware/NN):local/JJ;13829
+month/NN:other/JJ;13833
+month/NNS:3/CD;13840
+quality/NN:air/NN;13843
+problem/NNS:other/JJ;13847
+coil/NN:frozen/JJ;13848
+(coil/NN, handler/NN):air/NN;13851
+airflow/NN:enough/JJ;13852
+(filter/NNS, air/NN):cheap/JJ;13854
+filter/NNS:better/JJR;13857
+idea/NNS:two/CD;13859
+(plug/NN, wall/NN):chemical/NN;13862
+side/NN:other/JJ;13866
+plate/NN:metal/NN;13869
+hole/NNS:three/CD;13875
+vertice/NN:single/JJ;13878
+(thread/NN, screw/NN):one/CD;13882
+cap/NN:wire/NN;13887
+box/NN:junction/NN;13890
+fire/NN:electrical/JJ;13893
+sunlight/NN:direct/JJ;13896
+cure/NNS:concrete/JJ;13903
+%/NN:85/CD;13904
+day/NNS:7/CD;13905
+day/NNS:first/JJ;13905
+%/NN:10/CD;13906
+week/NNS:3/CD;13907
+week/NNS:next/JJ;13907
+%/NN:5/CD;13908
+year/NNS:20/CD;13909
+year/NNS:next/JJ;13909
+dehumidifier/NN:home/NN;13912
+humidifier/NNS:Home/NNP;13914
+pint/NNS:30-100/CD;13915
+humidity/NN:high/JJ;13923
+moisture/NN:measure/NN;13930
+room/NN:basement/NN;13932
+(opener/NN, door/NN):garage/NN;13938
+((way/NN, half/NN), door/NN):garage/NN;13942
+door/NN:garage/NN;13944
+unit/NN:replacement/NN;13949
+(bbq/NN, coal/NN):char/NN;13957
+waterfall/NN:small/JJ;13964
+pond/NN:small/JJ;13965
+virus/NN:Westnile/NNP;13968
+option/NNS:couple/NN;13974
+love/NN:fish/NN;13982
+larva/NNS:Mosquito/NNP;13984
+extreme/NN:one/CD;13989
+house/NN:brick/NN;13991
+siding/NN:vinyl/NN;13994
+extreme/NN:other/JJ;13996
+siding/NN:vinyl/NN;13998
+siding/NN:wood/NN;14001
+rule/NN:general/JJ;14002
+story/NN:1/CD;14003
+(overhang/NN, story/NN):1/CD;14004
+folk/NNS:many/JJ;14011
+block/NNS:rabon/NN;14013
+waste/NN:animal/NN;14018
+cycle/NN:life/NN;14025
+(store/NNS, supply/NN):farm/NN;14034
+(Stop/NNP, Light/NNP):Snake/NNP;14038
+Dunks/NNP:Mosquito/NNP;14043
+larva/NNS:mosquito/NN;14045
+day/NNS:30/CD;14046
+Dunks/NNPS:Mosquito/NNP;14048
+pesticide/NN:biological/JJ;14057
+pesticide/NN:specific/JJ;14057
+breakthrough/NN:major/JJ;14059
+(approach/NN, chemical/NN):toxic/JJ;14063
+(approach/NN, chemical/NN):traditional/JJ;14063
+control/NN:mosquito/NN;14065
+information/NN:reference/NN;14072
+(Agency/NNP, Protection/NNP):Environmental/NNP;14075
+place/NN:month/NN;14078
+season/NN:whole/JJ;14082
+foot/NNS:square/JJ;14084
+foot/NNS:100/CD;14084
+water/NN:surface/NN;14086
+area/NNS:smaller/JJR;14089
+garden/NNS:water/NN;14093
+pot/NNS:flower/NN;14095
+bath/NNS:bird/NN;14097
+gutter/NNS:rain/NN;14099
+pond/NNS:decorative/JJ;14100
+(tool/NNS, cost/NN):low/JJ;14102
+(tool/NNS, cost/NN):good/JJ;14102
+quality/NN:good/JJ;14109
+top/NN:superb/JJ;14110
+tool/NNS:line/NN;14112
+year/NNS:couple/NN;14117
+sander/NN:orbital/JJ;14120
+(drill/NN, power/NN):favorite/JJ;14123
+(drill/NN, power/NN):absolute/JJ;14123
+(cordless/NN, 12v/NN):Ryobi/NNP;14126
+model/NN:same/JJ;14127
+(battery/NNS, 12v/NN):old/JJ;14130
+(battery/NNS, lithium/NN):newer/JJR;14132
+minute/NNS:45/CD;14135
+thing/NNS:nice/JJ;14136
+tray/NN:magnetic/JJ;14139
+screwdriver/NN:power/NN;14144
+thing/NN:great/JJ;14150
+series/NN:cordless/JJ;14151
+tool/NNS:different/JJ;14153
+battery/NNS:same/JJ;14154
+Depot/NNP:Home/NNP;14157
+way/NN:friendly/JJ;14159
+water/NN:boiling/JJ;14160
+single-use/NN:Kiddie/NNP;14165
+Depot/NNP:Home/NNP;14167
+rating/NN:ABC/NNP;14169
+A/NNP:Class/NNP;14172
+b/NN:class/NN;14177
+(fire/NNS, c/NN):class/NN;14182
+equipment/NN:electrical/JJ;14183
+(unit/NN, home/NN):full/JJ;14185
+gauge/NN:pressure/NN;14187
+status/NN:at-a-glance/JJ;14188
+aluminum/NN:lightwieght/NN;14190
+((assembly/NN, valve/NN), nylon/NN):tough/JJ;14193
+((UL/NNP, Chemical/NNP), Dry/NNP):mult-purpose/JJ;14196
+fire/NNS:common/JJ;14200
+Control/NNP:Ant/NNP;14202
+(Control/NNP, Pest/NNP):simple/JJ;14204
+list/NN:huge/JJ;14205
+(technique/NNS, control/NN):ant/NN;14208
+(idea/NN, water/NN):boiling/JJ;14210
+control/NN:behavior/NN;14213
+((list/NNS, section/NN), Control/NNP):Biological/NNP;14219
+way/NNS:natural/JJ;14220
+way/NNS:several/JJ;14220
+(bait/NN, acid/NN):boric/JJ;14223
+(bait/NN, acid/NN):own/JJ;14223
+colony/NNS:ant/NN;14225
+bait/NNS:ant/NN;14227
+control/NN:ant/NN;14230
+control/NN:ant/NN;14234
+level/NNS:acceptable/JJ;14243
+acid/NN:boric/JJ;14244
+(poison/NN, ant/NN):perfect/JJ;14246
+poison/NNS:commercial/JJ;14247
+acid/NN:boric/JJ;14249
+killer/NN:ant/JJ;14250
+killer/NN:slow/JJ;14250
+time/NN:ant/NNS;14252
+quantity/NNS:sufficient/JJ;14254
+apocalypse/NN:ant/JJ;14255
+(((recipe/NNS, bait/NN), ant/NN), acid/NN):boric/JJ;14259
+(((recipe/NNS, bait/NN), ant/NN), acid/NN):few/JJ;14259
+cup/NNS:three/CD;14261
+(sugar/NN, cup/NN):one/CD;14264
+teaspoon/NNS:four/CD;14265
+acid/NN:boric/JJ;14266
+jar/NNS:separate/JJ;14270
+ball/NNS:cotton/NN;14273
+hole/NNS:few/JJ;14277
+(label/NN, crossbones/NNS):skull-and/JJ;14281
+ant/NNS:black/JJ;14289
+ant/NNS:little/JJ;14289
+ant/NNS:thief/NN;14291
+ant/NNS:pavement/NN;14293
+recipe/NN:above/JJ;14296
+food/NN:pet/NN;14298
+tablespoon/NNS:four/CD;14301
+butter/NN:peanut/NN;14303
+tablespoon/NNS:six/CD;14304
+(Borax/NNP, teaspoon/NN):one/CD;14307
+earth/NN:diatomaceous/JJ;14309
+killer/NN:ant/JJ;14310
+killer/NN:slow/JJ;14310
+species/NNS:ant/JJ;14311
+earth/NN:diatomaceous/JJ;14312
+dust/NN:desiccant/JJ;14313
+shell/NNS:fossilized/JJ;14314
+alga/NNS:ancient/JJ;14315
+shard/NNS:microscopic/JJ;14317
+barrier/NN:ant/JJ;14324
+grade/NN:food/NN;14331
+anthill/NNS:nearby/JJ;14336
+void/NNS:wall/NN;14342
+(repellent/NN, ant/NN):natural/JJ;14345
+pepper/NN:Chili/NNP;14347
+pepper/NN:black/JJ;14348
+pepper/NN:red/JJ;14349
+band/NNS:wide/JJ;14362
+inch/NNS:5-6/CD;14363
+oils/NNS:Citrus/NNP;14366
+(extract/NNS, peel/NN):citrus/NN;14372
+Guard/NNP:Orange/NNP;14375
+(Aerosol/NNP, DL/NNP):Pro-Citra/NNP;14381
+control/NN:ant/NN;14383
+(spray/NN, kill/NN):direct/JJ;14387
+nest/NNS:outdoor/JJ;14392
+version/NNS:small/JJ;14398
+response/NN:useful/JJ;14403
+juice/NN:lemon/JJ;14404
+slab/NNS:cap/NN;14413
+mix/NN:cement/NN;14422
+thing/NNS:other/JJ;14426
+value/NN:resale/NN;14434
+feature/NN:particular/JJ;14435
+fireplace/NN:electric/JJ;14437
+thing/NNS:other/JJ;14439
+people/NNS:other/JJ;14443
+aspect/NN:important/JJ;14446
+month/NNS:1-2/CD;14450
+month/NNS:6/CD;14452
+rule/NN:good/JJ;14454
+condition/NNS:average/JJ;14456
+home/NN:average/JJ;14457
+life/NN:usable/JJ;14462
+faucet/NN:kitchen/NN;14465
+faucet/NN:kitchen/NN;14468
+reason/NN:apparent/JJ;14469
+water/NN:cold/JJ;14470
+(nozzle/NN, spray/NN):pull-out/NN;14479
+edge/NN:non-pivoting/JJ;14483
+miter/NN:someone/NN;14486
+door/NN:closet/NN;14490
+frame/NN:door/NN;14492
+frame/NN:door/NN;14497
+buildup/NN:pressure/NN;14506
+pipe/NNS:copper/NN;14508
+pressure/NN:full/JJ;14512
+plate/NNS:hinge/NN;14515
+splinter/NNS:wood/NN;14525
+jig/NN:doweling/JJ;14528
+(jig/NN, hole/NN):pocket/NN;14531
+one/NNS:big/JJ;14534
+one/NNS:small/JJ;14535
+clamp/NNS:band/NN;14537
+tool/NNS:power/NN;14539
+tool/NNS:decent/JJ;14541
+price/NNS:good/JJ;14542
+drainage/NN:improper/JJ;14543
+block/NN:cinder/NN;14548
+block/NN:cinder/JJ;14552
+crack/NN:small/JJ;14553
+debris/NN:other/JJ;14555
+block/NN:cinder/JJ;14558
+drain/NN:french/JJ;14572
+year/NNS:several/JJ;14582
+installation/NN:gutter/NN;14587
+door/NN:garage/NN;14590
+Gutters/NNP:Garage/NNP;14605
+management/NN:water/NN;14607
+drive/NN:paved/JJ;14608
+splash/NN:less/JJR;14617
+door/NN:garage/NN;14620
+centimeter/NNS:10/CD;14631
+centimeter/NNS:three/CD;14633
+hole/NN:3cm/JJ;14640
+compound/NN:lightweight/JJ;14641
+(panel/NN, wood/NN):small/JJ;14646
+piece/NN:small/JJ;14648
+panel/NN:wood/NN;14652
+colour/NN:same/JJ;14654
+(tile/NNS, wall/NN):kitchen/NN;14660
+protection/NN:mold/NN;14662
+mm/NN:1.5/CD;14663
+grout/NN:white/JJ;14664
+tile/NNS:white/JJ;14665
+wall/NNS:kitchen/NN;14667
+America/NNP:North/NNP;14671
+sealant/NN:soak-in/JJ;14679
+prcoess/NN:time-consuming/JJ;14680
+way/NN:long-lasting/JJ;14682
+(sealant/NN, silicone/NN):white/JJ;14685
+(contractor/NN, kitchen/NN):dopey/JJ;14687
+term/NN:wrong/JJ;14692
+time/NNS:million/CD;14693
+answer/NN:easy/JJ;14694
+board/NNS:baseboards/skirting/NN;14696
+access/NN:wheelchair/NN;14701
+(level/NN, %/NN):100/CD;14703
+sill/NN:door/NN;14706
+channel/NN:narrow/JJ;14709
+blower/NN:quiet/JJ;14714
+fireplace/NN:gas/NN;14717
+fireplace/NN:beautiful/JJ;14718
+room/NN:family/NN;14720
+burning/NN:wood/NN;14723
+heat/NN:much/JJ;14727
+air/NN:heated/JJ;14737
+blower/NN:quiet/JJ;14743
+level/NN:noise/NN;14745
+factor/NN:important/JJ;14746
+blower/NNS:fireplace/NN;14748
+system/NN:entertainment/NN;14753
+baseboard/NN:old/JJ;14754
+skirting/NN:old/JJ;14755
+term/NN:familiar/JJ;14757
+tiler/NN:floor/NN;14762
+tile/NNS:new/JJ;14765
+(floor/NN, tile/NN):nice/JJ;14767
+diagram/NN:ascii-art/JJ;14776
+((TRIM/NNP, CONCEALING/NNP), IMAGINARY/NNP):-------/CD;14780
+|/NNS:|/CD;14781
+|/NNS:__/CD;14781
+|/NNS:|/CD;14782
+|/NNS:|/CD;14782
+|/NNS:_/CD;14785
+(SKIRTING/NNP, OLD/NNP):|/CD;14788
+(SKIRTING/NNP, OLD/NNP):^/CD;14788
+solution/NNS:better/JJR;14790
+round/NN:quarter/NN;14793
+room/NNS:adjoining/JJ;14797
+(store/NNS, improvement/NN):Home/NNP;14800
+floor/NNS:bathroom/NN;14804
+thing/NN:cosmetic/JJ;14813
+rust/NN:surface/NN;14823
+issue/NN:similar/JJ;14824
+box/NN:fan/NN;14828
+box/NN:previous/JJ;14830
+patch/NNS:wall/NN;14834
+Depot/NNP:Home/NNP;14837
+unit/NN:Trane/NNP;14845
+coat/NN:special/JJ;14846
+packet/NN:informational/JJ;14852
+round/NN:quarter/NN;14855
+round/NN:quarter/NN;14857
+molding/NN:original/JJ;14859
+molding/NN:original/JJ;14861
+molding/NN:larger/JJR;14862
+molding/NN:old/JJ;14865
+cost/NN:own/JJ;14868
+job/NN:proper/JJ;14870
+installation/NN:offer/NN;14881
+depth/NN:certain/JJ;14889
+wood/NN:top/JJ;14891
+wood/NN:bottom/JJ;14892
+floor/NN:concrete/JJ;14893
+(head/NN, screw/NN):visible/JJ;14896
+hole/NN:small/JJ;14897
+filler/NN:wood/NN;14899
+flooring/NN:laminate/NN;14901
+Zealand/NNP:New/NNP;14903
+idea/NN:good/JJ;14909
+force/NN:damaging/JJ;14911
+slope/NNS:roof/NN;14920
+door/NN:garage/NN;14922
+reason/NN:only/JJ;14924
+water/NN:rain/NN;14926
+door/NN:garage/NN;14931
+set/NN:good/JJ;14933
+set/NN:sharp/JJ;14937
+fit/NN:good/JJ;14940
+quarter-sheet/NN:decent/JJ;14946
+((sander/NN, palm/NN), purpose/NN):general/JJ;14949
+(capability/NNS, fastening/NN):decent/JJ;14951
+(board/NN, mail/NN):junk/NN;14963
+place/NN:great/JJ;14964
+(Bureau/NNP, Business/NNP):Better/NNP;14968
+client/NNS:previous/JJ;14977
+one/NNS:good/JJ;14978
+client/NNS:previous/JJ;14980
+one/NNS:bad/JJ;14981
+schedule/NN:full/JJ;14989
+sign/NN:good/JJ;14990
+decision/NN:good/JJ;14999
+solution/NN:better/JJR;15001
+((unit/NN, conditioning/NN), air/NN):dual-zone/JJ;15006
+(unit/NN, conditioning/NN):air/NN;15010
+story/NNS:two/CD;15014
+f/NN:78/CD;15016
+half/NN:top/JJ;15019
+savings/NNS:energy/NN;15027
+lumber/NN:dimensional/JJ;15028
+lumber/NN:untreated/JJ;15028
+fir/NN:untreated/JJ;15031
+sealer/NN:Grout/NNP;15037
+way/NN:obvious/JJ;15038
+effect/NN:side/JJ;15041
+idea/NNS:few/JJ;15048
+picture/NN:accurate/JJ;15052
+((inspector/NN, code/NN), city/NN):local/JJ;15059
+work/NN:good/JJ;15062
+(store/NNS, supply/NN):building/plumbing/electrical/JJ;15066
+(store/NNS, supply/NN):local/JJ;15066
+idea/NNS:good/JJ;15070
+(http://www.myflorida.com/licensee//NN, presence/NN):online/JJ;15074
+(http://www.myflorida.com/licensee//NN, presence/NN):nice/JJ;15074
+sand/NN:fine/JJ;15081
+hassle/NN:maintenance/NN;15084
+sand/NN:more/JJR;15092
+grout/NN:fine/JJ;15099
+time/NN:more/JJR;15102
+sand/NN:joint/JJ;15105
+growth/NN:weed/NN;15109
+sand/NN:fine/JJ;15111
+(brush/NN, mixture/NN):cement/NN;15114
+water/NN:much/JJ;15120
+solution/NN:permanent/JJ;15121
+flooring/NN:laminate/JJ;15125
+(board/NNS, laminate/NN):individual/JJ;15128
+floor/NN:entire/JJ;15130
+gap/NN:expansion/NN;15134
+molding/NN:shoe/NN;15140
+gap/NN:expansion/NN;15143
+molding/NN:shoe/NN;15145
+(tool/NN, multifunction/NN):oscillating/JJ;15151
+saw/NN:circular/JJ;15153
+Freight/NNP:Harbor/NNP;15155
+(Bureau/NNP, Business/NNP):Better/NNP;15160
+review/NNS:customer/NN;15165
+(provider/NNS, service/NN):other/JJ;15168
+door/NN:old/JJ;15169
+material/NN:solid/JJ;15177
+material/NN:actual/JJ;15177
+hole/NNS:deeper/JJR;15179
+surface/NN:solid/JJ;15180
+month/NNS:few/JJ;15188
+month/NNS:next/JJ;15188
+printer/NN:laser/NN;15190
+practice/NN:standard/JJ;15194
+door/NNS:interior/JJ;15195
+wood/NN:solid/JJ;15196
+house/NN:last/JJ;15197
+year/NNS:100/CD;15198
+door/NN:interior/JJ;15199
+shift/NNS:house/NN;15211
+edge/NN:flat/JJ;15216
+edge/NN:whole/JJ;15216
+Hammer/NNP:Sledge/NNP;15224
+hammer/NN:normal/JJ;15225
+wood/NN:re-using/JJ;15226
+form/NN:concrete/JJ;15227
+form/NNS:concrete/JJ;15234
+tool/NNS:power/NN;15241
+(work/NNS, maker/NN):ice/NN;15247
+screw/NNS:visible/JJ;15259
+%/NN:20/CD;15263
+place/NN:first/JJ;15266
+(opener/NN, door/NN):garage/NN;15270
+(opener/NN, door/NN):garage/NN;15279
+pain/NN:real/JJ;15283
+(roll/NNS, paper/NN):toilet/NN;15287
+sensor/NN:other/JJ;15292
+idea/NN:good/JJ;15293
+suggestion/NNS:other/JJ;15299
+problem/NN:common/JJ;15300
+screwdriver/NN:common/JJ;15305
+Settings/NNP:Temperature/NNP;15309
+piece/NN:small/JJ;15313
+term/NNS:payment/NN;15330
+sign/NN:bad/JJ;15331
+(level/NN, metal/NN):sturdy/JJ;15333
+saw/NN:circular/JJ;15336
+(tap/NN, water/NN):hot/JJ;15339
+water/NN:cold/JJ;15340
+use/NNS:one-off/JJ;15343
+use/NNS:other/JJ;15343
+dispenser/NN:front/JJ;15349
+running/NN:motor/NN;15353
+problem/NN:supply/NN;15356
+problem/NN:electrical/JJ;15359
+relay/NN:bad/JJ;15361
+(panel/NN, plastic/NN):whole/JJ;15364
+manual/NN:user/NN;15372
+information/NN:useful/JJ;15373
+inch/NNS:few/JJ;15376
+inline/NN:less/JJR;15377
+((filter/NNS, furnace/NN), end/NN):high/JJ;15384
+level/NNS:many/JJ;15386
+filter/NNS:furnace/NN;15388
+one/NNS:cheap/JJ;15389
+buck/NNS:few/JJ;15391
+system/NNS:immune/JJ;15395
+system/NNS:low/JJ;15395
+folk/NNS:average/JJ;15397
+need/NNS:medical/JJ;15398
+look/NN:blank/JJ;15404
+Construction/NNP:Light/NNP;15409
+thing/NN:negative/JJ;15410
+candidate/NN:next/JJ;15413
+work/NN:good/JJ;15419
+price/NNS:discount/NN;15421
+part/NNS:replacement/NN;15423
+fridge/NN:old/JJ;15424
+(maker/NN, ice/NN):broken/JJ;15427
+maker/NN:ice/NN;15429
+store/NN:part/NNS;15431
+world/NN:DIY/NNP;15434
+(motor/NN, fan/NN):new/JJ;15436
+unit/NN:ac/NN;15438
+supplier/NN:same/JJ;15439
+(maker/NN, ice/NN):100/CD;15442
+((repair/NN, maker/NN), ice/NN):100/CD;15443
+year/NNS:5/CD;15444
+unit/NN:ac/NN;15451
+call/NN:service/NN;15455
+top/NNS:10/CD;15457
+price/NN:same/JJ;15458
+filter/NNS:cheap/JJ;15461
+filter/NNS:expensive/JJ;15462
+month/NNS:3/CD;15463
+(filter/NNS, month/NN):3/CD;15466
+one/NNS:cheap/JJ;15468
+one/NNS:super/JJ;15468
+filter/NN:line/NN;15476
+frame/NN:deck/NN;15479
+book/NN:123/CD;15488
+Plus/NNP:Alex/NNP;15490
+latex/NN:acrylic/JJ;15491
+Depot/NNP:Home/NNP;15495
+(Exterior/NNP, Ultra/NNP):mono/NN;15498
+Plus/NNP:Alex/NNP;15502
+(Exterior/NNP, Ultra/NNP):mono/NN;15508
+unit/NNS:detector/NN;15511
+side/NN:sunlit/JJ;15513
+side/NN:other/JJ;15521
+time/NN:different/JJ;15523
+unit/NN:opener/NN;15526
+(tv/NN, flatscreen/NN):wall-mount/JJ;15530
+(hdtv/NNS, lcd/NNS):wall-mounted/JJ;15533
+(hdtv/NNS, lcd/NNS):several/JJ;15533
+wire/NNS:two/CD;15536
+outlet/NN:power/NN;15541
+box/NN:cable/NN;15543
+way/NN:least-destrictive/JJ;15549
+foot/NNS:4-6/CD;15552
+(box/NNS, junction/NN):electrical/JJ;15554
+inch/NNS:3-4/CD;15556
+swath/NNS:large/JJ;15558
+hole/NNS:drywall/NN;15561
+((kit/NN, patch/NN), drywall/NN):small/JJ;15565
+(box/NN, junction/NN):electrical/JJ;15567
+table/NN:HDMI/NNP;15571
+diyer/NN:novice/NN;15573
+nail/NNS:gutter/NN;15583
+house/NNS:many/JJ;15584
+year/NNS:5/CD;15586
+problem/NNS:similar/JJ;15587
+homeowner/NNS:couple/NN;15591
+nail/NNS:few/JJ;15594
+way/NN:correct/JJ;15595
+Nails/NNPS:liquid/NN;15598
+kind/NN:different/JJ;15599
+way/NN:easy/JJ;15601
+(conduit/NN, square/NN):plastic/JJ;15604
+side/NN:fourth/JJ;15606
+(hanger/NNS, gutter/NN):special/JJ;15616
+screw/NNS:gutter/NN;15618
+option/NN:better/JJR;15619
+product/NNS:wiremold/JJ;15623
+manufacturer/NN:same/JJ;15625
+product/NN:CordMate/NNP;15627
+drawback/NN:only/JJ;15633
+cord/NN:one/CD;15634
+cordmate/NN:one/CD;15635
+pair/NNS:two/CD;15636
+wire/NNS:speaker/NN;15638
+((side/NN, channel/NNS), CordMate/NNP):two/CD;15642
+tv/NN:wall-mount/JJ;15645
+connection/NN:cable/NN;15648
+(channel/NNS, wiremold/NN):big/JJ;15652
+cable/NN:Ethernet/NNP;15656
+wall/NN:office/NN;15658
+solution/NN:good/JJ;15660
+work/NN:more/JJR;15661
+answer/NN:better-looking/JJ;15662
+answer/NN:little/JJ;15662
+cable/NN:hdmi/NN;15664
+box/NN:cable/NN;15669
+knife/NN:drywall/NN;15671
+box/NN:1-gang/NN;15676
+box/NN:plastic/NN;15679
+thing/NN:same/JJ;15683
+outlet/NN:electrical/JJ;15686
+box/NN:cable/NN;15693
+hole/NN:nail/screw/NN;15698
+glue/NN:wood/NN;15705
+toothpick/NNS:many/JJ;15707
+(hinge/NNS, door/NN):loose/JJ;15713
+anything/NN:much/JJ;15714
+voltage/NN:low/JJ;15717
+equipment/NN:necessary/JJ;15721
+(plate/NNS, wall/NN):low-voltage/JJ;15723
+(store/NNS, improvement/NN):home/NN;15726
+plate/NN:wall/NN;15728
+insert/NNS:correct/JJ;15729
+connector/NNS:f/NN;15731
+tv/NN:cable/NN;15733
+pair/NN:twisted/JJ;15735
+plug/NNS:rca/NN;15740
+insert/NNS:wide/JJ;15741
+insert/NNS:extra/JJ;15741
+(thing/NN, insert/NN):wall/NN;15747
+cavity/NN:wall/NN;15749
+plate/NN:wall/NN;15752
+saw/NN:drywall/NN;15759
+cavity/NN:wall/NN;15763
+hole/NN:lower/JJR;15768
+hole/NN:lower/JJR;15769
+hole/NN:small/JJ;15769
+coat/NN:wire/NN;15772
+hand/NN:one/CD;15779
+end/NN:top/JJ;15782
+plate/NN:face/NN;15786
+insert/NN:wall/NN;15788
+end/NN:lower/JJR;15790
+faceplate/NN:prepared/JJ;15797
+issue/NNS:permit/inspection/JJ;15808
+route/NN:glue/NN;15811
+Tester101/NNP:la/NNP;15817
+wood/NN:treated/JJ;15821
+time/NN:one/CD;15822
+deck/NN:cantilevered/JJ;15823
+wood/NN:untreated/JJ;15824
+caulk/NN:silicone/NN;15830
+caulk/NN:latex/NN;15832
+price/NNS:same/JJ;15837
+place/NNS:right/JJ;15840
+catalog/NNS:big/JJ;15842
+place/NN:hard/JJ;15843
+deck/NN:cool/JJ;15854
+deck/NN:cool/JJ;15858
+concrete/NN:bare/JJ;15859
+owner/NN:previous/JJ;15860
+texture/NN:spary/JJ;15867
+deck/NN:cool/JJ;15871
+(wall/NNS, block/NN):slump/NN;15877
+agent/NN:bonding/NN;15886
+stucco/NN:new/JJ;15887
+wall/NN:old/JJ;15888
+(look/NN, stucco/NN):trowel/NN;15892
+look/NN:adobe/NN;15894
+way/NN:trowel/NN;15898
+nozzle/NN:spray/NN;15903
+nozzle/NN:spray/NN;15906
+saw/NN:hack/NN;15908
+repair/NN:quick/JJ;15909
+pipe/NN:drain/NN;15911
+((pipe/NN, drain/NN), iron/NN):cast/NN;15915
+winter/NN:last/JJ;15918
+leak/NN:obvious/JJ;15922
+way/NN:good/JJ;15923
+flame/NN:naked/JJ;15927
+filter/NN:furnace/NN;15929
+((furnace/NN, series/NN), G40UHX/NNP):Lennox/NNP;15933
+furnace/NN:series/NN;15938
+house/NN:single-story/JJ;15940
+air/NN:incoming/JJ;15945
+vent/NNS:intake/NN;15949
+vent/NNS:small/JJ;15952
+(box/NN, metal/NN):big/JJ;15956
+image/NN:little/JJ;15960
+furnace/NN:actual/JJ;15962
+picture/NN:similar/JJ;15963
+duct/NNS:flexible/JJ;15965
+(intake/NN, air/NN):cold/JJ;15967
+duct/NNS:flexible/JJ;15972
+panel/NN:front/JJ;15979
+motor/NN:bottom/JJ;15980
+Manual/NNP:information/NN;15984
+(filter/NN, high-velocity/NN):field-provided/JJ;15989
+filter/NN:field-provided/JJ;15995
+size/NNS:different/JJ;16000
+cut/NN:few/JJ;16001
+size/NNS:different/JJ;16002
+owner/NNS:previous/JJ;16005
+(intakes/NN, air/NN):little/JJ;16014
+look/NN:good/JJ;16021
+(area/NN, intake/NN):air/NN;16030
+board/NN:control/NN;16034
+(snug/NN, fit/NN):14x25x1/NN;16039
+side/NN:whole/JJ;16040
+thing/NN:only/JJ;16044
+(((insulation/NN, loft/NN), fibre/NN), glass/NN):fitting/JJ;16051
+protection/NN:eye/NN;16053
+goggles/NNS:various/JJ;16054
+ventilation/NN:more/JJR;16055
+seconds/NNS:60/CD;16059
+flooring/NN:hardwood/NN;16064
+owner/NNS:proud/JJ;16066
+deck/NN:new/JJ;16067
+flooring/NN:hardwood/NN;16072
+inch/NN:1/8/CD;16083
+(spacing/NN, inch/NN):1/8/CD;16084
+ducting/NN:return/NN;16087
+angle/NN:strange/JJ;16089
+tape/NN:foil/NN;16097
+housing/NN:furnace/NN;16099
+test/NN:blower-door/JJ;16100
+fan/NN:big/JJ;16103
+outside/NN:air/NN;16106
+pressure/NN:negative/JJ;16107
+leak/NNS:air/NN;16110
+audit/NN:energy/NN;16113
+(shooting/NN, air/NN):cold/JJ;16118
+Looj/NNP:iRobot/NNP;16120
+robot/NN:gutter-cleaning/JJ;16121
+(robot/NNS, squad/NN):military/bomb/JJ;16126
+(Wand/NNP, Cleaning/NNP):Gutter/NNP;16133
+(gutter/NNS, rain/NN):clogged/JJ;16135
+(Wand/NNP, Cleaner/NNP):Gutter/NNP;16138
+(hose/NN, garden/NN):standard/JJ;16140
+(gutter/NNS, rain/NN):debris-filled/JJ;16142
+(attachment/NN, hose/NN):heavy-duty/JJ;16144
+wand/NN:telescoping/NN;16146
+inch/NNS:41.5/CD;16147
+inch/NNS:68.5/CD;16148
+spot/NNS:hard-to-reach/JJ;16149
+(((nozzle/NN, spray/NN), hose/NN), garden/NN):standard/JJ;16156
+flow/NN:water/NN;16158
+((device/NN, cleaning/NN), gutter/NN):debris/NN;16162
+inch/NNS:68.5/CD;16163
+area/NNS:remote/JJ;16164
+Thermometer/NNP:IR/NNP;16166
+camera/NN:thermal/JJ;16167
+dollar/NNS:thousand/CD;16169
+bond/NN:better/JJR;16175
+year/NNS:few/JJ;16187
+fix/NN:temporary/JJ;16192
+band/NN:rubber/NN;16194
+pipe/NNS:drain/NN;16198
+(((pipe/NN, drainage/NN), kitchen/NN), iron/NN):cast/NN;16211
+band/NN:rubber/NN;16213
+year/NNS:20/CD;16214
+:-rrb-/NN:record/NN;16216
+price/NN:better/JJR;16217
+(store/NNS, chain/NN):big/JJ;16226
+half/NN:better/JJR;16227
+5/4/NN:standard/JJ;16233
+(plank/NNS, flooring/NN):hardwood/NN;16237
+edge/NN:one/CD;16238
+edge/NN:other/JJ;16239
+joint/NN:groove/NN;16242
+course/NN:previous/JJ;16243
+plank/NNS:flooring/NN;16245
+tongue/NN:non/JJ;16248
+board/NNS:deck/NN;16251
+deck/NN:composite/JJ;16254
+wood/NN:exotic/JJ;16255
+fastener/NN:hidden/JJ;16260
+life/NN:trouble-free/JJ;16263
+deck/NN:standard/JJ;16264
+bldg/NN:outside/JJ;16267
+room/NN:standard/JJ;16270
+unit/NN:ac/NN;16273
+(ac/NN, BTU/NNP):8500/CD;16275
+room/NN:tall/JJ;16276
+air/NN:hot/JJ;16280
+door/NN:Wood/NNP;16289
+inch/NNS:32/CD;16290
+space/NN:slight/JJ;16295
+framing/NN:door/NN;16299
+tutorial/NN:fantastic/JJ;16300
+visor/NNS:hockey/NN;16305
+fog/NN:visor/NN;16309
+(hockey/NN, playing/NN):sweaty/JJ;16311
+store/NN:goods/NNS;16313
+glass/NNS:safety/NN;16316
+(guard/NNS, draft/NN):twin/JJ;16318
+(tape/NN, strip/NN):Weather/NNP;16323
+pool/NNS:water/NN;16334
+board/NNS:outdoor/JJ;16339
+shrinking/NN:significant/JJ;16340
+expansion/NN:more/JJR;16351
+nail/NN:vertical/JJ;16353
+advantage/NN:principle/NN;16356
+reason/NN:good/JJ;16360
+plastic/NN:PVC/NNP;16369
+(System/NNP, Fastener/NNP):system/NN;16373
+(video/NNS, installation/NN):product/NN;16377
+job/NN:good/JJ;16382
+plumber/NNS:professional/JJ;16385
+year/NNS:25/CD;16391
+type/NN:old/JJ;16395
+tank/NN:expansion/NN;16397
+(Eliminator/NNP, Air/NNP):Spirovent/NNP;16405
+opinion/NNS:more/JJR;16410
+opinion/NNS:few/JJ;16410
+part/NNS:appliance/NN;16413
+Supply/NNP:Amre/NNP;16415
+(point/NN, datum/NNS):one/CD;16417
+time/NN:one/CD;16418
+girl/NN:checkout/NN;16420
+account/NN:business/NN;16422
+%/NN:40/CD;16423
+(discount/NN, %/NN):40/CD;16424
+application/NN:online/JJ;16426
+card/NN:business/NN;16428
+(business/NN, software/NN):computer/NN;16431
+name/NN:business/NN;16437
+((skill/NNS, Socializing/NNP), Bond/NNP):James/NNP;16442
+account/NN:business/NN;16444
+online/NN:application/NN;16446
+year/NN:67/CD;16448
+plumber/NN:retired/JJ;16449
+plumber/NN:old/JJ;16449
+place/NN:one/CD;16450
+account/NNS:business/NN;16452
+house/NN:current/JJ;16454
+house/NN:previous/JJ;16455
+(intakes/NN, air/NN):little/JJ;16467
+return/NN:one/CD;16468
+box/NN:return/NN;16474
+luck/NN:much/JJ;16486
+(glass/NNS, safety/NN):regular/JJ;16489
+(protection/NN, eye/NN):enough/JJ;16492
+insulation/NN:fiberglass/NNS;16494
+tape/NN:duct/NN;16497
+section/NNS:straight/JJ;16498
+section/NNS:long/JJ;16498
+(connector/NNS, pipe/NN):rubber/NN;16502
+side/NN:one/CD;16503
+repair/NNS:temporary/JJ;16510
+store/NNS:hardware/NN;16512
+putty/NN:epoxy/NN;16514
+kit/NN:complete/JJ;16522
+hole/NNS:two/CD;16523
+cable/NNS:signal/NN;16527
+work/NN:old/JJ;16528
+side/NN:power/NN;16531
+experience/NN:personal/JJ;16537
+day/NNS:two/CD;16544
+pipework/NN:gas/NN;16549
+inspector/NN:building/NNS;16552
+spot/NNS:surveyor/NN;16554
+fitting/NNS:pushfit/JJ;16555
+leak/NN:pinhole/NN;16563
+pound/NNS:few/JJ;16565
+term/NN:short/JJ;16566
+joint/NN:leaky/JJ;16568
+pipe/NN:water/NN;16570
+pipe/NN:gas/NN;16574
+(scheme/NN, Safety/NNP):Gas/NNP;16578
+stucco/NN:loose/JJ;16585
+area/NNS:loose/JJ;16591
+way/NN:little/JJ;16593
+surface/NN:stable/JJ;16594
+surface/NN:good/JJ;16594
+point/NN:one/CD;16597
+tool/NNS:right/NN;16599
+experience/NN:learning/NN;16602
+job/NN:good/JJ;16603
+bath/NN:plastic/JJ;16607
+job/NN:good/JJ;16610
+stuff/NN:old/JJ;16611
+stuff/NN:old/JJ;16615
+sealant/NN:fresh/JJ;16618
+door/NN:steel/NN;16621
+door/NN:front/JJ;16624
+grease/NN:elbow/NN;16629
+edge/NN:plastic/JJ;16632
+edge/NN:flat/JJ;16633
+spreader/NN:adhesive/JJ;16634
+%/NN:100/CD;16635
+bath/NN:plastic/NN;16639
+edge/NN:plastic/JJ;16642
+care/NN:more/JJR;16644
+cleaner/NN:safe/JJ;16647
+cleaner/NN:plastic/JJ;16647
+skin/NN:exterior/NN;16650
+(hole/NN, pilot/NN):small/JJ;16654
+(cord/NN, power/NN):device/NN;16658
+reason/NNS:good/JJ;16661
+reason/NNS:many/JJ;16661
+option/NNS:two/CD;16662
+conduit/NN:surface-mount/JJ;16666
+McGee/NNP:Jeremy/NNP;16668
+Brandly/NNP:Gordon/NNP;16670
+outlet/NN:power/NN;16672
+box/NN:old-work/NN;16675
+box/NNS:standard/JJ;16679
+box/NNS:two/CD;16679
+skill/NN:electrical/JJ;16686
+fixture/NN:light/JJ;16687
+nut/NNS:wire/NN;16690
+terminal/NNS:screw/NN;16693
+cord/NN:extension/NN;16695
+outlet/NN:one/CD;16696
+caulk/NN:old/JJ;16700
+duct/NN:return/NN;16707
+guy/NN:hvac/NN;16710
+panel/NN:access/NN;16713
+side/NN:opposite/JJ;16718
+(panel/NN, access/NN):blower/NN;16721
+(hole/NN, pilot/NN):small/JJ;16729
+screw/NN:self-tapping/JJ;16730
+hole/NN:pilot/NN;16734
+metal/NN:sheet/NN;16736
+skin/NN:steel/NN;16738
+hole/NN:small/JJ;16740
+steel/NN:drilling/NN;16742
+wood/NN:drilling/NN;16744
+punch/NN:center/NN;16749
+right/NN:indent/JJ;16751
+right/NN:small/JJ;16751
+punch/NN:center/NN;16754
+mark/NN:center/NN;16757
+speed/NN:full/JJ;16762
+motor/NN:drill/NN;16765
+drill/NN:twist/NN;16768
+pressure/NN:much/JJ;16770
+ha/NN:ha/NN;16773
+vocabulary/NN:anal-retentive/JJ;16774
+motor/NN:drill/NN;16777
+drill/NN:twist/NN;16785
+house/NN:old/JJ;16788
+((chamber/NN, return/NN), air/NN):cold/JJ;16796
+notch/NNS:two/CD;16799
+edge/NN:outer/JJ;16800
+air/NN:cold/JJ;16807
+image/NN:disgusting/JJ;16809
+filter/NN:air/NN;16813
+filter/NN:angled/JJ;16818
+(rod/NN, curtain/NN):magnetic/JJ;16823
+door/NN:steel/NN;16825
+caulking/NN:bathtub/NN;16827
+caulk/NN:silicone/NN;16829
+tip/NN:one/CD;16834
+kind/NN:white/JJ;16836
+sleeve/NN:paper/NN;16838
+bit/NNS:last/JJ;16840
+caulk/NN:clinging/JJ;16841
+article/NN:great/JJ;16843
+type/NNS:different/JJ;16844
+type/NNS:different/JJ;16848
+caulk/NN:silicone/NN;16852
+razor/NN:single-edged/JJ;16853
+(holder/NN, blade/NN):razor/NN;16856
+pan/NN:shower/NN;16860
+knife/NN:utility/NN;16864
+pocket/NNS:deeper/JJR;16869
+tub/NN:porcelain/NN;16872
+line/NNS:black/JJ;16873
+line/NNS:little/JJ;16873
+scrub/NN:soft/JJ;16880
+line/NN:grout/NN;16892
+tile/NNS:cut/NN;16897
+window/NN:wooden/JJ;16900
+(sill/NN, window/NN):wooden/JJ;16901
+fan/NN:ceiling/NN;16906
+(fan/NN, ceiling/NN):new/JJ;16909
+room/NN:living/NN;16911
+wobble/NN:little/JJ;16912
+pad/NN:brick/NN;16914
+drain/NN:french/JJ;16915
+drain/NN:french/JJ;16916
+pad/NN:brick/NN;16918
+basement/NN:walk-out/NN;16920
+speed/NN:high/JJ;16928
+buildup/NN:dust/NN;16930
+edge/NNS:blade/NN;16932
+house/NN:vacant/JJ;16938
+mold/NN:black/JJ;16945
+mold/NN:nasty/JJ;16945
+side/NN:unfinished/JJ;16947
+storm/NN:recent/JJ;16949
+((look/NN, specialist/NN), abatement/NN):mold/NN;16957
+area/NN:finished/JJ;16962
+word/NNS:other/JJ;16967
+flooding/NN:further/JJ;16968
+mold/NN:chance/NNS;16972
+way/NN:bad/JJ;16973
+((risk/NNS, health/NN), term/NN):long/JJ;16976
+smell/NN:mold/NN;16981
+basement/NNS:moldy/JJ;16983
+thing/NN:one/CD;16988
+(cleanup/NN, scene/NN):crime/NN;16994
+smell/NN:mold/NN;16997
+insulator/NN:better/JJR;17002
+water/NN:hotter/JJR;17004
+thing/NN:good/JJ;17006
+thing/NNS:three/CD;17007
+thing/NN:first/JJ;17008
+box/NN:electrical/JJ;17014
+fan/NNS:ceiling/NN;17021
+work/NN:new/JJ;17023
+work/NN:old/JJ;17027
+pump/NN:sump/NN;17032
+pump/NN:sump/NN;17034
+problem/NN:flooding/NN;17037
+pump/NN:sump/NN;17039
+table/NN:water/NN;17041
+pump/NN:sump/NN;17046
+system/NN:drainage/NN;17049
+pit/NN:sump/NN;17053
+pump/NN:sump/NN;17055
+pit/NN:sump/NN;17059
+level/NN:certain/JJ;17060
+(service/NN, sewer/NN):city/NN;17063
+system/NN:sewer/NN;17066
+pipe/NN:pvc/NN;17068
+detector/NN:smoke/NN;17079
+knife/NN:butter/NN;17086
+time/NN:one/CD;17094
+month/NNS:six/CD;17098
+penny/NNS:10/CD;17114
+time/NN:next/JJ;17119
+clip/NNS:spring-loaded/JJ;17121
+cover/NN:glass/NN;17124
+spot/NNS:wide/JJ;17127
+spot/NNS:lower/JJR;17127
+side/NNS:opposite/JJ;17132
+part/NN:wide/JJ;17135
+part/NN:first/JJ;17135
+part/NNS:wide/JJ;17138
+part/NNS:second/JJ;17138
+arm/NNS:metal/NN;17144
+blade/NNS:fan/NN;17148
+fan/NNS:new/JJ;17152
+kit/NN:balance/NN;17154
+clip/NN:heavy/JJ;17155
+weight/NNS:stick-on/NN;17158
+kit/NN:balance/NN;17160
+((store/NN, improvement/NN), home/NN):big-box/JJ;17163
+spot/NN:sweet/JJ;17182
+spot/NN:sweet/JJ;17184
+reason/NNS:two/CD;17185
+(pipe/NNS, pex/NN):hot/JJ;17187
+temperature/NNS:cold/JJ;17188
+(pipe/NNS, pex/NN):cold/JJ;17190
+pipe/NNS:cold/JJ;17192
+pipe/NNS:cold/JJ;17195
+(intake/vent/NN, air/NN):cold/JJ;17200
+bowl/NN:counter/JJ;17201
+cabinet/NNS:special/JJ;17202
+((cabinet/NN, style/NN), craftsman/NN):new/JJ;17208
+(countertop/NN, surface/NN):solid/JJ;17210
+(bowl/NN, glass/NN):counter/JJ;17212
+height/NN:sink/NN;17215
+(cabinet/NNS, height/NN):standard/JJ;17219
+cabinet/NNS:special/JJ;17220
+ring/NN:outer/JJ;17223
+cover/NN:light/JJ;17226
+foot/NNS:1500/CD;17231
+basement/NN:unfinished/JJ;17232
+suite/NN:grandma/NN;17234
+thought/NN:first/JJ;17237
+trial/NN:30-day/JJ;17238
+LT./NNP:autocad/NN;17240
+user/NN:casual/JJ;17242
+alternative/NNS:affordable/JJ;17243
+application/NNS:web/NN;17250
+Sketchup/NNP:Google/NNP;17253
+curve/NN:learning/NN;17256
+(cabinet/NNS, height/NN):standard/JJ;17259
+(height/NN, vanity/NN):bathroom/NN;17265
+content/NN:moisure/NN;17269
+pipe/NN:non-perforated/JJ;17273
+field/NN:drainage/NN;17275
+void/NNS:air/NN;17281
+drain/NN:french/JJ;17283
+drain/NN:french/JJ;17290
+area/NN:drainage/NN;17293
+inch/NNS:few/JJ;17297
+pack/NN:base/NN;17302
+desk/NN:do-it-yourself/JJ;17307
+office/NN:home/NN;17309
+(room/NN, dining/NN):formal/JJ;17312
+(((board/NN, particle/NN), Veneer/NNP), Cherry/NNP):thick/JJ;17318
+material/NN:good/JJ;17323
+finish/NN:attractive/JJ;17325
+veneer/NN:black/JJ;17326
+top/NN:strong/JJ;17335
+Homestyler/NNP:Autodesk/NNP;17337
+Sketchup/NNP:Google/NNP;17341
+%/NN:100/CD;17342
+(2d/NN, %/NN):100/CD;17343
+(board/NN, particle/NN):thick/JJ;17346
+choice/NNS:color/NN;17350
+top/NNS:pre-finished/JJ;17351
+countertop/NN:usable/JJ;17354
+space/NN:usable/JJ;17356
+space/NN:work/NN;17359
+height/NN:comfortable/JJ;17361
+height/NN:standard/JJ;17364
+wood/NN:hard/JJ;17365
+(piece/NNS, length/NN):suitable/JJ;17370
+bunch/NN:fair/JJ;17376
+tool/NNS:new/JJ;17377
+board/NN:particle/NN;17380
+board/NN:fiber/NN;17383
+(warping/NN, wood/NN):solid/JJ;17387
+surface/NN:top/JJ;17388
+surface/NN:one/CD;17392
+light/NNS:solar/JJ;17403
+post/NNS:lamp/NN;17406
+owner/NN:previous/JJ;17409
+bulb/NN:solar/JJ;17411
+light/NNS:LED/NNP;17414
+house/NNS:lamp/NN;17416
+nest/NN:bird/NNS;17424
+housing/NN:lamp/NN;17428
+light/NN:enough/JJ;17429
+factor/NNS:many/JJ;17430
+efficiency/NN:energy/NN;17433
+level/NN:comfort/NN;17436
+member/NNS:other/JJ;17440
+wall/NNS:outer/JJ;17447
+seal/NNS:door/NN;17449
+insulation/NN:attic/roof/JJ;17450
+bearing/NN:direct/JJ;17452
+(value/NNS, efficiency/NN):energy/NN;17455
+floor/NN:1st/main/JJ;17462
+room/NN:living/media/NN;17474
+equipment/NN:sensitive/JJ;17479
+(option/NNS, downspout/NN):good/JJ;17482
+house/NN:brick/NN;17484
+((house/NN, brick/NN), clay/NN):year-old/JJ;17492
+((house/NN, brick/NN), clay/NN):100/CD;17492
+gutter/NNS:old/JJ;17493
+storm/NN:snow/NN;17511
+part/NNS:downspout/NN;17513
+system/NN:different/JJ;17516
+hole/NNS:new/JJ;17521
+((store/NNS, improvement/NN), home/NN):local/JJ;17525
+(system/NNS, gutter/NN):plastic/JJ;17527
+gutter/NNS:aluminum/NN;17534
+system/NN:gutter/NN;17540
+bracket/NNS:old/JJ;17541
+hole/NNS:new/JJ;17542
+user/NN:wheelchair/NN;17549
+search/NN:quick/JJ;17553
+option/NNS:other/JJ;17555
+room/NNS:wet/JJ;17556
+room/NNS:true/JJ;17556
+(movement/NN, arm/NN):restricted/JJ;17564
+space/NN:larger/JJR;17567
+user/NNS:wheelchair/NN;17586
+floor/NN:entire/JJ;17590
+issue/NNS:balance/NN;17594
+(door/NNS, closet/NN):two/CD;17598
+%/NN:85/CD;17601
+inch/NNS:3-6/CD;17606
+inch/NN:half/NN;17608
+inch/NNS:3-6/CD;17619
+planer/NN:power/NN;17629
+(door/NNS, core/NN):hollow/JJ;17636
+problem/NN:same/JJ;17641
+(plane/NN, hand/NN):small/JJ;17649
+mate/NN:house/NN;17654
+door/NN:bedroom/NN;17658
+stroke/NNS:long/JJ;17661
+bit/NN:little/JJ;17667
+bump/NN:small/JJ;17670
+threshold/NN:higher/JJR;17671
+clearance/NN:necessary/JJ;17673
+(flap/NN, plastic/NN):small/JJ;17680
+lamp/NNS:solar/JJ;17685
+lamp/NNS:cheap/JJ;17685
+panel/NNS:solar/JJ;17690
+wiring/NN:new/JJ;17694
+voltage/NN:low/JJ;17695
+(cable/NN, voltage/NN):low/JJ;17698
+panel/NN:solar/JJ;17701
+(cable/NN, voltage/NN):high/JJ;17703
+show/NN:tv/NN;17706
+(problem/NN, mold/NN):severe/JJ;17710
+(pellet/NNS, ice/NN):dry/JJ;17718
+(pellet/NNS, ice/NN):small/JJ;17718
+layer/NN:top/JJ;17719
+ice/NN:dry/JJ;17723
+reason/NN:particular/JJ;17727
+hole/NNS:new/JJ;17728
+inclination/NN:first/JJ;17730
+hole/NNS:new/JJ;17731
+storm/NN:snow/NN;17734
+downspout/NN:modern/JJ;17739
+blade/NNS:fan/NN;17742
+(ball/NN, rod/NN):down/JJ;17747
+box/NN:fan/NN;17751
+day/NNS:hot/JJ;17767
+(suction/NN, vacuum/NN):central/JJ;17769
+vacuum/NN:regular/JJ;17770
+home/NN:new/JJ;17771
+vac/NN:central/JJ;17772
+unit/NN:vacuum/NN;17774
+etc./NN:dirt/lint/JJ;17781
+(system/NN, vac/NN):central/JJ;17784
+vacuum/NN:regular/JJ;17785
+distance/NN:longer/JJR;17790
+vac/NN:regular/JJ;17793
+vac/NN:spec/JJ;17795
+vac/NNS:central/JJ;17796
+strength/NN:same/JJ;17797
+difference/NN:remarkable/JJ;17798
+vac/NN:too-small/JJ;17801
+strength/NN:same/JJ;17802
+worktop/NN:kitchen/NN;17805
+temperature/NN:ambient/JJ;17815
+(exposure/NN, sun/NN):constant/JJ;17818
+temperature/NN:ambient/JJ;17822
+temperature/NN:normal/JJ;17827
+sun/NN:much/JJ;17828
+(structure/NN, roof/NN):minus/NNS;17833
+(port/NN, car/NN):little/JJ;17835
+shack/NN:little/JJ;17837
+idea/NNS:crazy/JJ;17838
+unit/NN:ac/NN;17844
+Ljosa/NNP:@Vebjorn/NNP;17848
+Widmer/NNP:@Jeff/NNP;17850
+(solution/NN, cooling/NN):water/NN;17854
+effect/NN:cooling/JJ;17857
+way/NN:better/JJR;17858
+surface/NN:white/JJ;17862
+surface/NN:bright/JJ;17862
+surface/NN:smooth/JJ;17862
+%/NN:85/CD;17863
+sunlight/NN:incident/NN;17865
+radiation/NN:thermal/JJ;17866
+%/NN:90/CD;17867
+(efficiency/NN, %/NN):90/CD;17868
+(f/NN, °/NN):9/CD;17871
+air/NN:outside/JJ;17872
+(afternoon/NN, summer/NN):typical/JJ;17874
+roof/NN:gray/JJ;17877
+roof/NN:standard/JJ;17877
+%/NN:20/CD;17878
+sunlight/NN:incident/NN;17880
+f/NN:°/CD;17881
+f/NN:69/CD;17881
+air/NN:outside/JJ;17882
+roof/NNS:light-colored/JJ;17886
+consumption/NN:energy/NN;17889
+maintenance/NN:poor/JJ;17893
+thing/NNS:three/CD;17894
+pressure/NN:good/JJ;17902
+pressure/NN:poor/JJ;17905
+suction/NN:good/JJ;17909
+seal/NN:bad/JJ;17915
+way/NN:good/JJ;17917
+system/NN:whole/JJ;17919
+pressure/NN:poor/JJ;17921
+dropoff/NN:additional/JJ;17922
+system/NN:pressuried/JJ;17929
+port/NNS:multiple/JJ;17933
+point/NN:one/CD;17934
+radio/NN:two-way/JJ;17935
+monitor/NN:baby/NN;17937
+part/NNS:replacement/NN;17955
+fee/NNS:referral/NN;17961
+valve/NN:replacement/NN;17965
+(cook/NN, glass/NN):sealed/JJ;17968
+((top/NN, cook/NN), glass/NN):sealed/JJ;17969
+door/NN:oven/NN;17972
+range/NN:same/JJ;17973
+(policy/NN, return/NN):good/JJ;17980
+product/NNS:spray/NN;17989
+element/NN:grill/NN;18002
+soap/NN:dish/NN;18006
+fit/NN:friction/NN;18017
+part/NNS:appliance/NN;18019
+floor/NN:second/JJ;18029
+(floor/NNS, hardwood/NN):old/JJ;18034
+owner/NN:previous/JJ;18035
+slide/NN:time/NNS;18041
+sense/NN:more/JJR;18047
+floor/NN:original/JJ;18055
+shape/NN:poor/JJ;18056
+hazard/NNS:splinter/NN;18059
+carpet/NN:other/JJ;18062
+thing/NNS:related/JJ;18063
+floor/NNS:hardwood/JJ;18065
+condition/NN:good/JJ;18068
+carpet/NN:new/JJ;18069
+line/NNS:utility/NN;18071
+Dig/NNP:Miss/NNP;18076
+line/NNS:utility/NN;18078
+Hampshire/NNP:New/NNP;18081
+line/NNS:utility/NN;18083
+website/NN:811/CD;18089
+Hampshire/NNP:New/NNP;18091
+((Systems/NNP, Safe/NNP), dig/NN):contact/NN;18095
+product/NN:great/JJ;18098
+fixture/NNS:shower/NN;18109
+(building/NN, apartment/NN):year-old/JJ;18114
+fixture/NNS:shower/NN;18121
+line/NN:whole/JJ;18127
+(flow/NN, water/NN):hot/JJ;18132
+water/NN:cold/JJ;18135
+level/NN:ground/NN;18140
+breeze/NN:north-south/JJ;18143
+breeze/NN:reasonable/JJ;18143
+side/NN:north/JJ;18145
+effect/NN:cooling/JJ;18148
+effect/NN:noticable/JJ;18148
+(country/NN, desert/NN):high/JJ;18150
+seating/NN:outdoor/JJ;18152
+(system/NNS, delivery/NN):mist/NN;18155
+area/NNS:outdoor/JJ;18156
+part/NNS:hot/JJ;18157
+cooling/NN:evaporative/JJ;18160
+humidity/NN:relative/JJ;18162
+cooling/NN:evaporative/JJ;18165
+location/NN:humid/JJ;18166
+evaporation/NN:much/JJ;18169
+cooling/NN:much/JJ;18170
+sprinkler/NNS:roof-mounted/JJ;18172
+line/NN:last/JJ;18173
+((area/NNS, danger/NN), fire/NN):high/JJ;18177
+shape/NN:poor/JJ;18178
+strip/NNS:tack/NN;18182
+gun/NN:staple/NN;18187
+spot/NNS:troublesome/JJ;18188
+(tread/NNS, stair/NN):hardwood/NN;18195
+decision/NN:preliminary/JJ;18196
+condition/NN:enough/JJ;18197
+condition/NN:good/JJ;18197
+strip/NNS:tack/NN;18199
+strip/NNS:tack/NN;18205
+damage/NN:minimal/JJ;18207
+store/NNS:box/NN;18210
+(end/NN, claw/NN):pointy/JJ;18213
+strip/NN:tack/NN;18217
+Ljosa/NNP:@Vebjorn/NNP;18225
+panel/NNS:solar/JJ;18227
+Block/NNP:one/CD;18230
+panel/NNS:solar/JJ;18233
+roof/NN:own/JJ;18234
+contractor/NN:local/JJ;18236
+credit/NNS:energy/NN;18239
+business/NNS:other/JJ;18240
+money/NN:extra/JJ;18241
+window/NNS:good/JJ;18242
+England/NNP:New/NNP;18244
+house/NN:old/JJ;18245
+Hampshire/NNP:New/NNP;18247
+hand/NN:first/JJ;18248
+energy/NN:window/NN;18252
+Depot/NNP:Home/NNP;18259
+question/NN:entire/JJ;18264
+point/NNS:bullet/NN;18266
+(assessment/NN, energy/NN):free/JJ;18273
+(program/NNS, rebate/NN):government/NN;18278
+carpet/NN:new/JJ;18281
+floor/NN:wood/NN;18283
+repair/NNS:necessary/JJ;18292
+(room/NNS, upstairs/NN):several/JJ;18296
+pad/NNS:carpet/NN;18300
+room/NNS:downstairs/NNS;18302
+hole/NNS:small/JJ;18309
+hole/NNS:two/CD;18309
+board/NNS:floor/NN;18312
+(leak/NNS, radiator/NN):old/JJ;18317
+place/NN:one/CD;18319
+millimeter/NNS:few/JJ;18325
+place/NNS:funny/JJ;18333
+door/NN:small/JJ;18336
+meter/NN:water/NN;18342
+building/NN:whole/JJ;18344
+minute/NNS:few/JJ;18345
+faucet/NN:new/JJ;18349
+work/NN:plumbing/NN;18353
+(department/NN, building/NN):local/JJ;18356
+mode/NN:self-cleaning/JJ;18357
+top/NNS:desk/NN;18362
+desk/NN:super/JJ;18366
+size/NNS:many/JJ;18367
+store/NNS:several/JJ;18369
+(area/NN, L.A./NNP):greater/JJR;18371
+plumber/NN:licensed/JJ;18374
+manager/NN:landlord/building/NN;18377
+government/NN:local/JJ;18378
+stage/NNS:different/JJ;18382
+government/NN:local/JJ;18383
+(bathroom/NN, area/NN):common/JJ;18391
+bedroom/NN:secondary/JJ;18392
+re-sale/NN:future/JJ;18395
+level/NN:sink/NN;18397
+height/NN:standard/JJ;18398
+buzzer/NN:apartment/NN;18400
+people/NNS:buzz/NN;18405
+press/NNS:someone/NN;18407
+door/NN:front/JJ;18421
+issue/NN:wiring/NN;18423
+issue/NNS:wiring/NN;18425
+end/NN:one/CD;18429
+conductivity/NN:test/NN;18431
+device/NN:buzzer/NN;18433
+replacement/NN:part/NN;18436
+tree/NN:oak/NN;18439
+year/NNS:10-20/CD;18440
+number/NN:universal/JJ;18443
+state/NNS:US/NNP;18445
+number/NNS:different/JJ;18447
+((Patch/NNP, Stucco/NNP), All-Purpose/NNP):DAP/NNP;18451
+gun/NN:caulking/NN;18454
+spreader/NN:plastic/JJ;18460
+door/NN:interior/JJ;18462
+door/NNS:french/JJ;18468
+door/NNS:normal/JJ;18468
+(opening/NN, door/NN):big/JJ;18471
+problem/NN:door/NN;18476
+match/NN:exact/JJ;18477
+(gap/NN, inch/NN):1/CD;18479
+door/NN:new/JJ;18485
+(level/NN, foot/NN):four/CD;18492
+frame/NN:door/NN;18494
+door/NNS:interior/JJ;18497
+(type/NNS, glass/NN):Argon/NNP;18503
+window/NNS:regular/JJ;18505
+cost/NNS:heating/NN;18508
+window/NNS:low-e/JJ;18509
+insulation/NN:good/JJ;18510
+unit/NN:ac/NN;18514
+conditioner/NN:air/NN;18520
+climate/NN:dry/JJ;18521
+humidity/NN:little/JJ;18522
+air/NN:cool/JJ;18529
+air/NN:cool/JJ;18530
+air/NN:wet/JJ;18530
+unit/NNS:condenser/NN;18532
+(((water/NN, use/NN), ac/NN), system/NN):split/JJ;18536
+air/NN:moist/JJ;18539
+unit/NNS:ac/NN;18546
+year/NNS:few/JJ;18549
+solution/NN:water/NN;18553
+line/NNS:condensate/NN;18555
+solution/NN:water/NN;18558
+(line/NNS, drain/NN):condensate/NN;18561
+pump/NN:heat/NN;18563
+(bleach/NN, part/NN):1/CD;18567
+(water/NN, part/NN):10/CD;18569
+counter/NN:kitchen/NN;18574
+amount/NN:same/JJ;18583
+direction/NN:same/JJ;18584
+frame/NN:old/JJ;18600
+dimension/NNS:frame/NN;18605
+(frame/NN, door/NN):actual/JJ;18610
+((dimension/NNS, frame/NN), door/NN):actual/JJ;18611
+set/NN:door/NN;18616
+(tool/NNS, planning/drawing/NN):room/NN;18627
+shelf/NN:9.99/CD;18628
+(level/NN, foot/NN):4/CD;18632
+owner/NNS:previous/JJ;18643
+frame/NNS:door/NN;18646
+depth/NN:same/JJ;18648
+way/NN:good/JJ;18652
+roof/NN:concrete/JJ;18653
+roof/NN:flat/JJ;18653
+time/NN:long/JJ;18655
+storey/NN:top/JJ;18659
+slab/NNS:thick/JJ;18661
+roof/NN:flat/JJ;18664
+roof/NNS:pitched/JJ;18665
+roof/NNS:traditional/JJ;18665
+water/NN:pooled/JJ;18670
+lot/NN:last/JJ;18672
+rain/NN:heavy/JJ;18673
+way/NN:good/JJ;18677
+crack/NNS:obvious/JJ;18681
+fan/NN:big/JJ;18684
+board/NN:particle/NN;18686
+veneer/NN:plastic/JJ;18688
+board/NN:particle/NN;18691
+maple/NN:nice/JJ;18695
+veneer/NNS:oak/NN;18697
+(border/NN, wood/NN):solid/JJ;18699
+murder/NN:wood/NN;18702
+plywood/NN:cheaper/JJR;18703
+cost/NNS:insulation/NN;18707
+time/NN:long/JJ;18710
+water/NN:hotter/JJR;18714
+water/NN:extra/JJ;18718
+water/NN:pipe/NN;18721
+cost/NNS:water/NN;18725
+length/NN:area/NN;18727
+temperature/NNS:average/JJ;18732
+blast/NN:full/JJ;18744
+temperature/NNS:extreme/JJ;18749
+door/NN:oven/NN;18752
+(mode/NN, cleaning/NN):self/NN;18755
+(spray/NN, cleaning/NN):oven/NN;18759
+example/NN:popular/JJ;18761
+hour/NNS:few/JJ;18763
+sponge/NN:damp/JJ;18764
+sludge/NN:brown/JJ;18768
+cleaner/NNS:oven/NN;18770
+glove/NNS:rubber/NN;18773
+one/NNS:low-odor/JJ;18775
+one/NNS:newer/JJR;18775
+labor/NN:manual/JJ;18781
+(session/NN, cleaning/NN):one/CD;18784
+bag/NN:wet/JJ;18793
+cooling/NN:much/JJ;18797
+(conditioner/NN, air/NN):central/JJ;18799
+f/NN:106.0/CD;18801
+f/NN:79.2/CD;18802
+sun/NN:full/JJ;18803
+set/NN:ac/NN;18806
+temperature/NN:indoor/JJ;18808
+f/NN:105.4/CD;18811
+f/NN:81.1/CD;18812
+sun/NN:full/JJ;18813
+set/NN:ac/NN;18816
+unit/NN:ac/NN;18822
+(resource/NNS, sites/web/NN):review/NN;18827
+time/NNS:many/JJ;18829
+:-lrb-/NN:avail/NN;18834
+resource/NNS:web/NN;18836
+site/NN:review/NN;18839
+method/NN:other/JJ;18840
+electrician/NN:good/JJ;18848
+search/NN:Google/NNP;18851
+reference/NN:ServiceMagic/NNP;18853
+proof/NN:other/JJ;18854
+list/NN:specific/JJ;18857
+website/NN:quality/NN;18860
+license/NN:business/NN;18862
+(number/NN, phone/NN):800/CD;18864
+((unit/NN, conditioning/NN), air/NN):central/JJ;18869
+temperature/NN:reasonable/JJ;18872
+(temperature/NN, air/NN):outside/JJ;18879
+compressor/NN:enough/JJ;18881
+compressor/NN:big/JJ;18881
+airflow/NN:enough/JJ;18882
+element/NN:cooling/NN;18885
+transfer/NNS:longer/JJR;18887
+thing/NN:first/JJ;18891
+(filter/NNS, air/NN):return/NN;18894
+cooling/NN:efficient/JJ;18898
+coil/NNS:condenser/NN;18900
+unit/NN:outside/JJ;18901
+company/NN:service/NN;18907
+coil/NNS:evaporator/NN;18909
+check/NN:system/NN;18911
+tree/NNS:shade/NN;18918
+degree/NNS:100/CD;18924
+(f/NN, degree/NNS):100/CD;18925
+couple/NN:last/JJ;18926
+(location/NN, filter/NN):same/JJ;18931
+Armstrong/NNP:Steve/NNP;18933
+duct/NN:return/NN;18938
+arm/NN:metal/NN;18940
+arm/NN:metal/NN;18947
+(roof/NN, membrane/NN):Thermoset/NNP;18952
+sheet/NN:1x1m/NN;18957
+bag/NN:garbage/NN;18960
+installer/NN:carpet/NN;18970
+(under-pad/NN, quality/NN):good/JJ;18973
+carpet/NN:berber/NN;18975
+basement/NN:dry/JJ;18982
+barrier/NN:moisture/NN;18985
+barrier/NN:plastic/JJ;19000
+%/NN:100/CD;19001
+(seal/NN, %/NN):100/CD;19002
+airflow/NN:enough/JJ;19008
+conditioner/NNS:air/NN;19014
+coil/NN:outdoor/JJ;19017
+(temp/NN, air/NN):outdoor/JJ;19020
+(F./NNP, deg/NN):110/CD;19022
+unit/NNS:a/c/NN;19025
+unit/NN:outdoor/JJ;19037
+(handler/NN, air/NN):indoor/JJ;19039
+company/NN:service/NN;19044
+problem/NNS:other/JJ;19048
+air/NN:cold/JJ;19049
+unit/NN:outdoor/JJ;19052
+problem/NN:airflow/NN;19055
+filter/NNS:air/NN;19057
+damper/NNS:closed/JJ;19060
+handler/NN:air/NN;19067
+line/NN:condensation/NN;19071
+handler/NN:air/NN;19073
+water/NN:stagnant/JJ;19077
+line/NN:condensation/NN;19080
+handler/NN:air/NN;19083
+day/NN:humid/JJ;19084
+floor/NN:basement/NN;19090
+handler/NN:air/NN;19099
+air/NN:dirty/JJ;19100
+problem/NNS:bigger/JJR;19101
+end/NN:other/JJ;19102
+line/NN:condensation/NN;19104
+(point/NN, entry/NN):likely/JJ;19106
+end/NN:far/JJ;19114
+compressor/NN:air/NN;19117
+(cleaner/NN, drain/NN):diluted/JJ;19122
+line/NN:condensate/NN;19128
+grossness/NN:such/JJ;19132
+grossness/NN:other/JJ;19132
+((mix/NN, bleach/NN), water/NN):16/1/CD;19136
+(mix/NN, bleach/NN):water/NN;19140
+water/NN:straight/JJ;19142
+home/NN:own/JJ;19152
+portion/NN:good/JJ;19153
+reference/NNS:site/NN;19157
+need/NN:diy-er/NN;19160
+home/NN:own/JJ;19163
+project/NNS:commercial/JJ;19164
+project/NNS:third-party/JJ;19165
+County/NNP:Fairfax/NNP;19168
+level/NNS:3/CD;19171
+((((State/NNP, Code/NNP), Improvement/NNP), Home/NNP), County/NNP):Fairfax/NNP;19178
+(((Code/NNP, Residential/NNP), International/NNP), Code/NNP):Residential/NNP;19184
+(department/NN, building/NN):local/JJ;19186
+(regulation/NNS, building/NN):residential/JJ;19189
+level/NN:state/NN;19191
+state/NNS:many/JJ;19192
+town/NNS:individual/JJ;19195
+(Code/NNP, Residential/NNP):International/NNP;19198
+code/NNS:model/NN;19201
+code/NNS:model/NN;19204
+modification/NNS:local/JJ;19205
+code/NNS:own/JJ;19208
+(material/NNS, building/NN):same/JJ;19212
+location/NNS:different/JJ;19213
+backup/NN:algae/NN;19220
+(sensor/NN, overflow/NN):bad/JJ;19223
+(problem/NNS, water/NN):fun/NN;19227
+alga/NNS:enough/JJ;19229
+level/NN:local/JJ;19233
+code/NNS:own/JJ;19238
+(version/NN, year/NN):particular/JJ;19240
+code/NN:national/JJ;19241
+(Code/NNP, Electric/NNP):National/NNP;19244
+ammend/NNS:own/JJ;19245
+homeowner/NNS:reality/NN;19252
+home/NN:own/JJ;19254
+reason/NNS:safety/NN;19258
+side-note/NN:legal/JJ;19262
+side-note/NN:interesting/JJ;19262
+code/NNS:national/JJ;19263
+skirt/NN:locality/NNS;19272
+book/NN:code/NN;19275
+(section/NN, service/NNS):list/NN;19280
+luck/NN:much/JJ;19281
+(morsel/NNS, food/NN):greasy/JJ;19296
+dry/age/NN:wood/NN;19300
+year/NNS:2-3/CD;19301
+color/NN:change/NN;19305
+stain/NNS:oil/NN;19309
+staining/NN:actual/JJ;19310
+stain/NNS:food/NN;19315
+(seal/NN, repellent/NN):water/oil/NN;19318
+(service/NN, review/NN):subscription-based/JJ;19323
+provider/NNS:service/NN;19326
+fan/NN:extractor/NN;19328
+(fan/NNS, exhaust/NN):bathroom/NN;19333
+bit/NN:fair/JJ;19334
+fan/NN:extractor/NN;19339
+(membrane/NN, proof/NN):damp/JJ;19345
+code/NNS:applicable/JJ;19353
+problem/NNS:real/JJ;19357
+issue/NNS:real/JJ;19358
+(issue/NN, liability/NN):big/JJ;19365
+liability/NN:criminal/JJ;19366
+negligence/NN:gross/JJ;19367
+work/NN:future/JJ;19372
+work/NN:unrelated/JJ;19373
+part/NNS:other/JJ;19376
+change/NNS:code/NN;19382
+remodeling/NN:major/JJ;19385
+code/NN:current/JJ;19387
+problem/NN:major/JJ;19389
+blotch/NNS:big/JJ;19391
+shades/NNS:different/JJ;19392
+(morsel/NNS, food/NN):greasy/JJ;19397
+problem/NN:minor/JJ;19398
+cleaning/NN:good/JJ;19399
+size/NN:same/JJ;19403
+(fan/NN, exhaust/NN):window/NN;19406
+frame/NN:window/NN;19408
+effect/NN:much/JJ;19417
+reason/NNS:two/CD;19418
+stain/NNS:deck/NN;19420
+stain/NNS:pigment/NN;19422
+pigment/NN:deposit/NN;19425
+sealant/NN:film/NN;19433
+benefit/NN:much/JJ;19435
+time/NN:more/JJR;19439
+finish/NN:film/NN;19443
+mat/NNS:place/NN;19446
+finish/NN:film/NN;19448
+order/NN:short/JJ;19450
+(mark/NNS, food/NN):minor/JJ;19459
+standpoint/NN:engineering/structural/JJ;19463
+standpoint/NN:structural/JJ;19467
+deck/NN:backyard/NN;19472
+nail/NNS:intended/JJ;19481
+State/NNP:Washington/NNP;19487
+state/NNS:other/JJ;19488
+permit/NN:proper/JJ;19490
+code/NN:applicable/JJ;19495
+contractor/NN:professional/JJ;19496
+work/NN:electrical/JJ;19504
+((Code/NNP, Electric/NNP), National/NNP):2008/CD;19508
+i/NN:work/NN;19510
+NEC/NNP:1999/CD;19512
+spec/NN:2008/CD;19518
+part/NN:difficult/JJ;19519
+(inspector/NN, building/NN):county/city/NN;19525
+answer/NNS:right/JJ;19526
+(body/NNS, code/NN):different/JJ;19529
+information/NN:conflicting/JJ;19530
+((office/NN, enforcement/NN), code/NN):city/county/NN;19535
+idea/NN:new/JJ;19543
+(unit/NNS, chiller/NN):large/JJ;19545
+year/NNS:many/JJ;19546
+rip/NN:er/NN;19549
+maintenance/NN:additional/JJ;19551
+(infrastructure/NN, water/NN):cooling/JJ;19553
+(evaporation/NN, spray/NN):simple/JJ;19555
+cleaning/NNS:nozzle/JJ;19557
+maintenance/NN:pump/NN;19559
+(unit/NNS, ac/NN):Home/NNP;19562
+boost/NN:efficiency/NN;19564
+cooling/NN:evaporative/JJ;19565
+line/NNS:water/NN;19571
+bar/NNS:spray/NN;19573
+system/NN:drainage/NN;19575
+(system/NN, expansion/NN):direct/JJ;19577
+(system/NN, expansion/NN):small/JJ;19577
+(rejection/NN, heat/NN):proper/JJ;19580
+exchanger/NN:heat/NN;19582
+right/NN:reliable/JJ;19583
+unit/NN:window/NN;19585
+fin/NNS:condenser/NN;19590
+(conditioner/NN, air/NN):rv/NN;19595
+thing/NN:same/JJ;19596
+world/NN:hvac/NN;19601
+(site/NNS, job/NN):other/JJ;19607
+house/NNS:new/JJ;19608
+(driver/NN, Impact/NNP):Cordless/NNP;19615
+compliment/NN:ultimate/JJ;19616
+drill/NN:cordless/JJ;19617
+drill/NN:cordless/JJ;19619
+head/NN:fastener/NN;19623
+item/NNS:rusted/stuck/NN;19628
+Drill/NNP:cordless/JJ;19631
+driver/NN:impact/NN;19634
+drill/NN:cordless/JJ;19636
+torque/NN:less/JJR;19637
+hanger/NNS:joist/NN;19641
+kind/NN:specific/JJ;19642
+nail/NNS:galvanized/JJ;19643
+(screw/NNS, deck/NN):regular/JJ;19645
+(strength/NN, shear/NN):necessary/JJ;19647
+tub/NN:hot/JJ;19654
+place/NNS:other/JJ;19656
+(hole/NNS, pilot/NN):drilling/NN;19666
+term/NN:long/JJ;19671
+hole/NNS:pilot/NN;19674
+deck/NN:backyard/NN;19677
+sort/NN:one/CD;19682
+product/NN:pre-supplied/JJ;19684
+example/NN:such/JJ;19687
+example/NN:one/CD;19687
+playset/NNS:wooden/JJ;19688
+insulator/NN:perfect/JJ;19694
+insulator/NN:near/JJ;19694
+brick/NN:light/JJ;19695
+bubble/NNS:air/NN;19698
+(store/NN, fireplace/NN):local/JJ;19702
+place/NNS:likely/JJ;19705
+combination/NN:great/JJ;19710
+dryer/NNS:hair/NN;19713
+thing/NNS:flammable/JJ;19715
+spray/NN:hair/NN;19724
+freshener/NNS:air/NN;19726
+aerosol/NNS:other/JJ;19727
+attachment/NN:joist-to-ledger/NN;19729
+hanger/NNS:joist/NN;19732
+hanger/NN:joist/NN;19742
+strength/NN:tensile/JJ;19746
+strength/NN:superior/JJ;19746
+scenario/NNS:many/JJ;19747
+fastener/NN:proper/JJ;19749
+example/NN:one/CD;19752
+example/NN:deck/NN;19758
+framing/NN:deck/NN;19762
+time/NN:longer/JJR;19766
+gun/NN:nail/NN;19768
+toenail/NN:one/CD;19770
+hanger/NN:joist/NN;19776
+hanger/NN:joist/NN;19783
+hanger/NNS:joist/NN;19785
+((fan/NN, exhaust/NN), bathroom/NN):chrome/JJ;19793
+motor/NN:original/JJ;19794
+year/NNS:54/CD;19795
+(unit/NN, fan/light/NN):replacement/NN;19799
+(housing/NN, fan/NN):original/JJ;19801
+((size/NN, fan/NN), exhaust/NN):bathroom/NN;19806
+motor/NN:replacement/NN;19808
+(assembly/NN, fan/NN):exhaust/NN;19811
+datum/NNS:nameplate/NN;19814
+replacement/NN:equivalent/JJ;19816
+(((Motors/NNP, Fan/NNP), Vent/NNP), Bath/NNP):Replacement/NNP;19823
+motor/NN:fan/NN;19826
+(datum/NNS, nameplate/NN):motor/NN;19830
+luck/NN:good/JJ;19834
+London/NNP:sds/NN;19836
+house/NN:supply/NN;19841
+part/NN:proper/JJ;19842
+constraint/NN:time/NN;19845
+stuff/NN:neat/JJ;19847
+item/NNS:extra/JJ;19849
+(manufacturer/NN, control/NNS):industrial/JJ;19852
+(manufacturer/NN, control/NNS):large/JJ;19852
+(house/NN, supply/NN):industrial/JJ;19854
+city/NN:distant/JJ;19861
+side/NN:flip/JJ;19863
+business/NN:own/JJ;19864
+licens/NNS:business/NN;19867
+account/NNS:commercial/JJ;19868
+people/NNS:counter/JJ;19869
+house/NNS:supply/NN;19871
+((Corporation/NNP, Software/NNP), Dude/NNP):one/CD;19874
+Electric/NNP:General/NNP;19876
+info/NN:business/NN;19878
+(plywood/NN, grade/NN):finish/NN;19888
+example/NN:one/CD;19895
+fix/NN:temporary/JJ;19897
+fix/NN:quick/JJ;19897
+sleeve/NN:repair/NN;19899
+hanger/NNS:joist/NN;19903
+manufacturer/NN:hanger/NN;19908
+hanger/NNS:double-shear/JJ;19911
+type/NN:common/JJ;19912
+(hole/NNS, nail/NN):special/JJ;19914
+nail/NNS:joist/NN;19916
+nail/NNS:standard-length/JJ;19921
+nail/NNS:10d/CD;19921
+nail/NN:10d/CD;19923
+(hanger/NN, joist/NN):double-shear/JJ;19931
+(heater/NN, water/NN):gas/NN;19937
+closet/NN:metal/NN;19939
+ventilation/NN:proper/JJ;19940
+heater/NN:electric/JJ;19941
+pipe/NNS:gas/NN;19943
+day/NN:one/CD;19946
+heater/NN:gas/NN;19948
+way/NN:safe/JJ;19949
+source/NNS:different/JJ;19951
+board/NNS:cedar/NN;19958
+side/NN:bark/NN;19961
+(face/NN, side/NN):bark/NN;19964
+surface/NN:unattractive/JJ;19970
+fastener/NNS:treaded/JJ;19973
+nail/NNS:common/JJ;19974
+screw/NNS:coated/JJ;19975
+(((nail/NNS, shank/NN), ring/NN), steel/NN):stainless/JJ;19979
+surface/NN:wood/NN;19981
+hazard/NNS:tripping/JJ;19982
+(system/NNS, clip/NN):deck/NN;19985
+finish/NN:bad/JJ;19987
+wood/NN:flawed/JJ;19990
+work/NN:hard/JJ;19993
+deck/NN:expensive/JJ;19994
+(product/NNS, waterproofing/NN):cheap/JJ;20000
+luck/NN:good/JJ;20005
+Resources/NNPS:Geothermal/NNP;20007
+solution/NNS:geothermal/JJ;20008
+system/NNS:geothermal/JJ;20011
+house/NN:residential/JJ;20012
+(solution/NNS, Geothermal/NNP):DIY/NNP;20017
+(system/NN, scale/NN):smaller/JJR;20020
+(system/NN, hvac/NN):current/JJ;20022
+installer/NNS:local/JJ;20024
+(project/NN, diy/NN):viable/JJ;20029
+weight/NN:much/JJ;20030
+weight/NN:much/JJ;20034
+screw/NN:single/JJ;20035
+screw/NNS:5/CD;20039
+(weight/NNS, thing/NN):whole/JJ;20041
+pound/NNS:110/CD;20042
+pound/NNS:22/CD;20044
+weight/NN:much/JJ;20049
+one/NN:much/JJ;20059
+material/NN:brittle/JJ;20064
+shock/NN:small/JJ;20067
+door/NN:closing/NN;20070
+point/NNS:tension/NN;20073
+weight/NN:own/JJ;20077
+(holder/NN, paper/NN):toilet/NN;20080
+stud/NNS:few/JJ;20083
+weight/NN:much/JJ;20086
+center/NN:entertainment/NN;20091
+(holder/NN, paper/NN):toilet/NN;20096
+anchor/NNS:drywall/NN;20101
+screw/NNS:regular/JJ;20102
+return/NNS:individual/JJ;20104
+((return/NN, handler/NN), air/NN):main/JJ;20107
+drift/NN:small/JJ;20113
+return/NN:main/JJ;20115
+room/NN:great/JJ;20116
+filter/NN:ac/furnace/NN;20120
+(burn/NNS, motor/NN):fan/NN;20124
+(number/NN, digit/NN):4/CD;20126
+time/NN:last/JJ;20127
+handler/NN:furnace/air/JJ;20128
+handler/NN:whole/JJ;20128
+(part/NNS, motor/NN):fan/NN;20131
+kind/NNS:several/JJ;20132
+anchor/NNS:drywall/NN;20134
+(rating/NN, weight/NN):own/JJ;20136
+hole/NN:small/JJ;20138
+sleeve/NN:plastic/JJ;20139
+hole/NN:bigger/JJR;20141
+sleeve/NN:plastic/JJ;20142
+butterfly/NN:metal/NN;20146
+bolt/NNS:molly/JJ;20148
+(hole/NN, inch/NN):1/CD;20153
+(grip/NNS, contraption/NN):big/JJ;20156
+(anchor/NNS, drywall/NN):big/JJ;20162
+pound/NNS:50/CD;20163
+response/NN:positive/JJ;20164
+sma3000/NN:Moen/NNP;20170
+version/NN:bigger/JJR;20171
+bolt/NNS:toggle/NN;20173
+wing/NNS:metal/NN;20176
+(screw/NN, machine/NN):long/JJ;20178
+link/NN:useful/JJ;20179
+product/NN:niche/NN;20185
+anchor/NN:drywall/NN;20189
+load/NN:downward/JJ;20191
+load/NN:static/JJ;20191
+load/NNS:dynamic/JJ;20197
+(holder/NN, paper/NN):toilet/NN;20203
+load/NN:dynamic/JJ;20208
+roll/NN:tp/NN;20210
+(software/NN, design/NN):home/NN;20213
+basement/NN:new/JJ;20215
+software/NN:design/NN;20217
+(software/NN, design/NN):home/NN;20220
+article/NN:Wikipedia/NNP;20222
+(Pumps/NNP, Heat/NNP):Geothermal/NNP;20225
+scale/NN:small/JJ;20228
+system/NN:open/JJ;20233
+project/NNS:DIY/NNP;20239
+surgery/NN:rocket/NN;20245
+(exchanger/NN, heat/NN):small/JJ;20248
+(system/NN, loop/NN):open/JJ;20250
+(system/NN, loop/NN):small/JJ;20250
+((system/NN, geo/NN), loop/NN):open/JJ;20255
+project/NN:great/JJ;20264
+system/NNS:commercial/JJ;20267
+idea/NN:good/JJ;20268
+installer/NNS:local/JJ;20269
+info/NN:good/JJ;20272
+Sketchup/NNP:Google/NNP;20278
+option/NN:good/JJ;20279
+buck/NNS:big/JJ;20280
+(support/NN, platform/NN):treehouse/NN;20287
+(tree/NN, foot/NN):50/CD;20291
+trunk/NNS:four/CD;20292
+foot/NN:half/NN;20294
+candidate/NN:good/JJ;20297
+(house/NN, tree/NN):small/JJ;20299
+platform/NN:5x5/NN;20301
+building/NN:treehouse/NN;20313
+Guide/NNP:Treehouse/NNP;20315
+resource/NN:comprehensive/JJ;20316
+adherence/NN:code/NN;20320
+vent/NNS:gable/JJ;20321
+window/NNS:small/JJ;20327
+air/NN:makeup/NN;20329
+air/NN:hot/JJ;20330
+poster/NN:previous/JJ;20331
+suggestion/NN:good/JJ;20332
+panel/NN:pv/NN;20334
+airflow/NN:sufficient/JJ;20337
+setup/NN:pv/NN;20340
+(rule/NN, thumb/NN):rough/JJ;20343
+dollar/NNS:1000/CD;20344
+dollar/NNS:~/CD;20344
+watt/NNS:100/CD;20345
+power/NN:solar/JJ;20346
+watt/NNS:400/CD;20353
+motor/NN:dc/NN;20357
+volume/NN:air/NN;20361
+CFM/NNP:800/CD;20362
+heatload/NN:huge/JJ;20367
+conditioning/NN:air/NN;20369
+air/NN:superheated/JJ;20370
+Regulations/NNPS:building/NNS;20375
+level/NNS:different/JJ;20377
+installation/NNS:gas/NN;20382
+work/NN:electrical/JJ;20383
+work/NN:structural/JJ;20386
+(Officer/NNP, Control/NNP):Building/NNP;20389
+council/NN:local/JJ;20390
+defect/NNS:structural/JJ;20394
+year/NNS:thirty/CD;20399
+owner/NN:previous/JJ;20401
+regulation/NNS:strict/JJ;20403
+importance/NN:historic/JJ;20405
+importance/NN:national/JJ;20405
+district/NN:conservation/NN;20407
+wall/NN:interior/JJ;20412
+((system/NN, hvac/NN), zone/NN):2/CD;20420
+sort/NN:upstairs/downstairs/NNS;20423
+(scheme/NN, control/NN):temperature/NN;20426
+idea/NN:good/JJ;20427
+savings/NNS:energy/NN;20430
+question/NNS:several/JJ;20433
+schedule/NN:occupancy/NN;20435
+concern/NN:primary/JJ;20437
+savings/NNS:energy/NN;20439
+((system/NN, control/NNS), hvac/NN):sophisticated/JJ;20443
+scheme/NN:control/NN;20447
+home/NN:home/not/NN;20451
+setting/NNS:thermostat/NN;20453
+guide/NN:rough/JJ;20454
+building/NN:office/NN;20456
+temperature/NN:daytime/JJ;20457
+degree/NNS:70-74/CD;20458
+season/NN:heating/NN;20460
+season/NN:cooling/NN;20462
+ac/NN:long/JJ;20466
+(space/NN, tenant/NN):unoccupied/unimproved/JJ;20472
+degree/NNS:60-80/CD;20473
+(heating/cooling/NN, building/NN):overall/JJ;20476
+door/NN:garage/NN;20478
+basket/NN:mail/NN;20481
+(((basket/NN, slot/NN), mail/NN), door/NN):garage/NN;20487
+door/NN:garage/NN;20493
+edge/NN:round/JJ;20499
+start/NN:good/JJ;20502
+door/NN:pet/NN;20505
+wall/NN:exterior/NN;20507
+door/NN:pet/NN;20509
+door/NN:glass/NN;20518
+(space/NN, wall/NN):enough/JJ;20520
+door/NN:pet/NN;20522
+situation/NNS:different/JJ;20524
+(method/NN, location/installing/NN):preferred/JJ;20527
+door/NN:glass/NN;20529
+wall/siding/NN:exterior/NN;20536
+door/NN:pet/JJ;20541
+door/NN:wood/NN;20544
+basket/NNS:mail/NN;20548
+(box/NN, mail/NN):priority/NN;20551
+bolt/NNS:few/JJ;20552
+glue/NN:hot/JJ;20554
+rod/NN:dowel/NN;20556
+type/NN:same/JJ;20558
+effect/NN:hanging/NN;20561
+((door/NN, pet/NN), door/NN):glass/NN;20566
+door/NN:glass/NN;20573
+glass/NN:clear/JJ;20575
+model/NNS:other/JJ;20577
+frame/NN:aluminum/NN;20580
+catch/NN:spring/NN;20582
+track/NN:upper/JJ;20585
+solution/NN:intrusive/JJ;20587
+door/NN:glass/NN;20589
+(insert/NN, door/NN):pet/NN;20592
+door/NN:pet/NN;20595
+insulation/NN:strip/NN;20597
+door/NN:glass/NN;20599
+door/NN:pet/NN;20601
+door/NNS:pet/NN;20604
+thing/NN:last/JJ;20607
+guy/NN:hvac/NN;20613
+job/NN:cash/NN;20616
+:-rrb-/NN:cheap/JJ;20618
+coat/NN:light/JJ;20623
+(coverage/NN, %/NN):10/CD;20628
+sander/NN:belt/NN;20635
+(paper/NN, grit/NN):coarse/JJ;20637
+stain/NNS:oil/NN;20641
+result/NN:final/JJ;20642
+tool/NNS:power/NN;20646
+joist/NNS:deck/NN;20648
+idea/NN:good/JJ;20649
+(fitting/NN, repair/NN):Fernco/NNP;20652
+cavity/NN:wall/NN;20654
+basement/NN:unfinished/JJ;20655
+(output/NN, pump/NN):sump/NN;20659
+sewer/NN:sanitary/JJ;20660
+month/NNS:winter/NN;20662
+:-rrb-/NN:rule/NNS;20665
+(pipe/NN, drain/NN):vertical/JJ;20668
+pipe/NN:original/JJ;20675
+fitting/NN:Fernco/NNP;20677
+fitting/NN:Fernco/NNP;20681
+thing/NNS:many/JJ;20689
+home/NN:own/JJ;20690
+home/NN:own/JJ;20695
+(association/NNS, Owners/NNP):Home/NNP;20698
+code/NN:current/JJ;20702
+change/NNS:code/NN;20705
+code/NN:current/JJ;20707
+code/NN:new/JJ;20707
+permit/NN:work/NN;20710
+feature/NNS:accessibility/NN;20717
+(point/NN, sticking/NN):common/JJ;20721
+building/NNS:commercial/JJ;20722
+installation/NN:in-wall/JJ;20723
+insulation/NN:extra/JJ;20725
+((((((Door/NNP, Pet/NNP), Insulated/NNP), Series/NNP), Weather/NNP), All/NNP), Pet/NNP):Perfect/NNP;20734
+kit/NN:wall/NN;20736
+animal/NNS:other/JJ;20744
+type/NNS:different/JJ;20747
+door/NNS:electronic/JJ;20748
+version/NN:basic/JJ;20753
+door/NN:pet/NN;20758
+flapper/NN:plastic/NN;20761
+unit/NNS:modular/JJ;20766
+brick/NNS:Lego/NNP;20771
+wall/NNS:structural/JJ;20773
+word/NNS:other/JJ;20776
+stud/NNS:wooden/JJ;20777
+styrofoam/NN:ol'/JJ;20778
+styrofoam/NN:plain/JJ;20778
+part/NN:top/JJ;20779
+part/NN:top/JJ;20782
+part/NN:brick-like/JJ;20782
+structure/NN:interlocking/NN;20784
+brick/NNS:form/NN;20788
+idea/NN:good/JJ;20790
+manufacturer/NNS:form/NN;20792
+material/NN:other/JJ;20800
+screw/NNS:20/CD;20805
+sheet/NN:floor-to-ceiling/JJ;20806
+sheet/NN:wide/JJ;20806
+outlet/NNS:electrical/JJ;20809
+jack/NNS:phone/NN;20811
+wall/NNS:icf/NN;20813
+cavity/NNS:appropriate/JJ;20816
+wall/NN:ICF/NNP;20819
+plate/NNS:nail/NN;20823
+capacity/NN:support/NN;20830
+online/NN:topic/NN;20834
+anchor/NN:spreading-type/JJ;20839
+(anchor/NN, drywall/NN):self-drilling/JJ;20845
+run/NNS:wire/NN;20853
+hole/NN:giant/JJ;20855
+fan/NNS:gable/JJ;20857
+fan/NNS:solar-powered/JJ;20857
+fan/NN:vent-brand/JJ;20859
+panel/NN:solar/JJ;20861
+area/NN:sunny/JJ;20863
+(website/NN, Vent/NNP):Air/NNP;20868
+(Vent/NNP, Solar/NNP):Gable-Mount/NNP;20871
+alternative/NN:exciting/JJ;20872
+(ventilation/NN, attic/NN):traditional/JJ;20874
+panel/NN:solar/JJ;20875
+(motor/NN, dc/NN):24-volt/JJ;20882
+solution/NN:solar-powered/JJ;20883
+installation/NN:painless/JJ;20884
+feature/NN:installation/NN;20886
+hook-up/NN:electrical/JJ;20888
+wiring/NN:complicated/JJ;20890
+fan/NN:attic/NN;20893
+end/NN:gable/JJ;20894
+shutter/NN:decorative/JJ;20896
+panel/NN:solar/JJ;20897
+operation/NN:smooth/JJ;20900
+panel/NN:solar/JJ;20901
+sunlight/NN:direct/JJ;20904
+hour/NNS:daylight/NN;20909
+foot/NNS:cubic/JJ;20910
+foot/NNS:800/CD;20910
+movement/NN:air/NN;20912
+heat/NN:uncomfortable/JJ;20914
+moisture/NN:damaging/JJ;20916
+panel/NN:solar/JJ;20918
+move/NNS:specification/NNS;20923
+foot/NNS:cubic/JJ;20924
+foot/NNS:800/CD;20924
+(panel/NN, Solar/NNP):minute/NN;20928
+sunlight/NN:direct/JJ;20930
+cost/NN:electrical/JJ;20933
+panel/NN:solar/JJ;20936
+efficiency/NN:high/JJ;20937
+(((((Sold/NNP, Plastic/NNP), 15W/NNP), #SHT/NNP), Model/NNP), warranty/NN):limited/JJ;20945
+(((((Sold/NNP, Plastic/NNP), 15W/NNP), #SHT/NNP), Model/NNP), warranty/NN):5-year/JJ;20945
+fan/NN:power/NN;20950
+panel/NNS:solar/JJ;20952
+issue/NNS:environmental/JJ;20953
+panel/NNS:solar/JJ;20954
+standpoint/NN:monetary/JJ;20955
+credit/NNS:energy/NN;20965
+company/NNS:other/JJ;20966
+year/NN:3-5/CD;20968
+(payback/NN, year/NN):3-5/CD;20969
+state/NNS:other/JJ;20970
+program/NNS:similar/JJ;20971
+rebate/NNS:offer/NN;20973
+Block/NNP:one/CD;20974
+panel/NNS:solar/JJ;20977
+panel/NNS:solar/JJ;20982
+neighborhood/NN:entire/JJ;20984
+contractor/NN:local/JJ;20985
+value/NN:house/NNS;20988
+profit/NN:good/JJ;20991
+energy/NN:friendly/JJ;20992
+bill/NN:electric/JJ;20993
+company/NNS:electric/JJ;20998
+condition/NN:good/JJ;21004
+panel/NNS:solar/JJ;21005
+cost/NN:front/JJ;21006
+appeal/NN:curb/NN;21013
+rebate/NNS:good/JJ;21018
+panel/NNS:solar/JJ;21020
+panel/NNS:solar/JJ;21022
+%/NN:100/CD;21024
+year/NNS:5/CD;21026
+year/NNS:15/CD;21029
+panel/NNS:solar/JJ;21030
+Wood/NNP:non-toxic/JJ;21031
+(glue/NN, wood/NN):non-toxic/JJ;21034
+clamp/NN:quick/JJ;21036
+glue/NN:wood/NN;21039
+surface/NNS:prep/JJ;21041
+(II/NNP, TiteBond/NNP):old/JJ;21045
+(II/NNP, TiteBond/NNP):regular/JJ;21045
+((system/NNS, mitigation/NN), radon/NN):home/NN;21052
+((system/NNS, mitigation/NN), radon/NN):home/NN;21057
+system/NNS:mitigation/NN;21060
+radon/NN:excess/JJ;21062
+system/NN:mitigation/NN;21066
+factor/NNS:major/JJ;21068
+factor/NNS:other/JJ;21068
+(Architect/NNP, Home/NNP):3D/NNP;21071
+year/NNS:several/JJ;21072
+stud/NNS:few/JJ;21077
+(bolt/NNS, toggle/NN):use/NN;21082
+anchor/NN:plastic/JJ;21086
+side/NN:one/CD;21088
+sander/NN:belt/NN;21090
+(Architect/NNP, Home/NNP):3D/NNP;21099
+year/NNS:several/JJ;21100
+version/NN:older/JJR;21102
+buck/NNS:20/CD;21103
+version/NN:newer/JJR;21104
+year/NN:100/CD;21107
+door/window/NN:old/JJ;21108
+year/NNS:100/CD;21110
+demo/NN:bathroom/NN;21113
+box/NN:big/JJ;21118
+(store/NNS, lumber/NN):local/JJ;21120
+show/NN:hgtv/NN;21125
+piece/NN:sample/NN;21130
+((software/NN, qcad/NN), source/NN):open/JJ;21138
+platform/NNS:several/JJ;21139
+version/NN:Linux/NNP;21141
+(version/NN, OSX/NNP):Mac/NNP;21145
+bit/NN:little/JJ;21148
+primitive/NNS:line/shape/NN;21151
+vector/NN:usual/JJ;21152
+(design/NN, part/NN):mechanical/JJ;21157
+library/NNS:many/JJ;21158
+furniture/NN:home/NN;21160
+scheme/NN:electric/JJ;21161
+tool/NNS:alignment/NN;21168
+file/NNS:dxf/NN;21174
+quality/NN:professional/JJ;21178
+tool/NN:interesting/JJ;21179
+builder/NNS:original/JJ;21185
+job/NN:shoddy/JJ;21186
+(wall/NN, plasterboard/NN):tiled/JJ;21191
+angle/NN:slight/JJ;21192
+degree/NNS:5/CD;21193
+tile/NNS:spare/JJ;21199
+switch/NN:smart/JJ;21200
+switch/NNS:smart/JJ;21202
+wall/NN:difficult/JJ;21204
+bathroom/NN:old/JJ;21205
+bathroom/NN:small/JJ;21205
+tile/NNS:ceramic/JJ;21206
+view/NN:front/JJ;21210
+view/NN:side/NN;21214
+towel-dryer/NN:large/JJ;21219
+half/NN:upper/JJ;21223
+dryer/NN:towel/NN;21225
+(system/NN, plumbing/NN):original/JJ;21228
+(supply/NN, water/NN):hot/JJ;21230
+(supply/NN, water/NN):central/JJ;21230
+block/NN:apartment/NN;21232
+water/NN:hot/JJ;21235
+end/NNS:open/JJ;21238
+flow/NN:water/NN;21240
+water/NN:hot/JJ;21242
+pain/NN:Royal/NNP;21250
+side/NN:other/JJ;21252
+word/NNS:other/JJ;21260
+position/NN:right/JJ;21264
+thing/NNS:flex/JJ;21265
+tape/NN:duck/NN;21269
+tape/NN:duct/NN;21271
+oil/NN:1/CD;21272
+line/NNS:power/NN;21278
+radio/NN:use/NN;21280
+cable/NN:separate/JJ;21281
+house/NN:smart/JJ;21282
+device/NNS:electrical/JJ;21283
+maker/NN:coffee/NN;21291
+coffee/NN:fresh/JJ;21293
+device/NNS:such/JJ;21300
+network/NNS:electrical/JJ;21302
+network/NNS:traditional/JJ;21302
+stuff/NN:more/JJR;21306
+cable/NNS:separate/JJ;21312
+decade/NNS:last/JJ;21315
+method/NNS:different/JJ;21318
+protocol/NNS:different/JJ;21320
+protocol/NNS:several/JJ;21320
+house/NN:smart/JJ;21326
+location/NN:geographical/JJ;21327
+sun/NN:enough/JJ;21328
+(shop/NN, furniture/NN):local/JJ;21334
+(hose/NNS, sprinkler/NN):inground/JJ;21337
+week/NN:next/JJ;21339
+thing/NN:one/CD;21342
+hole/NNS:foundation/NN;21345
+(system/NN, sprinkler/NN):inground/JJ;21347
+(company/NN, lumber/NN):local/JJ;21356
+order/NN:special/JJ;21358
+pipe/NN:plastic/JJ;21360
+detector/NNS:metal/NN;21362
+pipe/NN:plastic/JJ;21366
+detector/NN:good/JJ;21367
+sensor/NNS:expensive/JJ;21369
+radar/NN:ground-penetrating/JJ;21370
+detector/NN:stud/NN;21372
+(detector/NN, pipe/NN):plastic/JJ;21379
+summer/NNS:couple/NN;21384
+sprinkling/NN:underground/JJ;21386
+bit/NN:little/JJ;21387
+(box/NN, valve/NN):large/JJ;21389
+hatch/NN:access/NN;21392
+hatch/NNS:small/JJ;21393
+hatch/NNS:several/JJ;21393
+supply/NN:water/NN;21397
+box/NN:valve/NN;21399
+(pipe/NNS, box/NN):valve/NN;21402
+(head/NNS, sprinkler/NN):various/JJ;21404
+box/NN:valve/NN;21407
+zone/NN:single/JJ;21408
+time/NN:same/JJ;21413
+box/NN:valve/NN;21418
+trouble/NN:much/JJ;21421
+trenching/NN:serious/JJ;21425
+(head/NN, sprinkler/NN):one/CD;21433
+line/NN:straight/JJ;21434
+curve/NN:gentle/JJ;21435
+line/NN:irrigation/NN;21437
+piece/NN:extra/JJ;21438
+(clamp/NNS, hose/NN):two/CD;21443
+Depot/NNP:Home/NNP;21446
+clamp/NNS:hose/NN;21449
+diameter/NN:line/NN;21451
+line/NN:sprinkler/NN;21453
+line/NN:entire/JJ;21458
+head/NNS:sprinkler/NN;21461
+word/NNS:other/JJ;21462
+line/NN:entire/JJ;21466
+Petroelje/NNP:Eric/NNP;21470
+digging/NN:serious/JJ;21471
+hole/NN:footing/NN;21475
+(location/NN, hole/NN):footing/NN;21478
+place/NN:good/JJ;21479
+supplies/NNS:building/NN;21485
+(fixture/NNS, plumbing/NN):old/JJ;21487
+(Antiques/NNP, Architectural/NNP):Adkins/NNP;21495
+variety/NN:wide/JJ;21499
+bit/NNS:router/NN;21501
+online/NN:available/JJ;21502
+router/NNS:handheld/JJ;21503
+shank/NNS:inch/NN;21506
+bit/NNS:router/NN;21508
+shank/NNS:inch/NN;21510
+wire/NN:electrical/JJ;21511
+wire/NN:electrical/JJ;21512
+list/NN:full/JJ;21517
+(wire/NN, gauge/NN):12/CD;21522
+(circuit/NNS, amp/NN):20/CD;21524
+(wire/NN, gauge/NN):14/CD;21526
+(circuit/NNS, amp/NN):15/CD;21528
+(wire/NN, gauge/NN):14/CD;21530
+requirement/NNS:power/NN;21534
+((circuit/NNS, amp/NN), gauge/20/NN):12/CD;21540
+demand/NNS:power/NN;21542
+(circuit/NN, 20amp/NN):own/JJ;21545
+space/NN:outlets/counter/NN;21549
+(circuit/NNS, amp/NN):20/CD;21551
+(circuit/NNS, amp/NN):additional/JJ;21551
+(circuit/NNS, amp/NN):more/JJR;21551
+gauge/NN:14/CD;21554
+(circuit/NNS, amp/NN):15/CD;21559
+(wire/NN, gauge/NN):14/CD;21563
+gauge/NN:12/CD;21564
+gauge/NN:12/CD;21565
+(wiring/NN, time/NN):harder/JJR;21567
+(wiring/NN, time/NN):much/JJ;21567
+size/NNS:two/CD;21569
+gauge/NN:14/CD;21570
+circuit/NNS:15amp/JJ;21572
+gauge/NN:12/CD;21574
+circuit/NNS:20amp/JJ;21576
+home/NN:typical/JJ;21577
+((circuit/NNS, unit/NN), ac/NN):window/NN;21582
+gauge/NN:12/CD;21585
+heater/NNS:space/NN;21588
+conductor/NN:three/CD;21589
+wire/NN:gauge/NN;21592
+circuit/NNS:multiple/JJ;21594
+wire/NN:single/JJ;21595
+switch/NNS:light/JJ;21596
+switch/NNS:3-way/JJ;21596
+size/NNS:other/JJ;21597
+use/NN:specialty/NN;21599
+(circuit/NNS, amp/NN):30/40/60/CD;21601
+dryer/NNS:electric/JJ;21602
+tub/NNS:hot/JJ;21604

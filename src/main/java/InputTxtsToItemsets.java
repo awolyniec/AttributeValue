@@ -10,8 +10,8 @@ import edu.stanford.nlp.pipeline.StanfordCoreNLP;
 */
 import edu.stanford.nlp.util.*;
 import edu.stanford.nlp.semgraph.*;
-
-
+import org.xml.sax.SAXException;
+import javax.xml.parsers.ParserConfigurationException;
 import java.util.Properties;
 
 /**
@@ -125,13 +125,15 @@ public class InputTxtsToItemsets {
 
     /*
         Args:
-        0: A path to a txt file containing the input
+        0: A path to an xml file containing the input
         1: A path to a txt file to which outputs will be printed
      */
-    public static void main (String[] args) throws IOException {
+    public static void main (String[] args) throws IOException, ParserConfigurationException, SAXException {
+        //parse the xml into a txt file
+        InputToInputTxts.parseXML(args[0], "src/main/I-O_data/input.txt");
 
         //Get a version of the txt file without html tags
-        String text = RemoveHTMLTagsFromTXTs.html2text(args[0], true);
+        String text = RemoveHTMLTagsFromTXTs.html2text("src/main/I-O_data/input.txt", true);
 
         /* creates a StanfordCoreNLP object, with tokenization, sentence-splitting, POS-tagging, lemmatization,
         syntactic parsing, and dependency parsing

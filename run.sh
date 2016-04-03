@@ -14,11 +14,8 @@ fi
 
 mvn compile
 
-# parse XML input, get text
-python src/main/python/InputToInputTxts.py $1 src/main/I-O_data/input.txt
-
-# get itemsets from text
-mvn exec:java -Dexec.mainClass="InputTxtsToItemsets" -Dexec.args="src/main/I-O_data/input.txt src/main/I-O_data/itemsets.txt"
+# parse XML input, get text, get itemsets from text
+mvn exec:java -Dexec.mainClass="InputTxtsToItemsets" -Dexec.args="$1 src/main/I-O_data/itemsets.txt"
 
 # sort itemsets
 export LC_ALL="C"
