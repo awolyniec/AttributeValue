@@ -4,7 +4,6 @@ import edu.stanford.nlp.ling.IndexedWord;
     An object-feature itemset containing the object, the feature, and the transaction it's part of
  */
 public class Itemset {
-    //need to alter data structure representation
     public Itemset (String v, int id) {
         setValue(v);
         transactionID = id;

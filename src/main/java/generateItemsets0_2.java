@@ -5,6 +5,28 @@ import edu.stanford.nlp.ling.*;
 import edu.stanford.nlp.ling.CoreAnnotations.*;
 
 public class generateItemsets0_2 {
+
+    //doubles the size of an itemset array
+    static Itemset[] doubleArray(Itemset[] input, int inputCounter) {
+        Itemset[] output = new Itemset[inputCounter * 2];
+        for (int i = 0; i < input.length; i++) {
+            output[i] = input[i];
+        }
+        return output;
+    }
+
+    //doubles the size of a 2-D IndexedWord array, if it's full
+    static IndexedWord[][] doubleArrayIfFull(IndexedWord[][] input, int inputCounter) {
+        if (inputCounter == input.length) {
+            IndexedWord[][] output = new IndexedWord[inputCounter * 2][];
+            for (int i = 0; i < input.length; i++) {
+                output[i] = input[i];
+            }
+            return output;
+        }
+        return input;
+    }
+
     public static Itemset[] generateItemsets(IndexedWord[][] deps, int numTransactions) {
         //Count the total number of non-null dependent words, this will be the maximum size of the return array
         int depCounter = 0;
@@ -28,7 +50,7 @@ public class generateItemsets0_2 {
                 itemsetCounter++;
                 //double array size if full
                 if (itemsetCounter == itemsets.length) {
-                    itemsets = generateItemsets1_1.doubleArray(itemsets, itemsetCounter);
+                    itemsets = doubleArray(itemsets, itemsetCounter);
                 }
             }
         }

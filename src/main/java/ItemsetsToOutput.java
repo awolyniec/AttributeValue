@@ -7,17 +7,15 @@ import java.util.Scanner;
 import java.io.*;
 import java.util.regex.Pattern;
 import java.util.regex.Matcher;
-import java.util.PriorityQueue;
 
-public class ItemsetsToTopOutput {
-
+public class ItemsetsToOutput {
     /*
         Given an array of itemsets, all with support of 0 and the same object, a count of transactions across
         the wider dataset, and the highest index of a non-null entry in the object group array,
         find the support and confidence for each, and set these fields for each itemset
      */
     public static void setSupportAndConfidenceForObjectGroup(Itemset[] objectGroup, int transactionsInAllGroups, int highestNonNull) {
-        //assuming no duplicate itemsets within the same transaction
+        //assumes no duplicate itemsets within the same transaction
 
         //get the number of unique transactions in the group
         int transIDCounter = 0;
@@ -62,7 +60,7 @@ public class ItemsetsToTopOutput {
     //since everything is alphabetically ordered, we need to keep a running count of all transIDs or admit some inaccuracy
     //If there are two itemsets in one transaction, and one of them is identical to an itemset in another transaction,
     //alphabetical ordering may cause them to become separated
-    //---->>>>>>It counts nearly 200 transactions too many
+    //inaccuracy here
     public static int getTransactionCountFromFile(Scanner inputScanner, Pattern pattern) {
         int transactionCount = 0;
         int lastTransID = -1;
@@ -116,7 +114,7 @@ public class ItemsetsToTopOutput {
         inputScanner = new Scanner(inputFile);
         FileWriter allOutput = new FileWriter(args[1]);
         FileWriter topOutput = new FileWriter(args[2]);
-        Heap top20kItemsets = new Heap(20000);
+        MaxSizeHeap top20kItemsets = new MaxSizeHeap(20000);
         Itemset[] objectGroup = new Itemset[transactionCount/100 + 1];
 
         //write headers
@@ -172,8 +170,8 @@ public class ItemsetsToTopOutput {
                     for (int i = 0; i < objectGroupCounter; i++) {
                         //directly print to allOutput
                         Itemset currItemset = objectGroup[i];
-                        String supportStr = util.genDoubleString(currItemset.getSupport(), 6);
-                        String confStr = util.genDoubleString(currItemset.getConfidence(), 6);
+                        String supportStr = generateOutput.genDoubleString(currItemset.getSupport(), 6);
+                        String confStr = generateOutput.genDoubleString(currItemset.getConfidence(), 6);
                         allOutput.write(generateOutput.fillIndent(currItemset.getValue(), 100));
                         allOutput.write(generateOutput.fillIndent("", 10));
                         allOutput.write(generateOutput.fillIndent(supportStr, 10));
@@ -217,8 +215,8 @@ public class ItemsetsToTopOutput {
         }
         for (int i = 0; i < top20k.length; i++) {
             Itemset currItemset = top20k[i];
-            String supportStr = util.genDoubleString(currItemset.getSupport(), 6);
-            String confStr = util.genDoubleString(currItemset.getConfidence(), 6);
+            String supportStr = generateOutput.genDoubleString(currItemset.getSupport(), 6);
+            String confStr = generateOutput.genDoubleString(currItemset.getConfidence(), 6);
             topOutput.write(generateOutput.fillIndent(currItemset.getValue(), 100));
             topOutput.write(generateOutput.fillIndent("", 10));
             topOutput.write(generateOutput.fillIndent(supportStr, 10));

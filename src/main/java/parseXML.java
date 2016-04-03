@@ -10,8 +10,8 @@ import java.util.Scanner;
  *
  * DOM parser adapted from parser on tutorialspoint.com
  */
-public class InputToInputTxts {
-    static void parseXML (String pathToXMLFile, String pathToTxtFile) throws ParserConfigurationException, UnsupportedEncodingException, SAXException, IOException {
+public class parseXML {
+    static void parse (String pathToXMLFile, String pathToTxtFile) throws ParserConfigurationException, UnsupportedEncodingException, SAXException, IOException {
         //documentbuilder
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         DocumentBuilder builder = factory.newDocumentBuilder();

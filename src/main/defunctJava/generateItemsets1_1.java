@@ -154,26 +154,5 @@ public class generateItemsets1_1 {
         }
         return fin;
     }
-
-    //doubles the size of an itemset array
-    static Itemset[] doubleArray(Itemset[] input, int inputCounter) {
-        Itemset[] output = new Itemset[inputCounter * 2];
-        for (int i = 0; i < input.length; i++) {
-            output[i] = input[i];
-        }
-        return output;
-    }
-
-    //doubles the size of a 2-D IndexedWord array, if it's full
-    static IndexedWord[][] doubleArrayIfFull(IndexedWord[][] input, int inputCounter) {
-        if (inputCounter == input.length) {
-            IndexedWord[][] output = new IndexedWord[inputCounter * 2][];
-            for (int i = 0; i < input.length; i++) {
-                output[i] = input[i];
-            }
-            return output;
-        }
-        return input;
-    }
 }
 

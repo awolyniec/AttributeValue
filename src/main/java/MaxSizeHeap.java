@@ -4,12 +4,12 @@
 import java.util.PriorityQueue;
 import java.util.Comparator;
 
-public class Heap {
+public class MaxSizeHeap {
     Itemset[] pq;
     int N;
     int maxSize;
 
-    Heap (int i) {
+    MaxSizeHeap(int i) {
         pq = new Itemset[i+2];
         N = 0;
         maxSize = i+1;
