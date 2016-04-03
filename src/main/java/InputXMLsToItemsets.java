@@ -28,15 +28,17 @@ public class InputXMLsToItemsets {
         parseXML.parse(args[0], "src/main/I-O_data/input.txt");
 
         //Get a version of the txt file without html tags
-        RemoveHTMLTagsFromTXTs.html2text("src/main/I-O_data/input.txt", "src/main/I-O_data/parsedInput.txt", true);
+        String text = RemoveHTMLTagsFromTXTs.html2text("src/main/I-O_data/input.txt", "src/main/I-O_data/parsedInput.txt", true);
 
         //get text
+        /*
         String text = "";
         File parsedInput = new File("src/main/I-O_data/parsedInput.txt");
         Scanner scanner = new Scanner(parsedInput);
         while (scanner.hasNextLine()) {
             text += scanner.nextLine();
         }
+        */
 
         /* creates a StanfordCoreNLP object, with tokenization, sentence-splitting, POS-tagging, lemmatization,
         syntactic parsing, and dependency parsing

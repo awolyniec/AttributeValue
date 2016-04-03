@@ -65,15 +65,14 @@ public class RemoveHTMLTagsFromTXTs {
         uses jsoup to remove HTML tags and pretty much any text within <>. Also has an option to omit all text before
          and including the first non-number character in each line. Writes parsed text to an output file.
      */
-    public static void html2text(String inputPath, String outputPath, boolean omitFirst) throws IOException {
+    public static String html2text(String inputPath, String outputPath, boolean omitFirst) throws IOException {
         File file = new File(inputPath);
-        FileWriter writah = new FileWriter(outputPath);
+        //FileWriter writah = new FileWriter(outputPath);
         Scanner scanner = new Scanner(file);
-        String output = "";
+        String text = "";
 
         //final Document.OutputSettings outputSettings = new Document.OutputSettings().prettyPrint(false);
         while (scanner.hasNextLine()) {
-            String text;
             if (!omitFirst) {
                 text = scanner.nextLine();
             } else {
@@ -90,8 +89,9 @@ public class RemoveHTMLTagsFromTXTs {
                     text = "";
                 }
             }
-            writah.write(Jsoup.parse(text).text() + "\n");
+            text += Jsoup.parse(text).text() + "\n";
         }
-        writah.close();
+        //writah.close();
+        return text;
     }
 }
