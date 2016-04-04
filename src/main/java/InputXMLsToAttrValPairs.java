@@ -61,7 +61,7 @@ public class InputXMLsToAttrValPairs {
 
         //Generates and prints a list of noun dependencies in the document
         long depBegin = System.currentTimeMillis();
-        IndexedWord[][] deps = getDependencies.generateNounDependencies(sentences);
+        IndexedWord[][] deps = getNounDependencies.generateNounDependencies(sentences);
         long depTime = ((System.currentTimeMillis() - depBegin)/1000);
         System.out.println("Generated noun dependencies...in "+depTime+" seconds.");
         //printNounDependencies(deps);

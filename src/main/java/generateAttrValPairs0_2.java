@@ -183,47 +183,4 @@ public class generateAttrValPairs0_2 {
         IndexedWord[][] fullObject = {newObjectWords, {}};
         return fullObject;
     }
-
-    /*
-    Calculates the support and confidence of a pair within an array of pairs
-
-    -Support of pair x: The percentage of transactions with a pair in the array that has the same object and
-    feature as x
-    -Confidence of pair x: The percentage of transactions with a pair in the array with the same object as x
-    that have the same feature as x
-    */
-    public static void setSupportAndConfidence(AttrValPair[] pairs, AttrValPair pair, int numTransactions) {
-
-        int lastObjectMatch = -1; //the last transaction id for which a pair had the same object as pair
-        int lastFullMatch = -1;   // "" "" "" "" "" and feature as pair
-        int objectMatchCounter = 0;
-        int fullMatchCounter = 0;
-        /*
-            objectMatchCounter: Count the number of transactions with an pair in the array that has the same object
-            as "pair"
-
-            fullMatchCounter: Count the number of transactions with a pair in the array that has the same object
-            and feature as "pair"
-         */
-        for (int i = 0; i < pairs.length; i++) {
-            if (pairs[i].getObj().equals(pair.getObj())) {
-                int id = pairs[i].getTransactionID();
-                if (lastObjectMatch != id) {
-                    objectMatchCounter++;
-                    lastObjectMatch = id;
-                }
-                if (pairs[i].getFeat().equals(pair.getFeat()) && lastFullMatch != id) {
-                    fullMatchCounter++;
-                    lastFullMatch = id;
-                }
-            }
-        }
-
-        //Calculate support and confidence
-        double support = (((double)fullMatchCounter)/numTransactions) * 100;
-        double confidence = (((double)fullMatchCounter)/objectMatchCounter) * 100;
-        pair.setSupport(support);
-        pair.setConfidence(confidence);
-    }
-
 }

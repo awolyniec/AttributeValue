@@ -114,7 +114,7 @@ public class AttrValPairsToOutput {
         inputScanner = new Scanner(inputFile);
         FileWriter allOutput = new FileWriter(args[1]);
         FileWriter topOutput = new FileWriter(args[2]);
-        MaxSizeHeap top20kPairs = new MaxSizeHeap(20000);
+        StaticMinOrientedAttrValHeap top20kPairs = new StaticMinOrientedAttrValHeap(20000, true);
         AttrValPair[] objectGroup = new AttrValPair[transactionCount/100 + 1];
 
         //write headers
@@ -179,7 +179,7 @@ public class AttrValPairsToOutput {
                         allOutput.write(generateOutput.fillIndent(confStr, 8));
                         allOutput.write("\n");
                         //add to topOutput heap for later outputting
-                        top20kPairs.insertSet(currPair);
+                        top20kPairs.insert(currPair);
                     }
                     //re-initialize
                     objectGroup = new AttrValPair[transactionCount/100 + 1];

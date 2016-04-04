@@ -3,15 +3,17 @@
  * Created by Alec Wolyniec
  */
 
-public class MaxSizeHeap {
+public class StaticMinOrientedAttrValHeap {
     AttrValPair[] pq;
     int N;
     int maxSize;
+    private boolean set;
 
-    MaxSizeHeap(int i) {
+    StaticMinOrientedAttrValHeap(int i, boolean s) {
         pq = new AttrValPair[i+2];
         N = 0;
         maxSize = i+1;
+        set = s;
     }
 
     public void sort () {
@@ -42,25 +44,23 @@ public class MaxSizeHeap {
         }
     }
 
-    public void insert(AttrValPair x) {
+    public void insert(AttrValPair x) throws java.io.IOException {
+        if (set) {
+            String val = x.getValue();
+            for (int i = 0; i < pq.length; i++) {
+                if (pq[i] != null) {
+                    if (pq[i].getValue().equals(val)) {
+                        return;
+                    }
+                }
+            }
+        }
         pq[++N] = x;
         swim(N);
         //automatically balances
         if (N >= maxSize) {
             delMin();
         }
-    }
-
-    public void insertSet(AttrValPair x) throws java.io.IOException {
-        String val = x.getValue();
-        for (int i = 0; i < pq.length; i++) {
-            if (pq[i] != null) {
-                if (pq[i].getValue().equals(val)) {
-                    return;
-                }
-            }
-        }
-        insert(x);
     }
 
     private boolean less (int i, int j) {

@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * Created by Alec Wolyniec on 4/3/16.
  */
-public class getDependencies {
+public class getNounDependencies {
     /*
         Taking in a list of all the sentences in an Annotation, generates an array of all possible arrays containing an ID,
         a unique noun from the Annotation, and all of the words that depend on said noun (order doesn't matter)
