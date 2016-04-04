@@ -1,16 +1,15 @@
 /**
  * Adapted from classes and methods seen in Algorithms, 4th Edition, by Robert Sedgewick and Kevin Wayne
+ * Created by Alec Wolyniec
  */
-import java.util.PriorityQueue;
-import java.util.Comparator;
 
 public class MaxSizeHeap {
-    Itemset[] pq;
+    AttrValPair[] pq;
     int N;
     int maxSize;
 
     MaxSizeHeap(int i) {
-        pq = new Itemset[i+2];
+        pq = new AttrValPair[i+2];
         N = 0;
         maxSize = i+1;
     }
@@ -43,7 +42,7 @@ public class MaxSizeHeap {
         }
     }
 
-    public void insert(Itemset x) {
+    public void insert(AttrValPair x) {
         pq[++N] = x;
         swim(N);
         //automatically balances
@@ -52,7 +51,7 @@ public class MaxSizeHeap {
         }
     }
 
-    public void insertSet(Itemset x) throws java.io.IOException {
+    public void insertSet(AttrValPair x) throws java.io.IOException {
         String val = x.getValue();
         for (int i = 0; i < pq.length; i++) {
             if (pq[i] != null) {
@@ -72,12 +71,12 @@ public class MaxSizeHeap {
         return false;
     }
 
-    public Itemset getMin() {
+    public AttrValPair getMin() {
         return pq[1];
     }
 
-    public Itemset delMin() {
-        Itemset min = pq[1];
+    public AttrValPair delMin() {
+        AttrValPair min = pq[1];
         exch(1, N--);
         sink(1);
         pq[N + 1] = null;
@@ -89,6 +88,6 @@ public class MaxSizeHeap {
     }
 
     private void exch (int i, int j) {
-        Itemset t = pq[i]; pq[i] = pq[j]; pq[j] = t;
+        AttrValPair t = pq[i]; pq[i] = pq[j]; pq[j] = t;
     }
 }

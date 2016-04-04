@@ -1,14 +1,14 @@
 /**
- * Created by tehredwun on 2/11/16.
+ * Created by Alec Wolyniec on 2/11/16.
  */
 import edu.stanford.nlp.ling.*;
 import edu.stanford.nlp.ling.CoreAnnotations.*;
 
-public class generateItemsets0_2 {
+public class generateAttrValPairs0_2 {
 
-    //doubles the size of an itemset array
-    static Itemset[] doubleArray(Itemset[] input, int inputCounter) {
-        Itemset[] output = new Itemset[inputCounter * 2];
+    //doubles the size of an attribute-value pair array
+    static AttrValPair[] doubleArray(AttrValPair[] input, int inputCounter) {
+        AttrValPair[] output = new AttrValPair[inputCounter * 2];
         for (int i = 0; i < input.length; i++) {
             output[i] = input[i];
         }
@@ -27,7 +27,7 @@ public class generateItemsets0_2 {
         return input;
     }
 
-    public static Itemset[] generateItemsets(IndexedWord[][] deps, int numTransactions) {
+    public static AttrValPair[] generateAttrValPairs(IndexedWord[][] deps, int numTransactions) {
         //Count the total number of non-null dependent words, this will be the maximum size of the return array
         int depCounter = 0;
         for (int i = 0; i < deps.length; i++) {
@@ -38,54 +38,54 @@ public class generateItemsets0_2 {
                 depCounter++;
             }
         }
-        //The array of itemsets to be returned
-        Itemset[] itemsets = new Itemset[depCounter];
-        int itemsetCounter = 0;
-        //Gather all possible itemsets for each dependency; gather a list of all of them
+        //The array of attribute-value pairs to be returned
+        AttrValPair[] pairs = new AttrValPair[depCounter];
+        int pairCounter = 0;
+        //Gather all possible pair for each dependency; gather a list of all of them
         for (int i = 0; i < deps.length; i++) {
             //get the list for one dependency
-            Itemset[] itemsetsOneDep = generateItemsetsOneDependencyList(deps[i], i);
-            for (int j = 0; j < itemsetsOneDep.length; j++) {
-                itemsets[itemsetCounter] = itemsetsOneDep[j];
-                itemsetCounter++;
+            AttrValPair[] pairsOneDep = generateAttrValPairsOneDependencyList(deps[i], i);
+            for (int j = 0; j < pairsOneDep.length; j++) {
+                pairs[pairCounter] = pairsOneDep[j];
+                pairCounter++;
                 //double array size if full
-                if (itemsetCounter == itemsets.length) {
-                    itemsets = doubleArray(itemsets, itemsetCounter);
+                if (pairCounter == pairs.length) {
+                    pairs = doubleArray(pairs, pairCounter);
                 }
             }
         }
 
         //remove null entries
-        Itemset[] newItemsets = new Itemset[itemsetCounter];
-        for (int i = 0; i < itemsetCounter; i++){
-            newItemsets[i] = itemsets[i];
+        AttrValPair[] newPairs = new AttrValPair[pairCounter];
+        for (int i = 0; i < pairCounter; i++){
+            newPairs[i] = pairs[i];
         }
-        itemsets = newItemsets;
+        pairs = newPairs;
 
-        return itemsets;
+        return pairs;
     }
 
-    private static Itemset[] generateItemsetsOneDependencyList(IndexedWord[] dep, int transId) {
+    private static AttrValPair[] generateAttrValPairsOneDependencyList(IndexedWord[] dep, int transId) {
         /*
-            generate the chain of all eligible nouns, adjectives, and quantifiers that may form an itemset with
+            generate the chain of all eligible nouns, adjectives, and quantifiers that may form an attribute value pair with
             dep's root noun
          */
-        Itemset[] output = new Itemset[0];
+        AttrValPair[] output = new AttrValPair[0];
         IndexedWord[][] fullObject = defineEnvelope(dep);
         //if fullObject is empty
         if (fullObject[0].length == 1) {
             return output;
         }
         String[] generatedSets = generate(fullObject);
-        output = new Itemset[generatedSets.length];
-        //translate generated sets into itemset format
+        output = new AttrValPair[generatedSets.length];
+        //translate generated sets into attribute-value pair format
         for (int i = 0; i < generatedSets.length; i++) {
-            output[i] = new Itemset(generatedSets[i], transId); //need to get transaction id
+            output[i] = new AttrValPair(generatedSets[i], transId); //need to get transaction id
         }
         return output;
     }
 
-    //generates strings to be the itemset value
+    //generates strings to be the pair's value
     private static String[] generate (IndexedWord[][] base) {
         IndexedWord[] full = base[0];
         String[] output = new String[base[0].length];
@@ -126,7 +126,7 @@ public class generateItemsets0_2 {
     */
     static IndexedWord[][] defineEnvelope(IndexedWord[] dep) {
          /*
-            Define envelope of possible itemset elements for the root word
+            Define envelope of possible attribute-value pair elements for the root word
          */
         IndexedWord[] objectWords = new IndexedWord[1];
         //objectWords[0] = dep[0];
@@ -185,34 +185,34 @@ public class generateItemsets0_2 {
     }
 
     /*
-    Calculates the support and confidence of an itemset within an array of itemsets
+    Calculates the support and confidence of a pair within an array of pairs
 
-    -Support of itemset x: The percentage of transactions with an itemset in the array that has the same object and
+    -Support of pair x: The percentage of transactions with a pair in the array that has the same object and
     feature as x
-    -Confidence of itemset x: The percentage of transactions with an itemset in the array with the same object as x
+    -Confidence of pair x: The percentage of transactions with a pair in the array with the same object as x
     that have the same feature as x
     */
-    public static void setSupportAndConfidence(Itemset[] itemsets, Itemset itemset, int numTransactions) {
+    public static void setSupportAndConfidence(AttrValPair[] pairs, AttrValPair pair, int numTransactions) {
 
-        int lastObjectMatch = -1; //the last transaction id for which an itemset had the same object as itemset
-        int lastFullMatch = -1;   // "" "" "" "" "" and feature as itemset
+        int lastObjectMatch = -1; //the last transaction id for which a pair had the same object as pair
+        int lastFullMatch = -1;   // "" "" "" "" "" and feature as pair
         int objectMatchCounter = 0;
         int fullMatchCounter = 0;
         /*
-            objectMatchCounter: Count the number of transactions with an itemset in the array that has the same object
-            as "itemset"
+            objectMatchCounter: Count the number of transactions with an pair in the array that has the same object
+            as "pair"
 
-            fullMatchCounter: Count the number of transactions with an itemset in the array that has the same object
-            and feature as "itemset"
+            fullMatchCounter: Count the number of transactions with a pair in the array that has the same object
+            and feature as "pair"
          */
-        for (int i = 0; i < itemsets.length; i++) {
-            if (itemsets[i].getObj().equals(itemset.getObj())) {
-                int id = itemsets[i].getTransactionID();
+        for (int i = 0; i < pairs.length; i++) {
+            if (pairs[i].getObj().equals(pair.getObj())) {
+                int id = pairs[i].getTransactionID();
                 if (lastObjectMatch != id) {
                     objectMatchCounter++;
                     lastObjectMatch = id;
                 }
-                if (itemsets[i].getFeat().equals(itemset.getFeat()) && lastFullMatch != id) {
+                if (pairs[i].getFeat().equals(pair.getFeat()) && lastFullMatch != id) {
                     fullMatchCounter++;
                     lastFullMatch = id;
                 }
@@ -222,8 +222,8 @@ public class generateItemsets0_2 {
         //Calculate support and confidence
         double support = (((double)fullMatchCounter)/numTransactions) * 100;
         double confidence = (((double)fullMatchCounter)/objectMatchCounter) * 100;
-        itemset.setSupport(support);
-        itemset.setConfidence(confidence);
+        pair.setSupport(support);
+        pair.setConfidence(confidence);
     }
 
 }

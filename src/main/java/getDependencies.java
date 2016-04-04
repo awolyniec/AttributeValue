@@ -7,7 +7,7 @@ import edu.stanford.nlp.util.CoreMap;
 import java.util.List;
 
 /**
- * Created by tehredwun on 4/3/16.
+ * Created by Alec Wolyniec on 4/3/16.
  */
 public class getDependencies {
     /*

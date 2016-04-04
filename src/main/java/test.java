@@ -10,15 +10,27 @@ import edu.stanford.nlp.semgraph.*;
 import java.util.Scanner;
 import java.io.IOException;
 import java.io.*;
+import java.util.regex.*;
 
 //random things and tests
 public class test {
     public static void main (String[] args) throws IOException {
-        int[] HowToBasic = new int[4];
-        FileWriter file = new FileWriter("src/main/development_txts/johncena.txt");
-        for (int i = 0; i < HowToBasic.length; i++) {
-            file.write("doo");
+        File file = new File("/Users/tehredwun/Documents/School/IRLab Research/data/data.xml");
+        FileWriter writah = new FileWriter("src/main/development_txts/smallData.xml");
+        Scanner scanner = new Scanner(file);
+        int counter = 0;
+        Pattern pattern = Pattern.compile("row Id=\"([0-9]+)\"");
+        while (scanner.hasNextLine()) {
+            if (counter == 1000) {
+                break;
+            }
+            String line = scanner.nextLine();
+            Matcher matcher = pattern.matcher(line);
+            if (matcher.find()) {
+                counter++;
+            }
+            writah.write(line+"\n");
         }
-        file.close();
+        writah.close();
     }
 }

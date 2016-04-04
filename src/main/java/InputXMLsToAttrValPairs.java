@@ -9,7 +9,6 @@ import edu.stanford.nlp.pipeline.Annotation;
 import edu.stanford.nlp.pipeline.StanfordCoreNLP;
 */
 import edu.stanford.nlp.util.*;
-import edu.stanford.nlp.semgraph.*;
 import org.xml.sax.SAXException;
 import javax.xml.parsers.ParserConfigurationException;
 import java.util.Properties;
@@ -17,7 +16,7 @@ import java.util.Properties;
 /**
  * Created by Alec Wolyniec on 1/14/16.
  */
-public class InputXMLsToItemsets {
+public class InputXMLsToAttrValPairs {
     /*
         Args:
         0: A path to an xml file containing the input
@@ -68,15 +67,15 @@ public class InputXMLsToItemsets {
         //printNounDependencies(deps);
 
         long itemBegin = System.currentTimeMillis();
-        Itemset[] itemsets = generateItemsets0_2.generateItemsets(deps, deps.length);
+        AttrValPair[] pairs = generateAttrValPairs0_2.generateAttrValPairs(deps, deps.length);
         long itemTime = ((System.currentTimeMillis() - itemBegin)/1000);
-        System.out.println("Generated itemsets...in "+itemTime+" seconds.");
+        System.out.println("Generated attribute value pairs...in "+itemTime+" seconds.");
         /*
-            for (int i = 0; i < itemsets.length; i++) {
-                System.out.println(itemsets[i].toString());
+            for (int i = 0; i < pairs.length; i++) {
+                System.out.println(pairs[i].toString());
             }
          */
-        //System.out.println("Number of itemsets: "+itemsets.length);
+        //System.out.println("Number of pairs: "+pairs.length);
 
         /*
         for(CoreMap sentence: sentences) {
@@ -102,6 +101,6 @@ public class InputXMLsToItemsets {
         */
         //
         //prints the output to a file specified in args
-        generateOutput.printItemsetFieldsToFile(args[1], itemsets, false);
+        generateOutput.printPairFieldsToFile(args[1], pairs, false);
     }
 }

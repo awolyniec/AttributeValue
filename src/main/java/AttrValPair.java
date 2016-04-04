@@ -1,10 +1,11 @@
 import edu.stanford.nlp.ling.IndexedWord;
 
 /*
-    An object-feature itemset containing the object, the feature, and the transaction it's part of
+    Created by Alec Wolyniec
+    An attribute-value pair containing the object, the feature, and the transaction it's part of
  */
-public class Itemset {
-    public Itemset (String v, int id) {
+public class AttrValPair {
+    public AttrValPair(String v, int id) {
         setValue(v);
         transactionID = id;
         support = 0;
@@ -49,7 +50,7 @@ public class Itemset {
     public static String[] ObjAndFeatFromValue(String value) {
         String[] output = new String[2];
         if (value.charAt(0) != '(') {
-            System.err.println("Itemset is of the wrong format.");
+            System.err.println("AttrValPair is of the wrong format.");
             System.exit(1);
         }
         int parenthesisStack = 1;
@@ -93,7 +94,7 @@ public class Itemset {
     }
 
     public String toString() {
-        String rep = "Itemset: "+value+"      Support: "+support+"      Confidence: "+confidence;
+        String rep = "AttrValPair: "+value+"      Support: "+support+"      Confidence: "+confidence;
         //return value;
         return rep;
     }

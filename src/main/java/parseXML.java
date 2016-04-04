@@ -6,9 +6,8 @@ import java.io.*;
 import java.util.Scanner;
 
 /**
- * Created by tehredwun on 4/1/16.
+ * Created by Alec Wolyniec on 4/1/16.
  *
- * DOM parser adapted from parser on tutorialspoint.com
  */
 public class parseXML {
     static void parse (String pathToXMLFile, String pathToTxtFile) throws ParserConfigurationException, UnsupportedEncodingException, SAXException, IOException {

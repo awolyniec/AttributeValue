@@ -113,7 +113,7 @@ public class defunctCode {
 
     /*
     Given a set of n itemsets and a path to an output file, print all itemsets in the following format:
-    Itemset                 Support     Confidence
+    AttrValPair                 Support     Confidence
     (obj1, feat1)           sup1        conf1
     (obj2, feat2)           sup2        conf1
     .                       .           .
@@ -122,7 +122,7 @@ public class defunctCode {
     */
     public static void printItemsetsSupAndConfToFile(String path, Itemset[] itemsets) throws IOException {
         FileWriter writah = new FileWriter(path);
-        String header = fillIndent("Itemset", 100) +"     "+fillIndent("Support", 8)+"     "+fillIndent("Confidence", 10);
+        String header = fillIndent("AttrValPair", 100) +"     "+fillIndent("Support", 8)+"     "+fillIndent("Confidence", 10);
         writah.write(header+"\n");
 
         for (int i = 0; i < itemsets.length; i++) {

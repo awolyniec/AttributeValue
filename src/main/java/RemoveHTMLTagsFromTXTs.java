@@ -8,7 +8,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 /**
- * Created by tehredwun on 3/29/16.
+ * Created by Alec Wolyniec on 3/29/16.
  *
  * Methods to remove
  * HTML tags and line numberings from txt files
@@ -69,10 +69,11 @@ public class RemoveHTMLTagsFromTXTs {
         File file = new File(inputPath);
         //FileWriter writah = new FileWriter(outputPath);
         Scanner scanner = new Scanner(file);
-        String text = "";
+        StringBuilder output = new StringBuilder();
 
         //final Document.OutputSettings outputSettings = new Document.OutputSettings().prettyPrint(false);
         while (scanner.hasNextLine()) {
+            String text;
             if (!omitFirst) {
                 text = scanner.nextLine();
             } else {
@@ -89,9 +90,10 @@ public class RemoveHTMLTagsFromTXTs {
                     text = "";
                 }
             }
-            text += Jsoup.parse(text).text() + "\n";
+            output.append(Jsoup.parse(text).text());
+            output.append("\n");
         }
         //writah.close();
-        return text;
+        return output.toString();
     }
 }

@@ -61,7 +61,7 @@ public class generateItemsets1_1 {
         Itemset[] output = new Itemset[generatedSets.length];
         //translate generated sets into itemset format
         for (int i = 0; i < generatedSets.length; i++) {
-            //output[i] = new Itemset(generatedSets[i], null, null, transId); //need to get transaction id
+            //output[i] = new AttrValPair(generatedSets[i], null, null, transId); //need to get transaction id
         }
         return output;
     }
@@ -77,7 +77,7 @@ public class generateItemsets1_1 {
             return labeled;
         }
         else {
-            //Itemset for all the permutations of the object
+            //AttrValPair for all the permutations of the object
             IndexedWord[][][] objPerms = getPermutations(base[0]);
             IndexedWord[][] objInterps = new IndexedWord[1][]; //make sure to double this if needed
             int objInterpCounter = 0;
@@ -90,7 +90,7 @@ public class generateItemsets1_1 {
                 }
             }
 
-            //Itemset for all the permutations of the feature
+            //AttrValPair for all the permutations of the feature
             IndexedWord[][][] featPerms = getPermutations(base[1]);
             IndexedWord[][] featInterps = new IndexedWord[1][]; //make sure to double this if needed
             int featInterpCounter = 0;

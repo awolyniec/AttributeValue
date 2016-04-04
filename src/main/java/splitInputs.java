@@ -1,5 +1,5 @@
 /**
- * Created by tehredwun on 3/29/16.
+ * Created by Alec Wolyniec on 3/29/16.
  */
 public class splitInputs {
 

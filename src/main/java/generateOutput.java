@@ -1,5 +1,5 @@
 /**
- * Created by tehredwun on 2/16/16.
+ * Created by Alec Wolyniec on 2/16/16.
  */
 import java.io.*;
 
@@ -18,16 +18,16 @@ public class generateOutput {
     }
 
     /*
-        Given a set of n itemsets and a path to an output file, print all itemsets and their transaction ids
+        Given a set of n pairs and a path to an output file, print all pairs and their transaction ids
         in the following format:
-        "itemset1:obj1;transID1 itemset2:obj2;transID2 ........ itemsetn:objn;transIDn "
+        "pair1:obj1;transID1 pair2:obj2;transID2 ........ pairn:objn;transIDn "
      */
-    public static void printItemsetFieldsToFile(String path, Itemset[] itemsets, boolean append) throws IOException {
+    public static void printPairFieldsToFile(String path, AttrValPair[] pairs, boolean append) throws IOException {
         FileWriter writah = new FileWriter(path, append);
-        for (int i = 0; i < itemsets.length; i++) {
-            if (itemsets[i] != null) {
-                Itemset itemset = itemsets[i];
-                writah.write(itemset.getObj() + ":" + itemset.getFeat() + ";" + Integer.toString(itemset.getTransactionID()) + "\n");
+        for (int i = 0; i < pairs.length; i++) {
+            if (pairs[i] != null) {
+                AttrValPair pair = pairs[i];
+                writah.write(pair.getObj() + ":" + pair.getFeat() + ";" + Integer.toString(pair.getTransactionID()) + "\n");
             }
         }
         writah.close();

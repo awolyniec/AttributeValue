@@ -1,5 +1,5 @@
 /**
- * Created by tehredwun on 3/14/16.
+ * Created by Alec Wolyniec on 3/14/16.
  *
  *
  */
@@ -8,14 +8,14 @@ import java.io.*;
 import java.util.regex.Pattern;
 import java.util.regex.Matcher;
 
-public class ItemsetsToOutput {
+public class AttrValPairsToOutput {
     /*
-        Given an array of itemsets, all with support of 0 and the same object, a count of transactions across
+        Given an array of attribute value pairs, all with support of 0 and the same object, a count of transactions across
         the wider dataset, and the highest index of a non-null entry in the object group array,
-        find the support and confidence for each, and set these fields for each itemset
+        find the support and confidence for each, and set these fields for each attribute value pair
      */
-    public static void setSupportAndConfidenceForObjectGroup(Itemset[] objectGroup, int transactionsInAllGroups, int highestNonNull) {
-        //assumes no duplicate itemsets within the same transaction
+    public static void setSupportAndConfidenceForObjectGroup(AttrValPair[] objectGroup, int transactionsInAllGroups, int highestNonNull) {
+        //assumes no duplicate pairs within the same transaction
 
         //get the number of unique transactions in the group
         int transIDCounter = 0;
@@ -30,12 +30,12 @@ public class ItemsetsToOutput {
         }
 
         String[][] output = new String[objectGroup.length][2];
-        //scan through all itemsets
+        //scan through all pairs
         for (int i = 0; i < highestNonNull; i++) {
             int[] featureMatches = new int[objectGroup.length];
-            //Match all itemsets identical to this one, unless this itemset has already been matched to a previous one
+            //Match all pairs identical to this one, unless this pair has already been matched to a previous one
             if (objectGroup[i].getSupport() == 0) {
-                //get all itemsets identical to this one
+                //get all pairs identical to this one
                 featureMatches[0] = i;
                 String currentFeature = objectGroup[i].getFeat();
                 int fullMatchCounter = 1;
@@ -58,7 +58,7 @@ public class ItemsetsToOutput {
     }
 
     //since everything is alphabetically ordered, we need to keep a running count of all transIDs or admit some inaccuracy
-    //If there are two itemsets in one transaction, and one of them is identical to an itemset in another transaction,
+    //If there are two pairs in one transaction, and one of them is identical to a pair in another transaction,
     //alphabetical ordering may cause them to become separated
     //inaccuracy here
     public static int getTransactionCountFromFile(Scanner inputScanner, Pattern pattern) {
@@ -89,17 +89,17 @@ public class ItemsetsToOutput {
     }
 
     /*
-        Take in a file of n itemsets in the following format:
+        Take in a file of n pairs in the following format:
         <object1>:<feature1>;transID1
         <object2>:<feature2>;transID2
         .
         .
         <objectn>:<featuren>;transIDn
-        Generate a file containing the top 20,000 itemsets in terms of support, ordered by support, as well as
-        their support and confidence, and generate a file containing all itemsets. Also keep a count of the
-        number of itemsets and transactions in the first file
+        Generate a file containing the top 20,000 pairs in terms of support, ordered by support, as well as
+        their support and confidence, and generate a file containing all pairs. Also keep a count of the
+        number of pairs and transactions in the first file
 
-        args: Input file, file to output all itemsets w/support, file to output the top 20k itemsets w/support
+        args: Input file, file to output all pairs w/support, file to output the top 20k pairs w/support
      */
     public static void main (String[] args) throws IOException {
         //initialize vars
@@ -114,17 +114,17 @@ public class ItemsetsToOutput {
         inputScanner = new Scanner(inputFile);
         FileWriter allOutput = new FileWriter(args[1]);
         FileWriter topOutput = new FileWriter(args[2]);
-        MaxSizeHeap top20kItemsets = new MaxSizeHeap(20000);
-        Itemset[] objectGroup = new Itemset[transactionCount/100 + 1];
+        MaxSizeHeap top20kPairs = new MaxSizeHeap(20000);
+        AttrValPair[] objectGroup = new AttrValPair[transactionCount/100 + 1];
 
         //write headers
-        allOutput.write(generateOutput.fillIndent("Itemset", 100));
+        allOutput.write(generateOutput.fillIndent("AttrValPair", 100));
         allOutput.write(generateOutput.fillIndent("", 10));
         allOutput.write(generateOutput.fillIndent("Support", 8));
         allOutput.write(generateOutput.fillIndent("", 10));
         allOutput.write(generateOutput.fillIndent("Confidence", 10));
         allOutput.write("\n");
-        topOutput.write(generateOutput.fillIndent("Itemset", 100));
+        topOutput.write(generateOutput.fillIndent("AttrValPair", 100));
         topOutput.write(generateOutput.fillIndent("", 10));
         topOutput.write(generateOutput.fillIndent("Support", 8));
         topOutput.write(generateOutput.fillIndent("", 10));
@@ -132,7 +132,7 @@ public class ItemsetsToOutput {
         topOutput.write("\n");
 
         int objectGroupCounter = 0;
-        //Get the support and confidence of each itemset in the file
+        //Get the support and confidence of each pair in the file
         boolean lastTrigger = false;
         while (inputScanner.hasNextLine() || lastTrigger) {
             String itemString;
@@ -143,7 +143,7 @@ public class ItemsetsToOutput {
             String currentObject;
             String currentFeature;
             int currentTransID;
-            //got the itemset
+            //got the pair
             if (matcher.find() || lastTrigger) {
                 if (!lastTrigger) {
                     currentObject = matcher.group(1);
@@ -155,8 +155,8 @@ public class ItemsetsToOutput {
                     currentFeature = "";
                     currentTransID = -1;
                 }
-                //If the current itemset is not part of the current group (see Line 118), process the support/confidence
-                //of each item in the group, send them to output processing, and start a new group
+                //If the current pair is not part of the current group (see Line 118), process the support/confidence
+                //of each pair in the group, send them to output processing, and start a new group
                 if ((objectGroup[0] != null && !currentObject.equals(objectGroup[0].getObj())) || lastTrigger) {
                     //set support and confidence strings
                     setSupportAndConfidenceForObjectGroup(objectGroup, transactionCount, objectGroupCounter);
@@ -169,39 +169,39 @@ public class ItemsetsToOutput {
                     //prepare the group for outputting
                     for (int i = 0; i < objectGroupCounter; i++) {
                         //directly print to allOutput
-                        Itemset currItemset = objectGroup[i];
-                        String supportStr = generateOutput.genDoubleString(currItemset.getSupport(), 6);
-                        String confStr = generateOutput.genDoubleString(currItemset.getConfidence(), 6);
-                        allOutput.write(generateOutput.fillIndent(currItemset.getValue(), 100));
+                        AttrValPair currPair = objectGroup[i];
+                        String supportStr = generateOutput.genDoubleString(currPair.getSupport(), 6);
+                        String confStr = generateOutput.genDoubleString(currPair.getConfidence(), 6);
+                        allOutput.write(generateOutput.fillIndent(currPair.getValue(), 100));
                         allOutput.write(generateOutput.fillIndent("", 10));
                         allOutput.write(generateOutput.fillIndent(supportStr, 10));
                         allOutput.write(generateOutput.fillIndent("", 10));
                         allOutput.write(generateOutput.fillIndent(confStr, 8));
                         allOutput.write("\n");
                         //add to topOutput heap for later outputting
-                        top20kItemsets.insertSet(currItemset);
+                        top20kPairs.insertSet(currPair);
                     }
                     //re-initialize
-                    objectGroup = new Itemset[transactionCount/100 + 1];
+                    objectGroup = new AttrValPair[transactionCount/100 + 1];
                     objectGroupCounter = 0;
                     if (lastTrigger) {
                         break;
                     }
                 }
 
-                //Collect all itemsets with the same object into a group
-                Itemset newIt = new Itemset(Itemset.valueFromObjAndFeat(currentObject, currentFeature), currentTransID);
+                //Collect all pairs with the same object into a group
+                AttrValPair newIt = new AttrValPair(AttrValPair.valueFromObjAndFeat(currentObject, currentFeature), currentTransID);
                 objectGroup[objectGroupCounter] = newIt;
                 objectGroupCounter++;
                 //double if necessary
                 if (objectGroupCounter == objectGroup.length) {
-                    Itemset[] newObjectGroup = new Itemset[objectGroupCounter*2];
+                    AttrValPair[] newObjectGroup = new AttrValPair[objectGroupCounter*2];
                     for (int i = 0; i < objectGroupCounter; i++) {
                         newObjectGroup[i] = objectGroup[i];
                     }
                     objectGroup = newObjectGroup;
                 }
-                //if this is the last itemset, ensure one more loop iteration to print the group
+                //if this is the last pair, ensure one more loop iteration to print the group
                 if (!inputScanner.hasNextLine()) {
                     lastTrigger = true;
                 }
@@ -209,15 +209,15 @@ public class ItemsetsToOutput {
         }
 
         //fill topOutput
-        Itemset[] top20k = new Itemset[top20kItemsets.getSize()];
+        AttrValPair[] top20k = new AttrValPair[top20kPairs.getSize()];
         for (int i = top20k.length - 1; i > -1; i--) {
-            top20k[i] = top20kItemsets.delMin();
+            top20k[i] = top20kPairs.delMin();
         }
         for (int i = 0; i < top20k.length; i++) {
-            Itemset currItemset = top20k[i];
-            String supportStr = generateOutput.genDoubleString(currItemset.getSupport(), 6);
-            String confStr = generateOutput.genDoubleString(currItemset.getConfidence(), 6);
-            topOutput.write(generateOutput.fillIndent(currItemset.getValue(), 100));
+            AttrValPair currPair = top20k[i];
+            String supportStr = generateOutput.genDoubleString(currPair.getSupport(), 6);
+            String confStr = generateOutput.genDoubleString(currPair.getConfidence(), 6);
+            topOutput.write(generateOutput.fillIndent(currPair.getValue(), 100));
             topOutput.write(generateOutput.fillIndent("", 10));
             topOutput.write(generateOutput.fillIndent(supportStr, 10));
             topOutput.write(generateOutput.fillIndent("", 10));
