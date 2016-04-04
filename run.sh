@@ -19,8 +19,8 @@ mvn exec:java -Dexec.mainClass="InputXMLsToAttrValPairs" -Dexec.args="$1 src/mai
 
 # sort pairs
 export LC_ALL="C"
-touch src/main/I-O_data/attrValPairsSorted.txt
-sort --ignore-case src/main/I-O_data/attrValPairs.txt > src/main/I-O_data/attrValPairsSorted.txt
+touch src/main/I-O_data/sortedAttrValPairs.txt
+sort --ignore-case src/main/I-O_data/attrValPairs.txt > src/main/I-O_data/sortedAttrValPairs.txt
 
 # output itemsets
 mvn exec:java -Dexec.mainClass="AttrValPairsToOutput" -Dexec.args="src/main/I-O_data/sortedAttrValPairs.txt $2 $3"
