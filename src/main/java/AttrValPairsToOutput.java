@@ -163,7 +163,7 @@ public class AttrValPairsToOutput {
                     //test
                     /*
                     for (int i = 0; i < objectGroupCounter; i++) {
-                        System.out.println(objectGroup[i].getValue()+" "+objectGroup[i].getSupport()+" "+objectGroup[i].getConfidence());
+                        System.out.println(objectGroup[i].getPair()+" "+objectGroup[i].getSupport()+" "+objectGroup[i].getConfidence());
                     }
                     */
                     //prepare the group for outputting
@@ -172,7 +172,7 @@ public class AttrValPairsToOutput {
                         AttrValPair currPair = objectGroup[i];
                         String supportStr = generateOutput.genDoubleString(currPair.getSupport(), 6);
                         String confStr = generateOutput.genDoubleString(currPair.getConfidence(), 6);
-                        allOutput.write(generateOutput.fillIndent(currPair.getValue(), 100));
+                        allOutput.write(generateOutput.fillIndent(currPair.getPair(), 100));
                         allOutput.write(generateOutput.fillIndent("", 10));
                         allOutput.write(generateOutput.fillIndent(supportStr, 10));
                         allOutput.write(generateOutput.fillIndent("", 10));
@@ -190,7 +190,7 @@ public class AttrValPairsToOutput {
                 }
 
                 //Collect all pairs with the same object into a group
-                AttrValPair newIt = new AttrValPair(AttrValPair.valueFromObjAndFeat(currentObject, currentFeature), currentTransID);
+                AttrValPair newIt = new AttrValPair(AttrValPair.pairFromObjAndFeat(currentObject, currentFeature), currentTransID);
                 objectGroup[objectGroupCounter] = newIt;
                 objectGroupCounter++;
                 //double if necessary
@@ -217,7 +217,7 @@ public class AttrValPairsToOutput {
             AttrValPair currPair = top20k[i];
             String supportStr = generateOutput.genDoubleString(currPair.getSupport(), 6);
             String confStr = generateOutput.genDoubleString(currPair.getConfidence(), 6);
-            topOutput.write(generateOutput.fillIndent(currPair.getValue(), 100));
+            topOutput.write(generateOutput.fillIndent(currPair.getPair(), 100));
             topOutput.write(generateOutput.fillIndent("", 10));
             topOutput.write(generateOutput.fillIndent(supportStr, 10));
             topOutput.write(generateOutput.fillIndent("", 10));
