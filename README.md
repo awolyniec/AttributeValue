@@ -130,4 +130,6 @@ Directory structure and relevant file descriptions
 6 - README.md
     -This file
 7 - run.sh
-    -Bash shell script that controls the way in which the project is run
+    -Bash shell script that runs the first part of the project
+8 - run.sh
+    -Bash shell script that runs the second part of the project

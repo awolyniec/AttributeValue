@@ -46,10 +46,10 @@ public class StaticMinOrientedAttrValHeap {
 
     public void insert(AttrValPair x) throws java.io.IOException {
         if (set) {
-            String val = x.getValue();
+            String val = x.getPair();
             for (int i = 0; i < pq.length; i++) {
                 if (pq[i] != null) {
-                    if (pq[i].getValue().equals(val)) {
+                    if (pq[i].getPair().equals(val)) {
                         return;
                     }
                 }
