@@ -15,6 +15,7 @@ import java.util.regex.*;
 //random things and tests
 public class test {
     public static void main (String[] args) throws IOException {
+        /*
         File file = new File("/Users/tehredwun/Documents/School/IRLab Research/data/data.xml");
         FileWriter writah = new FileWriter("src/main/development_txts/smallData.xml");
         Scanner scanner = new Scanner(file);
@@ -32,5 +33,6 @@ public class test {
             writah.write(line+"\n");
         }
         writah.close();
+        */
     }
 }
