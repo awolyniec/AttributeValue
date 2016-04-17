@@ -93,7 +93,7 @@ public class getNounDependencies {
     }
 
     /*
-        Given an array of nouns and their dependencies, prints each noun followed by its dependencies
+        Given an array of nouns and their dependencies, print each noun followed by its dependencies
     */
     public static void printNounDependencies(IndexedWord[][] nounDepArray) {
         System.out.println();

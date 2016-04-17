@@ -6,7 +6,7 @@ import edu.stanford.nlp.ling.CoreAnnotations.*;
 
 public class generateAttrValPairs0_2 {
 
-    //doubles the size of an attribute-value pair array
+    //double the size of an attribute-value pair array
     static AttrValPair[] doubleArray(AttrValPair[] input, int inputCounter) {
         AttrValPair[] output = new AttrValPair[inputCounter * 2];
         for (int i = 0; i < input.length; i++) {
@@ -15,7 +15,7 @@ public class generateAttrValPairs0_2 {
         return output;
     }
 
-    //doubles the size of a 2-D IndexedWord array, if it's full
+    //double the size of a 2-D IndexedWord array, if it's full
     static IndexedWord[][] doubleArrayIfFull(IndexedWord[][] input, int inputCounter) {
         if (inputCounter == input.length) {
             IndexedWord[][] output = new IndexedWord[inputCounter * 2][];
@@ -27,6 +27,7 @@ public class generateAttrValPairs0_2 {
         return input;
     }
 
+    //keystone method, generates attribute value pairs for a dependency matrix
     public static AttrValPair[] generateAttrValPairs(IndexedWord[][] deps, int numTransactions) {
         //Count the total number of non-null dependent words, this will be the maximum size of the return array
         int depCounter = 0;
@@ -65,6 +66,7 @@ public class generateAttrValPairs0_2 {
         return pairs;
     }
 
+    //Get the attribute-value pairs for a single dependency (one noun and all of its dependents)
     private static AttrValPair[] generateAttrValPairsOneDependencyList(IndexedWord[] dep, int transId) {
         /*
             generate the chain of all eligible nouns, adjectives, and quantifiers that may form an attribute value pair with
@@ -72,44 +74,61 @@ public class generateAttrValPairs0_2 {
          */
         AttrValPair[] output = new AttrValPair[0];
         IndexedWord[][] fullObject = defineEnvelope(dep);
-        //if fullObject is empty
-        if (fullObject[0].length == 1) {
+        //if fullObject has length 1, don't generate itemsets
+        if (fullObject[0].length < 2) {
             return output;
         }
         String[] generatedSets = generate(fullObject);
         output = new AttrValPair[generatedSets.length];
         //translate generated sets into attribute-value pair format
         for (int i = 0; i < generatedSets.length; i++) {
-            output[i] = new AttrValPair(generatedSets[i], transId); //need to get transaction id
+            output[i] = new AttrValPair(generatedSets[i], transId);
         }
         return output;
     }
 
-    //generates strings to be the pair's value
+    //generates attribute-value pairs from a maximal object
     private static String[] generate (IndexedWord[][] base) {
         IndexedWord[] full = base[0];
         String[] output = new String[base[0].length];
         int outputCounter = 0;
-        String object = full[0].lemma()+"/"+full[0].tag();
-        String piece = "("+object+", "+")";
-        for (int i = 1; i < full.length; i++) {
-            piece = "("+object+", "+full[i].lemma()+"/"+full[i].tag()+")";
-            if (full[i].tag().equals("NN") || full[i].tag().equals("NNS") || full[i].tag().equals("NNP") ||
-                    full[i].tag().equals("NNPS")) {
+        //add the root word
+        String object = "";
+        String piece;
+        /*
+           Travel left from the root word, adding each word passed as the feature for a new attribute-value pair,
+           and then using the new attribute-value pair as the object for an even larger pair (until an adjective is found,
+           as an adjective is never part of the object)
+         */
+        for (int i = 0; i < full.length; i++) {
+            //transform NNS tag to NN tag and NNPS tag to NNP tag (since words will be lemmatized, there will be no plurals)
+            String tag = full[i].tag();
+            if (tag.equals("NNS")) {
+                tag = "NN";
+            }
+            else if (tag.equals("NNPS")) {
+                tag = "NNP";
+            }
+
+            //initialize with the root word as the object
+            if (i == 0) {
+                object = full[i].lemma()+"/"+tag;
+                continue;
+            }
+            piece = "("+object+", "+full[i].lemma()+"/"+tag+")";
+            //If the current word is a noun, generate an attribute-value pair and use it as the object for a larger pair
+            if (tag.equals("NN") || tag.equals("NNP")) {
                 object = piece;
                 if (i == full.length - 1) {
                     output[outputCounter] = piece;
                     outputCounter++;
                 }
             }
+            //If the current word is an adjective, generate an attribute-value pair
             else {
                 output[outputCounter] = piece;
                 outputCounter++;
             }
-        }
-        if (outputCounter == 0) {
-            output[0] = piece;
-            outputCounter++;
         }
 
         //Eliminate null entries from output
@@ -121,13 +140,14 @@ public class generateAttrValPairs0_2 {
     }
 
     /*
-    Return an array of the maximal object and the maximal feature for a given
-    root word
+    Return an array of the maximal object for a given
+    root noun (the largest linear chain consisting of a. A root noun and b. nouns and adjectives to the left
+    of the root noun, all depending on a., and with no nouns occurring to the left of adjectives)
+
+    Also stipulates that itemsets must consist of relevant items, i.e. that all entries must have at least one
+    alphanumeric capital (no itemsets like "(|/NN, |/NN)")
     */
     static IndexedWord[][] defineEnvelope(IndexedWord[] dep) {
-         /*
-            Define envelope of possible attribute-value pair elements for the root word
-         */
         IndexedWord[] objectWords = new IndexedWord[1];
         //objectWords[0] = dep[0];
         int objectWordsCounter = 0;
@@ -143,29 +163,33 @@ public class generateAttrValPairs0_2 {
             //checks if there is a dependent that matches the criteria
             for (int k = 0; k < dep.length; k++) {
                 String tag = dep[k].tag();
+                //if it is the right position in the linear chain
                 if (dep[k].get(IndexAnnotation.class) == i) {
+                    //if it has the right tag
                     if ( ((tag.equals("NN") || tag.equals("NNS") || tag.equals("NNP") || tag.equals("NNPS")) && !adjFlag) ||
                             tag.equals("JJ") || tag.equals("JJR") || tag.equals("CD")) {
-                        //add
-                        objectWords[objectWordsCounter] = dep[k];
-                        objectWordsCounter++;
+                        if (/*containsAlphanumeric(dep[k].word())*/ true) {
+                            //add
+                            objectWords[objectWordsCounter] = dep[k];
+                            objectWordsCounter++;
 
-                        //if it's an adjective, activate the adjective flag
-                        if (!(tag.equals("NN")) && !(tag.equals("NNS")) && !(tag.equals("NNP")) && !(tag.equals("NNPS"))) {
-                            adjFlag = true;
-                        }
-
-                        //doubles the array if necessary
-                        if (objectWordsCounter == objectWords.length) {
-                            IndexedWord[] newThing = new IndexedWord[objectWords.length * 2];
-                            for (int j = 0; j < objectWords.length; j++) {
-                                newThing[j] = objectWords[j];
+                            //if it's an adjective, activate the adjective flag
+                            if (!(tag.equals("NN")) && !(tag.equals("NNS")) && !(tag.equals("NNP")) && !(tag.equals("NNPS"))) {
+                                adjFlag = true;
                             }
-                            objectWords = newThing;
-                        }
 
-                        found = true;
-                        break;
+                            //doubles the array if necessary
+                            if (objectWordsCounter == objectWords.length) {
+                                IndexedWord[] newThing = new IndexedWord[objectWords.length * 2];
+                                for (int j = 0; j < objectWords.length; j++) {
+                                    newThing[j] = objectWords[j];
+                                }
+                                objectWords = newThing;
+                            }
+
+                            found = true;
+                            break;
+                        }
                     }
                 }
             }
@@ -182,5 +206,25 @@ public class generateAttrValPairs0_2 {
         //create the 2D array to start scanning
         IndexedWord[][] fullObject = {newObjectWords, {}};
         return fullObject;
+    }
+
+    //checks a string to see if it contains any alphanumeric characters
+    public static boolean containsAlphanumeric (String input) {
+        for (int i = 0; i < input.length(); i++) {
+            char cha = input.charAt(i);
+            //if it's a digit
+            if (cha - '0' > -1 && cha - '0' < 10) {
+                return true;
+            }
+            //if it's a capital letter
+            if (cha - 'A' > -1 && cha - 'A' < 26) {
+                return true;
+            }
+            //if it's a lowercase letter
+            if (cha - 'a' > -1 && cha - 'a' < 26) {
+                return true;
+            }
+        }
+        return false;
     }
 }

@@ -10,6 +10,8 @@ import edu.stanford.nlp.pipeline.StanfordCoreNLP;
 */
 import edu.stanford.nlp.util.*;
 import org.xml.sax.SAXException;
+import org.xml.sax.SAXParseException;
+
 import javax.xml.parsers.ParserConfigurationException;
 import java.util.Properties;
 

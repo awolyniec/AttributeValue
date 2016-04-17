@@ -10,8 +10,8 @@ import java.util.regex.Matcher;
 
 public class AttrValPairsToOutput {
     /*
-        Given an array of attribute value pairs, all with support of 0 and the same object, a count of transactions across
-        the wider dataset, and the highest index of a non-null entry in the object group array,
+        Given an array of attribute value pairs that all share the same object (an object group), a count of transactions across
+        the dataset they come from, and the highest index of a non-null entry in the array,
         find the support and confidence for each, and set these fields for each attribute value pair
      */
     public static void setSupportAndConfidenceForObjectGroup(AttrValPair[] objectGroup, int transactionsInAllGroups, int highestNonNull) {
@@ -57,7 +57,6 @@ public class AttrValPairsToOutput {
         }
     }
 
-    //since everything is alphabetically ordered, we need to keep a running count of all transIDs or admit some inaccuracy
     //If there are two pairs in one transaction, and one of them is identical to a pair in another transaction,
     //alphabetical ordering may cause them to become separated
     //inaccuracy here
@@ -80,11 +79,8 @@ public class AttrValPairsToOutput {
                 }
             }
         }
-        //test
-        
         //System.out.println("TRANSACTION COUNT: "+transactionCount);
         //System.out.println("HIGHEST TRANSID: "+highestTransID);
-    
         return transactionCount;
     }
 
@@ -136,7 +132,7 @@ public class AttrValPairsToOutput {
         boolean lastTrigger = false;
         while (inputScanner.hasNextLine() || lastTrigger) {
             String itemString;
-            //get the next line unless this is the last thing to be scanned
+            //get the next line unless this is the last one
             if (lastTrigger) { itemString = ""; }
             else { itemString = inputScanner.nextLine(); }
             matcher = pattern.matcher(itemString);
@@ -201,7 +197,7 @@ public class AttrValPairsToOutput {
                     }
                     objectGroup = newObjectGroup;
                 }
-                //if this is the last pair, ensure one more loop iteration to print the group
+                //if this is the last line, ensure one more loop iteration to print the group it's part of
                 if (!inputScanner.hasNextLine()) {
                     lastTrigger = true;
                 }

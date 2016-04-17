@@ -10,6 +10,10 @@ import java.util.Scanner;
  *
  */
 public class parseXML {
+    /*
+       From an XML file, generates a txt file from the text within the file's <row> elements. The elements taken are
+       each row's "Id", "Title", and "Body" attributes
+     */
     static void parse (String pathToXMLFile, String pathToTxtFile) throws ParserConfigurationException, UnsupportedEncodingException, SAXException, IOException {
         //documentbuilder
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();

@@ -62,8 +62,8 @@ public class RemoveHTMLTagsFromTXTs {
     }
 
     /*
-        uses jsoup to remove HTML tags and pretty much any text within <>. Also has an option to omit all text before
-         and including the first non-number character in each line. Writes parsed text to an output file.
+        use jsoup to remove HTML tags and pretty much any text within <>. Also has an option to omit all text before
+         and including the first non-number character in each line. Write parsed text to an output file.
      */
     public static String html2text(String inputPath, String outputPath, boolean omitFirst) throws IOException {
         File file = new File(inputPath);
