@@ -2,36 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7915a9b5-96a9-4f79-b947-f085b9302702" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/development_txts/smallData2.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/I-O_data/finalOutput.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/I-O_data/topOutput.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/development_txts/10000posts.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/development_txts/10000postsParsed.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/development_txts/100posts.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/development_txts/10posts.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/development_txts/dummy.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/development_txts/finalOutput.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/development_txts/postsOriginal.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/development_txts/postsParsed.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/development_txts/testParse.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/development_txts/testParseDontRemove.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/development_txts/topOutput.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/AttrValPair.class" afterPath="$PROJECT_DIR$/target/classes/AttrValPair.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/AttrValPairsToOutput.class" afterPath="$PROJECT_DIR$/target/classes/AttrValPairsToOutput.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/InputXMLsToAttrValPairs.class" afterPath="$PROJECT_DIR$/target/classes/InputXMLsToAttrValPairs.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/StaticMinOrientedAttrValHeap.class" afterPath="$PROJECT_DIR$/target/classes/StaticMinOrientedAttrValHeap.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/generateAttrValPairs0_2.class" afterPath="$PROJECT_DIR$/target/classes/generateAttrValPairs0_2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/generateOutput.class" afterPath="$PROJECT_DIR$/target/classes/generateOutput.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/parseXML.class" afterPath="$PROJECT_DIR$/target/classes/parseXML.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/test.class" afterPath="$PROJECT_DIR$/target/classes/test.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/AttrValPairsToOutput.java" afterPath="$PROJECT_DIR$/src/main/java/AttrValPairsToOutput.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/InputXMLsToAttrValPairs.java" afterPath="$PROJECT_DIR$/src/main/java/InputXMLsToAttrValPairs.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/RemoveHTMLTagsFromTXTs.java" afterPath="$PROJECT_DIR$/src/main/java/RemoveHTMLTagsFromTXTs.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/generateAttrValPairs0_2.java" afterPath="$PROJECT_DIR$/src/main/java/generateAttrValPairs0_2.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/generateOutput.java" afterPath="$PROJECT_DIR$/src/main/java/generateOutput.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/getNounDependencies.java" afterPath="$PROJECT_DIR$/src/main/java/getNounDependencies.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/parseXML.java" afterPath="$PROJECT_DIR$/src/main/java/parseXML.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.txt" />
     </list>
     <ignored path="AttributeValue.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -54,23 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="InputXMLsToAttrValPairs.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/InputXMLsToAttrValPairs.java">
+      <file leaf-file-name="README.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="generateAttrValPairs0_2.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/generateAttrValPairs0_2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8569157">
-              <caret line="230" column="0" selection-start-line="230" selection-start-column="0" selection-end-line="230" selection-end-column="0" />
+            <state vertical-scroll-proportion="3.3388705">
+              <caret line="134" column="63" selection-start-line="134" selection-start-column="63" selection-end-line="134" selection-end-column="63" />
               <folding />
             </state>
           </provider>
@@ -163,8 +122,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1" />
-    <option name="y" value="37" />
+    <option name="x" value="2" />
+    <option name="y" value="34" />
     <option name="width" value="1278" />
     <option name="height" value="726" />
   </component>
@@ -228,72 +187,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AttributeValue" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AttributeValue" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AttributeValue" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AttributeValue" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="I-O_data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AttributeValue" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AttributeValue" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="development_txts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -752,7 +645,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="37" width="1278" height="726" extended-state="0" />
+    <frame x="2" y="34" width="1278" height="726" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -892,13 +785,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="134" column="63" selection-start-line="134" selection-start-column="63" selection-end-line="134" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2685422">
@@ -1034,16 +920,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/InputXMLsToAttrValPairs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6800948">
@@ -1054,8 +930,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/generateAttrValPairs0_2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8569157">
-          <caret line="230" column="0" selection-start-line="230" selection-start-column="0" selection-end-line="230" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.49920508">
+          <caret line="215" column="19" selection-start-line="215" selection-start-column="19" selection-end-line="215" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/InputXMLsToAttrValPairs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.0031797">
+          <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="3.3388705">
+          <caret line="134" column="63" selection-start-line="134" selection-start-column="63" selection-end-line="134" selection-end-column="63" />
           <folding />
         </state>
       </provider>
