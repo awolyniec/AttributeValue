@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7915a9b5-96a9-4f79-b947-f085b9302702" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.txt" />
-    </list>
+    <list default="true" id="7915a9b5-96a9-4f79-b947-f085b9302702" name="Default" comment="" />
     <ignored path="AttributeValue.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -28,7 +26,7 @@
       <file leaf-file-name="README.txt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="3.3388705">
+            <state vertical-scroll-proportion="2.0558376">
               <caret line="134" column="63" selection-start-line="134" selection-start-column="63" selection-end-line="134" selection-end-column="63" />
               <folding />
             </state>
@@ -125,7 +123,7 @@
     <option name="x" value="2" />
     <option name="y" value="34" />
     <option name="width" value="1278" />
-    <option name="height" value="726" />
+    <option name="height" value="715" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -645,7 +643,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2" y="34" width="1278" height="726" extended-state="6" />
+    <frame x="2" y="34" width="1278" height="715" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -948,7 +946,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.3388705">
+        <state vertical-scroll-proportion="2.0558376">
           <caret line="134" column="63" selection-start-line="134" selection-start-column="63" selection-end-line="134" selection-end-column="63" />
           <folding />
         </state>
